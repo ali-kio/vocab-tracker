@@ -1,0 +1,3804 @@
+const BOOK1 = [
+/*U1*/ { words:[
+  ["Agree","v","To have the same opinion or belief as another person.","The students agree they have too much homework."],
+  ["Alcohol","n","A type of drink that can make people drunk.","A person should not drive a car after he or she has been drinking alcohol."],
+  ["Arrive","v","To get somewhere.","They arrived at school at 7 a.m."],
+  ["August","n","The eighth month of the year.","Is your birthday in August?"],
+  ["Boat","n","A vehicle that moves across water.","There is a small boat on the lake."],
+  ["Breakfast","n","The morning meal.","I ate eggs for breakfast."],
+  ["Camera","n","A piece of equipment that takes pictures.","I brought my camera on my vacation."],
+  ["Capital","n","A city where a country's government is based.","The capital of the United States is Washington D.C."],
+  ["Catch","v","To grab or get something.","Did you catch the ball during the baseball game?"],
+  ["Duck","n","A small water bird.","People feed ducks at the lake."],
+  ["Enjoy","v","To like something.","The woman enjoys riding her bicycle."],
+  ["Invite","v","To ask someone to come to a place or event.","I will invite my friends to my birthday party."],
+  ["Love","v","To like something or someone a lot.","I love my family very much."],
+  ["Month","n","One of the 12 periods of time in one year.","January is the first month of the year."],
+  ["Travel","v","To go to a far away place on vacation or business.","They will travel to Argentina this summer."],
+  ["Typical","adj","Normal or something that usually happens.","My typical breakfast is toast and eggs."],
+  ["Visit","v","To go and spend time in another place or see another person.","She wants to visit her grandmother."],
+  ["Weather","n","The temperature and the state of the outdoors.","Today's weather is rainy and cloudy."],
+  ["Week","n","A period of time that is seven days long.","What are you doing next week?"],
+  ["Wine","n","An alcoholic drink made from grapes.","The store carried both red and white wine."]
+], story:{title:"The Amalfi Coast", text:`The Amalfi Coast in Italy is a beautiful place to travel. It's a beautiful area with an interesting culture located on the Tyrrhenian Sea next to the Mediterranean in southern Italy. The Amalfi Coast has high mountains and amazing beaches. Amalfi is on the west coast of Italy and it takes less than four hours to drive there from Rome, the country's capital. You'll love it from the moment you arrive. There are many activities for travelers including beautiful beaches for swimming. You can also play games on the beach and catch free space. A boat trip is a good way to spend the day and you may see ducks and other birds sitting on the water. Fishing is also a popular activity. There are dozens of villages on the Amalfi Coast and you can visit one of them to see how a typical local person lives. If you're friendly you might even get invited into someone's house to enjoy home-cooked Italian food. Italians like drinking alcohol, especially wine. The Amalfi Coast has lots of gardens to explore. Italy is famous for its pizza and pasta; however, the Amalfi Coast is also well known for fish and octopus because it is located next to the water. Pastries are a popular breakfast food on the Amalfi Coast. August is a popular month to travel to the Amalfi Coast because the weather is warm. It's easy to spend a week traveling around the area. Make sure to take a camera so you can take a lot of photos. We're sure you'll agree that it's a great place.`} },
+/*U2*/ { words:[
+  ["Adventure","n","A fun or exciting thing that you do.","Hiding in the rough water was an adventure."],
+  ["Approach","v","To move close to something.","The boy approached his school."],
+  ["Carefully","adv","With great attention especially to detail or safety.","The baby carefully climbed down the stairs."],
+  ["Chemical","n","Something that scientists use in chemistry.","The scientist mixed the chemicals."],
+  ["Create","v","To make something new.","She created an igloo from blocks of snow."],
+  ["Evil","adj","Describes something or someone bad or cruel.","They felt a strange evil presence as they got closer to the house."],
+  ["Experiment","n","A test that you do to see what will happen.","The student did an experiment in science class."],
+  ["Kill","v","To make someone or something die.","I killed the fly."],
+  ["Laboratory","n","A room where a scientist works.","My mother works in a laboratory."],
+  ["Laugh","n","The sound made when someone is happy or a funny thing occurs.","The sound of her laugh filled the room."],
+  ["Loud","adj","Strong and very easy to hear.","The man's voice was so loud that we all could hear him."],
+  ["Nervous","adj","Thinking something bad will happen.","The boy became nervous when he heard the news."],
+  ["Noise","n","An unpleasant sound.","The crying baby made a loud noise."],
+  ["Project","n","A type of work that you do for school or a job.","His afternoon work project was to paint the room green."],
+  ["Scare","v","To make someone feel afraid.","My uncle was scared by what he saw in the room."],
+  ["Secret","n","Something that you do not tell other people.","The two boys were sharing a secret."],
+  ["Shout","v","To say something loudly.","My boss shouted at me because I was late for work."],
+  ["Smell","v","To use your nose to sense it.","The two friends smelled the flower."],
+  ["Terrible","adj","Very bad.","The way he treated his classmate was terrible."],
+  ["Worse","adj","Of poorer quality than another thing.","Business was worse this month than last month."]
+], story:{title:"The Laboratory", text:`Mia's father had a laboratory but she had no idea what was in it. Her dad always closed and locked the door when he went in. She knew that he used it to do projects for work. He never told Mia what these projects were. One night Mia approached the door to the laboratory. She stopped and thought, "I wonder what crazy experiment he is doing now." Suddenly she heard a loud noise. It sounded like an evil laugh. The noise scared her, so she walked quickly back to her room. The next night her friend Liz came to her house. When Liz arrived, Mia told her about the night before. "Oh, it was terrible," she said. "Why don't we see what is in there?" Liz asked. "It will be a fun adventure." Mia felt nervous about going into her father's laboratory, but she agreed. As always, the door was locked. They waited until Mia's father left the laboratory to eat dinner. "He didn't lock the door," Liz said. "Let's go." The laboratory was dark. The girls walked down the stairs carefully. Mia smelled strange chemicals. What terrible thing was her father creating? Suddenly they heard an evil laugh. It was even worse than the one Mia heard the night before. What if a monster was going to kill them? Mia had to do something; she shouted for help. Mia's father ran into the room and turned on the lights. "Oh no," he said, "you must have learned my secret." "Your monster tried to kill us," Mia said. "Monster?" he asked. "You mean this?" He had a pretty doll in his hands. The doll laughed. The laugh didn't sound so evil anymore. "I made this for your birthday. I wanted to give it to you then, but you can have it now. I hope you like it."`} },
+/*U3*/ { words:[
+  ["Alien","n","A creature from a different world.","The alien came in peace."],
+  ["Among","prep","Surrounded by certain things.","There was a red apple among the green ones."],
+  ["Chart","n","A list of information.","We used a chart to see how we had improved."],
+  ["Cloud","n","A group of water drops in the sky.","The sky was filled with white clouds."],
+  ["Describe","v","To say or write what someone or something is like.","They described their tree as colorful."],
+  ["Ever","adv","At any time.","Going skiing last winter was the most fun I've ever had."],
+  ["Fail","v","To not succeed in what you try to do.","Since he failed to get the job, he was sad."],
+  ["Grade","n","A score or mark given to someone's work.","I managed to get good grades on my report card."],
+  ["Instead","adv","In place of.","He ate the carrot instead of the ice cream."],
+  ["Library","n","A place where you go to read books.","The library at school is full of books."],
+  ["Photograph","n","A picture taken with a camera.","I took this photograph with my cell phone."],
+  ["Planet","n","A large round thing in space.","A planet with a ring around it."],
+  ["Report","n","Something someone writes for school or work.","He wrote a report for his science class."],
+  ["Several","adj","More than two but not many.","He had to read several books for class."],
+  ["Shape","n","The arrangement of sides and surfaces.","Even with your eyes closed, you can feel the shape of it."],
+  ["Solve","v","To find an answer to a problem.","He needed a great idea to help him solve his problem."],
+  ["Suddenly","adv","Happens quickly and unexpectedly.","I was surprised when my friend suddenly shouted \"Happy Birthday!\""],
+  ["Suppose","v","To guess or think something is likely.","I suppose I should go home now."],
+  ["Understand","v","To know what something means.","Henry could not understand the message."],
+  ["View","v","To look at something.","Michael likes to view himself in the mirror."]
+], story:{title:"The Report", text:`Lee sat among the books at the library and thought about his group project. They had to turn it in soon but he hadn't even started his part. Jack and Claire were in his group. They had worked hard. They were also very smart and Lee didn't want them to get a bad grade. Jack did the report. He wrote a lot of very good sentences and described things clearly and carefully. Claire drew a nice map of the stars. Now Lee needed to do his part of the project. "Well, I suppose I need to start my model," Lee thought. Making a model of a planet was really hard. Lee tried to read several books but he couldn't understand any of the charts. "We're going to fail because of me," Lee said. He put his head down on the table and said, "I wish I could see a planet and an alien instead of having to read about it." Suddenly he had a great idea that would help him solve his problem. Why not go on the web and look for photographs of the earth and other planets taken from space? They would give him a really good view of the planets they had to talk about in their report. Instead of a bad grade, his group would have the best project ever. The photos of Earth showed lots of clouds but you could still see the shapes of land and seas on Earth. He also looked at photos of Mars. Lee now had plenty of ideas for making a model of the planet Mars. All he had to do was to turn his ideas into a model. He used a small ball to help him make the shape he wanted and then painted it to look like the photos of Mars that he had seen. Sometimes seeing is much more helpful than just reading.`} },
+/*U4*/ { words:[
+  ["Appropriate","adj","Right or normal.","It's appropriate to wear a suit when you go to the office."],
+  ["Avoid","v","To stay away from something.","Avoid the broken bottle on the floor."],
+  ["Behave","v","To act in a particular way, especially to be good.","She always behaves well when her father is around."],
+  ["Calm","adj","Not getting excited or upset.","A nice warm bath makes me feel so calm."],
+  ["Concern","n","A feeling of worry.","I was filled with concern after reading the newspaper."],
+  ["Content","adj","To be happy and not want more.","The baby looked very content sitting on the floor."],
+  ["Expect","v","To believe something will happen.","I expect the bus to be here very soon."],
+  ["Frequently","adv","Happening often.","We meet frequently either at the beginning or end of the week."],
+  ["Habit","n","A thing that you do often.","Smoking is a bad habit."],
+  ["Instruct","v","To teach.","My teacher instructs us in several subjects."],
+  ["Issue","n","An important topic.","The men spoke about issues that were important to the people."],
+  ["None","pron","Not any of something.","He spent all his money; there is none left."],
+  ["Patient","adj","Not becoming angry or upset easily.","I had to be patient and wait until five o'clock."],
+  ["Positive","adj","Good.","She has a positive future ahead of her."],
+  ["Punish","v","To make someone suffer for breaking rules.","The teacher decided to punish the student for cheating."],
+  ["Represent","v","To speak or act for a person or group.","My lawyer will represent me in court."],
+  ["Shake","v","To move back and forth or up and down quickly.","When people shake hands, it usually means they agree."],
+  ["Spread","v","To move out to cover a larger area.","I like to spread butter on my toast."],
+  ["Stroll","v","To walk slowly and calmly.","My dog and I strolled through the park today."],
+  ["Village","n","A very small town.","There are only a few houses in my village."]
+], story:{title:"The Dog's Bell", text:`John's dog was a bad dog. He bit people frequently. John was concerned about this. It was not an appropriate way for a dog to behave. His friends in the village always expected the dog to bite them. The news about John's dog spread through the village. None of the people wanted to go to John's house. John tried to instruct the dog to behave but it never worked. He tried to be patient and teach the dog to be calm. That also didn't work. John didn't want to punish the dog. "How will I stop my dog's bad habit?" John asked himself. John's friend came to talk to him about the issue during their important meeting. His friend said, "The people in the village asked me to represent them. We want your dog to stop this habit. Why don't you put a bell around the dog's neck? This way we would hear your dog coming down the street." John thought this was a great idea. Now people could stay away from the dog. He would not be able to bite anyone anymore. The dog liked the bell too. People looked at him when they heard his bell. This made the dog very content. He liked the sound the bell made when he walked. One day John's dog strolled through the village and met some other dogs. He expected them to want a bell like his but they laughed at his bell. They said the bell made people avoid him. John's dog shook his head. "No, they look at me because they like the bell." The other dog said, "You have the wrong idea about what makes you popular. Of course they like your bell. It tells them where you are so they can avoid you. You aren't able to bite them anymore. You see, being popular isn't something positive when it's for the wrong reason."`} },
+/*U5*/ { words:[
+  ["Active","adj","Moving a lot or having many things to do.","My grandfather stays active by walking every morning."],
+  ["Adult","n","A person more than 18 years old.","Only adults are allowed to buy alcohol."],
+  ["Age","n","How many years someone has lived.","What is your age?"],
+  ["Bad","adj","Not good.","The weather today is really bad."],
+  ["Balance","n","When two or more things are equal.","She lost her balance and almost fell."],
+  ["Bike","n","A vehicle with two wheels powered by a human.","He rides his bike to school every day."],
+  ["Choose","v","To pick something or make a decision.","You can choose any color you like."],
+  ["Doctor","n","A person who studies medicine and helps sick people.","The doctor checked my heart."],
+  ["During","prep","While an event is happening.","Please stay quiet during the movie."],
+  ["Football","n","A sport with 11 members and an oval-shaped ball.","We watched the football game last night."],
+  ["Fun","adj","Enjoyable.","The trip to the beach was fun."],
+  ["Game","n","An activity where people compete.","We played a board game after dinner."],
+  ["Heart","n","An organ that keeps the body alive.","Exercise is good for your heart."],
+  ["Golf","n","A sport with clubs and a small white ball.","My father plays golf on weekends."],
+  ["Increase","v","To make something larger.","The gym helped increase his strength."],
+  ["Life","n","The time when a person is alive.","She lived a long and happy life."],
+  ["Kilometer","n","A unit of measurement (1,000 meters).","The race was ten kilometers long."],
+  ["Often","adv","Many times.","I often walk to work instead of driving."],
+  ["Plenty","pron","A lot of something.","There is plenty of food for everyone."],
+  ["Weight","n","How heavy something or someone is.","He lifts weight at the gym three times a week."]
+], story:{title:"Iron Man Races", text:`Have you heard of the Iron Man triathlon? It's considered one of the most challenging sporting events in the world. Competitors swim, ride a bike and run. The race consists of a 3.86 kilometer swim, a 180.25 kilometer bicycle ride and a 42.2 kilometer run. There are no breaks during the race so competitors must keep going no matter what. People who choose to enter this race must be healthy and prepared in both mind and body. Iron Man races are held all over the world. Some well-known competitions take place in New Zealand, Germany and California in the United States. There are several rules for those who want to compete in the Iron Man. The minimum age of racers is 18, so everyone who competes is an adult. Training for the Iron Man can take more than a year. People who train often start practicing the events at shorter distances first and then increase the amount of length and time they swim, bike and run. Training can be difficult because people need to find a balance of strength and endurance. Without enough training, people can get bad injuries. Some people even gain weight when training because their bodies store calories instead of using them for energy. All people in training should drink plenty of water. Doctors believe that exercise is good for people's health and helps the heart. People participate in other sports and games such as golf or American football, but the Iron Man is a challenging way to stay fit. Even though it is hard, it can still be fun. It's a great way to stay active and enjoy life.`} },
+/*U6*/ { words:[
+  ["Apart","adv","Not next to each other.","The two houses stood far apart."],
+  ["Attribute","n","A characteristic of a person or thing.","Patience is a good attribute for a teacher."],
+  ["Bilingual","adj","Able to speak two languages.","She is bilingual in Arabic and English."],
+  ["Completely","adv","Very, very different or whole.","The room was completely empty."],
+  ["Dash","v","To run or move quickly.","He dashed across the street to catch the bus."],
+  ["Disgust","n","A feeling of distaste or anger.","She looked at the dirty plate with disgust."],
+  ["Fashionable","adj","What people like to wear/do now.","Those shoes are very fashionable this year."],
+  ["Foreign","adj","Something we are not used to.","Learning a foreign language takes time."],
+  ["Gulf","n","A gap between people who do not understand each other.","There is a wide gulf between their opinions."],
+  ["Mirror","n","Glass where you can see yourself.","She looked at herself in the mirror."],
+  ["Natural","adj","Not made by people.","Honey is a natural sweetener."],
+  ["Nowadays","adv","At the present time.","Nowadays, most people use smartphones."],
+  ["Participant","n","Someone who joins an event.","Every participant received a prize."],
+  ["Ritual","n","A formal custom done regularly.","Drinking morning coffee is a daily ritual for him."],
+  ["Spoken","adj","Related to what we say.","English is the spoken language of the class."],
+  ["Sport","n","Games like running, football, etc.","Basketball is my favorite sport."],
+  ["Surprised","adj","When something unexpected happens.","I was surprised by the birthday party."],
+  ["Tense","adj","Not comfortable and feeling unhappy.","The room felt tense after the argument."],
+  ["Totally","adv","Agreeing with everything.","I totally agree with your plan."],
+  ["Vague","adj","Not clear; few details.","His answer was vague and confusing."]
+], story:{title:"The Twins", text:`Katie and Alice were twins. They were so alike that few people could tell them apart. They were almost like seeing one person looking in a mirror. They even spoke in the same way as each other. They were best friends, but the twins' attributes were not all exactly the same. Alice preferred sports and was a star athlete in soccer. Katie preferred foreign languages and was bilingual in French. Katie decided to be a participant at a summer camp in France. Alice wasn't interested in the French language so she didn't go, but she was angry that Katie wanted to spend the summer away from her. Two months later Katie returned. Alice dashed to the airport to greet her sister but when Alice saw Katie she was surprised. Katie now spoke French and she looked completely different. She was wearing fashionable clothes and she looked taller. Alice felt very messy next to her. She was just wearing an old t-shirt and her hair looked untidy. When Alice asked Katie about friends, Katie was vague and didn't say much. It made Alice feel tense and filled her with disgust because in the past they'd always told each other everything. Now there was a huge gulf between them. Over the weeks, the sisters spoke even less. Two months later it was the twins' birthday. All their lives they'd had a ritual before their birthday: they'd talk all night long. That night Alice came into Katie's bedroom. "I'm sorry I haven't spoken to you much lately," Katie said. "I understand you have new friends now," said Alice angrily. Katie said, "My French friends don't write much nowadays. For a while I thought they were more exciting than my friends at home, but I was wrong. You're my sister and you'll always be my best friend." Alice said, "I'm sorry too. I wanted our relationship to stay the same forever, but it's totally natural for twins to have different interests. We can still be best friends without being together all the time."`} },
+/*U7*/ { words:[
+  ["Allow","v","To let something happen.","My parents allow me to stay out late on weekends."],
+  ["Announce","v","To make something known.","The teacher announced the exam date."],
+  ["Beside","prep","Next to someone or something.","She sat beside her best friend."],
+  ["Challenge","n","Something difficult to complete.","Learning a new language is a big challenge."],
+  ["Claim","v","To say that something is true.","He claims he saw a UFO."],
+  ["Condition","n","The state of someone or something.","The car is in excellent condition."],
+  ["Contribute","v","To do something to make it successful.","Every member contributed to the project."],
+  ["Difference","n","A way something is not like others.","There is a big difference between the two designs."],
+  ["Divide","v","To split into smaller parts.","We divided the cake into eight pieces."],
+  ["Expert","n","Someone very good at doing something.","She is an expert in computer science."],
+  ["Famous","adj","Well known.","He became famous after his first movie."],
+  ["Force","n","Strength or power.","It took great force to open the old door."],
+  ["Harm","n","To hurt or damage.","Too much sun can harm your skin."],
+  ["Lay","v","To put in a flat position.","Please lay the papers on the table."],
+  ["Peace","n","A time without war.","The two countries finally signed a peace agreement."],
+  ["Prince","n","The son of a king.","The prince will become king one day."],
+  ["Protect","v","To stop someone from getting hurt.","A helmet helps protect your head."],
+  ["Sense","v","To know without being told.","I could sense that something was wrong."],
+  ["Sudden","adj","Happening very quickly.","There was a sudden change in the weather."],
+  ["Therefore","adv","For this reason.","It was raining; therefore, we stayed home."]
+], story:{title:"The Best Prince", text:`King Minos was very sick. His condition was getting worse. He had three sons. He loved them all. He had to announce who would become king. Two of the princes stood waiting outside the king's room. Theseus was the oldest and strongest. He thought his father would make him king. Pelias, the second son, thought differently. He was an expert in fighting. He thought the king would choose him. "When I'm king," Theseus told Pelias, "I'll let you contribute to protect our country. You can lead the army." Pelias became angry. "Father knows I'm famous for my fighting skills. He'll make me king." "You," Theseus said, "he won't choose you. The kingdom is mine," Pelias claimed. "Father will give it to me or I'll use force to take it." Theseus made a sudden move to take out his sword. Then Pelias did the same. "Beating me will be a challenge," Theseus said. "Fight me now. The winner gets the kingdom." Pelias agreed. King Minos could hear his sons fighting. The youngest son, Jason, stood beside him. He sensed his father's sadness. The king laid his hand on Jason's arm. "Your brothers fight too much," the king told him. "I must protect my kingdom from all harm. They'll divide it between them. The people won't know what to do. There'll be war. I can't allow either of them to be king. Therefore I'm making you king. Your kindness has always made you special. It's the difference between you and your brothers. You can bring peace; they can't." Then the king died. Theseus and Pelias heard that their youngest brother was king. They were surprised. They realized that their fighting was wrong. It had kept them from saying goodbye to their father. They agreed to have Jason as their king. He was the best choice.`} },
+/*U8*/ { words:[
+  ["Accept","v","To take something offered.","She accepted the job offer."],
+  ["Arrange","v","To put things in the right place.","Please arrange the chairs in a circle."],
+  ["Attend","v","To go to an event.","All students must attend the meeting."],
+  ["Chase","v","To run after to catch.","The dog chased the cat around the yard."],
+  ["Contrast","n","A sharp difference.","There is a strong contrast between the two paintings."],
+  ["Encourage","v","To make someone want to do something.","My teacher encouraged me to keep studying."],
+  ["Familiar","adj","Known well.","That song sounds familiar to me."],
+  ["Grab","v","To take hold suddenly.","He grabbed his bag and ran out the door."],
+  ["Hang","v","To keep above the ground.","She hung the picture on the wall."],
+  ["Huge","adj","Very big.","They live in a huge house."],
+  ["Necessary","adj","Must be done.","It is necessary to study before the exam."],
+  ["Pattern","n","The way something is done/organized.","The fabric had a floral pattern."],
+  ["Propose","v","To suggest something should be done.","I propose we meet again next week."],
+  ["Purpose","n","The reason for doing something.","The purpose of the meeting was to plan the trip."],
+  ["Release","v","To stop holding something.","He released the bird from the cage."],
+  ["Require","v","To say something is necessary.","This job requires strong communication skills."],
+  ["Satisfied","adj","Having what you wanted.","I am satisfied with my exam results."],
+  ["Single","adj","Only one.","There was a single flower in the vase."],
+  ["Tear","v","To pull apart.","Be careful not to tear the paper."],
+  ["Theory","n","An idea of how something works.","Scientists tested the new theory."]
+], story:{title:"How the Sun and the Moon Were Made", text:`Do you ever wonder where the moon and the sun came from? The Inuit people of Alaska have a theory. They tell a story about a beautiful girl. She was very nice. In contrast, her brother was a mean little boy. One day he proposed something. "We should go to a party," he said. The girl accepted. First it was necessary for her to get ready. She arranged her hair and put on nice clothes. This required a lot of time, but the girl worked hard and soon she was satisfied. She looked perfect. They attended the party together. The girl was having fun. Later she walked into the bathroom. Suddenly the lights were turned off. Someone grabbed her hair and tore her clothes. She ran out of the bathroom. She wanted to know who did this to her. Then she had an idea. She fixed her hair again. This time it was even more beautiful. She even arranged beautiful jewels in it. She wanted to encourage the person to grab it again. She put black dirt in her hair. The purpose of this was to catch the person. She went to the bathroom again and it was the same pattern. The lights went off and someone grabbed her hair. When he released it, his hand was black. The girl returned to the party. She knew there was only a single person with a black hand. When she saw that person, he was very familiar. It was her brother. He ran into the woods. The girl ran after him. They both carried fire so they could see in the dark. The smoke went into the air as they ran. They grew; they became huge. Then they went into space. When the girl's fire went out, she hung in the sky. She became the moon and her brother became the sun. They chase each other forever.`} },
+/*U9*/ { words:[
+  ["Animal","n","A living thing that moves.","The zoo has many different animals."],
+  ["Bus","n","A large vehicle for travel.","We took the bus to school."],
+  ["Cat","n","A small pet related to lions.","My cat likes to sleep all day."],
+  ["Command","n","An order to do something.","The dog obeyed the trainer's command."],
+  ["Depend","v","To need for support or help.","Children depend on their parents."],
+  ["Dog","n","A four-legged pet or worker.","The dog barked at the mailman."],
+  ["Door","n","Object that swings/slides open/shut.","Please close the door behind you."],
+  ["Friend","n","Someone you like and spend time with.","She is my best friend."],
+  ["Hear","v","To be aware of sound.","I can hear the birds singing outside."],
+  ["Help","v","To make something easier for someone.","Can you help me carry these bags?"],
+  ["Horse","n","Big animal people ride.","He rode his horse across the field."],
+  ["Hospital","n","Place for medical care.","She works as a nurse at the hospital."],
+  ["Leg","n","Body part for walking.","He broke his leg while skiing."],
+  ["Medical","adj","Related to injury/disease treatment.","She needs medical attention right away."],
+  ["Open","v","To move something to uncover an opening.","Please open the window."],
+  ["Pull","v","To move something toward you.","He pulled the rope with all his strength."],
+  ["Rabbit","n","Small animal with long ears.","The rabbit hopped across the garden."],
+  ["School","n","Place for children to learn.","My children go to school every day."],
+  ["See","v","To use eyes to look.","I can see the mountains from my window."],
+  ["Service","n","Act of helping or serving.","The restaurant is known for its great service."]
+], story:{title:"Service Animals", text:`Have you ever seen a blind person on the bus with a dog? This dog is most likely a service animal. A service animal is an animal that is trained to do things for people who cannot do them alone because of a disability. Dogs are most usually used as service animals because they are intelligent animals. They also have a good sense of smell and can sense dangerous situations. In addition, dogs are easy to train and are loyal to their owners. When they are close to their owners, dogs will do anything to keep them safe. Service dogs are sometimes called guide dogs or hearing dogs. These dogs can help people who cannot see or hear. They are trained to open and close a door, push a button and listen to a command. These dogs can also help people who have a hurt leg and need to use a wheelchair to get around. Service dogs are strong and can even pull wheelchairs. If these people ever need medical attention, the dogs are trained to bark and get help. Dogs can also be used as therapy dogs. Therapy dogs may visit a school or hospital to help people who are feeling lonely or anxious. Their bad feelings can create health problems. Therapy dogs can provide kindness and love to improve a person's mood, which can then improve that person's health. Although dogs are the most common service animals, there are other animals that can be trained to be service animals as well. You might see a cat, a rabbit or a horse that is used as a service animal. These animals can keep a person company and become a good friend. Many people depend on service animals for help. Service animals can do jobs that people cannot do alone and they can help improve the health of people by making them feel happy.`} },
+/*U10*/ { words:[
+  ["Benefit","n","A good thing.","Exercise has many health benefits."],
+  ["Certain","adj","Knowing something is true.","I am certain she will pass the exam."],
+  ["Chance","n","Opportunity.","This is your chance to shine."],
+  ["Effect","n","A change made by something else.","The medicine had a positive effect."],
+  ["Essential","adj","Very important and necessary.","Water is essential for life."],
+  ["Far","adj","Not close.","The school is far from my house."],
+  ["Focus","v","To pay attention.","Please focus on your homework."],
+  ["Function","n","What something does.","The main function of the heart is to pump blood."],
+  ["Grass","n","Green leaves covering the ground.","The children played on the grass."],
+  ["Guard","v","To take care of/protect.","The dog guards the house at night."],
+  ["Image","n","A picture.","The camera captured a beautiful image."],
+  ["Immediate","adj","Happening quickly.","We need an immediate answer."],
+  ["Primary","adj","Most important.","Safety is our primary concern."],
+  ["Proud","adj","Happy about what you've done.","She is proud of her grades."],
+  ["Remain","v","To stay in a place.","Please remain seated until the plane stops."],
+  ["Rest","v","To stop being active.","He needs to rest after the long trip."],
+  ["Separate","adj","Not together.","Keep the raw meat separate from vegetables."],
+  ["Site","n","A place.","They chose a new site for the school."],
+  ["Tail","n","Part of animal's rear.","The dog wagged its tail happily."],
+  ["Trouble","n","Problem or difficulty.","He got into trouble at school."]
+], story:{title:"The First Peacock", text:`Argos lived in ancient Greece. He was a husband and a proud father. He worked hard and did well at his job, but one thing about him wasn't normal. He was born with 100 eyes. Having many eyes was usually a benefit to him. He had a chance to see many things. Also, since he had so many eyes, he was very good at guarding things. While sleeping, he only rested a few eyes at a time. The others stayed open. He worked for Hera, a great goddess. His primary function was to guard a special cow. The cow was very important to Hera. She loved it. The most essential part of his job was to keep the cow alone. It had to be kept separate from all the other cows and far away from people. This was an easy job for Argos. The cow just ate grass all day. But the god Zeus wanted the cow. He wanted to take it away from Hera. He had a plan. He found a great music player. He asked the man to play a beautiful song for Argos. Zeus was certain Argos would go to sleep. The song had an immediate effect. Argos couldn't focus on his job. He fell asleep. Zeus saw this and he took the cow. Hera was very angry with Argos. She turned him into a peacock. She put his many eyes on his tail. Argos was very sad. Zeus saw how much trouble he had given Argos. He made another plan. He turned Argos into a group of stars. He wanted Argos to remain in the sky forever. Even today Argos's image remains there above the site where all his problems began. We can still see him in the night sky.`} },
+/*U11*/ { words:[
+  ["Advertise","v","To draw attention to a product.","The company advertises its new phone on TV."],
+  ["Aware","adj","Knowing a situation exists.","I am aware of the problem."],
+  ["Battery","n","Supplies electricity.","My phone battery is almost dead."],
+  ["Black","adj","Darkest color.","She wore a black dress to the party."],
+  ["City","n","Place where many people live.","Manama is the capital city of Bahrain."],
+  ["Clean","v","To make neat and tidy.","I need to clean my room today."],
+  ["Country","n","Land with a government.","Bahrain is a small country in the Gulf."],
+  ["Develop","v","To make more advanced.","The company developed a new app."],
+  ["Electric","adj","Uses electricity.","We bought an electric car."],
+  ["Eventually","adv","At a later time/in the end.","Eventually, she learned to speak English fluently."],
+  ["Fact","n","True information.","It is a fact that the earth is round."],
+  ["Glass","n","Transparent material.","Be careful, the glass might break."],
+  ["History","n","Study of the past.","I love reading about ancient history."],
+  ["Nature","n","Physical world not made by people.","He loves spending time in nature."],
+  ["Never","adv","Impossible/will not happen.","I will never forget this trip."],
+  ["People","n","Humans.","Many people attended the event."],
+  ["Plastic","n","Material made by people.","We should use less plastic."],
+  ["Problem","n","Situation when something goes wrong.","We need to solve this problem quickly."],
+  ["Street","n","Road in a city/village.","The shop is on the main street."],
+  ["Think","v","To have an opinion.","What do you think about the plan?"]
+], story:{title:"Keeping Our Earth Clean", text:`Across the world, places are increasing their efforts to recycle and help the environment. Recycling is when trash is reused and not thrown away. In recent history, more and more cities and countries have started recycling. These places have developed their recycling programs to stop our Earth from being covered with trash and black dirty air. According to the Environmental Protection Agency in the United States, recycling also helps save energy. The agency encourages the recycling of glass and plastic bottles, paper and aluminum cans. Many European countries have strong recycling programs as well. Austria, Germany and Norway are well known for being leaders in recycling, and South Korea and Wales are countries that have a lot of recycling as well. There are many reasons why some countries recycle more than others. The fact is that these governments support recycling and they are aware of its importance. There is also a lot of money spent on recycling. However, it is also necessary for people to try hard to recycle what they can from their own homes. Other ways to fight the waste problem also exist. Many cities place recycling bins on their streets. There are recycling projects across some cities, and in these projects companies advertise the need to recycle. This helps keep the city streets clean. Electric cars are another way to keep the environment clean. The motors of these cars are electric. They get their power from electricity and batteries rather than from gas. The hope is that eventually all cities in all countries will recycle and make our Earth a cleaner place. We must protect nature and never stop thinking about how to protect it. So think before you throw away something that can be recycled.`} },
+/*U12*/ { words:[
+  ["Alone","adj","Not with another person.","She likes to spend time alone."],
+  ["Apartment","n","Set of rooms in a building.","They live in a small apartment."],
+  ["Article","n","Story in a newspaper/magazine.","I read an interesting article today."],
+  ["Artist","n","Person who paints/draws.","The artist painted a beautiful landscape."],
+  ["Attitude","n","Way of feeling and thinking.","She has a positive attitude toward life."],
+  ["Beauty","n","Quality of being beautiful.","The beauty of the sunset amazed us."],
+  ["Compare","v","To say how things are same/different.","Let's compare the two prices."],
+  ["Judge","v","To say if something is good/bad.","Don't judge a book by its cover."],
+  ["Magazine","n","Publication with news/stories.","She reads a fashion magazine every month."],
+  ["Material","n","What is used to make something.","This chair is made of strong material."],
+  ["Meal","n","Time when food is eaten.","Dinner is our biggest meal of the day."],
+  ["Method","n","Way to do something.","This is a good method for learning words."],
+  ["Neighbor","n","Person living near you.","My neighbor is very friendly."],
+  ["Professional","adj","Dealing with work skills.","She gave a very professional presentation."],
+  ["Profit","n","Extra money from a sale.","The company made a large profit this year."],
+  ["Quality","n","How good something is.","The quality of this product is excellent."],
+  ["Space","n","Empty area.","There is enough space for a big table."],
+  ["Stair","n","Used to walk up/down.","Be careful on the stairs."],
+  ["Symbol","n","Stands for something else.","The dove is a symbol of peace."],
+  ["Thin","adj","Not fat.","The paper was very thin."]
+], story:{title:"The Crazy Artist", text:`Franhoffer was the best artist in the world. Everyone loved him. The quality of his paintings was very high. He always used the best materials. He made a big profit from his paintings. He had delicious meals with his rich neighbors. He taught art classes. Life was good. Then his attitude changed. He stopped selling paintings and teaching. He tried a new method of painting. He stayed alone in his apartment all day. He worked all day and all night, rarely eating. Soon Franhoffer became very thin, but he kept working on the same painting for many years. He worked as hard as he could. Finally he finished the painting. He was very happy and invited other artists to see it. "I want your professional opinion," he said. He wanted them to judge it and compare it to other paintings. Everyone was very excited as they went up the stairs to his apartment. Franhoffer was excited to show his painting and the artists were excited to see it. "They'll love it," he thought. They did not. They were surprised by his painting. There was no white anywhere. Franhoffer filled the whole painting with lines and colors. There was no space for a normal picture. It was full of strange shapes. It looked bad to the other artists. He used symbols and they didn't understand them. They thought it was terrible. "Why did you paint this strange picture?" someone asked. They didn't understand its beauty, but after some time many people began to like his painting. People wrote articles about it in magazines. They said it was his best work. They loved his strange symbols. They loved his strange colors. Franhoffer's painting reminded everyone that just because something was new didn't mean that it was bad. He also helped them to realize that sometimes it takes people a little time to understand great things.`} },
+/*U13*/ { words:[
+  ["Accounting","n","Dealing with money/finance.","She studies accounting at the university."],
+  ["Appeal","v","To be interesting or attractive.","The idea appeals to me."],
+  ["Assume","v","To think something is true without proof.","Don't assume he is guilty."],
+  ["Borrow","v","To take and give back later.","Can I borrow your pen?"],
+  ["Client","n","Person who pays for a service.","The lawyer met with his new client."],
+  ["Downtown","n","Center of a city.","We went shopping downtown."],
+  ["Dull","adj","Not exciting.","The lecture was long and dull."],
+  ["Embarrass","v","To make feel ashamed.","His joke embarrassed her in front of everyone."],
+  ["Fare","n","Money paid for transport.","The bus fare is one dinar."],
+  ["Former","adj","Used to be but not anymore.","He is a former teacher."],
+  ["Found","v","To start a company.","They founded the company ten years ago."],
+  ["Invest","v","To use money for later profit.","She invests her savings in stocks."],
+  ["Loan","n","Money lent to another.","He took a loan from the bank."],
+  ["Practical","adj","Useful.","This is a practical solution to the problem."],
+  ["Quarter","n","25 percent / 25 cents.","He gave me a quarter for the machine."],
+  ["Salary","n","Money made at a job.","Her salary increased this year."],
+  ["Scholarship","n","Money for school.","He won a scholarship to study abroad."],
+  ["Temporary","adj","For a short time.","This is only a temporary job."],
+  ["Treasure","n","Collection of valuable things.","They found hidden treasure on the island."],
+  ["Urge","v","To try hard to get someone to do something.","I urge you to study harder."]
+], story:{title:"The Taxi Driver", text:`Peter's job was driving a taxi downtown. He made a small salary but he liked his job because it wasn't dull. Every day he saw new things that appealed to him. Peter was practical about the future. "Maybe I can get a scholarship for college," he thought. "I could study accounting and get a job at a bank. I could help clients invest their money." Peter stopped to pick up a passenger. "Where to?" he asked. "Go to the 4th Street bank and don't talk to me. I've had a rough day," the man said. Peter was a peaceful person so he was not angry when they stopped. The man's fare came to 10 dollars and 25 cents. He put his hands in his pockets. "I can't find my wallet," he said. "I can't pay the fare." Peter said, "I'll give you a temporary loan. You can borrow ten dollars and a quarter from me." The man was embarrassed and said, "I was mean to you, but now I want to help you. I founded this bank. I want to give you a hundred dollars." That much money was like a treasure to Peter. The man urged him to take the money but he didn't. "You're an honest person," the man said. "I assumed you would take it. I want you to work for me." The next day Peter started his job at the bank. He was happy to leave his former job.`} },
+/*U14*/ { words:[
+  ["Coach","n","Person who teaches sports.","Our football coach is very strict."],
+  ["Control","v","To make something do what you want.","She learned to control her emotions."],
+  ["Description","n","Says what something is like.","Give me a description of the house."],
+  ["Direct","adj","Straight between two places.","This is a direct flight to London."],
+  ["Exam","n","A test.","I have a math exam tomorrow."],
+  ["Example","n","Typical of something.","Can you give me an example?"],
+  ["Limit","n","Largest/smallest amount allowed.","There is a speed limit on this road."],
+  ["Local","adj","Nearby.","We shop at the local market."],
+  ["Magical","adj","Special quality.","The show was a magical experience."],
+  ["Mail","n","Letters sent to people.","I checked my mail this morning."],
+  ["Novel","n","Book telling a story.","She just finished reading a great novel."],
+  ["Outline","n","Plan for a story/essay.","He wrote an outline before the essay."],
+  ["Poet","n","Person who writes poems.","The poet read his new poem aloud."],
+  ["Print","v","To put onto paper.","Please print the document."],
+  ["Scene","n","Part of a book/movie.","That scene made me cry."],
+  ["Sheet","n","Flat piece of paper.","Write your answer on a clean sheet."],
+  ["Silly","adj","Lacking serious thought.","That was a silly mistake."],
+  ["Store","n","Place to buy things.","I bought milk from the store."],
+  ["Suffer","v","To feel pain.","She suffered from a bad headache."],
+  ["Technology","n","Things made using science.","New technology has changed our lives."]
+], story:{title:"A Magical Book", text:`Sarah loved to read. She read novels and poems. She loved the beautiful descriptions and phrases. She loved reading work by poets and writers. She didn't like video games or technology. She was on the basketball team but she didn't like sports. Her parents made her play basketball. In fact, Sarah's parents made her do many things, but she didn't want to do those things. She just wanted to sit and read all day. One day a small book came in the mail. It was for Sarah. The book looked very special. It was printed on sheets of gold. Sarah began to read. The outline of the story was simple. It was about a magical place. Strange things happen there. One example from the book was about a boy who could control people. In one scene he made his friends tell funny jokes. Sarah loved the book. She read it all the time. Then something strange happened. The book gave Sarah a special power. She could control other people. She was like the boy in the book. During one exam she made her friend tell silly jokes. Her friend got in trouble. After school, Sarah did not make a direct trip home. On the way she went to the local store. She wanted to play more tricks on people. She made problems. She made people fall down. She laughed and had fun. Finally she left and started to walk home. Then she saw something. Her basketball coach was about to walk in front of a bus. He was looking the other way. She had to stop him. She used her power. She controlled him. She made him stop walking. Sarah learned something that day. It was better to help people than make them suffer. So she put a limit on how she used her power. She did not want to do bad things with it anymore. She only wanted to do good.`} },
+/*U15*/ { words:[
+  ["Across","prep","To the other side.","We walked across the bridge."],
+  ["Breathe","v","To let air in/out of body.","Take a deep breath and relax."],
+  ["Characteristic","n","Shows what something is like.","Kindness is his best characteristic."],
+  ["Consume","v","To eat or drink.","We consume too much sugar."],
+  ["Excite","v","To make happy/interested.","The news excited everyone."],
+  ["Extremely","adv","Very, very.","It is extremely hot today."],
+  ["Fear","n","Feeling afraid.","She has a fear of heights."],
+  ["Fortunate","adj","Lucky.","We were fortunate to find a taxi so fast."],
+  ["Happen","v","To do by chance.","What happened at the meeting?"],
+  ["Length","n","How long something is.","Measure the length of the table."],
+  ["Mistake","n","Something done wrong.","Everyone makes mistakes sometimes."],
+  ["Observe","v","To watch.","The scientist observed the animals closely."],
+  ["Opportunity","n","A chance.","This job is a great opportunity."],
+  ["Prize","n","Given to a winner.","She won first prize in the competition."],
+  ["Race","n","Contest of speed.","He won the running race."],
+  ["Realize","v","To suddenly understand.","I realized I forgot my keys."],
+  ["Respond","v","To give an answer.","Please respond to my email."],
+  ["Risk","n","Chance of something bad happening.","There is a risk of rain today."],
+  ["Wonder","v","To ask yourself questions.","I wonder what she is doing now."],
+  ["Yet","adv","Has not happened up to now.","I haven't finished my homework yet."]
+], story:{title:"The Big Race", text:`A dog saw a group of animals cross the road. He walked over to meet them. "What are you doing?" he asked them. "I just sold them tickets to a race between the rabbit and the turtle," the duck responded. The dog was extremely excited. He felt fortunate that he happened to be there. "I don't have anything to do today," the dog said. "I want to buy a ticket too." The dog sat down to observe the race. It would be many kilometers in length. The rabbit and the turtle stood next to each other. They waited for the race to start. The dog wondered why the turtle agreed to run against the rabbit. Being fast was not a characteristic of turtles. The rabbit was going to win easily. Suddenly the race began. The rabbit ran extremely quickly. The turtle walked slowly. After a minute the rabbit looked back. He saw that the turtle was far behind him and was breathing quickly because he was so tired. The rabbit smiled and slowed down to a walk. A minute later the rabbit said, "I'm winning, so I'll take a rest." He sat and began to consume some grass. Then he let his eyes close. He wasn't the winner yet, but there was no risk of him losing the race. He went to sleep. Hours later a loud sound woke him. All of the animals were talking loudly and looking at the field. He felt fear for the first time. The turtle was almost at the finish line. Now the rabbit realized his mistake, but the race was over. He gave the turtle an opportunity to win and the turtle took it. The duck handed the turtle his prize. It was the happiest day of the turtle's life. The dog was happy for the turtle. "He isn't fast," the dog thought, "but he tried his best and did something great."`} },
+/*U16*/ { words:[
+  ["Art","n","Creative expression.","She studies art at university."],
+  ["Book","n","Printed sheets in a cover.","I am reading a new book."],
+  ["Clothes","n","What people wear.","She bought new clothes for the trip."],
+  ["Community","n","Group with shared area/interests.","Our community held a big event last week."],
+  ["December","n","12th month.","We celebrate the new year at the end of December."],
+  ["Dinner","n","Main evening meal.","We had rice and fish for dinner."],
+  ["End","v","To stop or finish.","The movie ends at nine o'clock."],
+  ["Exchange","v","To give one thing for another.","We exchanged gifts on Eid."],
+  ["Family","n","Related people.","My family is very close."],
+  ["From","prep","Starting place.","She traveled from Bahrain to London."],
+  ["Green","adj","Color of grass.","The garden is full of green plants."],
+  ["Home","n","Where a person lives.","I feel safe at home."],
+  ["January","n","1st month.","School starts again in January."],
+  ["Red","adj","Color of blood.","She wore a red dress."],
+  ["Seven","n","The number 7.","There are seven days in a week."],
+  ["Start","v","To begin.","The meeting will start at ten."],
+  ["Together","adv","Done with another.","We studied together for the exam."],
+  ["University","n","Higher education school.","He studies engineering at university."],
+  ["Wear","v","To have clothing on body.","What will you wear to the party?"],
+  ["Year","n","365 days.","This year has gone by so fast."]
+], story:{title:"Kwanzaa", text:`Kwanzaa is a seven-day holiday celebrated in the United States and other countries by people of African descent. It is celebrated from December 26th to January 1st each year. The celebration is dedicated to honoring African culture and working together as a community. Kwanzaa was created in 1966 by Maulana Karenga. Karenga was an African studies professor at California State University. According to him, Kwanzaa comes from the Swahili language and means "first fruit." Karenga wanted to create a holiday for African Americans as a way for them to reconnect with their heritage. The colors of Kwanzaa are black, red and green. These colors are seen in decorations such as African pieces of art, baskets and cloth. Millions of African Americans wear African clothes during Kwanzaa and decorate their homes with fruit and vegetables. Each day a family will celebrate one of seven different principles of their African heritage such as unity, faith and community. Then they light a candle. The candles are put on a candle holder called a kinara. The middle candle is black. The three candles on one side of the kinara are red and the other three candles are green. On the sixth day of Kwanzaa, families remember their ancestors and get together for a big dinner called a karamu. Traditional African-American dishes which include chicken, fish, rice, beans, peas, sweet potatoes and other vegetables are served. Like Christmas, there are gifts which are exchanged on the seventh day. Books are always included because they symbolize the importance of learning about history and tradition. Kwanzaa is a way of celebrating the end of the year by honoring African culture and traditions and to start the new year with family members as well as the community.`} },
+/*U17*/ { words:[
+  ["Appreciate","v","To understand good qualities.","I really appreciate your help."],
+  ["Available","adj","Can be gotten.","The tickets are still available."],
+  ["Beat","v","To do better than another.","Our team beat them in the final."],
+  ["Bright","adj","Gives off much light.","The sun was very bright today."],
+  ["Celebrate","v","Show an event is special.","We celebrated her birthday at home."],
+  ["Decide","v","To make a choice.","I can't decide what to eat."],
+  ["Disappear","v","To go away/not be seen.","The magician made the coin disappear."],
+  ["Else","adj","Different.","Is there anything else you need?"],
+  ["Fair","adj","Reasonable or right.","The teacher was fair to all students."],
+  ["Flow","v","To move easily/continuously.","The river flows into the sea."],
+  ["Forward","adv","Direction in front.","Please step forward."],
+  ["Hill","n","Raised area of land.","We climbed the hill to see the view."],
+  ["Level","n","Point on a scale.","His English level improved a lot."],
+  ["Lone","adj","Only one.","A lone bird flew across the sky."],
+  ["Puddle","n","Pool of liquid on ground.","He jumped over the puddle."],
+  ["Response","n","Answer to a question.","I haven't received a response yet."],
+  ["Season","n","Time of year (spring, etc.).","Summer is my favorite season."],
+  ["Solution","n","Way to solve a problem.","We found a good solution to the issue."],
+  ["Waste","v","To use carelessly.","Don't waste your time on that."],
+  ["Whether","conj","Choosing between two things.","I don't know whether to go or stay."]
+], story:{title:"The Race for Water", text:`There was a town next to a river. The people there had a lot of water but they wasted it. That made the sky angry. It said, "If you waste water, I will take it away from you." But the people didn't listen. When the season changed from spring to summer, the clouds disappeared. The bright sun was hot and made the river dry. There was no water available. People asked, "When will the rain fall?" The sky's response was, "You don't appreciate water, you waste it, and now I will never make rain again." A boy decided that this wasn't fair. He thought of a solution. He asked the sky to race him. He said, "If I get to the top of that hill before your rain can form puddles, you must fill our river." The sky laughed. "Little boy, I am the sky. I am above everything else. You cannot beat me." But the boy knew he would win. When the race began, the boy ran forward. The sky started raining on the hill, but puddles did not form there. When it rained on the hill, the water went down. The sky kept raining. The water flowed down into the river. When the boy reached the top of the hill, the river was full. The people began to celebrate. It was the highest level the river had ever been at before. The sky was angry. "A boy can't beat me. I won't fill your river," it said. Now the boy laughed. "It doesn't matter whether you want to fill it or not," he said, "you already did." The sky looked at the full river. "You tricked me," it said. It asked the people, "Do you appreciate water now?" "Yes," they said, "we won't waste it." That is how a lone boy saved his town and won the race for water.`} },
+/*U18*/ { words:[
+  ["Always","adv","All the time.","She always wakes up early."],
+  ["Ask","v","To get an answer.","Can I ask you a question?"],
+  ["Banana","n","Yellow fruit.","I eat a banana every morning."],
+  ["Bread","n","Food from flour/water.","We bought fresh bread from the bakery."],
+  ["Cake","n","Sweet dessert.","We had chocolate cake at the party."],
+  ["Carrot","n","Orange vegetable.","Rabbits love eating carrots."],
+  ["Chicken","n","Bird used for food.","We had grilled chicken for dinner."],
+  ["Chocolate","n","Sweet from cacao.","She loves dark chocolate."],
+  ["Contain","v","To hold or have.","This drink contains a lot of sugar."],
+  ["Delicious","adj","Tasty.","The food at the restaurant was delicious."],
+  ["Diet","n","Food regularly eaten.","He follows a healthy diet."],
+  ["Eat","v","Chew and swallow.","We eat dinner at seven."],
+  ["Food","n","Things people/animals eat.","She cooked a lot of food for the guests."],
+  ["Fruit","n","Healthy tree/plant food.","Eating fruit every day is good for you."],
+  ["Great","adj","Very good.","That was a great movie."],
+  ["Health","n","State of person's body.","Exercise improves your health."],
+  ["Recipe","n","Cooking instructions.","She followed a new recipe for dinner."],
+  ["Restaurant","n","Business for eating.","We ate at a new restaurant last night."],
+  ["Special","adj","Unique/different.","Today is a special day for our family."],
+  ["Water","n","Clear liquid for survival.","Drink plenty of water every day."]
+], story:{title:"Eat Healthy", text:`It is important to eat healthy food. There are five main healthy food groups. They are grains, fruits, vegetables, protein and dairy. A food pyramid can show you how much of each group you should eat. Many different kinds of food are necessary for a balanced diet. You need to eat grains such as rice, wheat and several types of bread. Fruits and vegetables are also important. Fruits such as bananas are good for you. Others such as oranges and kiwis contain a lot of vitamin C. Vegetables are an important part of a daily diet. They are extremely healthy and can be eaten in many ways. Salads with raw vegetables such as spinach and carrots are common, but you can also cook vegetables in many different ways. Soups are another easy way to get vegetables into your diet. Protein is an important food group too. Meats such as beef and chicken are well-known forms of protein. Tofu, beans, eggs and nuts also contain high amounts of protein. You should also eat dairy products such as cheese, yogurt and milk as well. A healthy diet includes drinking lots of water instead of sugary drinks such as soda and juice. While sweets may not be considered healthy foods, they are fine if you don't eat too many. Chocolate and cake are well-loved sweets commonly found at restaurants and grocery stores. They are often served at special events such as birthday parties and weddings. At restaurants you can ask the waiters to tell you which ingredients are included in different dishes. At home you can always find healthy and delicious recipes in cookbooks or on the internet. Eating healthy food is great for your health.`} },
+/*U19*/ { words:[
+  ["Alive","adj","Not dead.","The fish was still alive when we caught it."],
+  ["Bone","n","Hard part of body.","He broke a bone in his arm."],
+  ["Bother","v","Effort to do something.","Don't bother waking up early tomorrow."],
+  ["Captain","n","Controls ship/plane.","The captain guided the ship through the storm."],
+  ["Conclusion","n","Final part.","In conclusion, the plan was a success."],
+  ["Doubt","n","Feeling not sure.","I have some doubt about his story."],
+  ["Explore","v","Look for new places.","They explored the old city on foot."],
+  ["Glad","adj","Happy.","I'm glad you came to visit."],
+  ["However","adv","Despite something.","It was raining; however, we still went out."],
+  ["Injustice","n","Lack of fairness.","They protested against the injustice."],
+  ["International","adj","Involves more than one country.","She works for an international company."],
+  ["Lawyer","n","Works with the law.","The lawyer defended his client in court."],
+  ["Mention","v","To talk about.","Did she mention the meeting time?"],
+  ["Old","adj","Lived many years.","My grandfather is very old."],
+  ["Policy","n","A rule.","The company changed its return policy."],
+  ["Social","adj","About people in community.","She has strong social skills."],
+  ["Speech","n","Said to a group.","He gave a great speech at the ceremony."],
+  ["Staff","n","Group working together.","The hospital staff worked all night."],
+  ["Toward","prep","Closer to.","She walked toward the door."],
+  ["Wood","n","Material of trees.","The table is made of wood."]
+], story:{title:"Shipwrecked", text:`Simon Yates was a lawyer. He helped many people; however, he was not a nice man. His policy was to help only rich people. He didn't bother about social injustice. He made a lot of money, but many people didn't like him. Even people on his staff didn't like him. In fact they were glad when he got into trouble. Simon had a very bad day. He did many things wrong and lost his job soon. He didn't have any money. His wife, Mrs. Yates, began to have doubts about him. Simon wanted to start a new life. He planned to leave the country. He mentioned his plan to the captain of a ship. The captain was exploring the world. The captain felt bad for Simon and said, "I will take you to foreign countries." They left the next day. Near the conclusion of their international trip, the weather turned bad. A wave pushed Simon off the boat, but he was alive. He swam toward an island. After a long time he got there. At first he was upset. He was lost and alone. "I'll never go home again," he thought. He had a lot of problems, but he didn't die. He built a house in a tree. He lived on a diet of fish. He made tools from wood and bones. He made a cup to drink rain water. Slowly he learned to be happy on the island. He swam every day. He had trouble sometimes, but he always found a way to fix the problem. Life was simple; he liked it. Finally, people on a ship saw Simon on the island. They wanted to take him home, but Simon was happy. He gave them a long speech about life. He said he wanted to stay. He liked his new simple life more than his old life.`} },
+/*U20*/ { words:[
+  ["Achieve","v","Successfully do something.","She worked hard to achieve her goal."],
+  ["Advise","v","Tell what to do.","The doctor advised him to rest."],
+  ["Already","adv","Before a certain time.","I have already finished my homework."],
+  ["Basic","adj","Simple or easy.","He only knows basic English."],
+  ["Bit","n","Small amount.","Add a bit of salt to the soup."],
+  ["Consider","v","To think about.","Please consider my offer."],
+  ["Destroy","v","Damage badly.","The storm destroyed many houses."],
+  ["Entertain","v","To do what others enjoy.","The clown entertained the children."],
+  ["Extra","adj","More than needed.","Can I have some extra sugar?"],
+  ["Goal","n","What you work toward.","His goal is to become a doctor."],
+  ["Lie","v","Say something untrue.","He lied about his age."],
+  ["Meat","n","Food from animals.","We don't eat much red meat."],
+  ["Opinion","n","Thought about something.","What is your opinion on this plan?"],
+  ["Real","adj","Actually exists.","Is that a real diamond?"],
+  ["Reflect","v","Send back image/light.","The lake reflected the mountains."],
+  ["Regard","v","Think of in a certain way.","I regard her as a close friend."],
+  ["Serve","v","Give food/drinks.","The waiter served us quickly."],
+  ["Vegetable","n","Plant used as food.","Eat more vegetables for good health."],
+  ["War","n","Big fight between groups.","The country suffered during the war."],
+  ["Worth","adj","Cost of something.","This painting is worth a lot of money."]
+], story:{title:"The Seven Cities of Gold", text:`Many years ago a Spanish officer named Coronado heard the story of seven great cities. The walls of these cities are made of gold. His friends told him the people eat meat from golden plates and dress in nice clothes. They said they called these cities the Seven Cities of Gold. Were the cities real? Coronado never considered asking his friends. Coronado thought to himself, "The things in these cities must be worth a lot of money." So he went to find the Seven Cities of Gold. He took along 300 men, many horses and extra food. They headed west. Coronado wanted to achieve his goal very badly. Coronado and his men rode for many days, then they saw some cities. "We found the Seven Cities of Gold," his men said, but Coronado wasn't happy. He had a different opinion. "These can't be the Seven Cities of Gold," he said, "look, they're made of dirt." Coronado was right; the cities weren't bright and golden, they were dirty and brown. The people didn't eat meat from golden plates; they ate vegetables from regular bowls. They wore the most basic clothes. Coronado regarded the cities as ugly places. "What happened to the Cities of Gold?" he thought. "Did someone destroy them? Was there a war? Did someone already come and take the gold?" That night the people of the cities entertained Coronado and his men and served them food. They advised Coronado to go home. "There is no gold here," they told him. Coronado was angry. Did his friends lie to him? He left the next morning. He looked back at the cities one more time. The sun reflected light on the dirt houses. Coronado thought he saw a bit of gold. Were his friends right after all? "No," he told himself, "it's just the sun." Then he turned away and went home.`} },
+/*U21*/ { words:[
+  ["Appear","v","To seem.","She appeared nervous before the exam."],
+  ["Base","n","Bottom of something.","The base of the mountain was covered in trees."],
+  ["Brain","n","Thinking organ in head.","The brain controls the whole body."],
+  ["Career","n","Job for long period.","She built a successful career in medicine."],
+  ["Clerk","n","Worker (helps customers).","The clerk helped me find the right size."],
+  ["Effort","n","Hard work/attempt.","He put a lot of effort into his project."],
+  ["Enter","v","Go into a place.","Please enter through the main door."],
+  ["Excellent","adj","Very good.","She did an excellent job on the report."],
+  ["Hero","n","Brave person.","The firefighter was a true hero."],
+  ["Hurry","v","Do something quickly.","We need to hurry or we'll miss the bus."],
+  ["Inform","v","To tell about.","Please inform me of any changes."],
+  ["Later","adv","After the present.","I'll call you later tonight."],
+  ["Leave","v","Go away from.","What time does the train leave?"],
+  ["Locate","v","To find.","We finally located the missing keys."],
+  ["Nurse","n","Person helping sick people.","The nurse checked his temperature."],
+  ["Operation","n","Medical procedure.","He had a successful operation on his knee."],
+  ["Pain","n","Feeling when hurt.","She felt a sharp pain in her back."],
+  ["Refuse","v","To say no.","He refused to give up."],
+  ["Though","conj","Surprisingly.","Though it was raining, we went for a walk."],
+  ["Various","adj","Many types.","The store sells various kinds of fruit."]
+], story:{title:"Katie", text:`I first met eight-year-old Katie on a rainy afternoon. I was a nurse at a hospital. The clerk at the desk told me about Katie. She was there because she felt a lot of pain. The doctors located a problem at the base of her brain. I knew she was special even before she got better. I'll always remember Katie as a hero. When I entered Katie's room, she was not in her bed. She was in a chair next to Tommy, a little boy. Though Katie did not feel well, she was playing with Tommy and his toys. It took a lot of effort for her just to sit in the chair, but she played with Tommy because it made him happy. Katie was always smiling and never appeared to be in pain. She refused to just lie in bed. One day I found her painting a picture. Later she gave it to one of the older patients. Another day she went outside to get flowers for another sick little girl. Katie made everyone smile. The doctors hurried to fix the problem in Katie's brain. The operation was successful. The doctors informed the hospital staff of the good news. Katie was fine. She soon felt excellent. She got better and was able to leave the hospital a month later. I have had a long career as a nurse. I have met many patients; however, I have never met another girl like Katie. Even after she got well, she still came to the hospital. She played various games with the young patients. She read many books to the older patients. Katie's kind heart helped her get better so quickly. She is a hero to me and everyone else at the hospital.`} },
+/*U22*/ { words:[
+  ["Actual","adj","Real or true.","The actual cost was higher than expected."],
+  ["Amaze","v","Surprise very much.","The magic trick amazed the audience."],
+  ["Charge","n","Price to pay.","There is a small charge for delivery."],
+  ["Comfort","v","Make feel better.","She comforted her friend after the bad news."],
+  ["Contact","v","Speak/write to someone.","Please contact me if you have questions."],
+  ["Customer","n","Buys from a store.","The customer asked for a refund."],
+  ["Deliver","v","Take from place to place.","The company delivers packages daily."],
+  ["Earn","v","Get money for work.","She earns a good salary."],
+  ["Gate","n","Type of door.","Close the gate behind you."],
+  ["Include","v","Have as part of group.","The price includes breakfast."],
+  ["Manage","v","Control/be in charge.","She manages a large team."],
+  ["Mystery","n","Difficult to understand.","The disappearance remains a mystery."],
+  ["Occur","v","To happen.","The accident occurred late at night."],
+  ["Opposite","adj","Completely different.","Her opinion is opposite to mine."],
+  ["Plate","n","Flat thing for food.","Put the food on your plate."],
+  ["Receive","v","To get something.","I received a letter yesterday."],
+  ["Reward","n","Given for good work.","He got a reward for his honesty."],
+  ["Set","v","Put somewhere.","She set the vase on the table."],
+  ["Steal","v","Take what isn't yours.","Someone tried to steal her bike."],
+  ["Thief","n","Someone who takes things.","The thief was caught by the police."]
+], story:{title:"A Better Reward", text:`Jenny delivered food for a restaurant. She read the newspaper and said, "Uh oh," there was a story about a thief. He stole food and no one had seen him. Even the police couldn't catch him. Jenny was a little scared. She worked close to that area. The newspaper included a message from the police: if anything strange occurs, call us. If you help us catch the thief, you'll earn a reward. Jenny talked to Jim. He managed the restaurant. "Do you know about the thief?" "Yes," he said, "but he steals more than one person can eat. And why haven't the police stopped him yet? It's a mystery. If you see him, contact the police, don't run after him." Jenny drove to a customer's house. She left her car and opened the gate to the house, but then she heard a noise by her car. "Thief!" she said. She wasn't scared, she wanted the reward. She did the opposite of what Jim told her to do. "Hey," she said, "get back here!" She set the food on the ground and ran to her car, but the thief had already left with the food. Jenny followed a noise around the corner. She was amazed. She saw a dog and some puppies. They were eating her food. They looked thin and scared. "The actual thief is just a dog; she's feeding her puppies," she said. "That's why she steals so much food." Jenny felt bad. She tried to comfort the dogs with another plate of food. Then she took them back to the store. Everyone there took a puppy home. Jenny called the police. She told them there was no real thief. Jenny didn't do it to receive the reward anymore. "It was just a dog, but there's no charge for catching this thief," she said. "My new dog is a better reward."`} },
+/*U23*/ { words:[
+  ["Advance","v","Go forward.","The army advanced toward the city."],
+  ["Athlete","n","Plays sports.","She is a professional athlete."],
+  ["Average","adj","Normal level.","His grades are above average."],
+  ["Behavior","n","Way you act.","His behavior in class was excellent."],
+  ["Behind","prep","At the back.","The park is behind the school."],
+  ["Course","n","Class in school.","I'm taking a math course this year."],
+  ["Lower","v","Make go down.","Please lower your voice."],
+  ["Match","v","To be similar.","Her shoes match her dress."],
+  ["Member","n","Part of a group.","He is a member of the swim team."],
+  ["Mental","adj","To do with the mind.","Exercise is good for mental health."],
+  ["Passenger","n","Person in a vehicle.","The bus had ten passengers."],
+  ["Personality","n","How you behave.","She has a very kind personality."],
+  ["Poem","n","Writing style.","She wrote a poem about the sea."],
+  ["Pole","n","Long stick.","The flag was on top of the pole."],
+  ["Remove","v","Take away.","Please remove your shoes before entering."],
+  ["Safety","n","Condition of being safe.","Safety is our top priority."],
+  ["Shoot","v","Fire a bullet/water.","He shot the ball into the goal."],
+  ["Sound","v","Make a noise.","The alarm sounded loudly."],
+  ["Swim","v","Move through water.","We swim in the pool every summer."],
+  ["Web","n","Spider's home.","The spider built a web in the corner."]
+], story:{title:"The Camp", text:`Stacy wanted to stay at a nice hotel for vacation, but her parents sent her to a terrible camp instead. For breakfast Stacy liked fresh juice and chocolate milk, but she got water at the camp. In the afternoon she wanted to write poems, but she had to swim. The camp was near an airport with loud planes. Spider webs hung over her bed. To her the kids' average behavior was very bad. No girl matched her personality. She hated it. One day they had a class mental exercise. It sounded good to Stacy, but it was a course on water safety. They learned how to be safe passengers on a boat. Stacy didn't ever plan to go on a boat. The next day they played a game. There was a red team and a blue team. Stacy was on the blue team. Each team had to try to remove the other team's flag from a pole. They also had to use water guns. "I'm not much of an athlete," she said, but she still had to play. Stacy took a water gun and looked for somewhere to hide. A boy said, "Stacy, you advance to the middle, I will go right, those two will go left." Stacy still didn't want to play. She walked into the forest and saw a red team player coming. Stacy hid behind a tree and then jumped out and shot the other player. "This is fun," Stacy thought. Several minutes after moving further, Stacy saw the red flag. A red team member was watching over it. She shot him with her water gun, then she lowered the flag and ran back to her team. "I got it," she said. The blue team won. Stacy was the hero for the rest of the week. Stacy had fun; she even made new friends.`} },
+/*U24*/ { words:[
+  ["Block","n","Solid piece of wood/stone/ice.","He carried a block of ice."],
+  ["Bury","v","Put under ground.","They buried the treasure in the sand."],
+  ["Cheer","v","Shout approval.","The fans cheered for their team."],
+  ["Complex","adj","Hard to understand/many parts.","The math problem was very complex."],
+  ["Critic","n","Gives opinions on movies/books.","The film critic gave it a good review."],
+  ["Direction","n","Way to go.","Can you give me directions to the mall?"],
+  ["Event","n","Something important that happens.","The wedding was a wonderful event."],
+  ["Exercise","v","Sports for health.","I exercise every morning."],
+  ["Friendship","n","Relationship between friends.","Their friendship lasted for years."],
+  ["Guide","n","Shows where to go.","Our guide showed us around the city."],
+  ["Lack","n","Not enough of something.","There is a lack of water in the desert."],
+  ["Perform","v","Do something in front of people.","She will perform on stage tonight."],
+  ["Pressure","n","Force to make someone do something.","He felt a lot of pressure before the exam."],
+  ["Probably","adv","Likely to happen.","It will probably rain tomorrow."],
+  ["Public","adj","Meant for everyone.","This is a public park."],
+  ["Smart","adj","Intelligent.","She is a very smart student."],
+  ["Strike","v","To hit.","Lightning struck the tree."],
+  ["Support","v","Help something be successful.","My family always supports me."],
+  ["Term","n","A word for something.","What is the medical term for this?"],
+  ["Unite","v","Get together to do something.","They united to help the flood victims."]
+], story:{title:"A Strong Friendship", text:`Tim was the strongest man in the town. When he played sports he always won. He performed and exercised in the public park. He did this to show everyone how strong he was. Most people liked him, but one man didn't. His name was Jack. Jack hated Tim. Jack was a movie critic and the smartest man in town. He could solve complex math problems, but no one cared. Jack wanted to be famous like Tim. One day there was an unusual event. A big storm came suddenly. The town was buried in snow. No one could get out. They needed food. The people said, "This is a task for a strong man." Tim was under pressure to save them, but Jack wanted to be a hero, so they both went. Tim said, "You can't help because of your lack of strength," but Jack knew the local area very well and could find paths that were usable despite the snow. They led in the direction of another town. That town had food. They walked until there was a block of ice in their way. Jack said, "We can't get past it, but if you strike it, it might break." Tim knew he probably had enough strength so he struck it with a hammer. It broke. When there were more blocks of ice, Tim broke them. That made him tired. He couldn't walk anymore. Jack said, "Let's unite and support each other. I'll get the food alone, you rest here." Jack came back with food. Tim couldn't remember which path led home. He needed Jack to be his guide. The men became friends by working together. In town, people saw Jack with the food and cheered. They called Jack a hero, but Jack didn't care, he was thinking of something else. He said to Tim, "I thought I was smart, but I learned a new term today: friendship."`} },
+/*U25*/ { words:[
+  ["Associate","v","Connect things together.","I associate this song with my childhood."],
+  ["Environment","n","Place where people live/work.","We must protect the environment."],
+  ["Factory","n","Building where things are made.","He works in a car factory."],
+  ["Feature","n","Important part.","This phone has many great features."],
+  ["Instance","n","An example.","For instance, you could try a new method."],
+  ["Involve","v","To include.","The project involves a lot of research."],
+  ["Medicine","n","Treats illness.","Take this medicine twice a day."],
+  ["Mix","n","Things put together.","This cake mix is easy to use."],
+  ["Organize","v","To plan.","She organized the school event."],
+  ["Period","n","Amount of time.","We studied for a long period."],
+  ["Populate","v","To live in an area.","The city is densely populated."],
+  ["Produce","v","Make or grow.","The farm produces fresh vegetables."],
+  ["Range","n","Set of similar things.","The store has a wide range of products."],
+  ["Recognize","v","Know from seeing before.","I recognized him from school."],
+  ["Regular","adj","Happens often/regularly.","She has a regular exercise routine."],
+  ["Sign","n","Indication/warning.","There was a sign warning of danger."],
+  ["Tip","n","Pointed end.","The pencil tip broke."],
+  ["Tradition","n","Long-time custom.","This is a family tradition."],
+  ["Trash","n","Waste material.","Please throw the trash in the bin."],
+  ["Wide","adj","Large side to side.","The river is very wide here."]
+], story:{title:"Joe's Pond", text:`Joe made the world a better place. He got the idea to do that at school. He watched a video there. It was about a factory. This factory produced a lot of trash and put it in a river. The trash and water were a bad mix. People populated the area by the river and drank its water. This made them sick. Many of them needed medicine and made regular visits to doctors. But the video wasn't all bad news. It showed ways to pick up trash and why it's important to do this. It said people can make a difference to their environment. The video's important features made Joe associate trash with hurting people. One day Joe walked through a park. He recognized some of the problems from the video. One instance of these problems was the trash in the pond. It was full of plastic cups. There was too much trash. Joe didn't want to hurt anyone. He'd told his grandfather about the park. His grandfather said, "You know it's a tradition in our family to help people, that's why we give food to poor people. Maybe you can help people by cleaning the park." Cleaning the park would involve hard work. Joe decided to organize a group to help him. He chose a wide area of the park. It had the most trash. He asked his family and friends to come on Saturday. He gave everyone a sharp stick. They wondered why. He said, "You use the stick's tip to pick up trash, this makes it easier." They worked for six weeks. Different people helped each time, but Joe was always there. In that period of time Joe saw a range of results. There was no trash in the water; people could swim in it. Joe knew that was a good sign. He was happy because he helped his environment.`} },
+/*U26*/ { words:[
+  ["Advice","n","Opinion on what to do.","She gave me good advice about my career."],
+  ["Along","prep","Down the length of something.","We walked along the beach."],
+  ["Attention","n","Notice or thought.","Please pay attention in class."],
+  ["Attract","v","Make come closer/be interested.","The show attracted a large crowd."],
+  ["Climb","v","Use hands/feet to go up.","We climbed the mountain last weekend."],
+  ["Drop","v","To fall.","She dropped her phone on the floor."],
+  ["Final","adj","Last part.","This is the final exam of the semester."],
+  ["Further","adv","Greater distance.","We need to travel further to reach the city."],
+  ["Imply","v","Suggest without saying.","His silence implied he agreed."],
+  ["Maintain","v","Make stay the same.","It's important to maintain good habits."],
+  ["Neither","conj","Not either of two.","Neither of us wanted to leave."],
+  ["Otherwise","adv","In another way.","Hurry up, otherwise we'll be late."],
+  ["Physical","adj","Related to body.","Physical exercise is good for you."],
+  ["Prove","v","Show it is true.","He proved his theory was correct."],
+  ["React","v","Respond by acting.","She reacted quickly to the emergency."],
+  ["Ride","v","Travel on an animal/bike.","He likes to ride his bike to work."],
+  ["Situated","adj","In a certain place.","The hotel is situated near the beach."],
+  ["Society","n","Group sharing culture.","Technology has changed society a lot."],
+  ["Standard","n","Normal or good level.","The school has high academic standards."],
+  ["Suggest","v","Give an idea/plan.","I suggest we leave early."]
+], story:{title:"Archie and His Donkey", text:`Old Archie needed some money. He decided to sell his donkey, so he and his son Tom went to town. It was situated many miles away. Soon they met a woman. "Where are you going?" she asked. "To town," said Archie. "Any smart person would ride the donkey," she said. "What are you implying?" Archie asked. "I'm very smart." Archie wanted to look smart, so he climbed onto the donkey. Then they continued in the direction of the town. Further along the road they met a farmer. "Hello," said Archie, "we want to sell this donkey. Do you want to buy it?" "I don't need a donkey," said the farmer, "but if you want my advice, don't ride it. The donkey needs to be in good physical condition." "Good idea," said Archie. "Tom, I want you to ride it, you're lighter." "Neither you nor your son should ride it. It looks very tired. You should carry the donkey," suggested the farmer. "You're right," said Archie, "come on Tom, we'll carry it for the final few miles." The donkey was very heavy and they couldn't maintain a good speed. They didn't arrive until late in the evening. At last they walked into the town, but there they attracted the attention of some teenage boys. They laughed at Tom and Archie. They started to throw stones at them. The donkey reacted by kicking. Tom and Archie dropped the donkey. It fell on the ground and then ran away. Archie lost his donkey. He went home with no money. What does this story teach us? We cannot please everyone in our society. Don't take everyone's advice, but set your own standards. Prove to everyone that you can make decisions by yourself, otherwise you may end up with nothing at all.`} },
+/*U27*/ { words:[
+  ["Actually","adv","In fact/really.","Actually, I've never been there."],
+  ["Bite","n","Using teeth to cut.","The dog gave a small bite."],
+  ["Coast","n","Land by ocean.","We drove along the coast."],
+  ["Deal","n","Agreement.","We made a good deal on the car."],
+  ["Desert","n","Land without plants/water.","Bahrain is surrounded by desert areas."],
+  ["Effective","adj","Works well.","This is an effective way to study."],
+  ["Examine","v","Look carefully.","The doctor examined the patient."],
+  ["False","adj","Not correct.","The answer he gave was false."],
+  ["Figure out","v","Understand/find answer.","I need to figure out this puzzle."],
+  ["Gift","n","Something you give.","She gave him a gift for his birthday."],
+  ["Hunger","n","Need to eat.","He felt hunger after the long trip."],
+  ["Imagine","v","Think in your mind.","Imagine living on the moon."],
+  ["Journey","n","Long trip.","Their journey took three days."],
+  ["Puzzle","n","Hard to understand.","She loves solving puzzles."],
+  ["Quite","adv","Completely or very much.","It was quite cold last night."],
+  ["Rather","adv","Preference for one over other.","I would rather stay home tonight."],
+  ["Specific","adj","Precise or exact.","Can you give me a specific example?"],
+  ["Spider","n","Eight-legged creature.","A spider spun its web in the corner."],
+  ["Tour","n","Trip to see sites.","We took a tour of the old city."],
+  ["Trip","n","Journey to a place.","We had a wonderful trip to Dubai."]
+], story:{title:"The Spider and the Bird", text:`There was once a very big spider. However, if a bug got into his web, he didn't eat it right away. He would carefully examine it. He asked the bug a question first. It was always quite a difficult puzzle. If the bug's answer was correct, he let it go. If not, he ate it. One day a small bird on a journey flew into the spider's web. The spider couldn't imagine eating a bird, it was so big. But his hunger was too great. He said to the bird, "If you cannot give me a specific answer, I will eat you." The bird laughed. "I could eat you," but the bird was actually scared. She had used all her energy trying to get out of the web and a spider's bite can be very effective in killing animals. "Please don't eat me," the bird said, "I would rather make a deal with you." "Okay," the spider said, "if your answer is right I will let you go. If not, you must give me a gift. It must be something of great value." The bird said, "You can pick anything you want to eat, I will find it for you." The spider agreed. "Where can you take a trip to the coast, the desert and the mountains at the same time?" the spider asked. The bird said, "Can you help me figure that one out?" but the spider did not say anything. "I can see those places when I fly. Is the sky the right answer?" "False," said the spider. "The answer is Hawaii. Now you must find some bugs for me." The spider climbed on the bird's back. They flew and ate bugs together. They took a tour of the forest, then the bird took the spider home. From that day on they were friends and they never tried to eat each other again.`} },
+/*U28*/ { words:[
+  ["Band","n","Music group.","The band played all night long."],
+  ["Barely","adv","Smallest amount/almost not.","I could barely hear him."],
+  ["Boring","adj","Not fun.","The movie was really boring."],
+  ["Cancel","v","Decide event won't happen.","They canceled the trip due to rain."],
+  ["Driveway","n","Road to a person's home.","The car is parked in the driveway."],
+  ["Garbage","n","Waste material.","Please take out the garbage."],
+  ["Instrument","n","Used to play music.","He plays a musical instrument."],
+  ["List","n","Record of information.","I made a list of things to buy."],
+  ["Magic","n","Power to do impossible things.","The children loved the magic show."],
+  ["Message","n","Words sent to someone.","She left me a message."],
+  ["Notice","v","See for first time.","I noticed a new sign on the street."],
+  ["Own","v","Belonging to you.","They own a small house near the beach."],
+  ["Predict","v","Say it will happen.","No one could predict the outcome."],
+  ["Professor","n","College teacher.","My professor is very kind."],
+  ["Rush","v","Go/do quickly.","We rushed to catch the train."],
+  ["Schedule","n","Plan of when to do things.","My schedule is very busy this week."],
+  ["Share","v","Give some to another.","Let's share this pizza."],
+  ["Stage","n","Place for performance.","The singer walked onto the stage."],
+  ["Storm","n","Very bad weather.","A storm is expected tonight."],
+  ["Within","prep","Inside another thing.","The answer is within the book."]
+], story:{title:"The Party", text:`Cody's family moved to a new house. His dad got a new job as a professor. Cody liked his new town, but he missed his grandparents. For his birthday, Cody wanted to have a party. His dad said, "Yes, we could even have a band play." On the day of the party, Cody woke up and rushed to get ready. He started to check his list of things to do. He was so excited. But then he noticed something terrible: there was snow on the ground and lots of it. "Dad," he said, "how can the band play their instruments outside?" Dad said, "We'll move the stage inside." It barely fit within the garage because there were some boxes and garbage there. But when they finished, they got a call from the band. They did not want to come in the storm. Dad said, "Let's get someone to perform magic," but no one would come because of the snow. Finally, dad said, "Cody, there's too much snow, we need to cancel the party." "Yes sir," Cody said sadly. "It's going to be a boring birthday," he predicted. Cody wanted to share his birthday with someone. He wanted to be at his old home. He wanted to see his grandparents. But then something got his attention. He noticed a car in the driveway. His grandparents owned a car like that. Cody was right. His grandparents came for his birthday. "Happy birthday, Cody! We're sorry we are late, but there was so much snow it made us go off schedule. We tried to leave a message to tell you." Cody told them what happened. "I'm sorry," said grandpa. "I was sad," Cody said, "but I'm not anymore, I'm so happy to see you!" Dad brought out something special for Cody's birthday. It was his favorite, a sundae with whipped cream on top. Then Cody told his grandparents about the new town. It was his best birthday ever.`} },
+/*U29*/ { words:[
+  ["Burden","n","Serious responsibility.","Debt can be a heavy burden."],
+  ["Compromise","v","Agree to less than wanted.","They compromised on the price."],
+  ["Craft","v","Make with skill.","She crafted a beautiful necklace."],
+  ["Dive","v","Go head first into water.","He dove into the pool."],
+  ["Fragile","adj","Easily damaged/not strong.","Be careful, the glass is fragile."],
+  ["Half","n","Divided into two equal parts.","She ate half of the sandwich."],
+  ["Innocence","n","Lack of experience.","The child's innocence was touching."],
+  ["Lead","v","Go first/follow.","She led the team to victory."],
+  ["Meeting","n","Being with other people.","We have a meeting at ten."],
+  ["Merge","v","Combine into one.","The two companies decided to merge."],
+  ["Moderate","adj","Not too big/small.","The weather today is moderate."],
+  ["Overwhelm","v","Exists in unmanageable amount.","The work overwhelmed her."],
+  ["Payment","n","Money/reward given.","He made the final payment yesterday."],
+  ["Perception","n","Way of understanding.","Her perception of the event was different."],
+  ["Settle","v","Reach an agreement.","They settled the argument peacefully."],
+  ["Shiver","v","Shaking movement.","She shivered in the cold wind."],
+  ["Sociable","adj","Friendly.","He is a very sociable person."],
+  ["Speed","v","Go very fast.","The car sped down the highway."],
+  ["Talkative","adj","Talks a lot.","My little sister is very talkative."],
+  ["Usual","adj","What is expected.","He arrived at his usual time."]
+], story:{title:"The Demon's Bridge", text:`A young woman's cow had crossed the river in the morning when the water level was moderate, but when the woman returned with her dog to get the cow, she was overwhelmed by how high the water had risen. Even if she crossed, she still couldn't lead her cow back through the river. "What am I going to do?" she wondered. Suddenly a man appeared across the river. "A fragile young lady like you shouldn't have to work so hard to get across a river," he said, "I'll build you a bridge." The man was not the usual kind of person she met. The young woman's perception of him was that he was a sociable person. He was talkative, yet something was strange about him. But her innocence allowed her to trust the man. "I don't want to be a burden to you, sir," the woman replied. "Don't worry," he told her as he began crafting a bridge. He merged the pieces of the bridge together with amazing speed. Soon it was finished. "Oh, but how can I give you money for your work? Let's compromise, I am sure that we can find a fair solution, what do you think?" the woman asked. "The only payment I need is the first living thing that crosses the bridge," the man replied. She thought, "This deal sounds strange, maybe he's actually a river demon." She shivered because she realized that he had taken advantage of her and settled the deal somehow. But she had a plan of her own. She pulled the piece of bread from her pocket and threw it across the bridge. Her dog ran after it. "The dog is the first living thing across the bridge," she said to the man. The man was angry. He suddenly changed into a half human and half fish. "What's the matter with you?" he shouted. "You tricked me! I have no use for your dog," he screamed and dived into the river. The woman sped across the bridge to the other side and had a happy meeting with her dog and cow.`} },
+/*U30*/ { words:[
+  ["Above","prep","Higher level.","The plane flew above the clouds."],
+  ["Ahead","adv","In front of.","She walked ahead of the group."],
+  ["Amount","n","How much.","The amount of homework increased this week."],
+  ["Belief","n","Feeling something is true.","It is his belief that hard work pays off."],
+  ["Center","n","The middle.","The store is in the center of the mall."],
+  ["Common","adj","Happens often.","This is a common mistake."],
+  ["Cost","v","Requires payment.","The ticket costs ten dinars."],
+  ["Demonstrate","v","Show how it's done.","The teacher demonstrated the experiment."],
+  ["Different","adj","Not the same.","Our opinions are different."],
+  ["Evidence","n","Fact/thing used for proof.","The police found new evidence."],
+  ["Honesty","n","Being truthful.","Honesty is the best policy."],
+  ["Idiom","n","Phrase with different meaning.","\"Break a leg\" is a common idiom."],
+  ["Independent","adj","Not controlled by others.","She is very independent."],
+  ["Inside","n/prep","Inner part.","There is a gift inside the box."],
+  ["Jail","n","Place for bad people.","He was sent to jail for stealing."],
+  ["Master","n","Very good at something.","He is a master of chess."],
+  ["Memory","n","Something you remember.","I have great memories of my childhood."],
+  ["Pocket","n","Part of clothing.","He put his phone in his pocket."],
+  ["Proper","adj","Right.","Please use the proper tools."],
+  ["Sale","n","For buying.","The store is having a big sale."]
+], story:{title:"Cats and Secrets", text:`In English there is a common idiom "let the cat out of the bag." It means to tell a secret. But where did this idiom start? It came from a part of England long ago. People there went from town to town to sell things like vegetables, clothes and pigs. They had strong beliefs about honesty. They didn't like lying. One day a man went to the town's center to sell things. "I have a baby pig for sale, it won't cost much," he said. He held the animal above his head. His style was different from honest people's style. He was a master of tricking people and lying. A woman named Beth looked at his pig. He offered her the pig for one gold coin. That was a very small amount. Beth gave him the coin. He put it in his pocket. He walked ahead of Beth to get the pig. He gave her a closed bag and said, "Here's your pig." He then left very quickly. Beth looked at the bag. It was moving. She opened it to let the pig out. A cat was inside. "He tricked me! That isn't proper," she said. Later the man returned to trick more people. Beth saw him and the memory of the cat came back. She told her friends. They stopped him, but no one knew what to do next. Someone said, "We need an independent and fair person to decide that." They went to the judge. Beth told him about the cat in the bag. The judge asked, "Is there evidence? Can you demonstrate how he did it?" "Look in his bag," said Beth. She opened it and let a cat out of the bag. They learned the man's secret and he went to jail. That's how the idiom "let the cat out of the bag" came to mean to tell a secret.`} }
+];
+
+
+const BOOK2 = [
+/*U1*/ { words:[
+  ["Because","conj","Introduces a reason for something.","We need to study because we have a test tomorrow."],
+  ["East","n","The direction the sun rises from.","My window looks to the east so I can watch the sun rise every morning."],
+  ["Expensive","adj","Costs a lot of money.","My friend drives an expensive sports car."],
+  ["Flower","n","The colored part of a plant.","She gave pink flowers to her grandmother."],
+  ["Garden","n","An area where people grow plants.","The garden is very bright and colorful in the spring."],
+  ["Holiday","n","A special day of celebration.","Monday was a holiday so there was no school or work."],
+  ["Many","adj","Shows that there is a large number of something.","There are many people on the street."],
+  ["Million","n","Another way to write the number 1,000,000.","Almost 19 million people live in Delhi, India."],
+  ["Mountain","n","A very high hill.","Mount Everest is the highest mountain in the world."],
+  ["Place","n","A space or area.","A library is a place where people can read books."],
+  ["Popular","adj","Liked by many people.","These people are listening to a popular man speak."],
+  ["Ski","v","To glide on long pieces of wood or metal over snow.","The man likes to ski and goes every weekend."],
+  ["Such","adj","Means like this.","I have never seen such a beautiful sunset before."],
+  ["Total","adj","Shows that everyone or everything has been counted.","The total cost of the item she bought was 52 dollars."],
+  ["Tower","n","A tall narrow building.","This is a very famous tower in Italy."],
+  ["Town","n","A place where people live and work, smaller than a city.","I come from a small town and everyone there knows each other."],
+  ["Train","n","A group of railway cars connected together.","The train is very fast so we can get home in one hour."],
+  ["Walk","v","To move forward using legs but slower than running.","The children walk to school in the morning."],
+  ["Watch","v","To look at someone or something for a period of time.","My friend came over to watch a movie with me."],
+  ["World","n","The Earth and all the people and things in it.","What are the names of the five oceans of the world?"]
+], story:{title:"The Most Visited Country", text:`More people visit France than any other place in the world. A total of 82.6 million people visited France in 2016. Why is France such a popular country? It is because there is something for everyone. There are many things to do in Paris, the capital of France. Visitors can walk through the streets and enjoy famous buildings such as the Eiffel Tower, the Louvre, the Arc de Triomphe and Notre Dame Cathedral. While sightseeing, visitors can eat at many different restaurants. Many visitors like to try haute cuisine, which is expensive French food. However, visitors can also enjoy cheaper food at restaurants and cafes. Those who love nature can visit the many gardens and parks of Paris. Luxembourg Garden is a beautiful place for people to see flowers and trees. It is also home to over a hundred statues and there is a museum nearby. Every day of the week, it is common to see people eating lunch, playing with their children, and going for walks. Visitors who love sports can go to a soccer game since soccer is the most popular sport in France. Visitors can take the train and watch games in different towns such as Lyon, Marseille, Bordeaux and Nice. France is also a great place for visitors who love to ski. The French Alps in the east of France are popular because there are many mountains. Some of the ski resorts are packed with people on certain holidays. Although numbers have gone down, France still gets the most visitors each year. It's expected that a hundred million visitors will travel to France by 2020.`} },
+/*U2*/ { words:[
+  ["Anxious","adj","Feeling worried or nervous.","She was anxious about not making her appointment on time."],
+  ["Awful","adj","Very bad.","Her performance last night was awful."],
+  ["Consist","v","To be made of parts or things.","Today's choices for lunch consisted of pizza, hamburgers, and hot dogs."],
+  ["Desire","v","To want something.","My sister desires a big house and lots of money."],
+  ["Eager","adj","Shows excitement about something.","The man was eager to talk about the good news."],
+  ["Household","n","All the people who live in one house.","Our household is made up of my father, my mother, and me."],
+  ["Intent","n","A plan to do something.","Her intent is to visit Italy next summer."],
+  ["Landscape","n","How an area of land looks.","The landscape of the country is very green."],
+  ["Lift","v","To move it higher.","The man tried to lift the box."],
+  ["Load","v","To put objects into something.","The man loaded the boxes into a truck."],
+  ["Lung","n","A part of the body that fills with air when breathing.","Having strong lungs is necessary for a healthy life."],
+  ["Motion","n","A movement that someone makes.","The police officer made a motion with his hand."],
+  ["Pace","n","The speed at which it happens.","I ran the race at a slower pace than my friend."],
+  ["Polite","adj","Shows thoughtful and kind behavior.","The boy was very polite; he behaved very thoughtfully."],
+  ["Possess","v","To have it or own it.","My uncle possesses three sheep, a chicken, a cow, and a dog."],
+  ["Rapidly","adv","Happening very fast.","The train moved rapidly on the tracks."],
+  ["Remark","v","To say something.","The teacher remarked on how quickly the students were learning."],
+  ["Seek","v","To look for something.","If I have a problem, I seek my sister's advice."],
+  ["Shine","v","To make a bright light.","The candles are shining in the dark room."],
+  ["Spill","v","To accidentally make something fall out of its container.","I spilled the coffee on the table."]
+], story:{title:"The 12 Months", text:`An awful woman lived with her daughter and stepdaughter in her household. She possessed feelings of hate for her stepdaughter Anna. Anna worked while her stepsister did nothing. On a cold January night, Anna's stepmother remarked, "Your stepsister desires flowers. Go and find some." Anna was anxious about walking through the chilly landscape. The cold air made her lungs burn. She walked at a slow pace because of the snow. Soon she saw a group of people. It consisted of 12 men. Anna told them about the flowers. One of the men said they were the 12 months and that they would help Anna. January walked to her and made a motion with his hand. The days of the month passed rapidly until it was February's turn. February also made the month speed up. Then March made the sun shine and flowers grew in the field. Anna loaded her basket with so many flowers that she could hardly lift it. Then she gave a quick but polite thank you to the 12 men and returned home. She was very eager to show her stepmother all the flowers. Back at the house, she spilled the flowers onto the table. Then she told her stepmother about the 12 men. Anna's stepmother and stepsister went to seek the 12 months. Their intent was to ask for gifts. They looked and looked. They became lost and never found their way home. So Anna lived happily by herself.`} },
+/*U3*/ { words:[
+  ["Arrow","n","A thin straight stick shot from a bow.","The arrow flew through the air and hit the target."],
+  ["Battle","n","A fight between two armies during a war.","The battle lasted for many days."],
+  ["Bow","n","A weapon of curved wood and string that shoots arrows.","He went hunting with a bow and arrow."],
+  ["Brave","adj","Not afraid to face pain or danger.","The brave firefighter saved the girl from the burning building."],
+  ["Chief","n","The leader of a group of people.","The chief led the people through the mountains."],
+  ["Disadvantage","n","A situation that makes it hard to do something.","Mike had a disadvantage in the race since he hurt his knee."],
+  ["Enemy","n","A country that is fighting another country during a war.","The enemy prepared to attack the kingdom."],
+  ["Entrance","n","A place where someone can enter an area.","The gate was locked so Bill had to find a different entrance."],
+  ["Hardly","adv","Shows that something happens in a very small way.","I hardly saw the concert since I had to leave early."],
+  ["Intend","v","To plan to do it.","I intend to finish college in three years."],
+  ["Laughter","n","The sound produced by laughing about something funny.","Susan's joke made her classmates burst into laughter."],
+  ["Log","n","A thick piece of wood that is cut from a tree.","The fire was too small so we added another log to it."],
+  ["Military","n","The armed forces of a country.","I joined the military after I finished high school."],
+  ["Obey","v","To follow what a law or a person says to do.","My little sister did not obey my mother; now she is in trouble."],
+  ["Secure","v","To get it after a lot of effort.","I was able to secure a good grade on my test after weeks of studying."],
+  ["Steady","adj","Shows that someone or something does not change much.","The problem was hard but she remained steady and solved it."],
+  ["Trust","v","To believe that someone is honest and will do what is right.","I trust my friends; they don't tell my secrets to other people."],
+  ["Twist","v","To turn it around and around.","She twisted the spaghetti around her fork."],
+  ["Unless","conj","If not or except when.","Unless you clean your room, you cannot play with your friends."],
+  ["Weapon","n","An object used to hurt people.","Swords have been used as weapons for thousands of years."]
+], story:{title:"The Battle of Thermopylae", text:`This is a true story. It happened long ago in Greece. "We must fight," the Spartan chief told his small army of brave men. They were at a great disadvantage. There were only 300 of them. The Persian military had hundreds of thousands of men. They were going to lose unless they could secure a small entrance. The enemy couldn't move through it easily. They intended to stop the enemy there. The chief and his men got ready for the battle. Soon long lines of the enemy's army twisted around the hills. The chief met the enemy with laughter. He knew that his men's weapons and skills were better. The Spartans trusted their leader and obeyed him. First, the enemy soldiers shot arrows from their bows. The chief told his men to lift their shields. The arrows stuck into the shields but did not hurt any of the men. Then the enemy soldiers attacked the Spartans with long spears. The chief surprised them. His men sent logs down the hills at the enemy. They fought for three days although they hardly slept at all. The chief and his men remained steady. But the enemy found a way to beat the Spartans. The chief and all of his men were killed. Even though they lost, the Battle of Thermopylae is one of the most famous battles in history.`} },
+/*U4*/ { words:[
+  ["Chest","n","The front part of a body between the neck and stomach.","The water in the lake was as high as my chest."],
+  ["Confidence","n","A feeling of certainty or ability.","I have confidence that I did well on the test."],
+  ["Consequence","n","A result of a choice or action.","As a consequence of missing my bus, I had to find another way to work."],
+  ["Disaster","n","A really bad thing that happens.","When the car crashed, it was a disaster."],
+  ["Disturb","v","To upset that person.","The loud noise disturbed me while I was working."],
+  ["Estimate","v","To make a guess about it.","The boy estimated that he was one meter tall."],
+  ["Honor","v","To show respect for someone or something.","Each year we honor those who died fighting for their country."],
+  ["Impress","v","To make that person proud or amazed.","He was able to impress the girls with his new dance."],
+  ["Narrow","adj","Thin, not wide.","The bridge is too narrow for a car to drive across it."],
+  ["Pale","adj","Means that a color or thing is not bright.","The girl's skin was very pale."],
+  ["Rough","adj","Not even or smooth.","The rough ground hurt my feet."],
+  ["Satisfy","v","To make that person happy.","It will satisfy my teacher if I finish all my homework."],
+  ["Scream","v","To make a loud noise with your mouth.","The girl saw a spider and screamed."],
+  ["Sensitive","adj","Easily affected or hurt.","My teeth are sensitive to cold things."],
+  ["Shade","n","A dark area that something makes when it blocks the sun.","It was hot outside so the boy sat in the shade of a tree."],
+  ["Strength","n","The ability to do hard work or exercise.","Eating good food builds up your strength."],
+  ["Supplement","v","To add something else to it in a good way.","He supplements his diet with fresh fruits."],
+  ["Terror","n","A feeling of very strong fear.","I felt a sense of terror when the tiger chased me."],
+  ["Threat","n","Something bad that might happen.","Due to the dark clouds, there was a threat of a bad storm."],
+  ["Victim","n","A person who is hurt by a bad action.","I was a victim of a robbery."]
+], story:{title:"The Deer and His Image", text:`A deer told himself every day, "I am the most handsome deer in the forest. My large chest shows my power and my beautiful horns impress other animals." But he did not like his legs and hooves. "My legs are narrow and my hooves are ugly. They do not satisfy me." One day the deer saw a big dog. The deer made some noise and disturbed the dog. The dog woke up and ran after him. The deer felt terror. He screamed. He did not want to be a victim, so he ran into the forest. His strong legs helped him run fast. His pale brown hooves were hard, so they were not sensitive to the rough rocks. However, his horns got caught in branches and slowed him down. His large chest could not fit between the thick trees. The deer estimated that he ran for an hour. He felt like he was running to the limit of his strength. In the end, the deer escaped the threat of the dog. He sat in the shade of a tree. "That was almost a disaster. I almost did not escape because of my chest and horns. My legs and hooves saved me." As a consequence, the deer learned to honor his fast legs and have confidence in his strong hooves. "Pretty things only supplement important things," he thought.`} },
+/*U5*/ { words:[
+  ["Ancestor","n","A family member from the past.","My ancestors came from Germany."],
+  ["Angle","n","The direction from which something is looked at.","The giraffe turned its head to see from another angle."],
+  ["Boot","n","A heavy shoe that goes up above a person's ankle.","He wore boots so that his feet wouldn't get wet."],
+  ["Border","n","The edge of an area.","The postcard had a pretty green border of pine needles."],
+  ["Congratulate","v","To tell them that you are happy for them.","Bill and Angela congratulated each other on a job well done."],
+  ["Frame","n","A border for a picture or mirror.","I have to get a frame for my friend's picture."],
+  ["Heaven","n","The place that some believe people go to after they die.","When I die, I hope that I go to heaven."],
+  ["Incredible","adj","So amazing that it is hard to believe.","I have an incredible story to tell you about my vacation."],
+  ["Legend","n","A story from the past.","There is a well-known legend about a king and his queen."],
+  ["Praise","v","To show that you like someone or something.","The coach praised the athletes after a good practice."],
+  ["Proceed","v","To go somewhere or continue doing something.","My son and I proceeded to the beach so we could go fishing."],
+  ["Pure","adj","Very clear and beautiful.","The rose was pure; it had no dirt or imperfections."],
+  ["Relative","n","A family member.","My relatives came by to see the new baby."],
+  ["Senior","adj","Older or more experienced.","Because he got his job first, Bob is the senior chef."],
+  ["Silent","adj","Makes no sound.","Since no one was home, the house was silent."],
+  ["Sink","v","To slowly fall into it.","The boat had a hole in it and it sank into the ocean."],
+  ["Superior","adj","Better than another.","I think cooking outdoors is superior to cooking indoors."],
+  ["Surround","v","To close in on it from all sides.","We surrounded the suspect on all four sides."],
+  ["Thick","adj","Wide and solid.","The fog was so thick that I couldn't see through it."],
+  ["Wrap","v","To cover something on all sides.","I wrapped his gift and put a bow on it."]
+], story:{title:"May 29th, 1953", text:`Today is the most important day of my life. I finally climbed Mount Everest, the tallest mountain in the world. My name is Edmund Hillary. The top of the mountain was amazing. It felt like we were close to heaven. The snow was so thick that my boots sank into it. The air was silent. I looked at the beauty that surrounded me. Maybe my story will be a legend someday. I want people to remember this forever. I was the senior explorer in my group and I knew we needed something to show others about our climb. I took many pictures with my camera. I'll put them in a frame and hang them on the wall of my house. On the mountain, the air was very cold. I wrapped my coat around my body. I looked over the side of the mountaintop. From that angle, I saw the border of the clouds touch the rocks below. The snow was thick; it looked pure. There was no sign of modern life. Thousands of years ago, my ancestors saw the world this way. After 15 minutes, I knew it was time to proceed down the mountain. The whole team congratulated each other. My superior John Hunt praised us all. I sent messages to my relatives to tell them that I was safe. But it was hard to leave the mountains so quickly. I wanted to enjoy the incredible sight even longer.`} },
+/*U6*/ { words:[
+  ["Also","adv","In addition to or too.","I like blue and I also like yellow."],
+  ["Automatically","adv","Happens without thinking or planning.","The man automatically smiled when he thought about his friend."],
+  ["Busy","adj","Has a lot of things to do.","Everyone is busy at the office today."],
+  ["Can","modal","Shows that a person or thing has the ability to do an action.","Sad news can make her cry."],
+  ["Clear","v","To remove everything from a place.","I need to clear my desk because it is too messy."],
+  ["Close","v","To shut something or cover up an opening.","The man wanted to close the door tightly."],
+  ["Discuss","v","To talk about something with another person.","James began to discuss his report with his teacher."],
+  ["Feel","v","To experience an emotion or feeling.","The girl must feel happy because it is her birthday today."],
+  ["Listen","v","To pay attention to a sound that you can hear.","Lisa wanted to listen carefully to her friend."],
+  ["Meet","v","To come together so that you can talk or do something together.","Ken's mother wanted to meet his teacher today."],
+  ["Music","n","The sound made by singing or playing musical instruments.","The boy makes music by playing a guitar."],
+  ["Normal","adj","Usual and not strange.","It's normal to wear school uniforms in private schools."],
+  ["Quiet","adj","Does not make much sound.","The man told the children to be quiet."],
+  ["Relax","v","To rest or do something enjoyable.","Nicole likes to relax by reading books."],
+  ["Sleep","v","To rest your mind and body, usually at night in bed.","The child goes to sleep in her bedroom at night."],
+  ["Stress","n","A strong feeling of worry caused by problems in life.","Dan has a lot of stress at work."],
+  ["Study","v","To learn something by reading, memorizing, or going to school.","The woman needed a quiet place to study for a big test."],
+  ["Talk","v","To say words to express your thoughts, opinions, etc.","They went someplace to talk to each other."],
+  ["Work","v","To do a job that you get paid for.","They need to work together to finish an important project."],
+  ["Write","v","To use a pen or keyboard to make letters and numbers on paper or a screen.","I need to write a story for my homework."]
+], story:{title:"Ways to Reduce Stress", text:`Everyone experiences stress. Stress is a normal part of life but too much stress can create health problems. People who are stressed can suffer from headaches, depression, and even heart problems. Whether you are busy studying or working, you need to make sure you have time to relax. One of the best ways to relax and reduce stress is to meditate. First, find a quiet place and sit up straight. Then close your eyes, clear your mind, and pay attention to your breathing. This practice will make you feel relaxed and happier. It will also help you sleep better at night. Studies show that sleep is very important because that is when your body repairs itself. In addition, being tired can make your stress worse. Another way to relax is to listen to music. Music is a very powerful tool. Listening to slow and quiet music can relax your mind. Listening to fast, lively music can make you feel happy which will then help you relax and reduce your stress. Some people find that singing along to songs helps take their minds off whatever is giving them stress. If your stress is worrying you, it is best to meet with a friend and talk it out. When you discuss your feelings and problems with someone, you will automatically feel better. At times when you don't feel like talking, you can write instead. Many people find it helpful to keep a journal and record their feelings. Remember that stress is a part of life and that you cannot completely get rid of it. That being said, you need to reduce stress as much as you can. Make time for yourself and try the above suggestions in order to feel relaxed and stay happy and healthy.`} },
+/*U7*/ { words:[
+  ["Basis","n","The main part of it.","My grandfather gets his hearing checked on a yearly basis."],
+  ["Biology","n","The study of living things.","We learned about the human heart in biology class."],
+  ["Cage","n","Something that holds an animal so it cannot leave.","We put the parrots in their cage at night."],
+  ["Colleague","n","Somebody you work with.","My colleague helped me finish the job."],
+  ["Colony","n","A country controlled by another country.","The USA was at one time a colony of Great Britain."],
+  ["Debate","v","To seriously discuss something with someone.","The husband and wife debated which route to take."],
+  ["Depart","v","To leave someplace so you can go to another place.","The plane departed for Italy at three o'clock this afternoon."],
+  ["Depress","v","To make that person sad.","The bad news from work depressed the man."],
+  ["Factual","adj","Includes true details.","John learns about history from factual books."],
+  ["Fascinate","v","To make that person very interested.","The kitten was fascinated by the ball of yarn."],
+  ["Mission","n","An important job that is sometimes far away.","The woman's mission was to help sick people."],
+  ["Nevertheless","adv","Shows a difference to what is expected or known.","He is usually friendly; nevertheless, he wasn't friendly this afternoon."],
+  ["Occupation","n","A person's job.","My father's occupation is a dentist."],
+  ["Overseas","adv","An action that happens in another country across an ocean.","John often goes overseas for vacations."],
+  ["Persuade","v","To make that person agree to do something.","The children persuaded their parents to buy them gifts."],
+  ["Route","n","The way you go from one place to another.","I saw many new houses along the route to the city."],
+  ["Ruins","n","Old buildings that are not used anymore.","I visited some interesting ruins in Greece."],
+  ["Scholar","n","A person who studies something and knows a lot about it.","The scholar knew much about art history."],
+  ["Significant","adj","Important.","I read many significant novels as a literature major in university."],
+  ["Volcano","n","A mountain with a hole on top where hot liquid comes out.","When the volcano erupted, smoke and heat filled the air."]
+], story:{title:"A Beautiful Bird", text:`Dr. Norton's occupation was a scholar of biology. He learned all about animals on a daily basis. One day he met a sailor from a colony overseas. The man told Dr. Norton about a talking bird. The bird fascinated Dr. Norton so he told his colleagues about it. They debated with him. No one thought a bird would be able to talk. He tried to persuade them but they laughed at him. Nevertheless, Dr. Norton believed the bird was real. His new mission was to find it. He wanted factual proof. The next day he departed for the colony. The sailor he had met told him to look for a man named Jai who would be able to help him in his search. After a month of sailing, Dr. Norton finally reached the colony where he met Jai. "I can take you to where it lives. It lives by the volcano," Jai said. They left the next day. A week later they arrived at the volcano. Every day they walked around and looked for the bird, but they couldn't find it. After one month Dr. Norton could not find the bird and this depressed him. He decided to go home. On the route back he walked past some old ruins. He heard someone say, "Hello." "Who are you?" he asked. Dr. Norton looked up and saw a bird. Dr. Norton put the talking bird into a cage then he returned home. He had made a significant discovery.`} },
+/*U8*/ { words:[
+  ["Broad","adj","Wide, not narrow.","The river is very long and broad."],
+  ["Bush","n","A woody plant that is smaller than a tree.","My dad and I planted some small bushes around the house."],
+  ["Capable","adj","Can do an action.","The Olympic athlete is capable of lifting a lot of weight."],
+  ["Cheat","v","To be dishonest in order to win or do well.","They cheated on the test by sharing answers."],
+  ["Concentrate","v","To give one's full attention to something.","I could not concentrate on my homework because the room was so loud."],
+  ["Conclude","v","To arrive at a logical end by looking at evidence.","I saw crumbs on my dog's face, so I concluded that he ate my cookie."],
+  ["Confident","adj","Believe that they can do something without failing.","She was confident she could climb the mountain due to her training."],
+  ["Considerable","adj","Large in size, amount, or extent.","They paid a considerable amount of money for that car."],
+  ["Convey","v","To communicate or make ideas known.","That picture of a crying child conveys a feeling of sadness."],
+  ["Definite","adj","Certain or sure to be true.","There is a definite connection between hard work and success."],
+  ["Delight","n","A feeling of being very happy with something.","He felt such delight after getting a promotion at work."],
+  ["Destination","n","The place where someone or something is going.","The destination of this plane is Munich, Germany."],
+  ["Edge","n","The furthest part or side of something.","He ran to the edge of the cliff."],
+  ["Instructions","n","Explains how to do something.","Just follow the instructions and you will be okay."],
+  ["Path","n","A way from one place to another that people can walk along.","We followed a path through the woods."],
+  ["Resort","v","To depend on it in order to solve a problem.","I hope they don't resort to violence to end the argument."],
+  ["Shadow","n","The dark area made when something blocks light.","The man's shadow was taller than he was."],
+  ["Succeed","v","To complete something as planned.","He will continue to work on the robot until he succeeds."],
+  ["Suspect","v","To believe that it might be true.","I suspect that those kids stole the money."],
+  ["Valley","n","A low area of land between two mountains or hills.","We looked at the valley below from the top of the mountain."]
+], story:{title:"Tricky Turtle", text:`Ricky the rabbit and Tara the turtle met by the edge of the river. "No one is capable of beating me in a race," Ricky said. He was confident. His smile conveyed that. "I can beat you," Tara said. Ricky laughed with delight. Tara said, "We will race tomorrow. The destination is the hill." Ricky agreed. Tara concentrated on winning the race. She was not faster than Ricky; she needed a definite way to succeed. She told her family about the race. "I have concluded that I have to resort to something bad. I will cheat," she quietly told her instructions to them. Her family members all looked very similar. They hid in the shadows on the path. The race began. Tara was soon far behind. However, Tara's brother hid behind a bush in the valley below. When Ricky got close, Tara's brother began to run. He looked just like Tara. Ricky ran as fast as he could along the path, but to him it seemed like Tara was always ahead. Ricky had used a considerable amount of energy. He reached the top, but Tara's sister was already there. "Well, you win," Ricky said. Later, Tara had a broad smile on her face. Ricky never suspected he had been cheated by a family of slow turtles.`} },
+/*U9*/ { words:[
+  ["Against","prep","To be touching it or opposed to it.","They both leaned against the wall."],
+  ["Beach","n","A sandy or rocky place by the ocean.","The little girl built a sandcastle on the beach."],
+  ["Damage","v","To break it.","The car was damaged in the accident."],
+  ["Discover","v","To find it for the first time.","I discovered some new information in this book."],
+  ["Emotion","n","How you feel.","Anger is a common emotion that we all feel."],
+  ["Fix","v","To make it work.","My dad has many tools to help him fix broken things."],
+  ["Identify","v","To find out what it is.","I use the file to identify his name."],
+  ["Island","n","Land in the middle of water.","Japan is a group of islands."],
+  ["Ocean","n","All of the salt water that surrounds land.","The ocean can make powerful waves."],
+  ["Perhaps","adv","Used when you say that something could happen.","Perhaps I will eat an apple for lunch."],
+  ["Pleasant","adj","You enjoy it.","The character had a pleasant look on its face."],
+  ["Prevent","v","To stop it from happening.","The handcuffs prevented me from moving my hands."],
+  ["Rock","n","A hard thing in the dirt.","I stacked rocks on top of one another."],
+  ["Save","v","To keep it from being hurt.","I want to help save the world."],
+  ["Smile","v","To show happiness with your mouth.","The baby smiles."],
+  ["Step","v","To walk.","Be careful where you step."],
+  ["Still","adv","Used when a situation keeps going on.","They are still waiting in line to get tickets."],
+  ["Taste","n","The flavor something makes in your mouth.","The taste of the fruit was sweet."],
+  ["Throw","v","To use your hand to make it go through the air.","The pitcher can throw the baseball very fast."],
+  ["Wave","n","A line of water that moves higher than the rest of the water.","The water was filled with large blue waves."]
+], story:{title:"Starfish", text:`Last summer I took a trip to an island. I had a lot of fun. I sat and watched the waves and listened to the ocean. I learned to identify birds. I discovered pretty things and enjoyed the taste of new foods. It was a very nice time. One evening, I took a pleasant walk by the ocean. When the waves came in, many starfish fell on the beach. Some starfish went back into the water and they were safe. But other starfish were still on the sand. They would die if they did not get into the water. There were many starfish on the beach that night. It made me sad, but I knew I could not fix the problem. I stepped very carefully so I did not damage them. Then I saw a little girl. She was also sad about the starfish. She wanted to prevent all of them from dying. She asked me if I could perhaps help her. "I don't think we can do anything," I said. The little girl started to cry. She sat back against a rock and thought for a while. Finally, the emotion was gone. She stopped crying and stood up. Then she picked up a starfish and threw it into the water. "What are you doing?" I asked her. But she did not answer me. She just threw as many starfish as she could. "You cannot save all of them," I said. She stopped to look at me. "No, I cannot save them all," she replied. Then she picked up a very big starfish and said, "But I can save this one." And then she smiled and threw the starfish as far as she could into the ocean.`} },
+/*U10*/ { words:[
+  ["Citizen","n","Someone who lives in a certain place.","Carlos was born in Spain; he is a Spanish citizen."],
+  ["Council","n","A group of people who run a city or town.","The council met to discuss the new laws for the city."],
+  ["Declare","v","To say something officially.","I declared my love for him."],
+  ["Enormous","adj","Very large.","My dog looks enormous next to yours."],
+  ["Extraordinary","adj","Amazing.","The fireman who rescued the girl was extraordinary."],
+  ["Fog","n","A thick cloud that is near the ground or water.","I did not want to drive in the thick fog."],
+  ["Funeral","n","A ceremony that takes place after a person dies.","They had a funeral for the soldier who died during the war."],
+  ["Giant","adj","Very big.","The giant truck got in my way."],
+  ["Impression","n","The way of thinking about someone or something.","Most people's first impression of Dr. Gianni is that he is mean."],
+  ["Intention","n","What a person plans to do.","You have good intentions."],
+  ["Mad","adj","Angry.","Mother got mad when I didn't listen to her."],
+  ["Ought","modal","The right thing to do.","I ought to take my library books back."],
+  ["Resist","v","To fight against it.","He resisted the treatment at the hospital."],
+  ["Reveal","v","To show something.","I will reveal where I hid the candy bar."],
+  ["Rid","v","To make a place free from something or someone.","We rid our home of mice by using traps."],
+  ["Sword","n","A long sharp weapon.","They used to use swords in battles in ancient times."],
+  ["Tale","n","A story.","She told her two friends about the wild tale of her day."],
+  ["Trap","v","To capture them so they cannot get away.","We trapped butterflies in a net."],
+  ["Trial","n","The way a court discovers if a person is guilty or innocent.","He went on trial for robbing the bank."],
+  ["Violent","adj","Uses force to hurt others.","The man was put into jail because he was violent."]
+], story:{title:"Blackbeard", text:`A long time ago, Blackbeard was one of the most violent pirates ever. He was also an enormous man. One day, there was a thick fog over the water. Blackbeard did an extraordinary thing. With his sword and his belt, he attacked several giant ships near a town and took some of the town's citizens. Then he revealed his intentions. He declared, "You will give me medicine." Blackbeard wanted the medicine for some of the sick pirates on his ship. The people had a bad impression of him. They were mad and they resisted. But they were trapped. They wanted to get rid of him, so the town's council decided to give him the medicine. After this, there was a reward for catching Blackbeard. If Blackbeard was caught, he would have a trial. He didn't want to go to jail, so he quit being a pirate. Blackbeard became a fisherman. But he ought to have stayed on land. The Royal Navy was still looking for him. They attacked him while he was fishing on his boat. Blackbeard fought as hard as he could, but finally he was killed. He didn't even get a funeral, but people still tell tales about him many years later.`} },
+/*U11*/ { words:[
+  ["Admission","n","The act of allowing to enter a place.","The admission ticket to the movie was five dollars."],
+  ["Astronomy","n","The study of the stars and planets.","Harold loved looking at the stars so he decided to study astronomy."],
+  ["Blame","v","To say they did it.","My mom blamed me for something I didn't do."],
+  ["Chemistry","n","The study of substances and reactions between them.","In chemistry class, the professor taught us about chemical reactions."],
+  ["Despite","prep","Shows a difference from what is expected.","We still played the game despite the cold weather."],
+  ["Dinosaur","n","A very big animal that lived millions of years ago.","I like to see the dinosaur bones at the museum."],
+  ["Exhibit","v","To show something so that people can go look at it.","My painting will be exhibited at the fair."],
+  ["Fame","n","A reputation one has gained among the public.","He had fame and fortune but he was not happy."],
+  ["Forecast","n","An idea about what the weather will be like in the future.","The forecast says that it will rain all week."],
+  ["Genius","n","A very smart person.","Since she was a genius, she easily passed all of her school exams."],
+  ["Gentle","adj","Kind and calm.","He is very gentle with the baby."],
+  ["Geography","n","The study of the earth, its land, weather, etc.","I had to draw a map for geography class."],
+  ["Interfere","v","To cause problems and keep something from happening.","My little sister always interferes when I'm trying to study."],
+  ["Lightly","adv","To not push very hard.","Draw lightly so you do not tear your paper."],
+  ["Principal","n","A person in charge of a school.","My school's principal can be very strict with the rules."],
+  ["Row","n","A line of things.","James put all of his toy soldiers into neat rows."],
+  ["Shelf","n","A place on a wall where you put things.","I keep my clothes on a shelf in my closet."],
+  ["Spite","n","The desire to be mean.","He snuck into his sister's room and stole her bag out of spite."],
+  ["Super","adj","Really good.","My dad said I did a super job cleaning the house."],
+  ["Wet","adj","Has water on it.","Since my dog was wet, he tried to shake all the water off his body."]
+], story:{title:"Dinosaur Drawings", text:`It was the worst morning ever. When Carl woke up, he realized that he hadn't done his astronomy and chemistry homework. Also, the forecast called for rain and that would mean no baseball practice. Suddenly his mother interfered. "Take out the garbage right now!" When Carl returned from taking the garbage outside, he was all wet. "What a terrible day," he said. He walked to class. He put his umbrella on the shelf and sat in the third row. But the teacher asked why Carl's umbrella was on the floor. He told her not to blame him because it had fallen down. But she sent him to the principal anyway out of spite. Next, he took a geography test. Despite studying, Carl didn't know the answers. He started drawing patterns lightly on his paper. Carl drew a huge dinosaur. What if it were real? He saw it in his mind. Carl's friend said he was a genius for creating a dinosaur. Soon Carl's fame spread through school. He taught his dinosaur to be very gentle and exhibited it to the public. But admission would only be given to those who paid him a fee. His idea was super. "It's time to turn in your tests," the teacher said. Carl looked at his paper. As he was dreaming in class, he hadn't finished the test.`} },
+/*U12*/ { words:[
+  ["Abuse","n","To hurt someone or something on purpose.","The mean man abused his dog when it barked too loudly."],
+  ["Afford","v","To have enough money to pay for it.","I've been saving my money so I can afford to buy a new bike."],
+  ["Bake","v","To cook food in an oven.","My sister is a good cook; she bakes delicious cakes."],
+  ["Bean","n","A plant seed that is good to eat.","There are many different kinds of beans."],
+  ["Candle","n","A stick of wax that is lit on fire for light or heat.","When the lights went out, we lit some candles."],
+  ["Convert","v","To change it into something else.","The man converted his messy field into a garden of flowers."],
+  ["Debt","n","An amount of money that a person owes.","I have not paid my gas bill; I owe a debt to the gas company."],
+  ["Decrease","v","To make it less than it was before.","Hiring more police officers has decreased crime in the city."],
+  ["Fault","n","Responsibility for a mistake.","It is my fault that the cat ran away; I left the door open."],
+  ["Fund","n","An amount of money that people have.","We all put money into our club's fund."],
+  ["Generous","adj","Likes to give things to people.","The generous man donated several new computers to our school."],
+  ["Ingredient","n","Something that is part of a food dish.","The main ingredients in cake are eggs, sugar, and flour."],
+  ["Insist","v","To be firm in telling people what to do.","I insist that you try some of these cookies."],
+  ["Mess","n","A condition that is not clean or neat.","Heather's room was a complete mess."],
+  ["Metal","n","A strong material people use to build things.","Steel is a common metal that is used to build buildings."],
+  ["Monitor","v","To watch them closely.","The teacher monitors the students when they take tests."],
+  ["Oppose","v","To dislike it or act against it.","I want to be a police officer because I oppose crime."],
+  ["Passive","adj","Does not take action to solve problems.","Marcy is so passive that she never solves her own problems."],
+  ["Quantity","n","A certain amount of something.","I have a small quantity of milk in my glass."],
+  ["Sue","v","To take someone to court for some harmful action.","I sued the company after I slipped on a banana peel in their hallway."]
+], story:{title:"The Mean Chef", text:`Once there was a chef who was mean to his cooks. He was mean to the people who came in to eat. He charged too much for meals. Many people were not able to afford the cheapest bean dish. When his metal oven broke, he did not have it fixed so everything they tried to bake in it burned. The only light was from candles and the whole place was a mess. Sometimes he didn't pay his waiters. Since they had no funds, they had many debts. The chef behaved this way all the time. He monitored the cooks and got angry if they did not do things his way. One day the cooks decided that they were tired of the abuse and that they would not be passive anymore. Everyone opposed the chef. At first, they thought about suing him. Instead, they made him sit quietly while they controlled the restaurant. They decreased the price of food. They used the best ingredients and served large quantities of food. They repaired the equipment. They turned on the lights. The restaurant was converted into a happy place. For the first time, many people came to eat. The chef realized that the restaurant's problems were his fault. The chef learned an important lesson and now the generous chef insisted on giving the customers a free meal.`} },
+/*U13*/ { words:[
+  ["Adequate","adj","Good enough.","This is adequate for my needs."],
+  ["Anxiety","n","A feeling of worry and fear.","When I have to climb to high places, I'm filled with anxiety."],
+  ["Army","n","A large group of people who fight in wars.","The army protects all the people in the country."],
+  ["Billion","n","A very large number (1,000,000,000).","There are billions of stars in outer space."],
+  ["Carve","v","To cut into something.","My father usually carves the turkey for Thanksgiving."],
+  ["Consult","v","To ask someone for help.","I will consult my accountant to find a way to pay my bills."],
+  ["Emergency","n","A time when someone needs help right away.","There is a huge fire in my house; this is an emergency."],
+  ["Fortune","n","Things that happen but are not controlled by a person.","I have good fortune when I play cards."],
+  ["Guarantee","v","To promise firmly that something will happen or is true.","I guarantee that the sun will come up in the morning."],
+  ["Initial","adj","Shows that something is first.","The initial step when writing a paper is to find a good topic."],
+  ["Intense","adj","Very strong.","The skunk made an intense smell that filled the air."],
+  ["Lend","v","To give it to someone for a short time.","My sister lost her pen so I will lend her mine."],
+  ["Peak","n","The very top of a mountain.","There is snow on the peaks of those mountains."],
+  ["Potential","adj","Capable of being but not yet actual or real.","I've thought of some potential problems with your idea."],
+  ["Pride","n","A feeling of happiness about oneself or one's things.","I take pride in getting good grades."],
+  ["Proof","n","A fact that shows something is real.","They used his fingerprint for proof that he committed the crime."],
+  ["Quit","v","To stop doing it.","I quit running because I got tired."],
+  ["Spin","v","To turn around in circles.","The boy kept spinning until he fell down."],
+  ["Tiny","adj","Very small.","A baby's hand is tiny."],
+  ["Tutor","n","Someone who gives lessons to one student.","My sister is bad at math so my mother hired a tutor to help her."]
+], story:{title:"The Cat and the Fox", text:`One day, a cat climbed a mountain. When he reached the peak, he met a fox. They began talking about how to get away from their enemies. "I am very smart. I have the potential to think of billions of ideas. For instance, I can carve a tiny hole in a tree and then climb in," the fox said. He added, "I have a lot of friends. If I am in trouble, I can call them to lend their help. I can escape a whole army if I have to." Then the fox asked, "What are your plans?" The cat said, "I have only one plan: climb a tree." The fox said, "I hope you have good fortune then. However, one plan does not seem to be adequate. Do you want me to be your tutor? I can help you develop many new plans." The cat said, "I guarantee that my plan works every time. We can quit talking about it." Soon they saw a group of wolves. It was clearly an emergency and the time to put plans into action. The cat quickly followed her plan. She ran up a tree. The fox was so full of intense anxiety that he could not decide which plan to use. "What should my initial move be? Should I consult my friends?" All he could do was spin in a circle. The wolves caught the fox. The cat was full of pride. "This is proof that having one good plan is better than having many bad plans."`} },
+/*U14*/ { words:[
+  ["Apparent","adj","Clear or easy to see.","Her happiness was apparent from the smile on her face."],
+  ["Blind","adj","Cannot see.","The blind man didn't see the hole and almost fell in."],
+  ["Calculate","v","To find an answer using math.","I calculated how much money I would need to buy the car."],
+  ["Chat","v","To talk with someone.","Even though they were far apart, the couple chatted every day."],
+  ["Commit","v","To promise to do it.","Seth wanted to go home, but he had committed to finishing the job."],
+  ["Compose","v","To make it from smaller parts.","Tony composed his report using many sources of information."],
+  ["Dormitory","n","A school building where students live.","I will move into the dormitory at the beginning of the school year."],
+  ["Exhaust","v","To make that person tired.","John exhausted himself by swimming all day."],
+  ["Greenhouse","n","A small glass building used to grow plants.","We have a small greenhouse in our backyard where we grow plants."],
+  ["Ignore","v","To act like you do not see or hear it.","I ignored the message she was making and kept studying."],
+  ["Obvious","adj","Clear or easy to see.","It was obvious that he was tired; he kept falling asleep."],
+  ["Physics","n","A science that deals with energy and how it affects things.","In physics class, we used Newton's Cradle to learn about energy."],
+  ["Portion","n","A part of it.","I only ate a small portion of the pizza."],
+  ["Remind","v","To tell someone to remember to do something.","Nick's dad reminded him to do his homework."],
+  ["Secretary","n","A person who works in an office.","Rebecca asked her secretary to type a report."],
+  ["Severe","adj","Very bad or serious.","After hitting his hand with the hammer, Sam was in severe pain."],
+  ["Talent","n","A natural ability to do something well.","Maria has a talent for playing the piano."],
+  ["Thesis","n","An idea that needs to be proved.","She did not support her thesis very well."],
+  ["Uniform","n","A piece of clothing worn by people of the same group.","All the members of our marching band wear matching uniforms."],
+  ["Vision","n","The ability to see.","The eye doctor tested my vision."]
+], story:{title:"The Good Student", text:`Sue left her dormitory early that morning. She had even washed her uniform the night before. She wanted to look nice for the day. Sue was committed to learning and she had a talent for getting good grades. In fact, Sue didn't sleep much. She calculated, however, that she only had enough time for a few hours of sleep. She composed a paper and did some work on her thesis about the importance of greenhouses. She also studied for her physics test. Sue was already tired during the test. She felt sick. Her face got hot and her vision began to become unclear. She was blind for a moment. The teacher saw Sue's apparent problem. He wanted to send her to the nurse but she wouldn't go. Sue still had a portion of the test to finish. After that, Sue went to the nurse. After seeing the secretary, she waited a few minutes. Later, the nurse came in with a glass of juice and told Sue they needed to chat. "It is obvious that you have exhausted yourself," the nurse said. "If you keep working so hard, it could have severe results." "My parents tell me that all the time. I guess I shouldn't ignore them," Sue said. "You have to remind yourself that it is okay to rest," the nurse said. When Sue got back to her room, she went right to bed. She made sure she got enough rest every night after that.`} },
+/*U15*/ { words:[
+  ["Absorb","v","To take it inside.","He used a sponge to absorb the water on the floor."],
+  ["Boss","n","A person in charge of other people at work.","My boss is a nice person."],
+  ["Charitable","adj","An organization that aims to help people.","I give money each year to a charitable foundation."],
+  ["Committee","n","A group of people who meet together to make decisions.","The school's committee agreed on a new dress code for students."],
+  ["Contract","n","A written agreement between two people.","The woman signed a contract when she bought the house."],
+  ["Crew","n","A group of workers.","My father has a crew that helps him build houses."],
+  ["Devote","v","To spend a lot of time doing it.","She devoted her life to playing the piano."],
+  ["Dig","v","To make a hole in the ground.","He began to dig so he could hide his treasure."],
+  ["Dine","v","To eat dinner.","The young couple dined at their home."],
+  ["Donate","v","To give something to a charity or organization.","We donate money to charities every year."],
+  ["Double","adj","Twice as much or twice as many.","I paid almost double the amount for that shirt."],
+  ["Flavor","n","The taste of food or drinks.","The flavor of the ice cream was very good."],
+  ["Foundation","n","A group that provides money for research.","The foundation raised money to give scholarships to students."],
+  ["Generation","n","A group of people who live at the same time.","My grandparents are from a different generation than me."],
+  ["Handle","n","The part of an object people hold while using it.","The pot is very hot, so pick it up by the handle."],
+  ["Layer","n","Covers over something or is one of several pieces.","There was a layer of snow on the tops of the houses this morning."],
+  ["Mud","n","Soft wet dirt.","My brother played rugby in the mud; now he's dirty."],
+  ["Smooth","adj","Has no bumps or rough parts.","The baby's skin felt very smooth."],
+  ["Soil","n","The top layer of land on the Earth.","The boy planted flowers in the soil and watered them every day."],
+  ["Unique","adj","Not like others.","Her dog is unique; I've never seen one quite like it."]
+], story:{title:"The Lucky Knife", text:`Last year, I had a unique chance to work with my uncle, who has devoted his life to studying past generations. I was part of a crew of students he had hired. We signed a contract to work with him. He was the boss. We lived far from the nearest town and we dined on what we could find. Some of the things we ate had an unusual flavor. We had been there about a month and still hadn't found anything. One day, I began to dig in the soil. The layers of soil got wetter. Soon I was digging in the mud. My shovel began to get very heavy. It felt like it had doubled in weight because the ground had absorbed such a lot of water. Finally, I saw something in the mud. It was an old knife. The handle felt smooth in my hand. I lifted it up so I could see it better. There was writing on it. "It says it will bring good luck," my uncle said with a smile. The next day we found many more things. There were pots and tools. My uncle donated all of the things to a special committee of a charitable foundation. Many newspapers wrote stories about it. It seemed the knife really did bring good luck.`} },
+/*U16*/ { words:[
+  ["Academy","n","A special type of school.","There are many courses taught at the academy that I go to."],
+  ["Ancient","adj","Very old.","I want to see the ancient buildings in Rome."],
+  ["Board","n","A flat piece of wood.","The sign was made of a few wooden boards."],
+  ["Century","n","100 years.","Our company is celebrating a century of business in London."],
+  ["Clue","n","A fact or object that helps solve a mystery or crime.","The detective found some clues on the sidewalk."],
+  ["Concert","n","An event where you listen to people play music.","I enjoyed the concert last night; the band was very good."],
+  ["County","n","The largest division of a state in a country.","He wanted to represent the citizens of his county."],
+  ["Dictionary","n","A book that tells you what words mean.","I use the dictionary to learn new words."],
+  ["Exist","v","To be real.","Do you really think that unicorns ever existed?"],
+  ["Flat","adj","Level and smooth with no curved parts.","I bought a flat screen TV on the weekend."],
+  ["Gentleman","n","A nice man.","My grandfather is a kind and helpful gentleman."],
+  ["Hidden","adj","Not easily noticed or too hard to find.","The hidden camera recorded everything in the parking lot."],
+  ["Maybe","adv","Shows that something is possible or may be true.","If I focus hard enough, maybe I can come up with the right answer."],
+  ["Officer","n","A leader in the army.","The soldiers followed the orders of the officer."],
+  ["Original","adj","The first one of that thing.","This is the original painting of the Mona Lisa."],
+  ["Pound","v","To hit it many times with a lot of force.","He pounded the nail with the hammer."],
+  ["Process","n","The steps to take to do something.","Making a cake is a long process."],
+  ["Publish","v","To get it printed and ready to sell.","That company publishes daily newspapers."],
+  ["Theater","n","A building where you watch plays, shows, and movies.","We went to the theater to see a play."],
+  ["Wealth","n","The total of one's possessions.","One of the most important things for some people is wealth."]
+], story:{title:"Adams County's Gold", text:`Adams Academy was a good school. Boys lived there and took classes. Tom worked hard all week. On a spring Saturday, he wanted to do something fun. He asked his friend Jeff to go to the movie theater. "Sorry," Jeff answered, "I'm going to a concert." So Tom asked Joe to go to the movies, but Joe's soccer team had a game. Next, Tom went down the hall to Brad's room. Brad was reading a very large, old book. "Hi Brad," Tom said. "Are you reading a dictionary? It looks ancient." "No, this is called The Wealth of Adams County. It's about hidden gold in Adams County. It's more than a century old. It was published in 1870. Look, it even has the original cover on it." Tom asked, "Where did you get it?" "It's from my dad's friend. He is a nice gentleman, an officer in the army," answered Brad. "The gold doesn't really exist, does it?" Tom asked. "I don't know, but maybe there are clues in this book. Let's find it." Looking for gold sounded like fun. The first clue was to find a flat tree underground. "It must be in the forest," Tom said. Brad said the flat tree could be a board under the dirt. It could cover the gold. Tom and Brad dug in the dirt all morning. The process of looking for gold made them hungry. They were ready to stop for lunch, but then Brad hit something hard. It was a board. He pounded on the board until it broke. There was a small hole under it. "Look!" He held up a gold coin. Tom saw a piece of paper in the hole. "Brad, there's more! It's a map to the rest of the gold." Brad smiled. "Let's go!" And they hurried to find the wealth of Adams County.`} },
+/*U17*/ { words:[
+  ["Aim","n","A goal someone wants to make happen.","My aim is to finish this book by the end of the month."],
+  ["Attach","v","To put two things together.","I attached the socks to the clothesline to dry."],
+  ["Bet","v","To risk money on the result of a game or a business.","How much will you bet that your horse will win?"],
+  ["Carriage","n","A vehicle pulled by a horse.","We took a carriage ride in the park."],
+  ["Classic","adj","Something that is common from the past.","The athlete made a classic mistake; he started running too soon."],
+  ["Commute","v","To travel a long distance to get to work.","I usually commute to work on the train."],
+  ["Confirm","v","To make sure something is correct.","Winning the game confirmed that James was a good player."],
+  ["Criticize","v","To say bad things about someone or something.","He criticized his wife for spending too much money."],
+  ["Differ","v","To not be the same as another person or thing.","I differ from my brother; he is short while I am tall."],
+  ["Expense","n","The money that people spend on something.","She wrote down all the expenses for her trip."],
+  ["Formal","adj","Official or serious.","It was a formal dinner so we wore our best clothes."],
+  ["Height","n","How tall someone or something is.","My height is 168 centimeters."],
+  ["Invent","v","To create something that never existed before.","My grandfather has invented some interesting things."],
+  ["Junior","adj","Younger or less experienced.","When she started at the company, she was only a junior manager."],
+  ["Labor","n","The act of doing or making something.","Building the house took a lot of labor."],
+  ["Mechanic","n","Someone who fixes vehicles or machines.","We took the car to the mechanic to be fixed."],
+  ["Prime","adj","Shows that something is the most important one.","Dirty air is a prime cause of illness."],
+  ["Shift","v","To move into a different place or direction.","He shifted to the other side of the table to eat his breakfast."],
+  ["Signal","n","A sound or action that tells someone to do something.","The coach blew his whistle as a signal to begin the game."],
+  ["Sincere","adj","Honest, especially about emotions or opinions.","He sounded sincere when he apologized to me."]
+], story:{title:"Henry Ford's Famous Car", text:`My name is Henry Ford and I invented a car called the Model T. I used to watch carriages on the streets. They were very interesting. Then I got a job as a junior mechanic. My father criticized me; he wanted me to run the farm. When I shifted to Detroit, I worked for the Detroit Auto Company, but I wanted to make cars using less labor. That way, there would be fewer expenses. I started the Ford Motor Company in 1903. At first, the company did not do well, but many people were betting on my success. I also had a sincere aim to make a car that anybody could buy. Then in 1908, I introduced the Model T. It confirmed that I was right; it was possible to build a car my way. The Model T differed from other vehicles. Each worker would attach a different part to the car. This made their job easy to learn and saved a lot of time. One Model T could be put together in 93 minutes. All of them had the same classic design. They were all the same size and height. The prime reason for doing this was to save money. We had a formal ceremony to celebrate our success when the millionth car was made in our factory. Over 19 years, I sold more than 15 million Model Ts. This sent a signal to other companies. People would buy cars to commute to work if the price was low enough.`} },
+/*U18*/ { words:[
+  ["Ability","n","The quality of a person being able to do something well.","His swimming abilities let him cross the entire lake."],
+  ["Agriculture","n","Growing of plants and raising of animals for food.","The farmer studied agriculture in college."],
+  ["Cartoon","n","A funny drawing.","Sometimes people draw cartoons for the newspaper."],
+  ["Ceiling","n","The top of a room.","He painted the ceiling with a special roller."],
+  ["Convince","v","To make that person sure of something.","She convinced me to buy the house."],
+  ["Curious","adj","Wants to know about something.","I opened up the clock because I was curious about how it worked."],
+  ["Delay","v","To wait to do something.","I was delayed at the airport for over two hours."],
+  ["Diary","n","A book in which people write their personal experiences.","I do not let anybody read my diary."],
+  ["Element","n","A particular part of it.","Tackling an opponent is Johnny's favorite element of American football."],
+  ["Faith","n","Trust or belief without proof.","The sick girl had faith in doctors; she knew they would make her better."],
+  ["Grain","n","A food crop such as wheat, corn, rice, or oats.","The farmer planted two fields of grain this year."],
+  ["Greet","v","To meet and welcome that person.","When my friend came over, I greeted him at the door."],
+  ["Investigate","v","To search for something or learn about it.","The detective went to investigate the crime."],
+  ["Joy","n","A feeling of great happiness.","I love baseball; I feel joy when I play."],
+  ["Label","n","A tag that tells about something.","The label on the back of your shirt will tell you what size it is."],
+  ["Monk","n","A religious person who lives a simple life.","The monks knew a lot about religion."],
+  ["Odd","adj","Unusual.","Her cat is odd; it walks on two feet."],
+  ["Pause","v","To stop doing something for a while.","He paused for a moment before answering the question."],
+  ["Priest","n","A person trained to perform religious duties.","The priest taught us about God."],
+  ["Profession","n","A person's job.","He loved sailing, so he chose to work on ships as a profession."]
+], story:{title:"The Priest", text:`A young priest was always sad. He was good at his profession, but he still had no joy. He visited a group of monks. When he got to the monks' house, they greeted him and let him in. The monks asked the priest, "What is the matter?" The priest said, "I should be happy, but I am not. I don't know what to do." The wise monks paused for a minute, then one said, "We are convinced of your faith. You are a very good priest. But to find joy, you have to do more. Above all, investigate the elements of your life that you love." The priest thought that this answer was odd, but he was curious. The next day, the priest thought about his abilities. He got a few ideas and he did not want to delay any longer. He liked to draw, so he made some cartoons. He also liked to write, so he started a diary. He was interested in agriculture, so he planted some grain. He made jam from fruit. He made his own labels to put on the jars of jam. He painted his ceiling. The priest learned something: it is not too hard to be happy after all. All one has to do is find things one likes doing and do them.`} },
+/*U19*/ { words:[
+  ["Ball","n","A round object that is thrown, kicked, or hit in a game.","Seth bought a new soccer ball."],
+  ["Bottom","n","The lowest part, point or level of something.","Sarah is so tall that her feet can touch the bottom of the swimming pool."],
+  ["Company","n","A business or organization that makes or sells goods.","I want to work for a small software company."],
+  ["Drink","v","To take liquid into the body through the mouth.","The woman likes to drink water after she exercises."],
+  ["Few","adj","A small number of them.","I have only a few coins."],
+  ["Line","n","A row of people or things.","This is the longest line I have ever seen."],
+  ["Pet","n","An animal such as a cat or dog that people keep.","Tyler likes to spend time with his pet dog."],
+  ["Product","n","Something grown or made in a factory in order to be sold.","There's no room for even one more product in Melissa's bag."],
+  ["Responsible","adj","In charge of someone or something.","He is responsible for leading his department."],
+  ["Sell","v","To give something to someone in exchange for money.","His job is to sell houses."],
+  ["Snake","n","An animal with a long thin body and no legs.","Be careful of the snake in the tree."],
+  ["Stand","v","To use the legs and feet to hold the body upright.","Alan prefers to stand and work at his desk."],
+  ["Strange","adj","Unusual or surprising.","They are wearing strange masks."],
+  ["Tea","n","A drink made by pouring boiling water onto dried leaves.","Many people drink green tea because it has many health benefits."],
+  ["Test","v","To examine something to see if its quality is good.","His job is to test the electricity to make sure it works correctly."],
+  ["Tongue","n","The movable muscle inside the mouth used to speak, eat.","The cat uses its tongue to drink water."],
+  ["They","pron","Refers to two or more people or things.","They are playing a fun game."],
+  ["Type","n","A particular kind or group of things or people.","Tulips are a type of flower."],
+  ["Very","adv","Used to emphasize an adjective or adverb.","An elephant is a very big animal."],
+  ["Wait","v","To stay in a place until an expected event happens.","She has to wait for the airplane to arrive."]
+], story:{title:"Strange and Unusual Jobs", text:`Strange and unusual jobs are usually not popular. However, they pay well and may be a good option for people who want to do something fun and exciting for work. Here are a few strange and unusual jobs. A tea sampler is a person who drinks tea. Tea samplers have very good tongues. They must know all the different types of teas from around the world. It can take years to train for this job. This is not an office job as tea samplers travel around the world throughout the year. Another unusual but well-paying job is a professional line stander. For this job, a person stands in line for another person. Professional line standers are usually very busy during big sales such as Black Friday or the day a new smartphone comes out. During these sales, line standers can earn quite a lot of money. For example, one professional line stander waited in line for an iPhone 5 for 100 hours and earned $1,500. Pet food companies hire pet food tasters to test the taste and quality of their products. Pet food tasters normally taste dog food or cat food. After tasting the food, they usually spit it out. They need to know which products sell the best so they read and write many reports about pet food quality. Another unusual job is a golf ball diver. Golf ball divers are responsible for collecting golf balls that people have hit into ponds. This job is not as easy as it sounds. The divers wear wetsuits to dive to the bottom of a pond which is usually very dirty and dark. This job can also be dangerous because sometimes there are snakes in the ponds. There have also been cases of divers being bitten by alligators. If you're looking for a job out of the ordinary, figure out what your interest is and consider a strange or unusual job. You may have to wait for one, but it will be worth it.`} },
+/*U20*/ { words:[
+  ["Accomplish","v","To finish it.","He accomplished his goal of running 10 miles."],
+  ["Approve","v","You like or agree with that thing.","Her co-workers approved her new plan."],
+  ["Approximate","adj","Close to an exact amount, number, or time.","The approximate height is 2 meters."],
+  ["Barrier","n","Something that blocks a path or way.","The Great Wall was a barrier between China and its enemies."],
+  ["Detect","v","To notice or find something.","The boy ran to the kitchen when he detected the smell of cookies."],
+  ["Duty","n","Something that a person has to do.","It is parents' duty to take care of their children."],
+  ["Elementary","adj","The first or most simple thing.","Children go to elementary school before high school."],
+  ["Failure","n","Happens when something is not done right.","My cooking ended in failure because I burned the food."],
+  ["Gradual","adj","Happens slowly.","Children learn to read at a gradual pace; they do not learn right away."],
+  ["Immigrant","n","A person who moves to a different country.","My parents were immigrants; they came from Poland."],
+  ["Insert","v","To put it in something else.","He inserted an extra sentence into the story."],
+  ["Instant","n","A very short amount of time.","A microwave oven cooks food in an instant."],
+  ["Poverty","n","The state of being poor.","Poverty is a problem in many countries around the world."],
+  ["Pretend","v","To make believe something is real.","The boy liked to pretend he was a king."],
+  ["Rank","n","A person's place in an order of people.","The man got to the rank of Captain in the Navy."],
+  ["Recognition","n","The act of getting praise from other people.","The hero got recognition for his brave deed."],
+  ["Refrigerate","v","To make it cold.","Supermarkets refrigerate fruit to make it last long."],
+  ["Rent","n","The money people pay to live in a certain place.","To live in this house, I have to pay rent at the start of each month."],
+  ["Retire","v","To leave a job usually because of old age.","My father is 65 years old; he is about to retire from work."],
+  ["Statistic","n","A number that tells a fact about something.","The statistics showed that we did just as well this year as last year."]
+], story:{title:"Albert Einstein", text:`My name is Albert Einstein. Many people know about the great things I've accomplished, but I had many barriers to get through before I became famous. I was born in Germany. When I was in elementary school, I already knew about math and statistics. When I was a boy, I pretended to be a great scientist. I loved school, but my life at home was hard. My father lost his job, so my family lived in poverty. We could not pay the rent in Germany. We became immigrants and went to Italy. I finished high school and went to college in Switzerland. After college, I began writing about science. I did not reach success in an instant, though. At first, other scientists did not approve of my work. They thought I was a failure. Rising to the rank of an admired scientist was a gradual process. Soon, people started to notice that I was right. At last, I began to get some recognition. I showed how to find the approximate size of very big things like stars. I also detected and explained the motion of very small things like atoms. And for fun, I made a machine that could refrigerate food by inserting heat. I never retired. I felt it was my duty to keep working.`} },
+/*U21*/ { words:[
+  ["Accident","n","Unexpected and may cause some trouble.","He damaged the car in an accident."],
+  ["Astronaut","n","A person who goes into outer space.","The astronaut was walking on the moon."],
+  ["Awake","adj","Not asleep.","Sometimes I lay awake in bed because I am not tired."],
+  ["Courage","n","The feeling of not being afraid.","The man had the courage to touch the lion."],
+  ["Float","v","To move on top of water without sinking.","The boy's toy boat floated in the pool."],
+  ["Grant","v","To allow someone to have it.","The teacher granted us a break after studying hard all day."],
+  ["Gravity","n","The force that makes things fall to Earth.","There is no gravity in space."],
+  ["Jewel","n","A beautiful stone that is worth a lot of money.","A diamond is one of the most expensive jewels in the world."],
+  ["Miner","n","A person who works in a mine.","The miner was looking for gold."],
+  ["Mineral","n","A type of substance found in the Earth.","Rocks are made up of different kinds of minerals."],
+  ["Participate","v","To be active and do something.","The students participated in the school play."],
+  ["Permission","n","The act of allowing some action.","I have permission to drive my mom's car."],
+  ["Pour","v","To make it come out of a container.","I poured some milk into my sister's cup."],
+  ["Raw","adj","Natural and has not been processed.","The company dumped raw sewage into the river."],
+  ["Satellite","n","A machine sent into space to get information.","The satellite was traveling around the Earth."],
+  ["Scale","n","Its size, especially when it is very large.","I was surprised by the scale of the buildings in the downtown area."],
+  ["Skip","v","To not do it.","He skipped work to get more sleep."],
+  ["Stretch","v","To make your arms or legs reach out.","She stretched her body before exercising."],
+  ["Telescope","n","A tool people use to look at the stars.","With a telescope, you can see the moon and stars easily."],
+  ["Underground","adj","Happens below the surface of the Earth.","Subway trains travel underground."]
+], story:{title:"From the Earth to the Stars", text:`Jeremy was from a family of miners. Like them, he worked underground during the day. His job was to find raw minerals and jewels. Each night after work, he lay awake in an open field with his telescope. He looked at the stars. He was amazed by the scale of space. He wished someday he might travel there. One day, there was an accident in the mine. Water poured into the mine. Everything was dark. Jeremy stretched out and grabbed a piece of wood. It kept him from sinking. For a long time, he floated in silence. Then he heard voices. The other miners were coming to rescue him. This accident made Jeremy think about his job and his life. The next day, he skipped work and made a very important decision. He had the courage to follow his decision. He decided to become an astronaut. For the next two years, Jeremy studied and trained hard. He completed his training and one day he was given permission to participate in a journey to space. His wish had been granted. His spaceship left the ground. It went higher until there was no more gravity. Part of his job was to send out a satellite that would then float away from the spaceship. Now, instead of just looking at the stars, Jeremy could look at the Earth as well.`} },
+/*U22*/ { words:[
+  ["Alarm","n","Something that warns people of danger.","When the students heard the fire alarm, they left the building."],
+  ["Arrest","v","To catch that person for doing something bad.","The man was arrested for breaking the law."],
+  ["Award","n","A prize for doing something well.","He got an award for having the best grades in class."],
+  ["Breed","n","A group of animals within a species.","I like small dog breeds such as Terriers."],
+  ["Bucket","n","A round container to put things in.","I filled the bucket with water."],
+  ["Contest","n","A game or a race.","The girls had a contest to see who could jump higher."],
+  ["Convict","v","To prove that someone did a bad thing.","He was convicted of the crime and sent to jail."],
+  ["Festival","n","An event held to celebrate a particular thing.","I heard the song at the music festival in London."],
+  ["Garage","n","The part of a house where people put their cars.","My car does not get dirty because I keep it in the garage."],
+  ["Journalist","n","A person who writes news stories.","The journalist took notes for a story he was writing."],
+  ["Pup","n","A young dog.","All the girl wanted for her birthday was a pup."],
+  ["Qualify","v","To have or do things that are needed for something.","He qualified to go to the final match by beating the opponent."],
+  ["Repair","v","To fix it.","I repaired the flat tire on my car."],
+  ["Resume","v","To start it again after taking a break.","I put the newspaper down to eat breakfast then I resumed reading."],
+  ["Rob","v","To take property by using force.","A thief has robbed me of my passport."],
+  ["Slip","v","To slide and fall down.","The man slipped on the wet floor."],
+  ["Somewhat","adv","To some degree but not to a large degree.","James was somewhat upset when he had to move heavy boxes."],
+  ["Stable","adj","Will not move, change, or fall over.","The chair is stable; its legs are strong."],
+  ["Tissue","n","A soft piece of paper people use to wipe their noses.","There was a box of tissue on the table."],
+  ["Yard","n","The ground just outside of a house.","The girls jumped rope in the yard."]
+], story:{title:"The Farm Festival", text:`Once there was a farm. Many animals lived there. One day they had a contest in the yard. They were going to race from the barn to the farmer's garage. The barn and the garage were far apart; it would be a long race. The winner qualified to win a bag full of apples as an award. But the race did not start well. The cart with all the apples was not stable and the animals had to repair it. Then the pup knocked over the apples. The pig said, "We are going to slip. We must clean up this mess." The pup felt bad and she began to cry. The dog gave her a tissue to dry her tears. Then the race resumed. But the duck tried to rob them and take all the apples. The cat said, "I will have you arrested." The duck said, "You can't convict me. You can't prove I took them." The race stopped yet again. The animals tried to race one more time. Then they heard an alarm coming from the barn. There was a fire. They got buckets of water to put out the fire. A journalist came to write a story about the festival and the race. The horse told her, "I am a special breed of horse. I would have won the race easily." The pig said, "It was somewhat hard to have the race, but we had fun. That is what's important."`} },
+/*U23*/ { words:[
+  ["Best","adj","Better than all the others.","I got the best score on the math test."],
+  ["Card","n","A small piece of plastic or paper used to buy things.","He used his library card to borrow a book."],
+  ["Crowd","n","A large group of people who are together in one place.","The crowd waved to the camera."],
+  ["Day","n","A period of 24 hours beginning at midnight.","There are two more days until the weekend."],
+  ["Dish","n","A type of food that is cooked in a particular way.","My favorite dish at the restaurant is chicken curry."],
+  ["Easy","adj","Not difficult to do.","Karen is happy because her English homework is easy."],
+  ["Experience","v","To do or see something or have something happen.","Going to the concert was the best thing I have ever experienced."],
+  ["Hotel","n","A place where people stay overnight when traveling.","This family is staying at their favorite hotel."],
+  ["Hour","n","60 minutes.","The man waited for the train for over an hour."],
+  ["Light","n","A form of energy or brightness.","I will turn on the light so that you can see."],
+  ["Market","n","A place where people buy and sell products or foods.","I go to the market every weekend to buy vegetables."],
+  ["Plan","v","To arrange the details of something you want to do.","It's Sam's turn to plan the company party."],
+  ["Price","n","The amount of money needed to pay for something.","Julie is checking the price of a sweater."],
+  ["Short","adj","Not long or not tall.","The days are short in the winter."],
+  ["Shop","v","To visit places where goods are sold in order to buy.","Tom decided to shop for groceries on his way home."],
+  ["Station","n","A place where buses and trains stop for passengers.","This man is waiting at the train station."],
+  ["Surprise","v","To cause something that is unexpected.","His parents decided to surprise him with a puppy."],
+  ["System","n","A group of related parts that move or work together.","This device controls the building's heating system."],
+  ["Taxi","n","A car and driver that you pay to take you somewhere.","Gary drives a taxi, so he knows the roads very well."],
+  ["Two","adj","The word for the number 2.","Two friends studied together at the coffee shop."]
+], story:{title:"48 Hours in Hong Kong", text:`48 hours in Hong Kong may sound like a short visit, but it will surprise you how much you can see and do. The best way to get the most out of your trip is to plan in advance. Hong Kong has a great public transportation system that is easy to use. The system is called the MTR, which includes the Metro, trains, and buses. You can get a card called the Octopus card at a metro station and use it to travel around. Taxis are another way to get around Hong Kong. Not only are there many taxis everywhere, but they are also quite cheap compared to taxis in other large cities. On the first day of your trip, go up Victoria Peak. At the top of the mountain, you will see beautiful city views. Then have dim sum for lunch. Dim sum consists of many different dishes. It is a great way to taste a little bit of everything. In the afternoon, take the Star Ferry from Hong Kong Island and cruise across Victoria Harbor to Kowloon. There are many markets in this area. Temple Market and Ladies Market are very popular. At 8:00 PM, join the crowd that is watching the Symphony of Lights, which is a 15-minute light show around Hong Kong's tall buildings. On the second day of your trip, spend your time shopping at one of Hong Kong's many malls such as IFC or Times Square. You can also shop at smaller stores in SoHo and Sheung Wan as well. Unlike the markets, the prices are set so you cannot change them. After shopping, try an order of roast goose, which is similar to roast duck. Roast goose is a special dish in Hong Kong. If you want to experience Hong Kong's nightlife, head to Lan Kwai Fong. If not, go back to your hotel for a good night's rest. With careful planning, you can do a lot in just two days in Hong Kong.`} },
+/*U24*/ { words:[
+  ["Bath","n","The act of sitting in a tub of water to get clean.","After playing in the dirt, the boy took a bath."],
+  ["Bend","v","To move something so it is not straight.","Lee bent over and picked up the paper on the ground."],
+  ["Chew","v","To break up food by using the mouth and teeth.","I always chew my food carefully before swallowing it."],
+  ["Disabled","adj","Has a physical problem making activities difficult.","The disabled man used a wheelchair to move around."],
+  ["Fantastic","adj","Really good.","The student did a fantastic job on his project and got an award."],
+  ["Fiction","n","A story that is not true.","I enjoy reading works of fiction because they are very entertaining."],
+  ["Flag","n","A piece of colored cloth that represents something.","Our country has a beautiful flag."],
+  ["Inspect","v","To look at something carefully.","The mechanic inspected our car to see if it had any problems."],
+  ["Journal","n","A magazine that deals with an academic subject.","Mi-young was busy working on an article for an art journal."],
+  ["Liquid","n","A substance that is neither solid nor gas.","Water is the most important liquid for life."],
+  ["Marvel","v","To feel surprised and interest in it.","We marveled at her excellent piano playing."],
+  ["Overcome","v","To successfully fix a problem.","She overcame her shyness and spoke in front of the class."],
+  ["Recall","v","To remember it.","She was trying to recall what she had told her friend."],
+  ["Regret","v","To wish that it hadn't happened.","I regret that I was mean to my sister."],
+  ["Soul","n","A person's spirit.","Some people believe that the soul lives after the body dies."],
+  ["Sufficient","adj","Enough in quality or quantity.","After eating a sufficient amount of food, I left the table."],
+  ["Surgery","n","Medical treatment involving a doctor cutting into a body.","I needed surgery to repair my leg after the accident."],
+  ["Tough","adj","Difficult.","The man passed his driving test even though it was very tough."],
+  ["Tube","n","A pipe through which water or air passes.","The pile of tubes was going to be put in the ground."],
+  ["Value","n","What it is worth.","Your love for me has greater value than gold."]
+], story:{title:"The Doctor's Cure", text:`James Fry was a fantastic doctor. His surgery helped many disabled people overcome their problems. He also wrote for a popular doctor's journal. James was very busy. His son Steve rarely saw him. One day James was walking and inspecting a patient's file. There was water all over the floor. James slipped on the liquid and fell. He fell on a broken glass tube. He was hurt. Steve came to visit him in the hospital. James said, "It will be tough for me to stay in bed but I can hardly bend my legs." "Then let's watch a movie," Steve said. It made them laugh together. Steve said, "I have to leave but here's some fiction to read." James started to recall fun parts of life. He marveled at small things like food. He was too busy to notice them before. "Steve," he said, "you get more food value when you chew slowly, but I think it makes food taste better too." Weeks later, James said, "Steve, I haven't spent enough time with you. I regret this. Even my soul feels better when you visit. But I have spent sufficient time here. We should go home." Outside, there was a warm breeze. James watched a flag blow. Finally, James said, "I'm still not ready to work. I'm going to take a long bath and then we'll watch a movie together. I'll start work tomorrow and this time I will not work too hard."`} },
+/*U25*/ { words:[
+  ["Atom","n","The smallest unit of a substance.","A molecule consists of a combination of two or more atoms."],
+  ["Beautiful","adj","Good to look at.","There was a beautiful sunset."],
+  ["Breadth","n","The distance from one side to the other side.","The breadth of the northern wall of the house is 20 meters."],
+  ["Comet","n","An object in space made of ice and rock with a tail.","Comets take many decades to complete an orbit around a star."],
+  ["Cover","v","To put things over it.","The Earth was covered with clouds."],
+  ["Despair","n","The feeling of having no hope.","After we lost the big account, our salespeople were filled with despair."],
+  ["Form","v","To make or to shape something.","They formed a new government."],
+  ["Fragment","n","A small part of something.","After the light broke, there were fragments of glass to clean up."],
+  ["Galaxy","n","An extremely large collection of star systems.","Our solar system is located in the outer area of our galaxy."],
+  ["Gloom","n","A state of almost complete darkness or sadness.","It was difficult to see the boat on the lake through the gloom of the morning."],
+  ["Large","adj","Very big.","I was frightened by a large bird."],
+  ["Moon","n","An object that travels around our Earth.","The moon looked bright."],
+  ["Radiate","v","To send out energy or heat.","The heat from the fireplace radiated throughout the room."],
+  ["Roam","v","To move around without a plan or purpose.","All day the cows roamed around the field eating grass."],
+  ["Solitary","adj","Lonely or the only one.","The only thing in the room was a solitary chair."],
+  ["Spectrum","n","The full range of color ranging from red to violet.","You can see the entire spectrum in a rainbow."],
+  ["Sphere","n","A three-dimensional round shape like a ball.","The balloons were inflated into a variety of colorful spheres."],
+  ["Star","n","A bright shining thing in the night sky.","The stars come out at night."],
+  ["Status","n","The position of something or someone in relation to others.","She had a high status."],
+  ["Ugly","adj","Not good to look at.","It was an ugly sight."]
+], story:{title:"How the Comet Got His Tail", text:`A solitary rock roamed through the cold gloom of space. It slowly moved through space with a feeling of sadness. In the large and beautiful galaxy, it was only a tiny rock. It felt as small as an atom. On its journeys, it encountered many amazing objects. It flew by beautiful moons that were covered with dust. "Why can't I be as beautiful as them?" it thought. The rock passed a large planet. The sphere was hundreds of times larger than the breadth of the small rock. "Why can't I be as large as that?" it wondered. The rock was filled with despair. It was surrounded by beauty and greatness, yet it was just a small and ugly fragment of rock. One day, it approached the area of a bright star. "What's wrong?" the star asked. "Oh, I wish I had a higher status in the galaxy. All the other objects are so beautiful and large," the rock replied. "But I'm just an ugly rock." The star considered the problem. At last, it said, "You don't have to worry anymore. I think I can help." The star radiated its light brighter and hotter than it had ever done before. "Come a little closer," the star said to the rock. The rock drifted closer to the star. Suddenly, the ice that was in the rock's tiny holes melted and became gas. Then the gas came out behind the comet to form a brilliant tail. The tail shone with all the colors of the spectrum. The little rock had become a beautiful comet. It looked so amazing. It realized that the star helped it change its appearance. "Thank you," the comet said, and then flew away with its new beautiful tail following behind it like a giant cape.`} },
+/*U26*/ { words:[
+  ["Accuse","v","To blame them for doing it.","She accused her brother of breaking her computer."],
+  ["Adjust","v","To change it so it is better.","He adjusted the old guitar to make it sound better."],
+  ["Amuse","v","To do something that is funny or entertaining.","The singer was very good; she amused the crowd."],
+  ["Coral","n","Hard colorful material formed by shells of animals.","The diver admired the beautiful coral under the water."],
+  ["Cotton","n","A cloth made from the fibers of the cotton plant.","I like to wear clothes made from cotton in the summer."],
+  ["Crash","v","To hit and break something.","There was a loud noise when the car crashed into the tree."],
+  ["Deck","n","A wooden floor outside of a house or floor of a ship.","A ship will store many supplies below its deck."],
+  ["Engage","v","To do it.","Dad was engaged in sawing a piece of wood in half."],
+  ["Firm","adj","Solid but not too hard.","He sleeps better on a firm bed."],
+  ["Fuel","n","Something that creates heat or energy.","Wood is the fuel that burns to make heat in this fire."],
+  ["Grand","adj","Big and liked by people.","The grand mountain rose high into the sky."],
+  ["Hurricane","n","A bad storm that happens over the ocean.","The wind from the hurricane blew hard."],
+  ["Loss","n","The act or instance of losing something.","He suffered a big loss while gambling."],
+  ["Plain","adj","Simple and not decorated.","He bought a pair of plain white shoes over the weekend."],
+  ["Reef","n","A group of rocks or coral in the ocean.","He walked along the reef and looked at the water below."],
+  ["Shut","v","To close it tightly.","Please shut the door; the air outside is cold."],
+  ["Strict","adj","Makes sure others follow rules.","The teacher is strict; she does not let students talk in class."],
+  ["Surf","v","To use a special board to ride on waves in the ocean.","The students went to the beach to surf during the break."],
+  ["Task","n","A piece of work to be done that is usually difficult.","My task for the weekend was to clean the entire backyard."],
+  ["Zone","n","An area that has different qualities from others.","Firefighters often work in danger zones."]
+], story:{title:"The Two Captains", text:`Once there were two ships. Both ships carried cotton. The captains were very different. Thomas was strict. He made his crew engage in difficult tasks and he kept firm control of his ship and men. His ship's deck was always clean and working well, and he sailed carefully to use less fuel. His ship was very plain, but he never had a problem with it. The second captain, William, was not so serious. He had a grand ship and he loved having fun. When they stopped at islands, his crew amused themselves by going surfing or diving on the reef. They gave more time to these things than to taking care of the ship. One day Thomas saw a hurricane ahead. He knew that his ship needed to turn around, but he was sure William did not see the storm. He adjusted the dials on the radio and called his friend to tell him how to avoid the danger zone. But William's radio was not working so it was not possible to contact him. When William's ship got to the hurricane, the wind blew it into the reef. William tried to shut the door, but the ship had already crashed into the coral and there was a lot of damage. William's crew then accused him of being a bad captain. The loss of the ship taught William a lesson and he then really understood the value of keeping equipment working well.`} },
+/*U27*/ { words:[
+  ["Apology","n","What people say to show they are sorry.","After arguing with her teacher, the girl wrote the teacher an apology."],
+  ["Bold","adj","Not afraid of doing something.","The bold man climbed the high mountain."],
+  ["Bug","n","A small insect.","Birds like eating bugs."],
+  ["Capture","v","To catch and hold it.","James tried to capture the bubbles in his hands."],
+  ["Duke","n","A man of high social rank below a king.","The Duke ruled over the land."],
+  ["Expose","v","To make known something that is hidden.","He took off his shirt to expose his costume."],
+  ["Guilty","adj","Feel bad for something they did.","I felt guilty for taking my sister's cookies."],
+  ["Hire","v","To pay that person money to work for you.","We hired a man to paint our house."],
+  ["Innocent","adj","Not guilty of a crime.","The judge said that the woman was innocent of the crime."],
+  ["Language","n","A system of communication.","The reporters spoke a language Sally had never heard before."],
+  ["Minister","n","An important person in government with many duties.","The minister of education controls the country's schools."],
+  ["Ordinary","adj","Normal or not special in any way.","Today was just an ordinary day; nothing unusual happened."],
+  ["Permanent","adj","Lasts for a long time or forever.","We don't know if Aunt Mildred's visit will be a permanent one."],
+  ["Preserve","v","To protect something from harm.","Dad sprayed a chemical on the house to help preserve the walls."],
+  ["Pronounce","v","To say the sounds of letters or words.","Young children often have trouble pronouncing words right."],
+  ["Resemble","v","To look like that person.","The baby really resembles his father."],
+  ["Symptom","n","A sign that a bad condition is happening.","Sneezing and a high fever are symptoms of the common cold."],
+  ["Tobacco","n","A plant whose leaves are smoked.","The tobacco in cigarettes is bad for you."],
+  ["Twin","n","Two children born at the same time.","My sister and I are twins; we look exactly the same."],
+  ["Witch","n","A woman with magical powers.","People think that witches fly around on broomsticks."]
+], story:{title:"The Duke and the Minister", text:`A mean Duke grew tobacco. The Duke's top minister was his twin brother. They resembled each other a lot. One day the tobacco plants started to die. The Duke hired men to watch the fields so they could see who was damaging the plants. Soon the men brought a woman to him and said, "We captured a witch." The Duke asked, "How do you know?" "She's saying magic words; I can't pronounce them. She has cursed us. The death of the plants is a symptom of her curse," the men said. "I am just an ordinary woman. I was singing a song in a different language," the woman said. The Duke didn't listen. "You are guilty! You will go to jail," he said. The minister thought that she was innocent. He needed to expose the truth. The minister went to find out what was happening to the plants. He saw hundreds of small bugs eating them. Then the minister went to the jail and did something bold. "Let this woman go," he said. The guards thought he was the Duke. They let her go. The minister said to the woman, "I owe you an apology." "Thank you. I thought my stay in jail would be permanent," the woman answered. The minister thought the Duke would punish him, but he didn't. The Duke was too busy trying to preserve his plants.`} },
+/*U28*/ { words:[
+  ["Accompany","v","To join them or go with them.","My brother is accompanying me to the movie."],
+  ["Bare","adj","Plain and not covered.","He likes to walk around in his bare feet."],
+  ["Branch","n","The part of a tree with leaves.","The monkey was hanging from a branch on the tree."],
+  ["Breath","n","The air that goes into and out of one's lungs.","You can't take a breath underwater."],
+  ["Bridge","n","Built over a river so people can cross it.","The old bridge fell into the river."],
+  ["Cast","v","To throw it.","The fisherman cast his line into the water."],
+  ["Dare","v","To be brave enough to try something.","He dared to jump out of the airplane and skydive."],
+  ["Electronic","adj","Uses electricity to work.","I like having electronic devices such as an MP3 player."],
+  ["Inn","n","A place where travelers can rest and eat.","The visitor got a room at the inn."],
+  ["Net","n","A bag made of strong thread used to catch animals.","The boy caught butterflies in his net."],
+  ["Philosophy","n","A way to think about truth and life.","My philosophy is 'live and let live.'"],
+  ["Pot","n","A deep round metal container used for cooking.","Don't touch the pot on the stove; it's hot."],
+  ["Seed","n","The hard part of a plant from which trees grow.","I planted the seed in the dirt hoping that it would grow into a tree."],
+  ["Sharp","adj","Has a thin edge that cuts things easily.","That knife is very sharp; be careful not to hurt yourself."],
+  ["Sort","n","A type of something.","What sort of instrument do you want to learn to play?"],
+  ["Subtract","v","To take something away.","We learned how to subtract numbers in class."],
+  ["Tight","adj","Hard to move because it is firmly in place.","The knots were too tight to untie."],
+  ["Virtual","adj","Very close to being true or accurate.","Because he's popular, Joe is the virtual leader of the group."],
+  ["Weigh","v","To measure how heavy it is.","The little dog weighed exactly three kilograms."],
+  ["Whisper","v","To say very quietly.","We have to whisper in the library so people can focus on reading."]
+], story:{title:"The Fisherman", text:`Every day, a fisherman sat on a bridge. He ate apples and spat the seeds into the water. He had a simple way to catch fish. He cut a branch off a tree and tied a line to it. He put a sharp hook on the line and made a tight knot. Then he whispered, "Come here, fish." Like magic, the fish bit the hook. He put them in a big net and took them home to make big pots of fish soup from them. One day, another man walked up to him. He said, "My name is George. I am staying at the inn. I bet that I am a better fisherman than you. I will accompany you today. I dare you to prove your skill." The fisherman cast his line. George had a lot of electronic tools. One machine gave him the virtual locations of fish. Another machine weighed fish. At the end of the day, George subtracted his fish from the fisherman's. The fisherman had beaten him by 47. George asked, "How do you catch fish with only a branch and a bare line? I have many different sorts of tools." The fisherman told George, "My philosophy is simple. I am patient and I believe in myself. Take a deep breath and try it my way."`} },
+/*U29*/ { words:[
+  ["Abstract","adj","An idea or thought, not a physical thing.","The idea of beauty is abstract and changes over time."],
+  ["Annual","adj","Happens once a year.","The only time I see my aunts and uncles is at our annual family picnic."],
+  ["Clay","n","A type of heavy wet soil used to make pots.","She made a bowl out of the clay."],
+  ["Cloth","n","Material used to make clothes.","His shirt is made of a very soft type of cloth."],
+  ["Curtain","n","Cloth hung over a window or used to divide a room.","She opened the curtains to let light into the room."],
+  ["Deserve","v","To be worthy of something.","The dog deserved a bone for behaving very well."],
+  ["Feather","n","Covering a bird's body.","That bird has orange feathers on its chest."],
+  ["Fertile","adj","Able to produce good crops and plants.","The farmer grew many vegetables in the fertile soil."],
+  ["Flood","n","An event in which water covers a dry area.","After three days of rain, there was a flood in the city."],
+  ["Furniture","n","Things used in a house such as tables and chairs.","His living room only had a few simple pieces of furniture."],
+  ["Grave","n","The place where a dead person is buried.","We visit our grandfather's grave each year."],
+  ["Ideal","adj","The best that it can possibly be.","This house is an ideal place for my family; it has everything we need."],
+  ["Intelligence","n","The ability to learn and understand things.","Because of his high intelligence, he finished school early."],
+  ["Obtain","v","To get something you want or need.","After I passed the test, I obtained my driver's license."],
+  ["Religious","adj","Related to or about religion.","The holy man spoke about religious topics."],
+  ["Romantic","adj","Related to or about love.","The young couple went to see a romantic movie."],
+  ["Shell","n","Hard covering protecting the body of sea creatures.","There were many pretty shells on the beach."],
+  ["Shore","n","The edge of a large body of water.","All of the boats were floating near the shore."],
+  ["Wheel","n","A round thing on a vehicle that turns.","A car has four wheels."],
+  ["Wooden","adj","Made of wood.","My mother gave me a wooden spoon."]
+], story:{title:"Isis and the Nile", text:`Long ago, Osiris was the king of Egypt and Isis was the queen. They controlled the fertile land by the Nile River. They were not only interested in everyday things; because of their intelligence, they explored abstract ideas as well. Osiris taught the Egyptians how to make wheels and furniture. Isis taught them how to make things from clay and cloth. The people thought the king and queen deserved a gift, so they built Osiris and Isis a pyramid. Everyone loved Osiris except his brother, Seth. Seth wanted to be king. Osiris made his annual trip around Egypt and led religious events. The people gave him beautiful shells and colorful feathers as gifts. When Osiris returned, Seth brought a beautiful wooden box from behind a curtain. "If someone fits inside this box, I will give it to him or her," Seth said. Osiris got in it. It was an ideal fit. Suddenly, Seth closed the box and threw it into the river. "Now I will be king," said Seth. The box washed up on a foreign shore. After a flood, Isis brought his body home and obtained a grave for him in Egypt. The Egyptian gods thought Isis had done something very romantic. Because of this love, the gods made Osiris the god of the underworld, and Osiris returned every spring to help the farmers. Even nowadays, people say Osiris keeps their crops alive.`} },
+/*U30*/ { words:[
+  ["Appliance","n","Equipment used for jobs in the home.","Many homes have appliances like ovens, toasters, and refrigerators."],
+  ["Basin","n","A large bowl for washing things.","She filled the basin with water and washed her face."],
+  ["Broom","n","Brush with a long handle used for cleaning floors.","My father uses a broom to sweep away dust in the basement."],
+  ["Caterpillar","n","Small insect that looks like a worm.","After eating a lot of leaves, caterpillars change into butterflies."],
+  ["Cupboard","n","Furniture used to store food or household items.","We put all of our dishes and food in the cupboards."],
+  ["Delicate","adj","Easy to break or harm.","You should hold the baby carefully because she's very delicate."],
+  ["Emerge","v","To come out of it.","A groundhog emerged from a snow-covered hole."],
+  ["Handicap","n","A condition limiting mental or physical abilities.","Joe has a slight handicap so he uses a walker to get around."],
+  ["Hole","n","A hollow space in something solid.","They made a big hole in the wall."],
+  ["Hook","n","Sharp curved piece of metal for catching or holding.","The fish went after the sharp hook."],
+  ["Hop","v","To jump a short distance.","The kangaroo quickly hopped away from danger."],
+  ["Laundry","n","Clothes that need to be or have been washed.","He folded the clean laundry and put the dirty laundry in a basket."],
+  ["Pursue","v","To chase or follow someone or something.","The mother pursued her young child down the hill."],
+  ["Reluctant","adj","Not wanting to do something.","She was reluctant to say that she saw the robbery."],
+  ["Sleeve","n","The part of a shirt in which arms go.","Ryan bought a new shirt with long sleeves to keep his arms warm."],
+  ["Spine","n","Group of bones running up and down the middle of the back.","Our spine helps us to stand up nice and straight."],
+  ["Stain","n","A dirty mark that is difficult to clean.","He had a red stain on the collar of his shirt."],
+  ["Strip","n","A long narrow piece of material or land.","He had long strips of film that held images of his trip abroad."],
+  ["Swear","v","To promise to do something.","I will put my hand on the Bible and swear to do my best for the country."],
+  ["Swing","v","To move it back and forth or from side to side.","He can swing a golf club very powerfully."]
+], story:{title:"The Kitten and the Caterpillar", text:`Katie the kitten liked to play. One day Corey the caterpillar emerged from a hole in the wall while Katie was playing in the living room. "Hey," Katie said, "do you want to play with me?" Corey was reluctant. He said, "I'd rather not play with you. I have several handicaps. My body is very delicate. Your claws are as sharp as hooks; you might cut me. Plus, I have no bones, not even a spine. You could easily hurt me." "I swear that I won't hurt you," Katie said. "No, I don't want to," he said again. He hopped from the wall but Katie pursued him. Corey ran into the kitchen and into the cupboard, but Katie ran right behind. Katie knocked appliances to the floor. Plates fell into the sink and broke in the basin. Then Corey ran into a bedroom. Some laundry was on the floor. Corey hid under a shirt, but Katie saw him. She jumped on the shirt. Her paws left stains on it and her claws tore the sleeves into strips. However, Corey escaped. He used a small hole in the floor to hide, but Katie saw him. "Now you are caught," said Katie. Corey tried to avoid Katie's claws. He moved his body as far into the hole as possible. He didn't know how he'd get out of the hole. Just then, Katie's owner came home. She saw that the house was a mess. She took a broom and swung it at Katie. She chased Katie out of the house. Corey was safe and Katie was left outside because she didn't listen to the wishes of others.`} }
+];
+
+
+const AR1 = [
+["يوافق","كحول","يصل","أغسطس","قارب","فطور","كاميرا","عاصمة","يُمسك","بطة","يستمتع","يدعو","يحب","شهر","يسافر","معتاد/نموذجي","يزور","طقس","أسبوع","نبيذ"],
+["مغامرة","يقترب","بحذر","مادة كيميائية","يبتكر","شرير","تجربة","يقتل","مختبر","ضحكة","صاخب","متوتر","ضوضاء","مشروع","يخيف","سر","يصرخ","يشم","فظيع","أسوأ"],
+["كائن فضائي","بين/وسط","مخطط","سحابة","يصف","على الإطلاق","يفشل","درجة","بدلاً من","مكتبة","صورة","كوكب","تقرير","عدة","شكل","يحل","فجأة","يفترض","يفهم","ينظر/يشاهد"],
+["مناسب","يتجنب","يتصرف","هادئ","قلق/اهتمام","راضٍ","يتوقع","بشكل متكرر","عادة","يوجّه/يعلّم","قضية","لا شيء","صبور","إيجابي","يعاقب","يمثّل","يهزّ","ينشر/يفرد","يتمشى","قرية"],
+["نشيط","بالغ","عمر","سيء","توازن","دراجة","يختار","طبيب","خلال","كرة القدم الأمريكية","ممتع","لعبة","قلب","الغولف","يزيد","حياة","كيلومتر","غالباً","الكثير","وزن"],
+["منفصل/متباعد","سمة","ثنائي اللغة","كلياً","يندفع بسرعة","اشمئزاز","عصري","أجنبي","فجوة/خليج","مرآة","طبيعي","في هذه الأيام","مشارك","طقس/عادة","منطوق","رياضة","متفاجئ","متوتر","تماماً","غامض"],
+["يسمح","يعلن","بجانب","تحدٍّ","يدّعي","حالة","يساهم","فرق","يقسّم","خبير","مشهور","قوة","يؤذي/ضرر","يضع","سلام","أمير","يحمي","يستشعر","مفاجئ","لذلك"],
+["يقبل","يرتّب","يحضر","يطارد","تباين","يشجّع","مألوف","يمسك بسرعة","يعلّق","ضخم","ضروري","نمط","يقترح","غرض/هدف","يطلق/يحرر","يتطلّب","راضٍ","واحد فقط","يمزّق","نظرية"],
+["حيوان","حافلة","قطة","أمر","يعتمد على","كلب","باب","صديق","يسمع","يساعد","حصان","مستشفى","رجل/ساق","طبي","يفتح","يسحب","أرنب","مدرسة","يرى","خدمة"],
+["فائدة","متأكد","فرصة","تأثير","أساسي/ضروري","بعيد","يركّز","وظيفة","عشب","يحرس","صورة","فوري","أساسي/رئيسي","فخور","يبقى","يستريح","منفصل","موقع","ذيل","مشكلة"],
+["يعلن/يروّج","مدرك/واعٍ","بطارية","أسود","مدينة","ينظّف","بلد","يطوّر","كهربائي","في النهاية","حقيقة","زجاج","تاريخ","الطبيعة","أبداً","أناس","بلاستيك","مشكلة","شارع","يفكّر"],
+["وحيداً","شقة","مقال","فنان","موقف/نظرة","جمال","يقارن","يحكم على","مجلة","مادة/خامة","وجبة","طريقة","جار","محترف","ربح","جودة","مساحة","درج","رمز","نحيف"],
+["محاسبة","يستهوي/يجذب","يفترض","يستعير/يقترض","عميل","وسط المدينة","ممل","يُحرج","أجرة","سابق","يؤسّس","يستثمر","قرض","عملي","ربع","راتب","منحة دراسية","مؤقت","كنز","يحثّ"],
+["مدرّب","يتحكّم","وصف","مباشر","اختبار","مثال","حدّ","محلي","سحري","بريد","رواية","مخطط/مسودة","شاعر","يطبع","مشهد","ورقة","سخيف/تافه","متجر","يعاني","تكنولوجيا"],
+["عبر","يتنفّس","سمة/خاصية","يستهلك","يُثير الحماس","للغاية","خوف","محظوظ","يحدث","طول","خطأ","يلاحظ/يراقب","فرصة","جائزة","سباق","يدرك","يستجيب","خطر/مجازفة","يتساءل","حتى الآن"],
+["فن","كتاب","ملابس","مجتمع","ديسمبر","عشاء","ينتهي","يتبادل","عائلة","من","أخضر","منزل","يناير","أحمر","سبعة","يبدأ","معاً","جامعة","يرتدي","سنة"],
+["يقدّر","متوفّر","يهزم","مشرق/ساطع","يحتفل","يقرر","يختفي","آخر/غير ذلك","عادل","يتدفّق","للأمام","تلّة","مستوى","منفرد/وحيد","بركة ماء صغيرة","ردّ","فصل","حلّ","يهدر","سواء"],
+["دائماً","يسأل","موز","خبز","كيك","جزر","دجاج","شوكولاتة","يحتوي","لذيذ","نظام غذائي","يأكل","طعام","فاكهة","رائع","صحة","وصفة","مطعم","خاص/مميز","ماء"],
+["حيّ","عظم","يزعج نفسه/يكلّف نفسه","قبطان","خاتمة/استنتاج","شكّ","يستكشف","مسرور","مع ذلك","ظلم","دولي","محامٍ","يذكر","عجوز/قديم","سياسة/قاعدة","اجتماعي","خطاب","طاقم عمل","نحو","خشب"],
+["يحقّق","ينصح","بالفعل/مسبقاً","أساسي/بسيط","قليل","يعتبر/يفكّر في","يدمّر","يسلّي","إضافي","هدف","يكذب","لحم","رأي","حقيقي","يعكس","يعتبر","يقدّم","خضار","حرب","يستحق/يساوي"],
+["يبدو/يظهر","قاعدة","دماغ","مسيرة مهنية","موظف","جهد","يدخل","ممتاز","بطل","يستعجل","يُعلِم","لاحقاً","يغادر","يحدد موقع","ممرضة","عملية جراحية","ألم","يرفض","رغم أن","متنوّع"],
+["فعلي/حقيقي","يذهل","رسوم","يواسي","يتواصل مع","زبون","يوصّل","يكسب","بوابة","يتضمّن","يدير","لغز","يحدث","عكس/مضاد","صحن","يستلم","مكافأة","يضع","يسرق","لصّ"],
+["يتقدّم","رياضي","متوسّط","سلوك","خلف","مقرر دراسي","يخفّض","يتطابق","عضو","عقلي/ذهني","راكب","شخصية","قصيدة","عمود","يزيل","سلامة","يطلق النار/يرمي","يُصدر صوتاً","يسبح","شبكة عنكبوت"],
+["كتلة","يدفن","يهتف","معقّد","ناقد","اتجاه","حدث","يمارس الرياضة","صداقة","مرشد","نقص","يؤدّي/يمثّل","ضغط","على الأرجح","عام","ذكي","يضرب","يدعم","مصطلح","يتّحد"],
+["يربط/يرتبط","بيئة","مصنع","ميزة","مثال/حالة","يتضمّن/يشمل","دواء","خليط","ينظّم","فترة","يسكن","ينتج","نطاق/مجموعة","يتعرّف على","منتظم","علامة","طرف","تقليد","قمامة","واسع"],
+["نصيحة","على طول","انتباه","يجذب","يتسلّق","يسقط","نهائي/أخير","أبعد","يلمّح","يحافظ على","لا هذا ولا ذاك","وإلا","جسدي","يثبت","يتفاعل/يتصرّف","يركب","واقع/يقع","مجتمع","معيار","يقترح"],
+["في الواقع","عضّة","ساحل","اتفاق/صفقة","صحراء","فعّال","يفحص","خاطئ","يكتشف/يفهم","هدية","جوع","يتخيّل","رحلة","لغز","إلى حدٍّ ما","بدلاً من ذلك/أفضّل","محدّد","عنكبوت","جولة","رحلة"],
+["فرقة موسيقية","بالكاد","مملّ","يلغي","ممرّ السيارات","قمامة","آلة موسيقية","قائمة","سحر","رسالة","يلاحظ","يمتلك","يتنبّأ","أستاذ جامعي","يسرع","جدول زمني","يشارك/يتقاسم","مسرح","عاصفة","ضمن/داخل"],
+["عبء","يتنازل/حل وسط","يصنع بمهارة","يغطس","هشّ","نصف","براءة","يقود","اجتماع","يدمج","معتدل","يُرهق/يغمر","دفعة/مبلغ","تصوّر/إدراك","يسوّي","يرتجف","اجتماعي/ودود","يسرع","ثرثار","معتاد"],
+["فوق","إلى الأمام","كمية","اعتقاد","مركز","شائع","يكلّف","يوضّح/يُظهر","مختلف","دليل","صدق/أمانة","تعبير اصطلاحي","مستقل","داخل","سجن","خبير/ماهر","ذكرى","جيب","مناسب/لائق","تخفيضات/بيع"]
+];
+
+const AR2 = [
+["لأنّ","شرق","غالي الثمن","زهرة","حديقة","عطلة","كثير","مليون","جبل","مكان","مشهور/شعبي","يتزلّج","مثل هذا","إجمالي","برج","بلدة","قطار","يمشي","يشاهد","العالم"],
+["قلق","فظيع","يتكوّن من","يرغب في","متحمّس/متشوّق","أسرة/منزل","نيّة","منظر طبيعي","يرفع","يحمّل","رئة","حركة","وتيرة/سرعة","مهذّب","يمتلك","بسرعة","يعلّق/يلاحظ","يبحث عن","يلمع","يسكب/ينسكب"],
+["سهم","معركة","قوس","شجاع","زعيم/قائد","عيب/عائق","عدوّ","مدخل","بالكاد","ينوي","ضحك","جذع خشب","جيش/عسكري","يطيع","يؤمّن/يحصل على","ثابت/مستقر","يثق","يلوي","إلا إذا","سلاح"],
+["صدر","ثقة","نتيجة","كارثة","يزعج","يقدّر","يكرّم","يُعجب","ضيّق","شاحب","خشن","يُرضي","يصرخ","حسّاس","ظل","قوة","يكمّل/يضيف","رعب","تهديد","ضحية"],
+["سلف/جدّ","زاوية","حذاء طويل","حدّ/حدود","يهنّئ","إطار","الجنة/السماء","مذهل","أسطورة","يمدح","يواصل/يمضي","نقيّ","قريب (فرد من العائلة)","أقدم/أكبر خبرة","صامت","يغرق","أرقى/أعلى","يحيط بـ","سميك/كثيف","يلفّ"],
+["أيضاً","تلقائياً","مشغول","يستطيع","يُخلي/يُفرغ","يُغلق","يناقش","يشعر","يستمع","يقابل","موسيقى","طبيعي/عادي","هادئ","يسترخي","ينام","توتّر/ضغط نفسي","يدرس","يتحدّث","يعمل","يكتب"],
+["أساس","علم الأحياء","قفص","زميل عمل","مستعمرة","يناقش/يتجادل","يغادر","يُحزن","واقعي/حقيقي","يفتن/يسحر","مهمة","مع ذلك","مهنة","في الخارج","يقنع","طريق/مسار","أطلال","باحث/عالم","مهمّ/ملحوظ","بركان"],
+["عريض","شجيرة","قادر","يغش","يركّز","يستنتج","واثق","كبير/معتبر","ينقل (فكرة)","مؤكّد","سرور/بهجة","وجهة","حافة","تعليمات","مسار/درب","يلجأ إلى","ظل","ينجح","يشتبه في","وادٍ"],
+["ضدّ/مقابل","شاطئ","يضرّ/يتلف","يكتشف","شعور/عاطفة","يصلح","يتعرّف على/يحدّد","جزيرة","محيط","ربما","ممتع/لطيف","يمنع","صخرة","ينقذ","يبتسم","يخطو","لا يزال","طعم/مذاق","يرمي","موجة"],
+["مواطن","مجلس","يعلن رسمياً","ضخم جداً","استثنائي","ضباب","جنازة","عملاق/ضخم","انطباع","نيّة","غاضب","ينبغي","يقاوم","يكشف","يتخلّص من","سيف","حكاية","يوقع في فخّ","محاكمة","عنيف"],
+["قبول/دخول","علم الفلك","يلوم","الكيمياء","رغم","ديناصور","يعرض","شهرة","توقّعات الطقس","عبقري","لطيف/رقيق","الجغرافيا","يتدخّل","برفق/بخفّة","مدير مدرسة","صفّ","رفّ","حقد/كيد","رائع جداً","مبلّل"],
+["يسيء المعاملة","يستطيع تحمّل التكلفة","يخبز","حبة فول","شمعة","يحوّل","دَين","يقلّل","خطأ/تقصير","صندوق مالي","كريم/سخيّ","مكوّن طبخ","يصرّ","فوضى","معدن","يراقب","يعارض","سلبي","كمية","يقاضي"],
+["كافٍ","قلق","جيش","مليار","ينحت/يقطع","يستشير","حالة طارئة","حظّ","يضمن","أوّلي","شديد/مكثّف","يُقرض","قمّة","محتمل/ممكن","فخر","دليل/برهان","يتوقّف عن","يدور","صغير جداً","مدرّس خصوصي"],
+["واضح","أعمى","يحسب","يتحدّث/يدردش","يلتزم","يؤلّف/يكوّن","سكن طلابي","يُرهق","بيت زجاجي","يتجاهل","واضح","الفيزياء","جزء/حصّة","يذكّر","سكرتير","شديد/خطير","موهبة","أطروحة","زيّ موحّد","رؤية/بصر"],
+["يمتصّ","رئيس العمل","خيري","لجنة","عقد","طاقم عمل","يكرّس","يحفر","يتناول العشاء","يتبرّع","ضِعف","نكهة","مؤسسة","جيل","مقبض","طبقة","طين/وحل","ناعم","تربة","فريد"],
+["أكاديمية","قديم جداً","لوح خشبي","قرن","دليل/خيط","حفلة موسيقية","مقاطعة","قاموس","يوجد","مسطّح","رجل نبيل","مخفي","ربما","ضابط","أصلي","يطرق بقوة","عملية/خطوات","ينشر","مسرح","ثروة"],
+["هدف","يُرفق/يُلصق","يراهن","عربة تجرّها خيول","كلاسيكي/تقليدي","يتنقّل يومياً للعمل","يؤكّد","ينتقد","يختلف عن","مصروف/نفقة","رسمي","طول/ارتفاع","يخترع","مبتدئ/أصغر رتبة","عمل/جهد","ميكانيكي","رئيسي/الأهم","ينتقل/يتحوّل","إشارة","صادق"],
+["قدرة","زراعة","رسم كاريكاتيري","سقف","يقنع","فضولي","يؤخّر","مذكّرات يومية","عنصر","إيمان/ثقة","حبوب","يرحّب","يحقّق/يستقصي","فرح","ملصق/بطاقة","راهب","غريب","يتوقّف مؤقتاً","قسّيس/كاهن","مهنة"],
+["كرة","أسفل/قاع","شركة","يشرب","قليل","صفّ/طابور","حيوان أليف","منتج","مسؤول","يبيع","ثعبان","يقف","غريب","شاي","يختبر","لسان","هم","نوع","جداً","ينتظر"],
+["ينجز","يوافق على","تقريبي","حاجز/عائق","يكتشف/يلاحظ","واجب","ابتدائي/أساسي","فشل","تدريجي","مهاجر","يُدخِل","لحظة قصيرة","فقر","يتظاهر","رتبة/مرتبة","تقدير/اعتراف","يبرّد","إيجار","يتقاعد","إحصائية"],
+["حادث","رائد فضاء","مستيقظ","شجاعة","يطفو","يمنح","الجاذبية","جوهرة","عامل منجم","معدن","يشارك","إذن/سماح","يصبّ","خام/غير معالَج","قمر صناعي","حجم/نطاق","يتخطّى","يتمدّد","تلسكوب","تحت الأرض"],
+["جرس إنذار","يعتقل","جائزة","سلالة حيوان","دلو","مسابقة","يدين بجريمة","مهرجان","مرآب/كراج","صحفي","جرو صغير","يتأهّل","يصلح","يستأنف","يسرق","ينزلق","إلى حدّ ما","مستقرّ/ثابت","منديل ورقي","فناء"],
+["الأفضل","بطاقة","حشد","يوم","طبق طعام","سهل","يختبر/يعيش تجربة","فندق","ساعة","ضوء","سوق","يخطّط","سعر","قصير","يتسوّق","محطة","يفاجئ","نظام","سيارة أجرة","اثنان"],
+["حمّام","يثني/ينحني","يمضغ","ذو إعاقة","رائع","خيال/قصص غير واقعية","علم","يفحص","مجلة أكاديمية","سائل","يندهش","يتغلّب على","يتذكّر","يندم","روح","كافٍ","جراحة","صعب/قاسٍ","أنبوب","قيمة"],
+["ذرّة","جميل","عرض/اتساع","مذنّب","يغطّي","يأس","يشكّل/يكوّن","جزء صغير/شظية","مجرّة","ظلام/كآبة","كبير","قمر","يشعّ","يتجوّل بلا هدف","منفرد/وحيد","طيف ألوان","كرة شكل","نجمة","مكانة/وضع","قبيح"],
+["يتّهم","يعدّل/يضبط","يسلّي/يُمتع","مرجان","قطن","يصطدم","سطح السفينة","ينخرط في","متماسك/صلب","وقود","فخم/عظيم","إعصار","خسارة","بسيط/عادي","شعاب مرجانية","يُغلق بإحكام","صارم","يمارس ركوب الأمواج","مهمّة","منطقة"],
+["اعتذار","جريء","حشرة","يأسر/يمسك","دوق","يفضح/يكشف","مذنب","يوظّف","بريء","لغة","وزير","عادي","دائم","يحافظ على","ينطق","يشبه","عرض مرض","تبغ","توأم","ساحرة"],
+["يرافق","عارٍ/مكشوف","غصن","نَفَس","جسر","يرمي صنارة","يتجرّأ","إلكتروني","نُزُل","شبكة","فلسفة","قدر/إناء","بذرة","حادّ","نوع","يطرح رياضيات","مشدود/ضيّق","افتراضي","يزن","يهمس"],
+["مجرّد","سنوي","طين صلصال","قماش","ستارة","يستحقّ","ريشة","خصب","فيضان","أثاث","قبر","مثالي","ذكاء","يحصل على","ديني","رومانسي","صدفة","شاطئ/ضفّة","عجلة","خشبي"],
+["جهاز منزلي","حوض","مكنسة","يرقانة","خزانة","هشّ/رقيق","يخرج/يظهر","إعاقة","ثقب","خطّاف","يقفز قفزة قصيرة","غسيل","يطارد/يسعى وراء","مُتردّد","كمّ ثوب","عمود فقري","بقعة","شريط/قطعة طويلة","يقسم","يؤرجح"]
+];
+
+
+// SYN1[unitIndex][wordIndex] = {ex2:"...", syn:[[word,arabic],...], ant:[[word,arabic],...], usage:"..."} or null if not yet compiled
+const SYN1 = [];
+for(let u=0;u<30;u++) SYN1.push(new Array(20).fill(null));
+const SYN2 = [];
+for(let u=0;u<30;u++) SYN2.push(new Array(20).fill(null));
+
+// ---- Unit 1 (Book 2) ----
+SYN2[0] = [
+  {ex2:"She stayed home because she was feeling sick.", syn:[["since","بما أن"],["as","لأن"]], ant:[], usage:"يربط سبباً بنتيجة، يبدأ الجملة الثانية."},
+  {ex2:"The sun rises in the east every morning.", syn:[], ant:[["west","غرب"]], usage:"to the east of + مكان."},
+  {ex2:"That restaurant is too expensive for a casual dinner.", syn:[["costly","مكلف"],["pricey","غالي (عامية)"]], ant:[["cheap","رخيص"],["affordable","معقول السعر"]], usage:"expensive + اسم."},
+  {ex2:"She planted flowers along the garden path.", syn:[["bloom","زهرة متفتحة"]], ant:[], usage:"pick/plant flowers."},
+  {ex2:"They spend every weekend working in the garden.", syn:[["yard","فناء"]], ant:[], usage:"grow/work in a garden."},
+  {ex2:"We're planning a family holiday to Turkey this summer.", syn:[["vacation","إجازة"],["break","استراحة"]], ant:[["workday","يوم عمل"]], usage:"go on holiday."},
+  {ex2:"Many people were waiting outside the store.", syn:[["numerous","عديد"],["a lot of","الكثير من"]], ant:[["few","قليل"]], usage:"many + اسم جمع."},
+  {ex2:"The company earned a million dollars last year.", syn:[], ant:[], usage:"a million + اسم."},
+  {ex2:"They hiked to the top of the mountain.", syn:[["peak","قمة"],["summit","قمة عليا"]], ant:[["valley","وادٍ"]], usage:"climb a mountain."},
+  {ex2:"This is a great place to relax after work.", syn:[["location","موقع"],["spot","بقعة"]], ant:[], usage:"a place to do something."},
+  {ex2:"This song became popular all over the world.", syn:[["well-liked","محبوب"],["trendy","رائج"]], ant:[["unpopular","غير محبوب"]], usage:"popular with/among."},
+  {ex2:"They go skiing every winter in the Alps.", syn:[], ant:[], usage:"go skiing."},
+  {ex2:"I've never seen such a beautiful sunset before.", syn:[["this kind of","هذا النوع من"]], ant:[], usage:"such a/an + صفة + اسم."},
+  {ex2:"The total number of guests was fifty.", syn:[["overall","إجمالي"],["complete","كامل"]], ant:[["partial","جزئي"]], usage:"the total + اسم."},
+  {ex2:"They visited the famous tower in the old city.", syn:[], ant:[], usage:"climb/visit a tower."},
+  {ex2:"He grew up in a small town in the north.", syn:[], ant:[["city","مدينة كبرى"]], usage:"a small/quiet town."},
+  {ex2:"We took the train instead of driving.", syn:[], ant:[], usage:"catch/take a train."},
+  {ex2:"She walks to work every morning to stay fit.", syn:[["stroll","يتمشى"],["stride","يخطو بثقة"]], ant:[["run","يركض"]], usage:"walk to/around + مكان."},
+  {ex2:"We watched the sunset from the balcony.", syn:[["observe","يراقب"],["view","يشاهد"]], ant:[], usage:"watch + شيء (بقصد)."},
+  {ex2:"She has traveled to more than thirty countries around the world.", syn:[["globe","الكرة الأرضية"],["earth","الأرض"]], ant:[], usage:"around/all over the world."}
+];
+
+// ---- Unit 2 (Book 2) ----
+SYN2[1] = [
+  {ex2:"She felt anxious waiting for her exam results.", syn:[["worried","قلق"],["nervous","متوتر"]], ant:[["calm","هادئ"],["relaxed","مرتاح"]], usage:"anxious about + شيء."},
+  {ex2:"The traffic this morning was absolutely awful.", syn:[["terrible","فظيع"],["dreadful","مروّع"]], ant:[["wonderful","رائع"],["great","عظيم"]], usage:"صفة قوية للتعبير عن الاستياء."},
+  {ex2:"The committee consists of five members.", syn:[["be made up of","يتكوّن من"],["comprise","يشمل"]], ant:[], usage:"consist of + أجزاء."},
+  {ex2:"Everyone desires success and happiness in life.", syn:[["want","يريد"],["wish for","يتمنى"]], ant:[["reject","يرفض"]], usage:"desire + شيء (رسمي أكثر من want)."},
+  {ex2:"The students were eager to start the new project.", syn:[["enthusiastic","متحمس"],["keen","متلهف"]], ant:[["reluctant","متردد"],["indifferent","لا مبالٍ"]], usage:"eager to do something."},
+  {ex2:"Every household received a letter about the new policy.", syn:[["family","أسرة"],["home","منزل"]], ant:[], usage:"a household of + عدد."},
+  {ex2:"His intent was to help, not to cause trouble.", syn:[["intention","نية"],["purpose","غرض"]], ant:[], usage:"with the intent of/to."},
+  {ex2:"The landscape changed from desert to green hills.", syn:[["scenery","منظر طبيعي"],["terrain","تضاريس"]], ant:[], usage:"a beautiful/rural landscape."},
+  {ex2:"He couldn't lift the heavy box by himself.", syn:[["raise","يرفع"],["hoist","يرفع بجهد"]], ant:[["lower","يخفض"],["drop","يُسقط"]], usage:"lift + شيء ثقيل."},
+  {ex2:"They loaded the furniture into the truck.", syn:[["pack","يحزم"],["fill","يملأ"]], ant:[["unload","يُفرّغ"]], usage:"load + شيء + into/onto."},
+  {ex2:"Smoking can seriously damage your lungs.", syn:[], ant:[], usage:"عضو تنفسي محدد."},
+  {ex2:"The sudden motion of the boat made her feel sick.", syn:[["movement","حركة"],["gesture","إيماءة"]], ant:[["stillness","سكون"]], usage:"in motion / a motion of the hand."},
+  {ex2:"He walked at a fast pace to catch the bus.", syn:[["speed","سرعة"],["rate","معدل"]], ant:[], usage:"at a slow/fast pace."},
+  {ex2:"It's polite to say thank you when someone helps you.", syn:[["courteous","مهذّب"],["respectful","محترم"]], ant:[["rude","وقح"],["impolite","غير مهذّب"]], usage:"polite to someone."},
+  {ex2:"He possesses a rare talent for music.", syn:[["own","يمتلك"],["have","لديه"]], ant:[["lack","يفتقر إلى"]], usage:"possess + شيء (رسمي أكثر من have)."},
+  {ex2:"The city's population grew rapidly over the last decade.", syn:[["quickly","بسرعة"],["swiftly","بسرعة فائقة"]], ant:[["slowly","ببطء"],["gradually","تدريجياً"]], usage:"تصف تغيّراً أو حركة سريعة."},
+  {ex2:"She remarked that the food was excellent.", syn:[["comment","يعلّق"],["note","يلاحظ"]], ant:[], usage:"remark on/that."},
+  {ex2:"He is seeking advice from a financial expert.", syn:[["look for","يبحث عن"],["pursue","يسعى إلى"]], ant:[["avoid","يتجنب"]], usage:"seek + شيء (رسمي أكثر من look for)."},
+  {ex2:"The sun shone brightly all afternoon.", syn:[["glow","يتوهج"],["sparkle","يلمع"]], ant:[["dim","يخفت"]], usage:"shine + صفة زمنية/مكانية."},
+  {ex2:"He accidentally spilled juice on the carpet.", syn:[["pour out","يسكب"],["overflow","يفيض"]], ant:[], usage:"spill + سائل + on/onto."}
+];
+
+// ---- Unit 3 (Book 2) ----
+SYN2[2] = [
+  {ex2:"The arrow hit the center of the target.", syn:[["dart","سهم صغير"]], ant:[], usage:"shoot an arrow."},
+  {ex2:"The battle lasted for three long days.", syn:[["fight","معركة/قتال"],["combat","قتال"]], ant:[["peace","سلام"],["truce","هدنة"]], usage:"fight a battle / win a battle."},
+  {ex2:"He carried a bow and a quiver of arrows.", syn:[], ant:[], usage:"a bow and arrow."},
+  {ex2:"It was brave of her to speak up in the meeting.", syn:[["courageous","شجاع"],["fearless","بلا خوف"]], ant:[["cowardly","جبان"],["fearful","خائف"]], usage:"brave enough to do something."},
+  {ex2:"The village chief welcomed the visitors warmly.", syn:[["leader","قائد"],["head","رئيس"]], ant:[["follower","تابع"]], usage:"the chief of + قبيلة/مجموعة."},
+  {ex2:"Not speaking the local language was a big disadvantage.", syn:[["drawback","عيب"],["downside","الجانب السلبي"]], ant:[["advantage","ميزة"],["benefit","فائدة"]], usage:"a disadvantage of/to."},
+  {ex2:"The two nations were once bitter enemies.", syn:[["foe","عدو"],["opponent","خصم"]], ant:[["friend","صديق"],["ally","حليف"]], usage:"an enemy of/to."},
+  {ex2:"The main entrance to the building was locked.", syn:[["entryway","مدخل"],["doorway","مدخل"]], ant:[["exit","مخرج"]], usage:"the entrance to + مكان."},
+  {ex2:"I could hardly believe the news when I heard it.", syn:[["barely","بالكاد"],["scarcely","بالكاد"]], ant:[["easily","بسهولة"]], usage:"hardly + فعل مساعد."},
+  {ex2:"She intends to finish her degree next year.", syn:[["plan","يخطط"],["mean to","ينوي"]], ant:[], usage:"intend to do something."},
+  {ex2:"The room was filled with laughter during the comedy show.", syn:[["giggling","ضحك خفيف"],["chuckling","ضحك هادئ"]], ant:[["silence","صمت"],["crying","بكاء"]], usage:"burst into laughter."},
+  {ex2:"He added another log to keep the fire burning.", syn:[["piece of wood","قطعة خشب"]], ant:[], usage:"a wooden log."},
+  {ex2:"He joined the military right after high school.", syn:[["armed forces","القوات المسلحة"]], ant:[["civilian","مدني"]], usage:"join the military."},
+  {ex2:"Soldiers must obey their commanding officer.", syn:[["follow orders","يتبع الأوامر"],["comply with","يمتثل لـ"]], ant:[["disobey","يعصي"],["defy","يتحدى"]], usage:"obey + قانون/أمر/شخص."},
+  {ex2:"She secured a scholarship after months of hard work.", syn:[["obtain","يحصل على"],["get","يحصل على"]], ant:[["lose","يفقد"]], usage:"secure + شيء (بعد جهد)."},
+  {ex2:"He kept a steady pace throughout the marathon.", syn:[["stable","مستقر"],["consistent","ثابت"]], ant:[["unsteady","غير مستقر"],["shaky","مهتز"]], usage:"a steady pace/increase."},
+  {ex2:"You can trust him to keep your secret.", syn:[["believe in","يثق بـ"],["rely on","يعتمد على"]], ant:[["distrust","لا يثق"],["suspect","يشك في"]], usage:"trust someone to do something."},
+  {ex2:"She twisted her ankle while running.", syn:[["turn","يلوي/يدير"],["bend","يثني"]], ant:[["straighten","يفرد/يقوّم"]], usage:"twist + جزء من الجسم/شيء."},
+  {ex2:"We won't go to the beach unless the weather improves.", syn:[["except if","إلا إذا"]], ant:[], usage:"unless + جملة شرطية."},
+  {ex2:"The museum displays ancient weapons from many centuries ago.", syn:[["arms","أسلحة"],["armament","عتاد حربي"]], ant:[], usage:"carry/use a weapon."}
+];
+
+// ---- Unit 4 (Book 2) ----
+SYN2[3] = [
+  {ex2:"He felt a tight pain in his chest after running.", syn:[], ant:[], usage:"جزء من الجسم محدد."},
+  {ex2:"Winning the competition gave her a lot of confidence.", syn:[["self-assurance","ثقة بالنفس"],["certainty","يقين"]], ant:[["doubt","شكّ"],["insecurity","عدم أمان"]], usage:"confidence in oneself/something."},
+  {ex2:"Missing the deadline had serious consequences for the team.", syn:[["result","نتيجة"],["outcome","محصلة"]], ant:[["cause","سبب"]], usage:"as a consequence of."},
+  {ex2:"The flood was one of the worst disasters in the country's history.", syn:[["catastrophe","كارثة كبرى"],["calamity","نكبة"]], ant:[], usage:"a natural disaster."},
+  {ex2:"Please don't disturb him while he's working.", syn:[["interrupt","يقاطع"],["bother","يزعج"]], ant:[], usage:"disturb someone/something."},
+  {ex2:"They estimated that the repair would cost 500 dinars.", syn:[["guess","يخمّن"],["calculate roughly","يحسب تقريباً"]], ant:[["know exactly","يعرف بالضبط"]], usage:"estimate + that/رقم."},
+  {ex2:"The ceremony honored the soldiers who served their country.", syn:[["respect","يحترم"],["celebrate","يحتفي بـ"]], ant:[["disrespect","يستهين بـ"],["dishonor","يهين"]], usage:"honor someone for + سبب."},
+  {ex2:"Her performance impressed everyone in the audience.", syn:[["amaze","يذهل"],["move","يؤثر في"]], ant:[["disappoint","يخيّب أمل"]], usage:"impress someone (انطباع إيجابي)."},
+  {ex2:"The old street was too narrow for a car to pass.", syn:[["thin","ضيّق"],["tight","ضيّق"]], ant:[["wide","واسع"],["broad","عريض"]], usage:"a narrow street/road."},
+  {ex2:"She looked pale after staying up all night.", syn:[["light-colored","فاتح اللون"],["colorless","بلا لون"]], ant:[["rosy","وردي"],["dark","داكن"]], usage:"pale skin/color."},
+  {ex2:"The road became rough as they drove into the mountains.", syn:[["bumpy","وعر"],["uneven","غير مستوٍ"]], ant:[["smooth","ناعم"],["even","مستوٍ"]], usage:"rough surface/road."},
+  {ex2:"The meal was enough to satisfy his hunger.", syn:[["please","يُرضي"],["fulfill","يحقق"]], ant:[["disappoint","يخيّب"],["frustrate","يُحبط"]], usage:"satisfy + حاجة/شخص."},
+  {ex2:"She screamed when she saw the spider on the wall.", syn:[["shriek","يصرخ بحدة"],["yell","يصيح"]], ant:[["whisper","يهمس"]], usage:"scream at/in + سبب."},
+  {ex2:"He's very sensitive about criticism of his work.", syn:[["touchy","حساس عاطفياً"],["delicate","رقيق"]], ant:[["insensitive","غير حساس"],["tough","قاسٍ"]], usage:"sensitive to/about."},
+  {ex2:"They sat in the shade of a big tree to cool off.", syn:[["shadow","ظل"],["cover","غطاء"]], ant:[["sunlight","ضوء الشمس"]], usage:"in the shade."},
+  {ex2:"It takes a lot of strength to lift those weights.", syn:[["power","قوة"],["might","قوة عظيمة"]], ant:[["weakness","ضعف"]], usage:"physical/mental strength."},
+  {ex2:"She supplements her income by tutoring on weekends.", syn:[["add to","يضيف إلى"],["boost","يعزز"]], ant:[["reduce","يقلل"]], usage:"supplement + شيء + with."},
+  {ex2:"The children screamed in terror during the storm.", syn:[["horror","رعب"],["fear","خوف شديد"]], ant:[["calm","هدوء"],["peace","سكينة"]], usage:"in terror / a feeling of terror."},
+  {ex2:"The company faces a serious threat from new competitors.", syn:[["danger","خطر"],["risk","مخاطرة"]], ant:[["safety","أمان"],["security","أمان"]], usage:"a threat to/from."},
+  {ex2:"The victim was taken to the hospital immediately.", syn:[["casualty","ضحية"],["sufferer","متضرر"]], ant:[["attacker","معتدٍ"],["perpetrator","مرتكب الجريمة"]], usage:"a victim of + جريمة/حادث."}
+];
+
+// ---- Unit 5 (Book 2) ----
+SYN2[4] = [
+  {ex2:"Her ancestors came from a small village in the mountains.", syn:[["forefather","سلف"],["predecessor","سابق"]], ant:[["descendant","سليل/حفيد"]], usage:"my ancestors."},
+  {ex2:"Look at the photo from a different angle.", syn:[["perspective","منظور"],["viewpoint","وجهة نظر"]], ant:[], usage:"at an angle / from an angle."},
+  {ex2:"He wore heavy boots for the hiking trip.", syn:[], ant:[], usage:"wear boots."},
+  {ex2:"The two countries share a long border.", syn:[["boundary","حدّ"],["frontier","حدود"]], ant:[], usage:"cross/near the border."},
+  {ex2:"Everyone congratulated her on her new job.", syn:[["praise","يمدح"],["applaud","يشيد بـ"]], ant:[["criticize","ينتقد"]], usage:"congratulate someone on + إنجاز."},
+  {ex2:"She bought a wooden frame for the family photo.", syn:[["border","إطار"]], ant:[], usage:"a picture frame."},
+  {ex2:"In many religions, people believe heaven is a place of peace.", syn:[["paradise","جنة/فردوس"]], ant:[["hell","جحيم"]], usage:"go to heaven."},
+  {ex2:"The view from the top of the mountain was incredible.", syn:[["amazing","مذهل"],["unbelievable","لا يُصدَّق"]], ant:[["ordinary","عادي"],["unimpressive","غير مثير"]], usage:"an incredible + اسم."},
+  {ex2:"There's a local legend about a hidden treasure in the caves.", syn:[["myth","أسطورة"],["folklore","فولكلور"]], ant:[["fact","حقيقة"]], usage:"a legend about/of."},
+  {ex2:"The teacher praised the students for their hard work.", syn:[["compliment","يُطري"],["commend","يُشيد بـ"]], ant:[["criticize","ينتقد"],["blame","يلوم"]], usage:"praise someone for + سبب."},
+  {ex2:"After checking in, please proceed to the waiting area.", syn:[["continue","يواصل"],["move forward","يتقدم"]], ant:[["stop","يتوقف"],["halt","يتوقف"]], usage:"proceed to/with."},
+  {ex2:"This necklace is made of pure gold.", syn:[["unmixed","غير مخلوط"],["genuine","أصيل"]], ant:[["impure","غير نقي"],["mixed","مخلوط"]], usage:"pure + مادة."},
+  {ex2:"Many of her relatives live in the same city.", syn:[["family member","فرد من العائلة"],["kin","أقارب"]], ant:[["stranger","غريب"]], usage:"a close/distant relative."},
+  {ex2:"She was promoted to a senior position at the company.", syn:[["high-ranking","رفيع المستوى"],["experienced","ذو خبرة"]], ant:[["junior","مبتدئ"]], usage:"a senior + منصب."},
+  {ex2:"The classroom went silent when the teacher walked in.", syn:[["quiet","هادئ"],["noiseless","بلا صوت"]], ant:[["noisy","صاخب"],["loud","عالي الصوت"]], usage:"remain/go silent."},
+  {ex2:"The old boat slowly sank into the lake.", syn:[["go under","يغرق"],["submerge","يغطس"]], ant:[["float","يطفو"],["rise","يرتفع"]], usage:"sink into + ماء."},
+  {ex2:"This brand is known for its superior quality.", syn:[["better","أفضل"],["higher-quality","أعلى جودة"]], ant:[["inferior","أدنى"],["worse","أسوأ"]], usage:"superior to + شيء آخر."},
+  {ex2:"Tall mountains surround the small village.", syn:[["encircle","يحيط بـ"],["enclose","يحصر"]], ant:[], usage:"surround + مكان/شخص."},
+  {ex2:"The fog was so thick that we couldn't see the road.", syn:[["dense","كثيف"],["heavy","ثقيل"]], ant:[["thin","رقيق"],["sparse","خفيف"]], usage:"thick fog/smoke/hair."},
+  {ex2:"She wrapped the gift in colorful paper.", syn:[["cover","يغطي"],["pack","يغلّف"]], ant:[["unwrap","يفكّ التغليف"]], usage:"wrap + شيء + in + مادة."}
+];
+
+// ---- Unit 6 (Book 2) ----
+SYN2[5] = [
+  {ex2:"She speaks French, and she also speaks Spanish.", syn:[["too","أيضاً"],["as well","كذلك"]], ant:[], usage:"يضيف معلومة لجملة سابقة."},
+  {ex2:"The lights turn on automatically when it gets dark.", syn:[["without thinking","بدون تفكير"]], ant:[["manually","يدوياً"]], usage:"تصف فعلاً يحدث بلا تدخل بشري."},
+  {ex2:"She's been very busy with work this week.", syn:[["occupied","مشغول"],["swamped","مثقل بالعمل"]], ant:[["free","متفرغ"],["idle","عاطل"]], usage:"busy with + شيء."},
+  {ex2:"Can you help me carry these boxes?", syn:[["be able to","يكون قادراً على"]], ant:[["cannot","لا يستطيع"]], usage:"can + فعل مجرد."},
+  {ex2:"He cleared his desk before leaving for vacation.", syn:[["empty","يُفرغ"],["tidy up","يرتّب"]], ant:[["fill","يملأ"],["clutter","يُكدّس"]], usage:"clear + مكان/طاولة."},
+  {ex2:"Please close the door; it's cold outside.", syn:[["shut","يُغلق"]], ant:[["open","يفتح"]], usage:"close + باب/نافذة."},
+  {ex2:"They discussed the new plan during the meeting.", syn:[["talk about","يتحدث عن"],["debate","يناقش"]], ant:[], usage:"discuss + موضوع (بدون about)."},
+  {ex2:"She felt happy after hearing the good news.", syn:[["sense","يشعر"],["experience","يختبر شعوراً"]], ant:[], usage:"feel + صفة/شعور."},
+  {ex2:"He listened carefully to his teacher's instructions.", syn:[["pay attention","ينتبه"]], ant:[["ignore","يتجاهل"]], usage:"listen to + شيء/شخص."},
+  {ex2:"Let's meet at the coffee shop at five.", syn:[["gather","يجتمع"],["get together","يجتمع"]], ant:[], usage:"meet + شخص/at مكان."},
+  {ex2:"She listens to music while she studies.", syn:[], ant:[["silence","صمت"]], usage:"listen to/play music."},
+  {ex2:"It's normal to feel nervous before a big exam.", syn:[["usual","معتاد"],["typical","نموذجي"]], ant:[["abnormal","غير طبيعي"],["unusual","غير معتاد"]], usage:"it's normal to/for."},
+  {ex2:"The library is always quiet in the afternoon.", syn:[["silent","صامت"],["calm","هادئ"]], ant:[["loud","صاخب"],["noisy","مزعج بالصوت"]], usage:"a quiet place/room."},
+  {ex2:"After a long day, she likes to relax with a book.", syn:[["unwind","يسترخي"],["rest","يستريح"]], ant:[["stress","يتوتر"],["tense up","يتشنّج"]], usage:"relax after/by doing something."},
+  {ex2:"He didn't sleep well last night because of the noise.", syn:[["rest","يستريح"],["nap","يغفو"]], ant:[["wake up","يستيقظ"],["stay awake","يبقى مستيقظاً"]], usage:"sleep well/badly."},
+  {ex2:"Too much stress at work can affect your health.", syn:[["pressure","ضغط"],["tension","توتر"]], ant:[["relaxation","استرخاء"],["calm","هدوء"]], usage:"under stress."},
+  {ex2:"She studies medicine at the university.", syn:[["learn","يتعلم"],["review","يراجع"]], ant:[], usage:"study + مادة/for + اختبار."},
+  {ex2:"They talked for hours about their travel plans.", syn:[["speak","يتحدث"],["converse","يتحادث"]], ant:[["stay silent","يبقى صامتاً"]], usage:"talk to/about/with."},
+  {ex2:"He works at a hospital as a nurse.", syn:[["labor","يعمل بجهد"],["be employed","يكون موظفاً"]], ant:[["rest","يستريح"]], usage:"work at/for + مكان/شركة."},
+  {ex2:"She writes a letter to her grandmother every month.", syn:[["compose","يؤلف"],["draft","يسوّد"]], ant:[], usage:"write + شيء + to + شخص."}
+];
+
+// ---- Unit 7 (Book 2) ----
+SYN2[6] = [
+  {ex2:"The team meets on a weekly basis to review progress.", syn:[["foundation","أساس"],["grounds","أسس"]], ant:[], usage:"on a daily/weekly basis."},
+  {ex2:"She's studying biology to become a doctor.", syn:[["life science","علم الحياة"]], ant:[], usage:"study biology."},
+  {ex2:"The bird flew back into its cage after a short flight.", syn:[["enclosure","حظيرة/قفص"]], ant:[["freedom","حرية"]], usage:"put/keep in a cage."},
+  {ex2:"She invited her colleagues to lunch after the meeting.", syn:[["coworker","زميل عمل"]], ant:[], usage:"a close colleague."},
+  {ex2:"The country was once a British colony.", syn:[["territory","إقليم تابع"]], ant:[["independent nation","دولة مستقلة"]], usage:"a former colony."},
+  {ex2:"The two candidates debated the new economic plan.", syn:[["argue","يجادل"],["discuss","يناقش"]], ant:[["agree","يتفق"]], usage:"debate about/over + موضوع."},
+  {ex2:"The flight departs from gate twelve at noon.", syn:[["leave","يغادر"],["set off","ينطلق"]], ant:[["arrive","يصل"]], usage:"depart from + مكان."},
+  {ex2:"The gray weather always depresses him.", syn:[["sadden","يُحزن"],["discourage","يثبّط"]], ant:[["cheer up","يُبهج"],["encourage","يشجّع"]], usage:"غالباً مبني للمجهول: be depressed."},
+  {ex2:"The report is completely factual and free of opinion.", syn:[["accurate","دقيق"],["true","صحيح"]], ant:[["fictional","خيالي"],["false","كاذب"]], usage:"factual information/report."},
+  {ex2:"Ancient history has always fascinated him.", syn:[["captivate","يأسر الاهتمام"],["intrigue","يثير الفضول"]], ant:[["bore","يُمل"]], usage:"غالباً مبني للمجهول: be fascinated by."},
+  {ex2:"Their mission was to deliver food to remote villages.", syn:[["task","مهمة"],["goal","هدف"]], ant:[], usage:"on a mission to do something."},
+  {ex2:"It was raining; nevertheless, they went hiking.", syn:[["however","مع ذلك"],["still","مع ذلك"]], ant:[], usage:"يربط تناقضاً بين فكرتين."},
+  {ex2:"What is your occupation?", syn:[["job","وظيفة"],["profession","مهنة"]], ant:[["unemployment","بطالة"]], usage:"state your occupation."},
+  {ex2:"He moved overseas to study for his master's degree.", syn:[["abroad","في الخارج"]], ant:[["at home","في الوطن"]], usage:"live/travel overseas."},
+  {ex2:"She persuaded her parents to let her travel alone.", syn:[["convince","يقنع"],["talk into","يقنع بإلحاح"]], ant:[["dissuade","يثني عن"]], usage:"persuade someone to do something."},
+  {ex2:"They took a longer route to avoid the traffic.", syn:[["path","مسار"],["way","طريق"]], ant:[], usage:"take a route."},
+  {ex2:"Tourists love exploring the ancient ruins.", syn:[["remains","آثار/بقايا"]], ant:[], usage:"ancient/old ruins."},
+  {ex2:"He is a well-respected scholar in Islamic history.", syn:[["academic","أكاديمي"],["researcher","باحث"]], ant:[], usage:"a scholar of + مجال."},
+  {ex2:"There was a significant improvement in her grades.", syn:[["important","مهم"],["considerable","معتبر"]], ant:[["insignificant","غير مهم"],["minor","طفيف"]], usage:"a significant + اسم."},
+  {ex2:"The volcano erupted after being silent for decades.", syn:[], ant:[], usage:"an active/dormant volcano."}
+];
+
+// ---- Unit 8 (Book 2) ----
+SYN2[7] = [
+  {ex2:"He has broad shoulders from years of swimming.", syn:[["wide","واسع"],["extensive","واسع النطاق"]], ant:[["narrow","ضيّق"]], usage:"broad shoulders/range."},
+  {ex2:"The cat hid behind a bush in the garden.", syn:[["shrub","شجيرة"]], ant:[["tree","شجرة"]], usage:"hide behind a bush."},
+  {ex2:"She's capable of solving even the hardest problems.", syn:[["able","قادر"],["skilled","ماهر"]], ant:[["incapable","غير قادر"],["unable","عاجز"]], usage:"capable of + فعل بصيغة ing."},
+  {ex2:"He was caught cheating on the final exam.", syn:[["deceive","يخدع"],["trick","يخدع"]], ant:[["play fair","يلعب بنزاهة"]], usage:"cheat on + اختبار/شريك."},
+  {ex2:"It's hard to concentrate with all this noise.", syn:[["focus","يركّز"]], ant:[["get distracted","يتشتت"]], usage:"concentrate on + شيء."},
+  {ex2:"The judge concluded that there wasn't enough evidence.", syn:[["decide","يقرر"],["determine","يحدد"]], ant:[], usage:"conclude + that + جملة."},
+  {ex2:"She felt confident about her chances of winning.", syn:[["sure","متأكد"],["self-assured","واثق من نفسه"]], ant:[["unsure","غير متأكد"],["insecure","غير واثق"]], usage:"confident about/of + شيء."},
+  {ex2:"They spent a considerable amount of time planning the trip.", syn:[["significant","معتبر"],["substantial","كبير"]], ant:[["negligible","ضئيل"],["minor","طفيف"]], usage:"a considerable amount/number."},
+  {ex2:"Her letter conveyed how much she missed her family.", syn:[["express","يعبّر عن"],["communicate","ينقل"]], ant:[], usage:"convey + شعور/فكرة."},
+  {ex2:"We don't have a definite answer yet.", syn:[["certain","مؤكد"],["clear","واضح"]], ant:[["uncertain","غير مؤكد"],["vague","غامض"]], usage:"a definite + اسم."},
+  {ex2:"The children's delight was obvious when they saw the puppy.", syn:[["joy","فرح"],["pleasure","سرور"]], ant:[["displeasure","استياء"],["sadness","حزن"]], usage:"to someone's delight."},
+  {ex2:"Paris is a popular destination for tourists.", syn:[["place","وجهة"]], ant:[], usage:"a final/popular destination."},
+  {ex2:"He stood at the edge of the cliff, looking at the view.", syn:[["border","حافة/حد"],["rim","حافة دائرية"]], ant:[["center","مركز"],["middle","وسط"]], usage:"the edge of + شيء."},
+  {ex2:"Follow the instructions carefully to assemble the furniture.", syn:[["directions","توجيهات"],["guidelines","إرشادات"]], ant:[], usage:"follow the instructions."},
+  {ex2:"They followed a narrow path through the forest.", syn:[["trail","درب"],["track","مسار"]], ant:[], usage:"follow/take a path."},
+  {ex2:"When talks failed, they resorted to legal action.", syn:[["turn to","يلجأ إلى"],["rely on","يعتمد على"]], ant:[["avoid","يتجنب"]], usage:"resort to + حل أخير."},
+  {ex2:"His shadow grew longer as the sun set.", syn:[["silhouette","ظل/محيط الشكل"]], ant:[["light","ضوء"]], usage:"cast a shadow."},
+  {ex2:"She worked hard and eventually succeeded in her career.", syn:[["achieve success","يحقق نجاحاً"],["prosper","يزدهر"]], ant:[["fail","يفشل"]], usage:"succeed in/at + شيء."},
+  {ex2:"The police suspect that the fire was started deliberately.", syn:[["believe","يعتقد"],["doubt","يشك"]], ant:[["trust","يثق"],["be certain","يكون متأكداً"]], usage:"suspect + that + جملة."},
+  {ex2:"The village lies in a green valley between two mountains.", syn:[], ant:[["mountain","جبل"],["peak","قمة"]], usage:"a green/deep valley."}
+];
+
+// ---- Unit 9 (Book 2) ----
+SYN2[8] = [
+  {ex2:"He leaned against the wall while waiting.", syn:[["opposed to","معارض لـ"]], ant:[["for","مع/مؤيد لـ"],["in favor of","مؤيد"]], usage:"against + رأي/شخص/شيء."},
+  {ex2:"They spent the whole afternoon relaxing on the beach.", syn:[["shore","شاطئ"],["coast","ساحل"]], ant:[], usage:"go to the beach."},
+  {ex2:"The storm damaged several houses along the coast.", syn:[["harm","يضرّ"],["destroy","يدمّر"]], ant:[["repair","يصلح"],["fix","يصلح"]], usage:"damage + شيء."},
+  {ex2:"Scientists discovered a new species of fish in the deep ocean.", syn:[["find","يجد"],["uncover","يكتشف"]], ant:[["lose","يفقد"],["hide","يخفي"]], usage:"discover + شيء (لأول مرة)."},
+  {ex2:"She struggled to hide her emotions during the interview.", syn:[["feeling","شعور"]], ant:[], usage:"strong/mixed emotions."},
+  {ex2:"Can you fix my laptop? It won't turn on.", syn:[["repair","يصلح"],["mend","يرمم"]], ant:[["break","يكسر"]], usage:"fix + شيء معطّل."},
+  {ex2:"Witnesses were able to identify the suspect from photos.", syn:[["recognize","يتعرف على"],["name","يسمّي"]], ant:[], usage:"identify + شخص/شيء."},
+  {ex2:"They spent their honeymoon on a small island.", syn:[["isle","جزيرة"]], ant:[["mainland","البر الرئيسي"]], usage:"a small/tropical island."},
+  {ex2:"The ship sailed across the Atlantic Ocean.", syn:[["sea","بحر"]], ant:[], usage:"across/in the ocean."},
+  {ex2:"Perhaps we should wait until tomorrow to decide.", syn:[["maybe","ربما"],["possibly","من الممكن"]], ant:[["certainly","بالتأكيد"],["definitely","قطعاً"]], usage:"يبدأ الجملة أو يُدخل احتمالاً."},
+  {ex2:"We had a pleasant afternoon walking in the park.", syn:[["enjoyable","ممتع"],["nice","لطيف"]], ant:[["unpleasant","غير سار"],["disagreeable","كريه"]], usage:"a pleasant + تجربة/شخص."},
+  {ex2:"Wearing a helmet can prevent serious injuries.", syn:[["stop","يمنع"],["avoid","يتجنب"]], ant:[["cause","يسبب"],["allow","يسمح"]], usage:"prevent + شيء + from + فعل."},
+  {ex2:"He climbed over the rocks to reach the cave.", syn:[["stone","حجر"]], ant:[], usage:"climb/sit on a rock."},
+  {ex2:"The lifeguard saved the swimmer from drowning.", syn:[["rescue","ينقذ"],["protect","يحمي"]], ant:[["endanger","يعرّض للخطر"],["abandon","يتخلى عن"]], usage:"save someone/something from + خطر."},
+  {ex2:"She smiled when she saw her old friend.", syn:[["grin","يبتسم بوضوح"]], ant:[["frown","يعبس"]], usage:"smile at someone."},
+  {ex2:"Please step aside so others can pass.", syn:[["walk","يخطو"],["move","يتحرك"]], ant:[], usage:"step aside/forward/back."},
+  {ex2:"She's still waiting for her exam results.", syn:[["yet","حتى الآن"]], ant:[["no longer","لم يعد"]], usage:"still + فعل مستمر/حالة."},
+  {ex2:"The soup had a rich, spicy taste.", syn:[["flavor","نكهة"]], ant:[], usage:"the taste of + طعام."},
+  {ex2:"He threw the ball to his teammate across the field.", syn:[["toss","يرمي بخفة"],["hurl","يقذف بقوة"]], ant:[["catch","يمسك"]], usage:"throw + شيء + to/at."},
+  {ex2:"Huge waves crashed against the rocks during the storm.", syn:[["swell","موجة كبيرة"]], ant:[], usage:"a big/small wave."}
+];
+
+// ---- Unit 10 (Book 2) ----
+SYN2[9] = [
+  {ex2:"She became a citizen of Bahrain after living there for years.", syn:[["national","مواطن"],["resident","مقيم"]], ant:[["foreigner","أجنبي"],["non-citizen","غير مواطن"]], usage:"a citizen of + دولة."},
+  {ex2:"The city council approved the new park project.", syn:[["committee","لجنة"],["board","مجلس إدارة"]], ant:[], usage:"a city/student council."},
+  {ex2:"The government declared a national holiday for the occasion.", syn:[["announce","يعلن"],["state","يصرّح"]], ant:[], usage:"declare + قرار/حالة."},
+  {ex2:"They live in an enormous house with ten bedrooms.", syn:[["huge","ضخم"],["massive","هائل"]], ant:[["tiny","صغير جداً"],["small","صغير"]], usage:"an enormous + اسم."},
+  {ex2:"She showed extraordinary courage during the crisis.", syn:[["exceptional","استثنائي"],["remarkable","ملحوظ"]], ant:[["ordinary","عادي"],["unremarkable","غير ملحوظ"]], usage:"extraordinary + صفة/إنجاز."},
+  {ex2:"Thick fog made it hard to see the road.", syn:[["mist","ضباب خفيف"]], ant:[["clarity","وضوح"]], usage:"thick/heavy fog."},
+  {ex2:"Hundreds of people attended his funeral.", syn:[["burial","دفن"]], ant:[], usage:"attend/hold a funeral."},
+  {ex2:"A giant billboard advertised the new movie.", syn:[["huge","ضخم"],["enormous","هائل"]], ant:[["tiny","صغير جداً"]], usage:"a giant + اسم."},
+  {ex2:"He made a great first impression at the interview.", syn:[["impact","أثر"],["effect","تأثير"]], ant:[], usage:"make an impression on someone."},
+  {ex2:"It wasn't his intention to hurt anyone.", syn:[["aim","هدف"],["purpose","غرض"]], ant:[], usage:"with the intention of/to."},
+  {ex2:"She got mad when her flight was delayed again.", syn:[["angry","غاضب"],["furious","غاضب جداً"]], ant:[["calm","هادئ"],["pleased","راضٍ"]], usage:"mad at/about someone/something."},
+  {ex2:"You ought to apologize for what you said.", syn:[["should","ينبغي"]], ant:[], usage:"ought to + فعل مجرد."},
+  {ex2:"It's hard to resist chocolate cake.", syn:[["withstand","يقاوم"],["refuse","يرفض"]], ant:[["give in","يستسلم"],["yield","يخضع"]], usage:"resist + إغراء/ضغط."},
+  {ex2:"The interview revealed some surprising facts about the company.", syn:[["uncover","يكشف"],["disclose","يفصح عن"]], ant:[["hide","يخفي"],["conceal","يُخفي"]], usage:"reveal + معلومة/سر."},
+  {ex2:"They worked hard to rid the neighborhood of crime.", syn:[["eliminate","يقضي على"],["remove","يزيل"]], ant:[], usage:"rid + مكان + of + شيء."},
+  {ex2:"The knight carried a sword and shield into battle.", syn:[["blade","نصل"]], ant:[], usage:"carry/wield a sword."},
+  {ex2:"Grandfather told us an exciting tale about his childhood.", syn:[["story","قصة"],["narrative","سرد"]], ant:[], usage:"tell a tale."},
+  {ex2:"The hunters set a trap to catch the fox.", syn:[["catch","يمسك"],["snare","يصطاد بفخ"]], ant:[["release","يُطلق سراح"],["free","يحرر"]], usage:"trap + حيوان/شخص."},
+  {ex2:"The trial lasted for three weeks before the verdict.", syn:[["hearing","جلسة استماع"]], ant:[], usage:"go on trial / stand trial."},
+  {ex2:"The movie was too violent for young children.", syn:[["aggressive","عدواني"],["brutal","وحشي"]], ant:[["peaceful","سلمي"],["gentle","لطيف"]], usage:"violent + سلوك/فيلم."}
+];
+
+// ---- Unit 11 (Book 2) ----
+SYN2[10] = [
+  {ex2:"Admission to the museum is free on Sundays.", syn:[["entry","دخول"],["entrance fee","رسم دخول"]], ant:[], usage:"admission to + مكان."},
+  {ex2:"He became interested in astronomy after visiting the observatory.", syn:[], ant:[], usage:"study astronomy."},
+  {ex2:"Don't blame yourself for something you couldn't control.", syn:[["accuse","يتّهم"],["hold responsible","يحمّل المسؤولية"]], ant:[["praise","يمدح"],["excuse","يعذر"]], usage:"blame someone for + شيء."},
+  {ex2:"She got the highest grade in chemistry this semester.", syn:[], ant:[], usage:"study chemistry."},
+  {ex2:"Despite the rain, they still went to the game.", syn:[["in spite of","رغم"],["notwithstanding","رغم"]], ant:[["because of","بسبب"]], usage:"despite + اسم/فعل بصيغة ing."},
+  {ex2:"Children love looking at dinosaur bones in the museum.", syn:[], ant:[], usage:"dinosaur bones/fossils."},
+  {ex2:"The artist exhibited her paintings at the gallery.", syn:[["display","يعرض"],["show","يُظهر"]], ant:[["hide","يخفي"],["conceal","يُخفي"]], usage:"exhibit + عمل فني/منتج."},
+  {ex2:"The singer achieved fame after her first album.", syn:[["celebrity","شهرة"],["renown","شهرة واسعة"]], ant:[["obscurity","غموض/عدم شهرة"]], usage:"achieve/gain fame."},
+  {ex2:"The weather forecast predicts sunshine all week.", syn:[["prediction","توقع"]], ant:[], usage:"a weather forecast."},
+  {ex2:"Einstein is considered one of history's greatest geniuses.", syn:[["prodigy","عبقري صغير السن"],["brilliant mind","عقل لامع"]], ant:[["fool","أحمق"]], usage:"a genius at/in + مجال."},
+  {ex2:"He spoke to the frightened child in a gentle voice.", syn:[["mild","معتدل/لطيف"],["soft","ناعم/رقيق"]], ant:[["harsh","قاسٍ"],["rough","خشن"]], usage:"gentle voice/touch."},
+  {ex2:"She studied the geography of the Middle East in detail.", syn:[], ant:[], usage:"study geography."},
+  {ex2:"Please don't interfere in matters that don't concern you.", syn:[["meddle","يتدخل فيما لا يعنيه"],["intervene","يتدخل"]], ant:[], usage:"interfere in/with."},
+  {ex2:"She tapped the door lightly to avoid waking the baby.", syn:[["gently","برفق"],["softly","بلطف"]], ant:[["heavily","بقوة"],["hard","بشدة"]], usage:"تصف فعلاً بقوة خفيفة."},
+  {ex2:"The principal met with parents to discuss the new schedule.", syn:[["headmaster","مدير مدرسة"]], ant:[], usage:"the school principal."},
+  {ex2:"We sat in the front row to see the stage clearly.", syn:[["line","صفّ"]], ant:[], usage:"a row of + أشياء."},
+  {ex2:"She put the books back on the shelf.", syn:[], ant:[], usage:"put/keep on a shelf."},
+  {ex2:"He broke the toy out of spite after losing the game.", syn:[["malice","كيد"],["resentment","استياء"]], ant:[["kindness","لطف"],["goodwill","نية حسنة"]], usage:"out of spite."},
+  {ex2:"My friend did a super job organizing the event.", syn:[["excellent","ممتاز"],["fantastic","رائع"]], ant:[["terrible","سيء"],["awful","فظيع"]], usage:"صفة عامية للإعجاب الشديد."},
+  {ex2:"His shoes were wet after walking in the rain.", syn:[["damp","رطب"],["soaked","مبلل تماماً"]], ant:[["dry","جاف"]], usage:"wet clothes/floor."}
+];
+
+// ---- Unit 12 (Book 2) ----
+SYN2[11] = [
+  {ex2:"The organization works to protect children from abuse.", syn:[["mistreatment","سوء معاملة"],["harm","أذى"]], ant:[["care","رعاية"],["protection","حماية"]], usage:"physical/verbal abuse."},
+  {ex2:"We can't afford a new car right now.", syn:[["have enough money for","يملك ما يكفي من المال"]], ant:[], usage:"can/can't afford + شيء."},
+  {ex2:"She baked cookies for the school fundraiser.", syn:[["cook in an oven","يطهو بالفرن"]], ant:[], usage:"bake + طعام."},
+  {ex2:"The soup was made with beans and vegetables.", syn:[], ant:[], usage:"a can/pot of beans."},
+  {ex2:"They lit candles during the power outage.", syn:[], ant:[], usage:"light a candle."},
+  {ex2:"They converted the old barn into a modern house.", syn:[["transform","يحوّل"],["change","يغيّر"]], ant:[], usage:"convert + شيء + into + شيء آخر."},
+  {ex2:"He worked two jobs to pay off his debt.", syn:[["money owed","مبلغ مستحق"]], ant:[["savings","مدّخرات"]], usage:"pay off/be in debt."},
+  {ex2:"Sales decreased significantly during the winter months.", syn:[["reduce","يقلل"],["decline","ينخفض"]], ant:[["increase","يزيد"],["rise","يرتفع"]], usage:"decrease by/to + رقم."},
+  {ex2:"It wasn't her fault that the meeting was canceled.", syn:[["blame","لوم"],["responsibility","مسؤولية"]], ant:[["credit","فضل"]], usage:"it's someone's fault."},
+  {ex2:"The school set up a fund to help students in need.", syn:[["pool of money","صندوق مالي"]], ant:[], usage:"raise/set up a fund."},
+  {ex2:"He made a generous donation to the charity.", syn:[["giving","كريم"],["charitable","خيّر"]], ant:[["stingy","بخيل"],["selfish","أناني"]], usage:"generous with/to."},
+  {ex2:"Flour and sugar are the main ingredients in this cake.", syn:[["component","مكوّن"]], ant:[], usage:"a main/secret ingredient."},
+  {ex2:"She insisted on paying for dinner herself.", syn:[["demand","يُصرّ/يطالب"],["be firm about","يكون حازماً بشأن"]], ant:[["give in","يتنازل"]], usage:"insist on/that."},
+  {ex2:"The kids left the kitchen in a complete mess.", syn:[["clutter","فوضى"],["disorder","اضطراب"]], ant:[["order","نظام"],["tidiness","ترتيب"]], usage:"make/clean up a mess."},
+  {ex2:"The bridge is made of strong metal.", syn:[], ant:[], usage:"made of metal."},
+  {ex2:"Doctors monitored her heart rate throughout the night.", syn:[["track","يتتبع"],["observe","يراقب"]], ant:[["ignore","يتجاهل"]], usage:"monitor + حالة/شخص."},
+  {ex2:"Many residents opposed the plan to build a new highway.", syn:[["object to","يعترض على"],["resist","يقاوم"]], ant:[["support","يدعم"],["favor","يؤيد"]], usage:"oppose + خطة/فكرة."},
+  {ex2:"He took a passive role in the discussion, just listening.", syn:[["inactive","غير فاعل"],["submissive","خاضع"]], ant:[["active","نشط"],["assertive","حازم"]], usage:"a passive role/attitude."},
+  {ex2:"The factory produces a large quantity of goods daily.", syn:[["amount","كمية"],["volume","حجم"]], ant:[], usage:"a small/large quantity of."},
+  {ex2:"The customer sued the company for damages.", syn:[["take legal action against","يقاضي رسمياً"]], ant:[], usage:"sue someone for + سبب."}
+];
+
+// ---- Unit 13 (Book 2) ----
+SYN2[12] = [
+  {ex2:"The salary was adequate to cover his basic needs.", syn:[["sufficient","كافٍ"],["enough","كافٍ"]], ant:[["inadequate","غير كافٍ"],["insufficient","ناقص"]], usage:"adequate for/to."},
+  {ex2:"She felt a wave of anxiety before the presentation.", syn:[["worry","قلق"],["nervousness","توتر"]], ant:[["calm","هدوء"],["confidence","ثقة"]], usage:"feel/suffer from anxiety."},
+  {ex2:"He served in the army for six years.", syn:[["military","جيش/قوات مسلحة"]], ant:[], usage:"join/serve in the army."},
+  {ex2:"The company is now worth over a billion dollars.", syn:[], ant:[], usage:"a billion + اسم."},
+  {ex2:"He carved a small boat out of wood.", syn:[["cut","ينحت"],["sculpt","ينحت فنياً"]], ant:[], usage:"carve + شيء + out of/from."},
+  {ex2:"You should consult a doctor before starting any diet.", syn:[["ask for advice","يطلب النصيحة"],["seek guidance from","يستشير"]], ant:[], usage:"consult + مختص/كتاب."},
+  {ex2:"Call this number only in case of an emergency.", syn:[["crisis","أزمة"],["urgent situation","حالة طارئة"]], ant:[], usage:"in an emergency / an emergency room."},
+  {ex2:"He made his fortune in real estate.", syn:[["wealth","ثروة"],["riches","ثروات"]], ant:[["poverty","فقر"]], usage:"make/lose a fortune."},
+  {ex2:"The store guarantees a full refund within 30 days.", syn:[["promise","يعد"],["assure","يؤكد"]], ant:[], usage:"guarantee + that + جملة."},
+  {ex2:"Her initial reaction was one of surprise.", syn:[["first","أول"],["original","أصلي"]], ant:[["final","نهائي"],["last","أخير"]], usage:"the initial + اسم."},
+  {ex2:"The heat was intense during the summer afternoon.", syn:[["extreme","شديد"],["strong","قوي"]], ant:[["mild","معتدل"],["weak","ضعيف"]], usage:"intense heat/pain/pressure."},
+  {ex2:"Could you lend me some money until Friday?", syn:[["loan","يُقرض"]], ant:[["borrow","يستعير"]], usage:"lend + شيء + to + شخص."},
+  {ex2:"They reached the peak of the mountain by noon.", syn:[["summit","قمة"],["top","قمة"]], ant:[["base","قاعدة"],["bottom","أسفل"]], usage:"the peak of + جبل/نجاح."},
+  {ex2:"She has the potential to become a great leader.", syn:[["possible","محتمل"],["promising","واعد"]], ant:[], usage:"potential + اسم."},
+  {ex2:"He felt great pride when his daughter graduated.", syn:[["satisfaction","رضا/فخر"],["self-respect","احترام الذات"]], ant:[["shame","خجل"],["embarrassment","إحراج"]], usage:"pride in + إنجاز."},
+  {ex2:"The photo was proof that he had been at the party.", syn:[["evidence","دليل"],["verification","تحقق"]], ant:[], usage:"proof of/that."},
+  {ex2:"He quit his job to start his own business.", syn:[["resign","يستقيل"],["stop","يتوقف"]], ant:[["continue","يستمر"],["stay","يبقى"]], usage:"quit + وظيفة/عادة."},
+  {ex2:"The dancer spun gracefully across the stage.", syn:[["rotate","يدور"],["whirl","يدور بسرعة"]], ant:[], usage:"spin around."},
+  {ex2:"The apartment had a tiny kitchen.", syn:[["minuscule","صغير جداً"],["miniature","مصغّر"]], ant:[["huge","ضخم"],["enormous","هائل"]], usage:"a tiny + اسم."},
+  {ex2:"She hired a tutor to help her with calculus.", syn:[["private teacher","معلم خصوصي"]], ant:[["student","طالب"]], usage:"hire a tutor."}
+];
+
+// ---- Unit 14 (Book 2) ----
+SYN2[13] = [
+  {ex2:"It became apparent that the plan wasn't going to work.", syn:[["clear","واضح"],["evident","بيّن"]], ant:[["unclear","غير واضح"],["hidden","مخفي"]], usage:"it's apparent that."},
+  {ex2:"The blind man used a cane to walk safely.", syn:[["sightless","فاقد البصر"]], ant:[["sighted","مبصر"]], usage:"a blind person."},
+  {ex2:"He calculated the total cost before making the purchase.", syn:[["compute","يحسب"],["work out","يحسب"]], ant:[], usage:"calculate + رقم/تكلفة."},
+  {ex2:"They chatted for a while before starting the meeting.", syn:[["talk casually","يتحدث بشكل غير رسمي"],["converse","يتحادث"]], ant:[], usage:"chat with/about."},
+  {ex2:"She committed to finishing the project by Friday.", syn:[["promise","يلتزم"],["pledge","يتعهد"]], ant:[["back out","ينسحب"]], usage:"commit to + هدف/فعل."},
+  {ex2:"He composed a beautiful song for the wedding.", syn:[["create","يبتكر"],["write","يؤلف"]], ant:[], usage:"compose + موسيقى/رسالة."},
+  {ex2:"First-year students usually live in the dormitory.", syn:[["dorm","سكن طلابي"]], ant:[], usage:"live in a dormitory."},
+  {ex2:"The long hike exhausted the entire group.", syn:[["tire out","يُتعب"],["wear out","يُنهك"]], ant:[["energize","ينشّط"],["refresh","ينعش"]], usage:"غالباً مبني للمجهول: be exhausted."},
+  {ex2:"They grow tomatoes in a greenhouse all year round.", syn:[["glasshouse","بيت زجاجي"]], ant:[], usage:"grow + نبات + in a greenhouse."},
+  {ex2:"She ignored his messages for the whole day.", syn:[["disregard","يتجاهل"],["overlook","يغفل عن"]], ant:[["notice","يلاحظ"],["acknowledge","يعترف بـ"]], usage:"ignore + شخص/شيء."},
+  {ex2:"It was obvious that he hadn't slept well.", syn:[["clear","واضح"],["evident","جلي"]], ant:[["unclear","غير واضح"],["subtle","خفي"]], usage:"it's obvious that."},
+  {ex2:"She struggled with physics in her first year of college.", syn:[], ant:[], usage:"study physics."},
+  {ex2:"He ate only a small portion of his meal.", syn:[["part","جزء"],["share","حصة"]], ant:[["whole","الكل"]], usage:"a portion of + شيء."},
+  {ex2:"Please remind me to call the doctor tomorrow.", syn:[["prompt","يذكّر"],["jog someone's memory","يذكّر شخصاً"]], ant:[], usage:"remind someone to do something."},
+  {ex2:"The secretary scheduled all of the manager's meetings.", syn:[["assistant","مساعد إداري"]], ant:[], usage:"an office secretary."},
+  {ex2:"He suffered severe injuries in the accident.", syn:[["serious","خطير"],["extreme","شديد"]], ant:[["mild","خفيف"],["minor","طفيف"]], usage:"severe + ألم/طقس/مرض."},
+  {ex2:"She has a natural talent for painting.", syn:[["gift","موهبة"],["skill","مهارة"]], ant:[], usage:"a talent for + مجال."},
+  {ex2:"He spent a year researching his master's thesis.", syn:[["dissertation","أطروحة"]], ant:[], usage:"write/defend a thesis."},
+  {ex2:"Students must wear their school uniform every day.", syn:[], ant:[], usage:"wear a uniform."},
+  {ex2:"Her vision has gotten worse since she started using screens more.", syn:[["eyesight","بصر"],["sight","رؤية"]], ant:[["blindness","عمى"]], usage:"good/poor vision."}
+];
+
+// ---- Unit 15 (Book 2) ----
+SYN2[14] = [
+  {ex2:"The sponge absorbed all the spilled water.", syn:[["soak up","يمتص"],["take in","يستوعب"]], ant:[["release","يطلق"],["repel","ينفّر"]], usage:"absorb + سائل/معلومة."},
+  {ex2:"Her boss praised her work in front of the team.", syn:[["manager","مدير"],["supervisor","مشرف"]], ant:[["employee","موظف"],["subordinate","مرؤوس"]], usage:"work for/report to a boss."},
+  {ex2:"The company made a charitable donation to the hospital.", syn:[["generous","كريم"],["philanthropic","خيري"]], ant:[["selfish","أناني"]], usage:"a charitable organization/donation."},
+  {ex2:"The committee will meet next week to review applications.", syn:[["board","مجلس"],["panel","لجنة تحكيم"]], ant:[], usage:"a committee of + عدد/مجال."},
+  {ex2:"She signed a two-year contract with the company.", syn:[["agreement","اتفاق"],["deal","صفقة"]], ant:[], usage:"sign/break a contract."},
+  {ex2:"The film crew worked all night to finish the scene.", syn:[["team","فريق"],["staff","طاقم"]], ant:[], usage:"a film/ship crew."},
+  {ex2:"She devotes most of her time to volunteer work.", syn:[["dedicate","يكرّس"],["commit","يلتزم"]], ant:[["neglect","يهمل"]], usage:"devote + وقت/جهد + to."},
+  {ex2:"They dug a hole to plant the tree.", syn:[["excavate","يحفر رسمياً"]], ant:[["fill in","يردم"]], usage:"dig + a hole/ground."},
+  {ex2:"They dined at a fancy restaurant to celebrate.", syn:[["eat dinner","يتناول العشاء"]], ant:[], usage:"dine at/on (رسمي أكثر من eat)."},
+  {ex2:"He donated his old clothes to the charity shop.", syn:[["give","يعطي"],["contribute","يساهم"]], ant:[["keep","يحتفظ بـ"]], usage:"donate + شيء + to."},
+  {ex2:"The price is now double what it used to be.", syn:[["twice as much","ضعف"]], ant:[["half","نصف"]], usage:"double the + كمية."},
+  {ex2:"This ice cream comes in five different flavors.", syn:[["taste","طعم"]], ant:[], usage:"a flavor of + طعام."},
+  {ex2:"The foundation provides scholarships to students in need.", syn:[["fund","صندوق"],["base","أساس"]], ant:[], usage:"a charitable foundation."},
+  {ex2:"Three generations of the family live in the same house.", syn:[["age group","فئة عمرية"]], ant:[], usage:"the younger/older generation."},
+  {ex2:"The handle of the bag broke while she was carrying it.", syn:[["grip","مقبض"]], ant:[], usage:"the handle of + شيء."},
+  {ex2:"There was a thick layer of snow on the ground.", syn:[["coating","طبقة"],["level","طبقة"]], ant:[], usage:"a layer of + مادة."},
+  {ex2:"His boots were covered in mud after the hike.", syn:[["wet dirt","طين رطب"]], ant:[], usage:"covered in mud."},
+  {ex2:"The baby's skin felt smooth and soft.", syn:[["even","مستوٍ"],["silky","حريري"]], ant:[["rough","خشن"],["bumpy","وعر"]], usage:"smooth surface/skin."},
+  {ex2:"The farmer tested the soil before planting.", syn:[["earth","تربة"],["ground","أرض"]], ant:[], usage:"fertile/dry soil."},
+  {ex2:"Every snowflake has a unique shape.", syn:[["distinctive","مميّز"],["one-of-a-kind","فريد من نوعه"]], ant:[["common","شائع"],["ordinary","عادي"]], usage:"unique to + شخص/شيء."}
+];
+
+// ---- Unit 16 (Book 2) ----
+SYN2[15] = [
+  {ex2:"He trained at a football academy as a teenager.", syn:[["school","مدرسة"],["institute","معهد"]], ant:[], usage:"a military/sports academy."},
+  {ex2:"They explored ancient ruins from the Roman Empire.", syn:[["old","قديم"],["historic","تاريخي"]], ant:[["modern","حديث"],["new","جديد"]], usage:"ancient + حضارة/مبنى."},
+  {ex2:"He nailed the boards together to build a fence.", syn:[["plank","لوح خشبي"]], ant:[], usage:"a wooden board."},
+  {ex2:"The building was constructed in the 19th century.", syn:[], ant:[], usage:"the 21st century."},
+  {ex2:"The detective found an important clue at the crime scene.", syn:[["hint","تلميح"],["evidence","دليل"]], ant:[], usage:"a clue about/to."},
+  {ex2:"We bought tickets for the concert next month.", syn:[["performance","عرض موسيقي"]], ant:[], usage:"attend/go to a concert."},
+  {ex2:"He grew up in a small county in the countryside.", syn:[["region","منطقة إدارية"]], ant:[], usage:"a county in + دولة."},
+  {ex2:"She looked up the word in the dictionary.", syn:[["lexicon","معجم"]], ant:[], usage:"look up a word in a dictionary."},
+  {ex2:"Life may exist on other planets.", syn:[["be real","يكون حقيقياً"]], ant:[], usage:"exist in/on."},
+  {ex2:"The land here is completely flat with no hills.", syn:[["level","مستوٍ"],["even","متساوٍ"]], ant:[["bumpy","وعر"],["hilly","جبلي"]], usage:"flat surface/land."},
+  {ex2:"The old gentleman offered his seat to the woman.", syn:[], ant:[], usage:"a kind gentleman."},
+  {ex2:"There's a hidden camera in the parking lot.", syn:[["concealed","مخفي رسمياً"],["secret","سري"]], ant:[["visible","ظاهر"],["exposed","مكشوف"]], usage:"a hidden + شيء."},
+  {ex2:"Maybe we should ask for directions.", syn:[["perhaps","ربما"],["possibly","من الممكن"]], ant:[["definitely","بالتأكيد"]], usage:"يبدأ الجملة أو يُدخل احتمالاً."},
+  {ex2:"The police officer directed traffic at the busy intersection.", syn:[["official","مسؤول رسمي"]], ant:[], usage:"a police/army officer."},
+  {ex2:"This is the original painting, not a copy.", syn:[["authentic","أصيل"],["genuine","حقيقي"]], ant:[["fake","مزيّف"],["copied","منسوخ"]], usage:"the original + اسم."},
+  {ex2:"He pounded on the door until someone opened it.", syn:[["hit hard","يضرب بقوة"],["hammer","يطرق"]], ant:[["tap","ينقر بخفة"]], usage:"pound on + شيء."},
+  {ex2:"The application process takes about two weeks.", syn:[["procedure","إجراء"],["method","طريقة"]], ant:[], usage:"the process of + فعل."},
+  {ex2:"The author published her first novel last year.", syn:[["release","يصدر"],["print","يطبع"]], ant:[], usage:"publish + كتاب/مقال."},
+  {ex2:"They watched a play at the local theater.", syn:[["playhouse","مسرح"]], ant:[], usage:"go to the theater."},
+  {ex2:"His wealth came from years of smart investments.", syn:[["riches","ثروات"],["fortune","ثروة"]], ant:[["poverty","فقر"]], usage:"great/personal wealth."}
+];
+
+// ---- Unit 17 (Book 2) ----
+SYN2[16] = [
+  {ex2:"Her aim is to open her own business by thirty.", syn:[["goal","هدف"],["objective","غاية"]], ant:[], usage:"aim to do something."},
+  {ex2:"Please attach the file to your email.", syn:[["fasten","يشدّ"],["connect","يربط"]], ant:[["detach","يفصل"],["remove","يزيل"]], usage:"attach + شيء + to."},
+  {ex2:"I bet you can't finish this puzzle in five minutes.", syn:[["wager","يراهن"]], ant:[], usage:"bet on/that."},
+  {ex2:"Tourists rode in a horse-drawn carriage around the city.", syn:[["cart","عربة"]], ant:[], usage:"a horse-drawn carriage."},
+  {ex2:"This is a classic example of a beginner's mistake.", syn:[["typical","نموذجي"],["traditional","تقليدي"]], ant:[["modern","حديث"],["unusual","غير معتاد"]], usage:"a classic + اسم."},
+  {ex2:"He commutes two hours to work every day.", syn:[["travel to work","يتنقل للعمل"]], ant:[], usage:"commute to/from."},
+  {ex2:"Please confirm your appointment by replying to this message.", syn:[["verify","يتحقق"],["validate","يصادق على"]], ant:[["cancel","يلغي"],["deny","ينفي"]], usage:"confirm + موعد/معلومة."},
+  {ex2:"He was criticized for making the decision without asking anyone.", syn:[["condemn","يستنكر"],["disapprove of","يستهجن"]], ant:[["praise","يمدح"],["approve","يوافق على"]], usage:"criticize someone for + سبب."},
+  {ex2:"Our opinions differ on this important issue.", syn:[["vary","يتفاوت"],["disagree","يختلف"]], ant:[["agree","يتفق"],["match","يتطابق"]], usage:"differ from/in."},
+  {ex2:"They kept a record of every expense during the trip.", syn:[["cost","تكلفة"],["spending","إنفاق"]], ant:[["income","دخل"],["profit","ربح"]], usage:"an expense of + مبلغ."},
+  {ex2:"The wedding was a formal event with strict dress code.", syn:[["official","رسمي"],["proper","لائق"]], ant:[["informal","غير رسمي"],["casual","عادي"]], usage:"a formal + مناسبة/طلب."},
+  {ex2:"The building's height makes it visible from far away.", syn:[["elevation","ارتفاع"]], ant:[["depth","عمق"]], usage:"the height of + شخص/شيء."},
+  {ex2:"Alexander Graham Bell invented the telephone.", syn:[["create","يبتكر"],["design","يصمم"]], ant:[], usage:"invent + شيء جديد."},
+  {ex2:"She started as a junior accountant at the firm.", syn:[["entry-level","مبتدئ"],["less experienced","أقل خبرة"]], ant:[["senior","كبير/خبير"]], usage:"a junior + منصب."},
+  {ex2:"Building the pyramid required years of hard labor.", syn:[["work","عمل"],["effort","جهد"]], ant:[["rest","راحة"]], usage:"hard/manual labor."},
+  {ex2:"The mechanic fixed the car's engine in an hour.", syn:[["technician","فني"]], ant:[], usage:"take the car to a mechanic."},
+  {ex2:"Traffic jams are common during prime hours in the city.", syn:[["main","رئيسي"],["principal","أساسي"]], ant:[["secondary","ثانوي"]], usage:"prime time/location."},
+  {ex2:"The company shifted its focus to online sales.", syn:[["change","يغيّر"],["move","ينتقل"]], ant:[["stay the same","يبقى كما هو"]], usage:"shift from/to."},
+  {ex2:"The teacher gave a signal for the class to begin.", syn:[["sign","إشارة"],["cue","إشارة"]], ant:[], usage:"give/send a signal."},
+  {ex2:"He gave a sincere apology to his friend.", syn:[["genuine","صادق"],["honest","صريح"]], ant:[["insincere","غير صادق"],["fake","مصطنع"]], usage:"a sincere + اعتذار/شعور."}
+];
+
+// ---- Unit 18 (Book 2) ----
+SYN2[17] = [
+  {ex2:"Her ability to solve problems quickly impressed her boss.", syn:[["skill","مهارة"],["capability","قدرة"]], ant:[["inability","عجز"]], usage:"the ability to do something."},
+  {ex2:"Agriculture is a major industry in this region.", syn:[["farming","زراعة"]], ant:[], usage:"modern agriculture."},
+  {ex2:"The newspaper printed a funny cartoon about the election.", syn:[["comic","رسم كاريكاتيري"]], ant:[], usage:"draw/watch a cartoon."},
+  {ex2:"There's a crack in the ceiling above the kitchen.", syn:[], ant:[["floor","أرضية"]], usage:"paint the ceiling."},
+  {ex2:"It took a while to convince him to try the new restaurant.", syn:[["persuade","يقنع"]], ant:[["dissuade","يثني عن"]], usage:"convince someone to do something."},
+  {ex2:"The curious child kept asking questions about space.", syn:[["inquisitive","فضولي"],["interested","مهتم"]], ant:[["indifferent","لا مبالٍ"],["uninterested","غير مهتم"]], usage:"curious about + شيء."},
+  {ex2:"The flight was delayed for two hours due to weather.", syn:[["postpone","يؤجل"],["hold up","يؤخّر"]], ant:[["speed up","يُسرّع"],["advance","يقدّم"]], usage:"delay + حدث/موعد."},
+  {ex2:"She's been keeping a diary since she was twelve.", syn:[["journal","مذكرات"]], ant:[], usage:"write in a diary."},
+  {ex2:"Trust is an important element in any relationship.", syn:[["component","مكوّن"],["part","جزء"]], ant:[["whole","الكل"]], usage:"an element of + شيء."},
+  {ex2:"She has great faith in her team's abilities.", syn:[["trust","ثقة"],["belief","إيمان"]], ant:[["doubt","شكّ"],["distrust","عدم ثقة"]], usage:"faith in + شخص/شيء."},
+  {ex2:"The farmer stored the grain in a large silo.", syn:[["cereal crop","محصول حبوب"]], ant:[], usage:"grow/store grain."},
+  {ex2:"She greeted every guest with a warm smile.", syn:[["welcome","يرحّب بـ"],["say hello to","يحيّي"]], ant:[["ignore","يتجاهل"]], usage:"greet someone."},
+  {ex2:"Detectives are investigating the cause of the fire.", syn:[["examine","يفحص"],["look into","يبحث في"]], ant:[["ignore","يتجاهل"]], usage:"investigate + قضية/حادثة."},
+  {ex2:"The birth of her daughter brought her great joy.", syn:[["happiness","سعادة"],["delight","بهجة"]], ant:[["sorrow","حزن"],["sadness","كآبة"]], usage:"joy at/of + شيء."},
+  {ex2:"Check the label to see the ingredients.", syn:[["tag","بطاقة"]], ant:[], usage:"read/check a label."},
+  {ex2:"The monks lived a quiet life in the mountain monastery.", syn:[], ant:[], usage:"a Buddhist/Christian monk."},
+  {ex2:"It was odd that he didn't answer his phone all day.", syn:[["strange","غريب"],["unusual","غير معتاد"]], ant:[["normal","عادي"],["typical","نموذجي"]], usage:"it's odd that."},
+  {ex2:"She paused for a moment before answering the question.", syn:[["stop briefly","يتوقف لحظياً"],["hesitate","يتردد"]], ant:[["continue","يواصل"]], usage:"pause to do something."},
+  {ex2:"The priest led the Sunday service at the church.", syn:[["clergyman","رجل دين"]], ant:[], usage:"a Catholic priest."},
+  {ex2:"Teaching is a respected profession in many cultures.", syn:[["career","مهنة"],["occupation","وظيفة"]], ant:[], usage:"by profession."}
+];
+
+// ---- Unit 19 (Book 2) ----
+SYN2[18] = [
+  {ex2:"The children kicked the ball across the yard.", syn:[], ant:[], usage:"kick/throw a ball."},
+  {ex2:"The keys were at the bottom of her bag.", syn:[["base","قاعدة"],["foot","أسفل"]], ant:[["top","قمة"]], usage:"at the bottom of + شيء."},
+  {ex2:"She works for a technology company downtown.", syn:[["business","شركة/عمل تجاري"],["firm","مؤسسة"]], ant:[], usage:"work for/start a company."},
+  {ex2:"He drinks a glass of water first thing every morning.", syn:[["sip","يرشف"],["consume","يستهلك"]], ant:[], usage:"drink + سائل."},
+  {ex2:"Only a few students showed up to the extra class.", syn:[["not many","ليس كثيراً"]], ant:[["many","كثير"]], usage:"a few / few + اسم جمع."},
+  {ex2:"There was a long line at the checkout counter.", syn:[["queue","طابور"]], ant:[], usage:"stand in line / wait in line."},
+  {ex2:"They adopted a pet from the local shelter.", syn:[["companion animal","حيوان رفيق"]], ant:[["wild animal","حيوان بري"]], usage:"keep/own a pet."},
+  {ex2:"The company launched a new skincare product.", syn:[["item","سلعة/غرض"],["good","منتج"]], ant:[], usage:"launch/sell a product."},
+  {ex2:"He's responsible for managing the whole department.", syn:[["accountable","مسؤول رسمياً"],["in charge of","مسؤول عن"]], ant:[["irresponsible","غير مسؤول"]], usage:"responsible for + مهمة."},
+  {ex2:"They sold their old car to buy a newer one.", syn:[["trade","يتاجر"]], ant:[["buy","يشتري"]], usage:"sell + شيء + to + شخص."},
+  {ex2:"He was frightened when he saw a snake in the garden.", syn:[["serpent","ثعبان"]], ant:[], usage:"a poisonous snake."},
+  {ex2:"She stood by the door waiting for her friend.", syn:[["remain upright","يبقى منتصباً"]], ant:[["sit","يجلس"],["lie down","يستلقي"]], usage:"stand by/near/in."},
+  {ex2:"There was a strange noise coming from the basement.", syn:[["odd","غريب"],["unusual","غير معتاد"]], ant:[["normal","عادي"],["familiar","مألوف"]], usage:"strange + شيء/سلوك."},
+  {ex2:"She drinks green tea every afternoon.", syn:[], ant:[], usage:"make/drink tea."},
+  {ex2:"They tested the new product before releasing it.", syn:[["examine","يفحص"],["try out","يجرّب"]], ant:[], usage:"test + منتج/فرضية."},
+  {ex2:"He burned his tongue on the hot soup.", syn:[], ant:[], usage:"جزء من الجسم محدد."},
+  {ex2:"They are planning to visit next weekend.", syn:[], ant:[], usage:"ضمير جمع للغائب."},
+  {ex2:"What type of music do you like?", syn:[["kind","نوع"],["sort","صنف"]], ant:[], usage:"a type of + اسم."},
+  {ex2:"The soup was very spicy for my taste.", syn:[["extremely","للغاية"],["really","حقاً"]], ant:[], usage:"تسبق صفة/ظرف للتشديد."},
+  {ex2:"She waited outside the office for her interview.", syn:[["remain","يبقى"],["stay","يبقى"]], ant:[["leave","يغادر"]], usage:"wait for + شخص/شيء."}
+];
+
+// ---- Unit 20 (Book 2) ----
+SYN2[19] = [
+  {ex2:"She accomplished all her goals before turning thirty.", syn:[["achieve","يحقق"],["complete","ينجز"]], ant:[["fail","يفشل"]], usage:"accomplish a goal/task."},
+  {ex2:"The manager approved the new budget yesterday.", syn:[["agree to","يوافق على"],["authorize","يُصادق على"]], ant:[["reject","يرفض"],["disapprove","يستهجن"]], usage:"approve of/a plan."},
+  {ex2:"Give me an approximate time for the delivery.", syn:[["rough","تقريبي"],["estimated","تقديري"]], ant:[["exact","دقيق"],["precise","محدد"]], usage:"an approximate + رقم/وقت."},
+  {ex2:"Language was a major barrier during their trip abroad.", syn:[["obstacle","عائق"],["obstruction","عرقلة"]], ant:[], usage:"a barrier to/between."},
+  {ex2:"The smoke alarm detected the fire quickly.", syn:[["notice","يلاحظ"],["sense","يستشعر"]], ant:[["miss","يفوّت"]], usage:"detect + شيء."},
+  {ex2:"It's a soldier's duty to protect the country.", syn:[["obligation","التزام"],["responsibility","مسؤولية"]], ant:[["right","حق"]], usage:"do/perform a duty."},
+  {ex2:"He teaches at an elementary school nearby.", syn:[["basic","أساسي"],["primary","ابتدائي"]], ant:[["advanced","متقدم"]], usage:"elementary school/level."},
+  {ex2:"The failure of the project taught them valuable lessons.", syn:[["defeat","هزيمة"],["unsuccess","عدم نجاح"]], ant:[["success","نجاح"]], usage:"the failure of + شيء."},
+  {ex2:"There has been a gradual increase in prices this year.", syn:[["slow","بطيء"],["steady","ثابت"]], ant:[["sudden","مفاجئ"],["abrupt","حاد"]], usage:"a gradual + تغيّر."},
+  {ex2:"Many immigrants have contributed to the country's growth.", syn:[["newcomer","وافد جديد"]], ant:[["native","مواطن أصلي"],["citizen","مواطن"]], usage:"an immigrant from + دولة."},
+  {ex2:"Insert your card and enter your PIN.", syn:[["put in","يُدخل"],["place","يضع"]], ant:[["remove","يزيل"],["take out","يُخرج"]], usage:"insert + شيء + into."},
+  {ex2:"In an instant, the whole room went silent.", syn:[["moment","لحظة"]], ant:[], usage:"in an instant."},
+  {ex2:"The charity works to reduce poverty in rural areas.", syn:[["destitution","فقر مدقع"]], ant:[["wealth","ثروة"]], usage:"live in poverty."},
+  {ex2:"The kids pretended to be superheroes during recess.", syn:[["act as if","يتظاهر بأن"],["fake","يتظاهر"]], ant:[], usage:"pretend to be/do something."},
+  {ex2:"He reached the rank of captain in the army.", syn:[["position","منصب"],["level","مستوى"]], ant:[], usage:"the rank of + منصب."},
+  {ex2:"She finally received recognition for her years of hard work.", syn:[["acknowledgment","اعتراف"],["credit","تقدير"]], ant:[], usage:"receive/gain recognition."},
+  {ex2:"Refrigerate the leftovers within two hours.", syn:[["chill","يبرّد"],["cool","يبرّد"]], ant:[["heat","يسخّن"]], usage:"refrigerate + طعام."},
+  {ex2:"The rent for this apartment is due on the first of the month.", syn:[["lease payment","دفعة إيجار"]], ant:[], usage:"pay rent."},
+  {ex2:"My father plans to retire next year after 30 years of work.", syn:[["stop working","يتوقف عن العمل"]], ant:[], usage:"retire from + وظيفة."},
+  {ex2:"The statistic showed a rise in online shopping this year.", syn:[["figure","رقم/إحصاء"],["data point","نقطة بيانات"]], ant:[], usage:"a statistic about/on."}
+];
+
+// ---- Unit 21 (Book 2) ----
+SYN2[20] = [
+  {ex2:"The accident happened at a busy intersection downtown.", syn:[["crash","اصطدام"],["mishap","حادث بسيط"]], ant:[], usage:"have/cause an accident."},
+  {ex2:"She dreamed of becoming an astronaut since she was a child.", syn:[], ant:[], usage:"an astronaut in space."},
+  {ex2:"He stayed awake all night studying for the exam.", syn:[["not sleeping","غير نائم"]], ant:[["asleep","نائم"]], usage:"stay/keep awake."},
+  {ex2:"It took courage to admit her mistake in front of everyone.", syn:[["bravery","شجاعة"],["nerve","جرأة"]], ant:[["cowardice","جبن"],["fear","خوف"]], usage:"have the courage to do something."},
+  {ex2:"The boat floated peacefully on the calm lake.", syn:[["drift","ينجرف"],["stay on the surface","يبقى على السطح"]], ant:[["sink","يغرق"]], usage:"float on/in + ماء."},
+  {ex2:"The university granted her a full scholarship.", syn:[["give","يمنح"],["award","يمنح رسمياً"]], ant:[["deny","يرفض"],["withhold","يحجب"]], usage:"grant someone + شيء."},
+  {ex2:"Objects fall to the ground because of gravity.", syn:[["gravitational force","قوة الجاذبية"]], ant:[], usage:"the force of gravity."},
+  {ex2:"The queen wore a crown covered in jewels.", syn:[["gem","جوهرة"],["precious stone","حجر كريم"]], ant:[], usage:"a rare/precious jewel."},
+  {ex2:"The miners worked deep underground searching for coal.", syn:[], ant:[], usage:"a coal/gold miner."},
+  {ex2:"This water is rich in essential minerals.", syn:[], ant:[], usage:"rich in minerals."},
+  {ex2:"All students are encouraged to participate in the discussion.", syn:[["take part","يشارك"],["join in","ينضم"]], ant:[["abstain","يمتنع"]], usage:"participate in + نشاط."},
+  {ex2:"He asked for permission to leave early.", syn:[["consent","موافقة"],["approval","إذن رسمي"]], ant:[["refusal","رفض"],["denial","إنكار"]], usage:"ask for/grant permission."},
+  {ex2:"She poured the tea carefully into small cups.", syn:[["fill","يملأ"]], ant:[], usage:"pour + سائل + into/onto."},
+  {ex2:"The chef prepared a dish with raw fish.", syn:[["uncooked","غير مطهو"],["unprocessed","غير معالَج"]], ant:[["cooked","مطهو"],["processed","معالَج"]], usage:"raw + طعام/مادة."},
+  {ex2:"The satellite sends weather data back to Earth.", syn:[], ant:[], usage:"launch a satellite."},
+  {ex2:"The map is drawn to a scale of one to a thousand.", syn:[["proportion","نسبة"],["size","حجم"]], ant:[], usage:"on a large/small scale."},
+  {ex2:"She skipped breakfast because she was running late.", syn:[["miss","يفوّت"],["leave out","يتجاوز"]], ant:[["attend","يحضر"],["include","يُدرج"]], usage:"skip + وجبة/فصل دراسي."},
+  {ex2:"He stretched his arms after sitting for hours.", syn:[["extend","يمدّ"],["reach out","يمدّ يده"]], ant:[["contract","ينكمش"]], usage:"stretch + جزء من الجسم."},
+  {ex2:"They used a telescope to observe the stars at night.", syn:[], ant:[], usage:"look through a telescope."},
+  {ex2:"The city has an extensive underground train system.", syn:[["subterranean","تحت الأرض"]], ant:[["aboveground","فوق الأرض"]], usage:"an underground + مترو/نفق."}
+];
+
+// ---- Unit 22 (Book 2) ----
+SYN2[21] = [
+  {ex2:"The fire alarm went off during the drill.", syn:[["alert","تنبيه"],["warning signal","إشارة تحذير"]], ant:[], usage:"set off/hear an alarm."},
+  {ex2:"The police arrested the suspect near the border.", syn:[["detain","يحتجز"],["take into custody","يضع رهن الاحتجاز"]], ant:[["release","يُطلق سراح"]], usage:"arrest someone for + سبب."},
+  {ex2:"She won an award for her outstanding research.", syn:[["prize","جائزة"],["honor","تكريم"]], ant:[], usage:"win/receive an award."},
+  {ex2:"This dog breed is known for being very loyal.", syn:[["type","نوع"],["species","نوع/سلالة"]], ant:[], usage:"a breed of + حيوان."},
+  {ex2:"He filled the bucket with water to wash the car.", syn:[["pail","دلو"]], ant:[], usage:"fill/carry a bucket."},
+  {ex2:"She entered a photography contest and won first place.", syn:[["competition","مسابقة"]], ant:[], usage:"enter/win a contest."},
+  {ex2:"The jury convicted him of theft after a long trial.", syn:[["find guilty","يدين بالذنب"]], ant:[["acquit","يبرّئ"]], usage:"convict someone of + جريمة."},
+  {ex2:"Thousands of people attended the music festival.", syn:[["celebration","احتفال"],["fair","مهرجان"]], ant:[], usage:"attend/hold a festival."},
+  {ex2:"He parked his car in the garage overnight.", syn:[["carport","مرأب مفتوح"]], ant:[], usage:"park in the garage."},
+  {ex2:"The journalist interviewed the mayor about the new policy.", syn:[["reporter","مراسل"]], ant:[], usage:"a news journalist."},
+  {ex2:"The pup followed its mother everywhere.", syn:[["puppy","جرو صغير"]], ant:[], usage:"an adorable pup."},
+  {ex2:"She qualified for the national team after a strong season.", syn:[["be eligible","يكون مؤهلاً"],["meet the requirements","يستوفي الشروط"]], ant:[["disqualify","يستبعد"]], usage:"qualify for + مسابقة/فريق."},
+  {ex2:"He repaired the broken fence over the weekend.", syn:[["fix","يصلح"],["mend","يرمم"]], ant:[["break","يكسر"],["damage","يتلف"]], usage:"repair + شيء معطّل."},
+  {ex2:"The meeting will resume after a short break.", syn:[["continue","يستمر"],["restart","يعاود البدء"]], ant:[["stop","يتوقف"],["end","ينتهي"]], usage:"resume + نشاط."},
+  {ex2:"Thieves robbed the bank early in the morning.", syn:[["steal from","يسرق من"],["burgle","يسطو على"]], ant:[], usage:"rob + مكان/شخص."},
+  {ex2:"She slipped on the wet floor and almost fell.", syn:[["skid","ينزلق"],["lose one's footing","يفقد توازنه"]], ant:[], usage:"slip on + سطح زلق."},
+  {ex2:"The results were somewhat surprising to the researchers.", syn:[["fairly","إلى حد ما"],["rather","نوعاً ما"]], ant:[["extremely","للغاية"]], usage:"تسبق صفة لتخفيف حدتها."},
+  {ex2:"The economy has remained stable for the past year.", syn:[["steady","ثابت"],["consistent","متسق"]], ant:[["unstable","غير مستقر"],["volatile","متقلب"]], usage:"a stable + اقتصاد/حالة."},
+  {ex2:"She used a tissue to wipe her nose.", syn:[], ant:[], usage:"a box of tissues."},
+  {ex2:"The kids played in the backyard all afternoon.", syn:[["garden","حديقة"]], ant:[], usage:"in the front/back yard."}
+];
+
+// ---- Unit 23 (Book 2) ----
+SYN2[22] = [
+  {ex2:"This is the best restaurant in the whole city.", syn:[["finest","الأفضل"],["top","الأعلى"]], ant:[["worst","الأسوأ"]], usage:"the best + اسم."},
+  {ex2:"She paid for the groceries with her credit card.", syn:[], ant:[], usage:"a credit/library card."},
+  {ex2:"A large crowd gathered outside the stadium before the match.", syn:[["mass","حشد كبير"],["throng","زحام"]], ant:[], usage:"a crowd of people."},
+  {ex2:"We spent the whole day at the beach.", syn:[], ant:[["night","ليل"]], usage:"during the day."},
+  {ex2:"This restaurant is famous for its seafood dish.", syn:[["meal","وجبة"],["course","طبق ضمن وجبة"]], ant:[], usage:"a main/side dish."},
+  {ex2:"The test was easier than she expected.", syn:[["simple","بسيط"],["straightforward","واضح ومباشر"]], ant:[["difficult","صعب"],["hard","صعب"]], usage:"easy to do something."},
+  {ex2:"She experienced culture shock when she first moved abroad.", syn:[["undergo","يمرّ بـ"],["go through","يمرّ بـ"]], ant:[], usage:"experience + موقف/شعور."},
+  {ex2:"They booked a hotel near the airport.", syn:[], ant:[], usage:"stay at/book a hotel."},
+  {ex2:"The meeting lasted for over an hour.", syn:[], ant:[], usage:"an hour of + نشاط."},
+  {ex2:"She turned on the light when it got dark.", syn:[["illumination","إضاءة"]], ant:[["darkness","ظلام"]], usage:"turn on/off the light."},
+  {ex2:"They sell fresh produce at the local market.", syn:[["marketplace","سوق"],["bazaar","سوق شعبي"]], ant:[], usage:"go to the market."},
+  {ex2:"They're planning a surprise party for their friend.", syn:[["organize","ينظّم"],["arrange","يرتّب"]], ant:[], usage:"plan + حدث/فعل."},
+  {ex2:"The price of gas has gone up this month.", syn:[["cost","تكلفة"],["rate","سعر"]], ant:[], usage:"the price of + شيء."},
+  {ex2:"She gave a short speech at the ceremony.", syn:[["brief","موجز"],["quick","سريع"]], ant:[["long","طويل"]], usage:"a short + مدة/شخص."},
+  {ex2:"They like to shop online for clothes.", syn:[["buy things","يتسوق"]], ant:[["sell","يبيع"]], usage:"shop for/online."},
+  {ex2:"Meet me at the train station at nine.", syn:[["terminal","محطة"]], ant:[], usage:"a bus/train station."},
+  {ex2:"The gift surprised her; she wasn't expecting it at all.", syn:[["astonish","يذهل"],["amaze","يبهر"]], ant:[], usage:"surprise someone."},
+  {ex2:"The new system makes it easier to track orders.", syn:[["method","طريقة"],["process","نظام عمل"]], ant:[], usage:"a system for/of."},
+  {ex2:"She took a taxi home after the party.", syn:[["cab","تاكسي"]], ant:[], usage:"call/take a taxi."},
+  {ex2:"They have two children, a boy and a girl.", syn:[], ant:[], usage:"رقم ثابت."}
+];
+
+// ---- Unit 24 (Book 2) ----
+SYN2[23] = [
+  {ex2:"She took a hot bath after her long run.", syn:[["soak","نقع"]], ant:[["shower","دش"]], usage:"take/have a bath."},
+  {ex2:"He bent down to tie his shoelaces.", syn:[["bow","ينحني"],["curve","ينثني"]], ant:[["straighten","يستقيم"]], usage:"bend down/over."},
+  {ex2:"You should chew your food slowly.", syn:[["bite","يمضغ"]], ant:[["swallow","يبتلع"]], usage:"chew + طعام."},
+  {ex2:"The building has ramps for disabled visitors.", syn:[["physically challenged","ذو تحدٍّ جسدي"]], ant:[["able-bodied","سليم جسدياً"]], usage:"a disabled + شخص/موقف."},
+  {ex2:"We had a fantastic time at the concert.", syn:[["wonderful","رائع"],["amazing","مذهل"]], ant:[["terrible","فظيع"],["awful","سيء جداً"]], usage:"صفة قوية للإعجاب."},
+  {ex2:"She prefers reading fiction over non-fiction books.", syn:[["novels","روايات"]], ant:[["nonfiction","غير خيالي"],["fact","حقيقة"]], usage:"a work of fiction."},
+  {ex2:"The flag was raised during the opening ceremony.", syn:[["banner","راية"]], ant:[], usage:"raise/wave a flag."},
+  {ex2:"The mechanic inspected the car before the long trip.", syn:[["examine","يفحص"],["check","يتفقد"]], ant:[], usage:"inspect + شيء."},
+  {ex2:"He published his research in a scientific journal.", syn:[["publication","مطبوعة أكاديمية"]], ant:[], usage:"publish in a journal."},
+  {ex2:"Water is the most common liquid on Earth.", syn:[["fluid","سائل"]], ant:[["solid","صلب"],["gas","غاز"]], usage:"a liquid substance."},
+  {ex2:"Visitors marveled at the size of the ancient temple.", syn:[["be amazed","يندهش"],["wonder","يتعجب"]], ant:[], usage:"marvel at + شيء."},
+  {ex2:"She overcame her fear of public speaking.", syn:[["conquer","يتغلب على"],["beat","يتخطى"]], ant:[["give in to","يستسلم لـ"]], usage:"overcome + عائق/خوف."},
+  {ex2:"He couldn't recall where he had left his keys.", syn:[["remember","يتذكر"],["recollect","يستحضر ذاكرة"]], ant:[["forget","ينسى"]], usage:"recall + معلومة/حدث."},
+  {ex2:"She regretted not studying harder for the test.", syn:[["feel sorry about","يأسف على"],["rue","يندم"]], ant:[], usage:"regret + فعل بصيغة ing/قرار."},
+  {ex2:"Many people believe the soul lives on after death.", syn:[["spirit","روح"]], ant:[["body","جسد"]], usage:"heart and soul."},
+  {ex2:"She had sufficient evidence to prove her point.", syn:[["enough","كافٍ"],["adequate","كافٍ"]], ant:[["insufficient","غير كافٍ"]], usage:"sufficient + كمية."},
+  {ex2:"He needed surgery to fix his broken knee.", syn:[["operation","عملية جراحية"]], ant:[], usage:"have/undergo surgery."},
+  {ex2:"It was a tough decision to make.", syn:[["difficult","صعب"],["challenging","صعب/تحدٍّ"]], ant:[["easy","سهل"],["simple","بسيط"]], usage:"a tough + قرار/موقف."},
+  {ex2:"The toothpaste tube was almost empty.", syn:[["pipe","أنبوب"]], ant:[], usage:"a tube of + مادة."},
+  {ex2:"The house has increased in value over the years.", syn:[["worth","قيمة"]], ant:[], usage:"the value of + شيء."}
+];
+
+// ---- Unit 25 (Book 2) ----
+SYN2[24] = [
+  {ex2:"Every substance is made up of tiny atoms.", syn:[], ant:[], usage:"an atom of + عنصر."},
+  {ex2:"The sunset over the ocean was absolutely beautiful.", syn:[["gorgeous","رائع الجمال"],["stunning","مذهل"]], ant:[["ugly","قبيح"]], usage:"a beautiful + منظر/شخص."},
+  {ex2:"The breadth of his knowledge impressed everyone in the room.", syn:[["width","عرض"],["range","نطاق"]], ant:[], usage:"the breadth of + معرفة/مساحة."},
+  {ex2:"People gathered outside to watch the comet pass by.", syn:[], ant:[], usage:"a comet in the sky."},
+  {ex2:"She covered the leftovers before putting them in the fridge.", syn:[["hide","يخفي"],["protect","يحمي"]], ant:[["uncover","يكشف"],["expose","يعرّض"]], usage:"cover + شيء + with."},
+  {ex2:"He felt a sense of despair after losing his job.", syn:[["hopelessness","يأس"],["desperation","يأس شديد"]], ant:[["hope","أمل"],["optimism","تفاؤل"]], usage:"a feeling of despair."},
+  {ex2:"The two companies formed a partnership last year.", syn:[["create","يكوّن"],["establish","يؤسس"]], ant:[["dissolve","يُحل/يفكك"]], usage:"form + شيء جديد."},
+  {ex2:"Archaeologists found fragments of ancient pottery.", syn:[["piece","قطعة"],["part","جزء صغير"]], ant:[["whole","الكل"]], usage:"a fragment of + شيء."},
+  {ex2:"Our solar system is part of the Milky Way galaxy.", syn:[], ant:[], usage:"a distant galaxy."},
+  {ex2:"A sense of gloom filled the room after the bad news.", syn:[["darkness","ظلام"],["sadness","حزن"]], ant:[["brightness","إشراق"],["cheerfulness","بهجة"]], usage:"a feeling of gloom."},
+  {ex2:"They live in a large house with a big garden.", syn:[["big","كبير"],["huge","ضخم"]], ant:[["small","صغير"],["tiny","صغير جداً"]], usage:"a large + اسم."},
+  {ex2:"The moon was full and bright last night.", syn:[], ant:[], usage:"a full/new moon."},
+  {ex2:"The fireplace radiated warmth throughout the room.", syn:[["emit","يُصدر"],["give off","يبعث"]], ant:[["absorb","يمتص"]], usage:"radiate + حرارة/ضوء/شعور."},
+  {ex2:"Wild horses roam freely across the plains.", syn:[["wander","يتجول"],["rove","يهيم"]], ant:[["stay put","يبقى بمكانه"]], usage:"roam around/across + مكان."},
+  {ex2:"He preferred a solitary walk in the early morning.", syn:[["lone","منفرد"],["single","وحيد"]], ant:[["accompanied","برفقة"],["social","اجتماعي"]], usage:"a solitary + نشاط/شخص."},
+  {ex2:"A rainbow displays the full spectrum of colors.", syn:[["range","نطاق"]], ant:[], usage:"the spectrum of + ألوان/آراء."},
+  {ex2:"The Earth is roughly the shape of a sphere.", syn:[["globe","كرة"],["ball","كرة"]], ant:[], usage:"the shape of a sphere."},
+  {ex2:"Thousands of stars were visible in the desert sky.", syn:[], ant:[], usage:"a shining star."},
+  {ex2:"His social status changed after he became famous.", syn:[["standing","مكانة"],["rank","رتبة"]], ant:[], usage:"social/marital status."},
+  {ex2:"The old building looked ugly compared to the new ones nearby.", syn:[["unattractive","غير جذاب"],["hideous","بشع"]], ant:[["beautiful","جميل"],["attractive","جذاب"]], usage:"an ugly + شيء/منظر."}
+];
+
+// ---- Unit 26 (Book 2) ----
+SYN2[25] = [
+  {ex2:"She accused her coworker of taking credit for her work.", syn:[["blame","يلوم"],["charge","يتّهم"]], ant:[["defend","يدافع عن"],["excuse","يعذر"]], usage:"accuse someone of + شيء."},
+  {ex2:"It took her a while to adjust to the new schedule.", syn:[["adapt","يتكيّف"],["get used to","يعتاد على"]], ant:[], usage:"adjust to + تغيّر."},
+  {ex2:"The comedian's jokes amused the entire audience.", syn:[["entertain","يسلّي"],["delight","يُبهج"]], ant:[["bore","يُمل"]], usage:"amuse someone."},
+  {ex2:"The coral reef was full of colorful fish.", syn:[], ant:[], usage:"a coral reef."},
+  {ex2:"This shirt is made of 100% cotton.", syn:[], ant:[], usage:"made of cotton."},
+  {ex2:"The car crashed into a tree during the storm.", syn:[["collide","يصطدم"],["smash","يتحطم"]], ant:[], usage:"crash into + شيء."},
+  {ex2:"They relaxed on the deck of the cruise ship.", syn:[["platform","منصة"]], ant:[], usage:"a ship's deck."},
+  {ex2:"The teacher tried to engage the students in the discussion.", syn:[["involve","يُشرك"],["attract attention","يجذب الانتباه"]], ant:[["disengage","ينفصل عن"]], usage:"engage someone in + نشاط."},
+  {ex2:"She gave a firm handshake and introduced herself.", syn:[["solid","صلب"],["steady","ثابت"]], ant:[["soft","لين"],["weak","ضعيف"]], usage:"a firm + مصافحة/موقف."},
+  {ex2:"The car ran out of fuel on the highway.", syn:[["gas","وقود"],["petrol","بنزين"]], ant:[], usage:"run out of fuel."},
+  {ex2:"They held a grand celebration for the royal wedding.", syn:[["magnificent","فخم"],["impressive","مذهل"]], ant:[["modest","متواضع"],["simple","بسيط"]], usage:"a grand + مناسبة/مبنى."},
+  {ex2:"The hurricane caused severe damage along the coast.", syn:[["storm","عاصفة"],["cyclone","إعصار"]], ant:[], usage:"a powerful hurricane."},
+  {ex2:"The company reported a big loss last quarter.", syn:[["deficit","عجز مالي"]], ant:[["gain","مكسب"],["profit","ربح"]], usage:"a loss of + شيء."},
+  {ex2:"He wore a plain white shirt to the interview.", syn:[["simple","بسيط"],["unadorned","غير مزخرف"]], ant:[["fancy","فاخر"],["decorated","مزخرف"]], usage:"plain + ملابس/طعام."},
+  {ex2:"Divers explored the colorful reef near the island.", syn:[], ant:[], usage:"a coral reef."},
+  {ex2:"Please shut the window; it's getting cold.", syn:[["close","يُغلق"]], ant:[["open","يفتح"]], usage:"shut + باب/نافذة."},
+  {ex2:"Their new teacher is very strict about deadlines.", syn:[["firm","حازم"],["rigid","صارم"]], ant:[["lenient","متساهل"],["relaxed","متسامح"]], usage:"strict rules/teacher."},
+  {ex2:"They spent the whole morning surfing at the beach.", syn:[["ride waves","يركب الأمواج"]], ant:[], usage:"surf the waves."},
+  {ex2:"Cleaning the entire house was a huge task.", syn:[["job","مهمة"],["assignment","تكليف"]], ant:[], usage:"a difficult/simple task."},
+  {ex2:"This area is a no-parking zone.", syn:[["area","منطقة"],["region","إقليم"]], ant:[], usage:"a danger/parking zone."}
+];
+
+// ---- Unit 27 (Book 2) ----
+SYN2[26] = [
+  {ex2:"He wrote a sincere apology to his friend.", syn:[["regret expression","تعبير عن الأسف"]], ant:[], usage:"make/accept an apology."},
+  {ex2:"It was a bold move to start a business during a recession.", syn:[["brave","جريء"],["daring","مقدام"]], ant:[["timid","خجول"],["cautious","حذر"]], usage:"a bold + قرار/تحرك."},
+  {ex2:"There was a bug crawling on the kitchen counter.", syn:[["insect","حشرة"]], ant:[], usage:"a small bug."},
+  {ex2:"The photographer captured the perfect sunset shot.", syn:[["catch","يمسك"],["record","يسجّل"]], ant:[["release","يُطلق"]], usage:"capture + صورة/شخص/حيوان."},
+  {ex2:"The duke owned vast lands across the country.", syn:[["nobleman","نبيل"]], ant:[], usage:"a duke and duchess."},
+  {ex2:"The investigation exposed corruption within the company.", syn:[["reveal","يكشف"],["uncover","يفضح"]], ant:[["hide","يخفي"],["conceal","يُخفي"]], usage:"expose + سر/فساد."},
+  {ex2:"He felt guilty for forgetting his friend's birthday.", syn:[["at fault","مذنب"],["responsible","مسؤول"]], ant:[["innocent","بريء"]], usage:"guilty of/about."},
+  {ex2:"The company hired three new employees this month.", syn:[["employ","يوظّف"],["recruit","يستقطب"]], ant:[["fire","يفصل"],["dismiss","يطرد"]], usage:"hire someone for + وظيفة."},
+  {ex2:"The jury found him innocent of all charges.", syn:[["not guilty","غير مذنب"],["blameless","بريء الذمة"]], ant:[["guilty","مذنب"]], usage:"innocent of + تهمة."},
+  {ex2:"She speaks three languages fluently.", syn:[["tongue","لغة"]], ant:[], usage:"speak/learn a language."},
+  {ex2:"The minister announced new education reforms.", syn:[["official","مسؤول حكومي"]], ant:[], usage:"the minister of + قطاع."},
+  {ex2:"It was just an ordinary day at work.", syn:[["normal","عادي"],["typical","نمطي"]], ant:[["extraordinary","استثنائي"],["unusual","غير معتاد"]], usage:"an ordinary + يوم/شخص."},
+  {ex2:"He got a permanent position after his internship.", syn:[["lasting","دائم"],["fixed","ثابت"]], ant:[["temporary","مؤقت"]], usage:"a permanent + وظيفة/حل."},
+  {ex2:"They worked to preserve the old building's original design.", syn:[["protect","يحمي"],["maintain","يحافظ على"]], ant:[["destroy","يدمّر"],["neglect","يهمل"]], usage:"preserve + تراث/طعام/بيئة."},
+  {ex2:"It's hard to pronounce some English words correctly.", syn:[["say","ينطق"],["articulate","يلفظ بوضوح"]], ant:[], usage:"pronounce + كلمة."},
+  {ex2:"She resembles her mother in both looks and personality.", syn:[["look like","يشبه"],["take after","يشبه"]], ant:[["differ from","يختلف عن"]], usage:"resemble + شخص/شيء."},
+  {ex2:"Fever is a common symptom of the flu.", syn:[["sign","علامة"],["indication","مؤشر"]], ant:[], usage:"a symptom of + مرض."},
+  {ex2:"The farm grows tobacco for cigarette production.", syn:[], ant:[], usage:"grow/smoke tobacco."},
+  {ex2:"The twins looked so alike that no one could tell them apart.", syn:[["identical sibling","شقيق مطابق"]], ant:[], usage:"identical/fraternal twins."},
+  {ex2:"In the story, the witch cast a spell on the village.", syn:[["sorceress","ساحرة"]], ant:[], usage:"a wicked witch."}
+];
+
+// ---- Unit 28 (Book 2) ----
+SYN2[27] = [
+  {ex2:"Her father accompanied her to the interview for support.", syn:[["go with","يرافق"],["escort","يرافق رسمياً"]], ant:[["leave alone","يترك وحيداً"]], usage:"accompany someone to + مكان."},
+  {ex2:"He walked on the bare floor without any shoes.", syn:[["uncovered","مكشوف"],["naked","عارٍ"]], ant:[["covered","مغطّى"]], usage:"bare feet/hands."},
+  {ex2:"A bird built its nest on a high branch.", syn:[["limb","غصن"],["bough","غصن كبير"]], ant:[], usage:"a tree branch."},
+  {ex2:"She took a deep breath before diving into the pool.", syn:[], ant:[], usage:"take/hold a breath."},
+  {ex2:"The old bridge connects the two sides of the river.", syn:[["crossing","معبر"]], ant:[], usage:"cross a bridge."},
+  {ex2:"The fisherman cast his line into the calm water.", syn:[["throw","يرمي"],["fling","يقذف"]], ant:[["reel in","يسحب/يجذب"]], usage:"cast + صنارة/شبكة."},
+  {ex2:"He dared to speak up during the meeting despite his nerves.", syn:[["have the courage to","يملك الشجاعة لـ"],["venture","يجرؤ"]], ant:[["hesitate","يتردد"],["fear","يخاف"]], usage:"dare to do something."},
+  {ex2:"She bought a new electronic device for her studio.", syn:[["digital","رقمي"],["high-tech","تقني متقدم"]], ant:[["mechanical","ميكانيكي"],["manual","يدوي"]], usage:"an electronic + جهاز."},
+  {ex2:"They stayed at a cozy inn in the countryside.", syn:[["guesthouse","بيت ضيافة"],["lodge","نُزُل"]], ant:[], usage:"stay at an inn."},
+  {ex2:"The fishermen pulled the net full of fish onto the boat.", syn:[["mesh","شبكة"]], ant:[], usage:"a fishing net."},
+  {ex2:"His personal philosophy is to always be honest.", syn:[["outlook","نظرة/فلسفة حياتية"],["belief system","نظام معتقدات"]], ant:[], usage:"a philosophy of + حياة."},
+  {ex2:"She boiled the pasta in a large pot.", syn:[["pan","مقلاة/إناء"]], ant:[], usage:"a cooking pot."},
+  {ex2:"He planted a seed and watched it grow into a tree.", syn:[], ant:[], usage:"plant a seed."},
+  {ex2:"Be careful; that knife is very sharp.", syn:[["pointed","مدبب"],["keen","حاد"]], ant:[["dull","غير حاد"],["blunt","كليل"]], usage:"a sharp + سكين/عقل."},
+  {ex2:"What sort of music do you usually listen to?", syn:[["type","نوع"],["kind","صنف"]], ant:[], usage:"a sort of + اسم."},
+  {ex2:"Subtract the discount from the total price.", syn:[["deduct","يخصم"],["take away","يطرح"]], ant:[["add","يضيف"]], usage:"subtract + رقم + from."},
+  {ex2:"These shoes feel too tight around my toes.", syn:[["snug","ضيّق ومريح"],["narrow","ضيّق"]], ant:[["loose","فضفاض"],["baggy","واسع"]], usage:"a tight + ملابس/جدول."},
+  {ex2:"They held a virtual meeting instead of traveling.", syn:[["online","عبر الإنترنت"],["digital","رقمي"]], ant:[["physical","فعلي/حقيقي"],["in-person","حضوري"]], usage:"a virtual + اجتماع/واقع."},
+  {ex2:"The baby weighed three kilograms at birth.", syn:[["measure the weight of","يقيس الوزن"]], ant:[], usage:"weigh + كمية."},
+  {ex2:"She whispered the answer so no one else could hear.", syn:[["murmur","يهمس بخفوت"],["mutter","يتمتم"]], ant:[["shout","يصرخ"],["yell","يصيح"]], usage:"whisper to someone."}
+];
+
+// ---- Unit 29 (Book 2) ----
+SYN2[28] = [
+  {ex2:"Freedom is an abstract concept that's hard to define.", syn:[["conceptual","مفاهيمي"],["theoretical","نظري"]], ant:[["concrete","ملموس"],["physical","مادي"]], usage:"an abstract + فكرة/فن."},
+  {ex2:"The company holds an annual meeting every January.", syn:[["yearly","سنوي"]], ant:[], usage:"an annual + حدث/تقرير."},
+  {ex2:"The children made small pots out of clay.", syn:[], ant:[], usage:"mold/shape clay."},
+  {ex2:"She wiped the table with a soft cloth.", syn:[["fabric","قماش"]], ant:[], usage:"a piece of cloth."},
+  {ex2:"She closed the curtains to block the morning sun.", syn:[["drape","ستارة ثقيلة"]], ant:[], usage:"open/close the curtains."},
+  {ex2:"After all her hard work, she deserves a break.", syn:[["merit","يستحق"],["earn","يكسب استحقاقاً"]], ant:[], usage:"deserve + شيء/فعل."},
+  {ex2:"A single feather fell from the bird's wing.", syn:[], ant:[], usage:"a bird's feather."},
+  {ex2:"The valley's fertile soil is perfect for growing crops.", syn:[["productive","منتج"],["rich","خصب"]], ant:[["infertile","غير خصب"],["barren","قاحل"]], usage:"fertile + تربة/أرض."},
+  {ex2:"Heavy rain caused a flood in the low-lying areas.", syn:[["overflow","فيضان"]], ant:[["drought","جفاف"]], usage:"a flood of + ماء/رسائل."},
+  {ex2:"They bought new furniture for their living room.", syn:[], ant:[], usage:"buy/arrange furniture."},
+  {ex2:"They visited their grandfather's grave every year.", syn:[["tomb","قبر"],["burial site","موقع دفن"]], ant:[], usage:"visit a grave."},
+  {ex2:"This location is ideal for a family vacation.", syn:[["perfect","مثالي"],["best possible","الأفضل الممكن"]], ant:[["unsuitable","غير مناسب"],["worst","الأسوأ"]], usage:"ideal for/to."},
+  {ex2:"Her intelligence helped her solve the problem quickly.", syn:[["intellect","ذكاء"],["smartness","فطنة"]], ant:[["stupidity","غباء"]], usage:"high/artificial intelligence."},
+  {ex2:"He obtained his degree after four years of study.", syn:[["get","يحصل على"],["acquire","يكتسب"]], ant:[["lose","يفقد"]], usage:"obtain + شهادة/معلومة."},
+  {ex2:"They follow strict religious traditions during Ramadan.", syn:[["spiritual","روحاني"],["devout","متديّن"]], ant:[["secular","علماني"]], usage:"a religious + شخص/تقليد."},
+  {ex2:"They had a romantic dinner by candlelight.", syn:[["loving","محب"],["affectionate","عاطفي"]], ant:[["unromantic","غير رومانسي"]], usage:"a romantic + عشاء/فيلم."},
+  {ex2:"She collected seashells along the beach.", syn:[], ant:[], usage:"a seashell/eggshell."},
+  {ex2:"The boats were tied up along the shore.", syn:[["coast","ساحل"],["bank","ضفة"]], ant:[], usage:"along/near the shore."},
+  {ex2:"The car's front wheel hit a pothole.", syn:[], ant:[], usage:"a car/bicycle wheel."},
+  {ex2:"They sat around a wooden table for dinner.", syn:[["made of wood","مصنوع من الخشب"]], ant:[], usage:"a wooden + طاولة/باب."}
+];
+
+// ---- Unit 30 (Book 2) ----
+SYN2[29] = [
+  {ex2:"They bought a new kitchen appliance for baking.", syn:[["device","جهاز"],["machine","آلة"]], ant:[], usage:"a kitchen/home appliance."},
+  {ex2:"She washed the vegetables in a large basin.", syn:[["bowl","وعاء"],["sink","حوض"]], ant:[], usage:"fill/wash in a basin."},
+  {ex2:"He swept the floor with an old broom.", syn:[], ant:[], usage:"sweep with a broom."},
+  {ex2:"The caterpillar slowly crawled along the leaf.", syn:[], ant:[["butterfly","فراشة"]], usage:"a caterpillar turns into a butterfly."},
+  {ex2:"She kept the plates in the kitchen cupboard.", syn:[["cabinet","خزانة"]], ant:[], usage:"put in/open a cupboard."},
+  {ex2:"Handle the antique vase carefully; it's very delicate.", syn:[["fragile","هشّ"],["fine","رقيق"]], ant:[["sturdy","متين"],["tough","قوي"]], usage:"a delicate + شيء/موقف."},
+  {ex2:"The sun emerged from behind the clouds.", syn:[["appear","يظهر"],["come out","يخرج"]], ant:[["disappear","يختفي"],["vanish","يزول"]], usage:"emerge from + مكان/موقف."},
+  {ex2:"The disease left him with a permanent handicap.", syn:[["disability","إعاقة"],["impairment","ضعف/قصور"]], ant:[["ability","قدرة"]], usage:"a physical handicap."},
+  {ex2:"There's a hole in his sock.", syn:[["gap","فجوة"],["opening","فتحة"]], ant:[], usage:"dig/fill a hole."},
+  {ex2:"She hung her coat on the hook by the door.", syn:[["peg","خطّاف صغير"]], ant:[], usage:"hang on a hook."},
+  {ex2:"The rabbit hopped across the garden.", syn:[["jump","يقفز"],["bounce","يرتد"]], ant:[], usage:"hop over/across."},
+  {ex2:"She spent Sunday morning doing the laundry.", syn:[["washing","غسيل"]], ant:[], usage:"do the laundry."},
+  {ex2:"She decided to pursue a career in medicine.", syn:[["follow","يتبع"],["chase","يطارد"]], ant:[["abandon","يتخلى عن"],["give up","يستسلم"]], usage:"pursue + هدف/مهنة."},
+  {ex2:"He was reluctant to share his personal opinion.", syn:[["unwilling","غير راغب"],["hesitant","متردد"]], ant:[["willing","راغب"],["eager","متحمس"]], usage:"reluctant to do something."},
+  {ex2:"He rolled up his sleeves before starting the work.", syn:[], ant:[], usage:"a long/short sleeve."},
+  {ex2:"Good posture protects your spine from injury.", syn:[["backbone","العمود الفقري"]], ant:[], usage:"injure/protect the spine."},
+  {ex2:"She couldn't remove the coffee stain from her shirt.", syn:[["mark","بقعة/أثر"],["spot","بقعة"]], ant:[], usage:"remove a stain."},
+  {ex2:"He cut the paper into thin strips.", syn:[["piece","شريط"],["band","شريط"]], ant:[], usage:"a strip of + مادة."},
+  {ex2:"He swore to always tell the truth.", syn:[["promise","يعد/يقسم"],["pledge","يتعهد"]], ant:[], usage:"swear to do something."},
+  {ex2:"The children swung on the playground swings for hours.", syn:[["sway","يتأرجح"],["rock","يهتز"]], ant:[], usage:"swing back and forth."}
+];
+
+// ---- Unit 1 (Book 1) fully compiled as a demo ----
+SYN1[0] = [
+  {ex2:"Do you agree with the new company policy?", syn:[["consent","يوافق/يرضى"],["concur","يتفق"],["accept","يقبل"]], ant:[["disagree","يختلف"],["refuse","يرفض"],["oppose","يعارض"]], usage:"تُستخدم مع with للموافقة مع شخص (agree with him)، ومع that للموافقة على فكرة (I agree that...)."},
+  {ex2:"The hotel does not serve alcohol during Ramadan.", syn:[["liquor","مشروب كحولي"]], ant:[], usage:"اسم عام لأي مشروب فيه كحول — النبيذ Wine واحد من أنواعه."},
+  {ex2:"Please arrive at the airport two hours before your flight.", syn:[["reach","يصل إلى"],["show up","يحضر"],["get to","يصل إلى"]], ant:[["leave","يغادر"],["depart","يرحل"]], usage:"arrive at للأماكن الصغيرة (arrive at school)، arrive in للمدن والدول (arrive in Bahrain)."},
+  {ex2:"School usually starts in late August.", syn:[], ant:[], usage:"اسم شهر ثابت، ما له مرادف أو مضاد."},
+  {ex2:"We rented a small boat to fish on the lake.", syn:[["ship","سفينة (أكبر حجماً)"],["vessel","مركب"]], ant:[], usage:"Boat للمراكب الصغيرة، Ship للسفن الكبيرة."},
+  {ex2:"He never skips breakfast before work.", syn:[], ant:[], usage:"وجبة محددة (الصباح) — ما لها مرادف مباشر."},
+  {ex2:"She upgraded her phone because of its better camera.", syn:[], ant:[], usage:"اسم أداة محدد، ما له مرادف شائع."},
+  {ex2:"Riyadh is the capital of Saudi Arabia.", syn:[], ant:[], usage:"بالمعنى المستخدم هنا (عاصمة). انتبه: capital لها معنى ثاني شائع بالإنجليزي وهو «رأس المال / المال المستثمر»."},
+  {ex2:"Try to catch the seven o'clock train.", syn:[["grab","يمسك"],["seize","يخطف بقوة"],["capture","يأسر"]], ant:[["release","يُطلق"],["drop","يُفلت"]], usage:"catch a ball (يمسك الكرة) · catch the bus (يلحق الباص) · catch a cold (يُصاب بالزكام) — معاني شائعة متعددة."},
+  {ex2:"A family of ducks crossed the road slowly.", syn:[], ant:[], usage:"اسم حيوان محدد، ما له مرادف."},
+  {ex2:"We really enjoyed the concert last night.", syn:[["like","يحب"],["appreciate","يقدّر"],["delight in","يستمتع بـ"]], ant:[["dislike","يكره"],["hate","يكره بشدة"]], usage:"enjoy + فعل بصيغة ing دائماً (enjoy reading)، مو enjoy to read."},
+  {ex2:"Did you invite your neighbors to the wedding?", syn:[["ask","يدعو/يطلب حضور"]], ant:[["exclude","يستبعد"]], usage:"invite someone to + مناسبة (invite him to the party)."},
+  {ex2:"Children love spending time at the beach.", syn:[["adore","يعشق"],["cherish","يعتزّ بـ"]], ant:[["hate","يكره"],["dislike","لا يحب"]], usage:"بين البشر تُستخدم بحذر (عاطفة قوية) — مع الأشياء تعني «يحب جداً» بشكل عام."},
+  {ex2:"He finished the whole course in just one month.", syn:[], ant:[], usage:"وحدة زمنية ثابتة، ما لها مرادف."},
+  {ex2:"They love to travel to new countries every summer.", syn:[["journey","يسافر/يرحل"],["voyage","يسافر بحراً"],["tour","يجول"]], ant:[["stay","يبقى"],["remain","يبقى"]], usage:"travel فعل عام للسفر بأي وسيلة، journey أقرب لرحلة طويلة محددة."},
+  {ex2:"A typical school day starts at seven.", syn:[["usual","معتاد"],["normal","طبيعي"],["common","شائع"]], ant:[["unusual","غير معتاد"],["rare","نادر"]], usage:"توصف بها الشي المتكرر المعتاد (my typical day = يومي المعتاد)."},
+  {ex2:"We plan to visit our grandparents this weekend.", syn:[["see","يزور/يرى"],["stop by","يمرّ على"],["call on","يزور"]], ant:[["avoid","يتجنّب"]], usage:"visit + مكان أو شخص مباشرة بدون حرف جر (visit her, visit Paris)."},
+  {ex2:"The weather forecast says it will rain tomorrow.", syn:[], ant:[], usage:"الحالة اليومية للجو — تختلف عن climate اللي هو النمط العام على مدى سنين."},
+  {ex2:"I'll finish the report by the end of the week.", syn:[], ant:[], usage:"وحدة زمنية ثابتة، ما لها مرادف."},
+  {ex2:"The restaurant is famous for its red wine.", syn:[], ant:[], usage:"نوع مشروب محدد، ما له مرادف مباشر."}
+];
+
+// ---- Unit 2 (Book 1) ----
+SYN1[1] = [
+  {ex2:"Climbing the mountain was the biggest adventure of his life.", syn:[["journey","رحلة"],["quest","مغامرة/بحث"]], ant:[["routine","روتين"]], usage:"غالباً تأتي بعد go on an adventure أو have an adventure."},
+  {ex2:"She approached the manager to ask for a raise.", syn:[["near","يقترب من"],["come close to","يقترب من"]], ant:[["leave","يغادر"],["retreat","يتراجع"]], usage:"approach + مفعول مباشر بدون حرف جر (approach the door)."},
+  {ex2:"He carefully wrapped the fragile vase.", syn:[["cautiously","بحذر"],["attentively","باهتمام"]], ant:[["carelessly","بإهمال"],["recklessly","بتهور"]], usage:"تُستخدم بعد الفعل لوصف طريقة الأداء."},
+  {ex2:"The factory stores dangerous chemicals in a locked room.", syn:[["substance","مادة"]], ant:[], usage:"تُستخدم أيضاً كصفة: chemical reaction (تفاعل كيميائي)."},
+  {ex2:"The artist created a beautiful sculpture from clay.", syn:[["make","يصنع"],["produce","ينتج"],["build","يبني"]], ant:[["destroy","يدمّر"]], usage:"create يعني تصنع شي جديد ما كان موجود قبل."},
+  {ex2:"The story is about an evil king who hurts his people.", syn:[["wicked","شرير"],["bad","سيء"]], ant:[["good","طيب"],["kind","لطيف"]], usage:"توصف بها شخصيات أو أفعال شديدة السوء بقصد."},
+  {ex2:"The scientists ran the experiment three times to check the results.", syn:[["test","اختبار"],["trial","تجربة"]], ant:[], usage:"run/conduct an experiment."},
+  {ex2:"Cold weather can kill young plants.", syn:[["end the life of","ينهي حياة"]], ant:[["save","ينقذ"],["spare","يستبقي حياة"]], usage:"فعل قوي — احذر استخدامه إلا بمعناه الحرفي."},
+  {ex2:"Students wore safety glasses inside the laboratory.", syn:[["lab","مختبر (اختصار شائع)"]], ant:[], usage:"يُختصر بالمحادثة العادية إلى lab."},
+  {ex2:"Her laugh was so loud that everyone turned to look.", syn:[["chuckle","ضحكة خفيفة"],["giggle","ضحكة خافتة"]], ant:[["cry","بكاء"]], usage:"كاسم a laugh، وكفعل laugh at (يضحك على)."},
+  {ex2:"The music was too loud to hear each other talk.", syn:[["noisy","صاخب"],["booming","مدوٍّ"]], ant:[["quiet","هادئ"],["soft","ناعم"]], usage:"عكس quiet مباشرة."},
+  {ex2:"She felt nervous before her job interview.", syn:[["anxious","قلق"],["worried","قلق"]], ant:[["calm","هادئ"],["confident","واثق"]], usage:"nervous about/before + حدث."},
+  {ex2:"The neighbors complained about the noise from the party.", syn:[["sound","صوت"],["racket","جلبة"]], ant:[["silence","صمت"],["quiet","هدوء"]], usage:"غالباً بمعنى سلبي (صوت مزعج)، بعكس sound المحايد."},
+  {ex2:"Our team finished the project one week early.", syn:[["task","مهمة"],["assignment","تكليف"]], ant:[], usage:"work on a project / school project."},
+  {ex2:"The loud thunder scared the little boy.", syn:[["frighten","يخيف"],["startle","يفزع فجأة"]], ant:[["comfort","يواسي"],["calm","يهدّئ"]], usage:"scare someone بمفعول مباشر."},
+  {ex2:"She kept his secret and never told anyone.", syn:[["confidential information","معلومة سرية"]], ant:[], usage:"keep a secret / tell a secret."},
+  {ex2:"He shouted for help when he saw the fire.", syn:[["yell","يصرخ"],["scream","يصرخ بشدة"]], ant:[["whisper","يهمس"]], usage:"shout at (يصرخ على شخص بغضب) / shout for (ينادي بصوت عالٍ)."},
+  {ex2:"I can smell fresh bread from the kitchen.", syn:[["sniff","يشم بقوة"],["sense","يستشعر"]], ant:[], usage:"smell + رائحة، أو smell like (تشبه رائحة)."},
+  {ex2:"We had terrible weather during our trip.", syn:[["awful","فظيع"],["horrible","مروّع"]], ant:[["wonderful","رائع"],["great","عظيم"]], usage:"صفة قوية للتعبير عن شيء سيء جداً."},
+  {ex2:"His cough got worse after the cold weather.", syn:[["more severe","أشد سوءاً"]], ant:[["better","أفضل"]], usage:"صيغة المقارنة لـ bad: bad, worse, worst."}
+];
+
+// ---- Unit 3 (Book 1) ----
+SYN1[2] = [
+  {ex2:"The movie is about aliens visiting Earth.", syn:[["extraterrestrial","كائن من خارج الأرض"]], ant:[], usage:"بالسياق العلمي/الخيالي هنا، مو بمعنى «أجنبي مهاجر»."},
+  {ex2:"The teacher walked among the students to check their work.", syn:[["amid","وسط"]], ant:[], usage:"تُستخدم مع مجموعة من 3 أو أكثر، بعكس between (بين اثنين)."},
+  {ex2:"The chart shows how sales increased this year.", syn:[["graph","رسم بياني"],["diagram","مخطط"]], ant:[], usage:"read a chart / draw a chart."},
+  {ex2:"Dark clouds filled the sky before the storm.", syn:[], ant:[], usage:"اسم ملموس، ما له مرادف مباشر."},
+  {ex2:"Can you describe what the thief looked like?", syn:[["explain","يشرح"],["portray","يصوّر"]], ant:[], usage:"describe + شخص/شيء + to someone."},
+  {ex2:"Have you ever visited Japan?", syn:[["at any time","بأي وقت"]], ant:[["never","أبداً"]], usage:"بالأسئلة والنفي غالباً: Have you ever...? / I've never..."},
+  {ex2:"He failed the driving test twice before passing.", syn:[["not succeed","لا ينجح"]], ant:[["succeed","ينجح"],["pass","ينجح/يجتاز"]], usage:"fail an exam / fail to do something."},
+  {ex2:"She got the highest grade in her class.", syn:[["mark","علامة"],["score","نتيجة"]], ant:[], usage:"get a grade / grade level (الصف الدراسي بالنظام الأمريكي)."},
+  {ex2:"I didn't have coffee; I had tea instead.", syn:[["rather","بدلاً من ذلك"]], ant:[], usage:"instead of + اسم/فعل بصيغة ing."},
+  {ex2:"He borrowed three books from the library.", syn:[], ant:[], usage:"اسم مكان محدد، ما له مرادف مباشر."},
+  {ex2:"She took a photograph of the sunset.", syn:[["photo","صورة (اختصار شائع)"],["picture","صورة"]], ant:[], usage:"غالباً تُختصر إلى photo بالمحادثة."},
+  {ex2:"Earth is the third planet from the sun.", syn:[], ant:[], usage:"اسم علمي محدد، ما له مرادف."},
+  {ex2:"He wrote a report about the company's sales.", syn:[["account","تقرير/رواية"],["summary","ملخص"]], ant:[], usage:"write a report / news report."},
+  {ex2:"I've read several books by that author.", syn:[["many","كثير"],["various","متنوعة"]], ant:[["one","واحد"],["few","قليل"]], usage:"تسبق اسم جمع مباشرة: several books."},
+  {ex2:"The cookies were cut into different shapes.", syn:[["form","هيئة/شكل"]], ant:[], usage:"in the shape of (على هيئة)."},
+  {ex2:"It took her an hour to solve the math problem.", syn:[["work out","يحل"],["figure out","يكتشف الحل"]], ant:[], usage:"solve a problem/puzzle/mystery."},
+  {ex2:"Suddenly, the lights went out.", syn:[["unexpectedly","بشكل غير متوقع"],["abruptly","فجأة وبحدة"]], ant:[["gradually","تدريجياً"]], usage:"غالباً بأول الجملة لوصف حدث مفاجئ."},
+  {ex2:"I suppose we should leave now before it rains.", syn:[["assume","يفترض"],["guess","يخمّن"]], ant:[["know for certain","يعرف بالتأكيد"]], usage:"I suppose so كرد بمعنى «أعتقد كذلك»."},
+  {ex2:"I don't understand this math question.", syn:[["comprehend","يستوعب"],["grasp","يدرك"]], ant:[["misunderstand","يسيء الفهم"]], usage:"understand + شيء مباشرة بدون حرف جر."},
+  {ex2:"From the hotel room, you can view the whole city.", syn:[["watch","يشاهد"],["observe","يلاحظ/يراقب"]], ant:[], usage:"هنا كفعل (ينظر/يشاهد)؛ الكلمة نفسها تُستخدم كاسم بمعنى «منظر/رأي»."}
+];
+
+// ---- Unit 4 (Book 1) ----
+SYN1[3] = [
+  {ex2:"That joke wasn't appropriate for a work meeting.", syn:[["suitable","مناسب"],["proper","لائق"]], ant:[["inappropriate","غير مناسب"],["unsuitable","غير لائق"]], usage:"appropriate for/to + موقف."},
+  {ex2:"Try to avoid busy roads during rush hour.", syn:[["keep away from","يبتعد عن"],["steer clear of","يتجنب"]], ant:[["face","يواجه"],["approach","يقترب من"]], usage:"avoid + فعل بصيغة ing: avoid doing."},
+  {ex2:"The children behaved well during the flight.", syn:[["act","يتصرف"],["conduct oneself","يسلك"]], ant:[["misbehave","يسيء التصرف"]], usage:"behave well/badly."},
+  {ex2:"The sea was calm after the storm passed.", syn:[["peaceful","هادئ"],["relaxed","مرتاح"]], ant:[["anxious","قلق"],["stormy","عاصف"]], usage:"stay calm — تعبير شائع."},
+  {ex2:"Her main concern was her children's safety.", syn:[["worry","قلق"],["issue","قضية"]], ant:[["indifference","لامبالاة"]], usage:"a concern about/for + شيء."},
+  {ex2:"He seemed content with his simple life.", syn:[["satisfied","راضٍ"],["pleased","مسرور"]], ant:[["dissatisfied","غير راضٍ"],["unhappy","غير سعيد"]], usage:"content with + شيء."},
+  {ex2:"We expect the package to arrive tomorrow.", syn:[["anticipate","يتوقع"],["foresee","يتنبأ"]], ant:[], usage:"expect + اسم أو to + فعل."},
+  {ex2:"She frequently travels for work.", syn:[["often","غالباً"],["regularly","بانتظام"]], ant:[["rarely","نادراً"],["seldom","قلما"]], usage:"تسبق الفعل الرئيسي عادة."},
+  {ex2:"Reading before bed is a good habit.", syn:[["routine","روتين"],["custom","عادة"]], ant:[], usage:"form a habit / break a habit."},
+  {ex2:"The manual instructs users to read all safety warnings.", syn:[["teach","يعلّم"],["direct","يوجّه"]], ant:[], usage:"instruct someone to do something."},
+  {ex2:"They discussed several important issues at the meeting.", syn:[["topic","موضوع"],["matter","مسألة"]], ant:[], usage:"raise an issue / a health issue."},
+  {ex2:"None of the students finished the test early.", syn:[["not any","لا شيء منها"]], ant:[["all","الكل"]], usage:"none of + اسم جمع."},
+  {ex2:"Be patient; the results will take some time.", syn:[["tolerant","متسامح"],["calm","هادئ"]], ant:[["impatient","غير صبور"]], usage:"patient with someone/something."},
+  {ex2:"She stayed positive even during hard times.", syn:[["optimistic","متفائل"],["hopeful","متأمل"]], ant:[["negative","سلبي"]], usage:"positive attitude / positive thinking."},
+  {ex2:"The school punished students who cheated on exams.", syn:[["penalize","يعاقب رسمياً"]], ant:[["reward","يكافئ"],["forgive","يسامح"]], usage:"punish someone for + سبب."},
+  {ex2:"This flag represents our country.", syn:[["stand for","يرمز إلى"],["symbolize","يرمز"]], ant:[], usage:"represent + شخص/فكرة."},
+  {ex2:"The building shook during the earthquake.", syn:[["tremble","يرتجف"],["vibrate","يهتز"]], ant:[], usage:"shake hands — تعبير شائع."},
+  {ex2:"News of the event spread quickly across town.", syn:[["extend","يمتد"],["distribute","يوزّع"]], ant:[["gather","يجمع"],["contain","يحتوي/يحصر"]], usage:"spread + شيء + across/over."},
+  {ex2:"They strolled along the beach at sunset.", syn:[["walk","يمشي"],["wander","يتجول"]], ant:[["rush","يسرع"],["hurry","يستعجل"]], usage:"أخف وأبطأ من walk العادي."},
+  {ex2:"The small village had only one shop.", syn:[["hamlet","قرية صغيرة جداً"]], ant:[["city","مدينة"]], usage:"أصغر حجماً من town أو city."}
+];
+
+// ---- Unit 5 (Book 1) ----
+SYN1[4] = [
+  {ex2:"She stays active by jogging every morning.", syn:[["energetic","نشيط بحيوية"],["lively","حيوي"]], ant:[["inactive","خامل"],["lazy","كسول"]], usage:"an active lifestyle / an active member."},
+  {ex2:"This movie is only suitable for adults.", syn:[["grown-up","بالغ (عامية)"]], ant:[["child","طفل"],["minor","قاصر"]], usage:"adult تُستخدم كصفة أيضاً: adult content."},
+  {ex2:"At what age did you learn to drive?", syn:[], ant:[], usage:"at the age of + رقم."},
+  {ex2:"I had a really bad day at work.", syn:[["poor","ضعيف/سيء"],["terrible","فظيع"]], ant:[["good","جيد"],["great","رائع"]], usage:"bad at + مهارة: bad at math."},
+  {ex2:"It's important to find a balance between work and rest.", syn:[["equilibrium","توازن رسمي"]], ant:[["imbalance","اختلال"]], usage:"lose/keep your balance (بالمعنى الجسدي)."},
+  {ex2:"He rides his bike to school every day.", syn:[["bicycle","دراجة (الاسم الكامل)"]], ant:[], usage:"bike اختصار شائع لـ bicycle."},
+  {ex2:"You can choose between the blue or the red one.", syn:[["select","يختار رسمياً"],["pick","يختار"]], ant:[["reject","يرفض"]], usage:"choose between/from + خيارات."},
+  {ex2:"I have a doctor's appointment this afternoon.", syn:[["physician","طبيب رسمي"]], ant:[], usage:"see a doctor."},
+  {ex2:"Please turn off your phone during the movie.", syn:[["throughout","طوال"]], ant:[], usage:"during + اسم فترة زمنية (مو جملة كاملة)."},
+  {ex2:"They watched the football game on Sunday.", syn:[], ant:[], usage:"انتبه: بأمريكا تعني كرة القدم الأمريكية، وبباقي العالم soccer."},
+  {ex2:"The trip to the water park was so fun.", syn:[["enjoyable","ممتع"],["entertaining","مسلٍّ"]], ant:[["boring","ممل"]], usage:"have fun — تعبير شائع جداً."},
+  {ex2:"We played a card game after dinner.", syn:[["match","مباراة (رياضياً)"]], ant:[], usage:"play a game / video game."},
+  {ex2:"Exercise keeps your heart healthy.", syn:[], ant:[], usage:"بالمجاز تعني العاطفة أيضاً: break someone's heart."},
+  {ex2:"He plays golf every Friday morning.", syn:[], ant:[], usage:"play golf."},
+  {ex2:"The company increased its prices last month.", syn:[["raise","يرفع"],["boost","يعزز"]], ant:[["decrease","يقلل"],["reduce","يخفّض"]], usage:"increase by/to + رقم."},
+  {ex2:"She wrote a book about her life.", syn:[["existence","وجود"]], ant:[["death","موت"]], usage:"my whole life / everyday life."},
+  {ex2:"The nearest hospital is five kilometers away.", syn:[], ant:[["mile","ميل (وحدة قياس ثانية)"]], usage:"يُختصر أحياناً km."},
+  {ex2:"How often do you visit your parents?", syn:[["frequently","بشكل متكرر"],["regularly","بانتظام"]], ant:[["rarely","نادراً"],["seldom","قلما"]], usage:"how often...? بالأسئلة عن التكرار."},
+  {ex2:"There's plenty of time before the meeting starts.", syn:[["a lot","الكثير"],["enough","كفاية"]], ant:[["little","قليل"],["scarce","نادر"]], usage:"plenty of + اسم."},
+  {ex2:"He lost weight after changing his diet.", syn:[["mass","كتلة (علمياً)"]], ant:[], usage:"lose/gain weight."}
+];
+
+// ---- Unit 6 (Book 1) ----
+SYN1[5] = [
+  {ex2:"The two towns are only ten kilometers apart.", syn:[["separated","منفصلة"]], ant:[["together","معاً"]], usage:"apart from — تعبير بمعنى «بصرف النظر عن»."},
+  {ex2:"Honesty is an important attribute in a leader.", syn:[["quality","صفة"],["trait","سمة"]], ant:[], usage:"an attribute of + شخص/شيء."},
+  {ex2:"Their children grew up bilingual in Arabic and French.", syn:[], ant:[["monolingual","أحادي اللغة"]], usage:"bilingual in + لغتين."},
+  {ex2:"I completely forgot about our meeting.", syn:[["totally","كلياً"],["entirely","بالكامل"]], ant:[["partly","جزئياً"]], usage:"تسبق الفعل أو الصفة للتأكيد."},
+  {ex2:"She dashed out of the house when she heard the news.", syn:[["rush","يسرع"],["sprint","يركض بسرعة"]], ant:[["stroll","يتمشى ببطء"]], usage:"dash + حرف جر اتجاه: dash out/across."},
+  {ex2:"He looked at the dirty kitchen with disgust.", syn:[["revulsion","اشمئزاز شديد"]], ant:[["delight","سرور"],["pleasure","متعة"]], usage:"with disgust / in disgust."},
+  {ex2:"That cafe is very fashionable among young people.", syn:[["trendy","رائج"],["stylish","أنيق"]], ant:[["outdated","قديم الطراز"],["unfashionable","غير عصري"]], usage:"fashionable among + مجموعة."},
+  {ex2:"She works for a foreign company.", syn:[["overseas","خارجي/عبر البحار"]], ant:[["local","محلي"],["domestic","محلي رسمي"]], usage:"foreign language/country."},
+  {ex2:"There's a huge gulf between what he says and what he does.", syn:[["gap","فجوة"],["divide","انقسام"]], ant:[["connection","ترابط"]], usage:"مجازياً (فجوة بالفهم)، أو جغرافياً (خليج مائي)."},
+  {ex2:"She checked her hair in the mirror before leaving.", syn:[], ant:[], usage:"look in the mirror."},
+  {ex2:"It's natural to feel nervous before an exam.", syn:[["normal","طبيعي"],["instinctive","فطري"]], ant:[["artificial","اصطناعي"],["unnatural","غير طبيعي"]], usage:"natural for + شخص/موقف."},
+  {ex2:"Nowadays, most people shop online.", syn:[["these days","هالأيام"],["currently","حالياً"]], ant:[["formerly","سابقاً"],["previously","سابقاً"]], usage:"عادة بأول أو آخر الجملة."},
+  {ex2:"Each participant received a certificate.", syn:[["attendee","حاضر"],["member","عضو"]], ant:[["spectator","متفرج"]], usage:"a participant in + فعالية."},
+  {ex2:"Drinking tea after dinner is a family ritual.", syn:[["custom","عادة"],["tradition","تقليد"]], ant:[], usage:"a daily/family ritual."},
+  {ex2:"His spoken English is better than his written English.", syn:[["verbal","شفهي"],["oral","شفوي"]], ant:[["written","مكتوب"]], usage:"spoken language/English."},
+  {ex2:"Swimming is her favorite sport.", syn:[["athletics","رياضة بدنية عامة"]], ant:[], usage:"play a sport."},
+  {ex2:"I was surprised to see him at the party.", syn:[["astonished","مندهش"],["amazed","مذهول"]], ant:[["unsurprised","غير متفاجئ"]], usage:"surprised to see/hear/find."},
+  {ex2:"The meeting became tense after the argument.", syn:[["stressed","متوتر"],["uneasy","قلق"]], ant:[["relaxed","مرتاح"],["calm","هادئ"]], usage:"tense atmosphere/situation."},
+  {ex2:"I totally understand why you're upset.", syn:[["completely","كلياً"],["absolutely","تماماً"]], ant:[["partially","جزئياً"]], usage:"تُستخدم للتأكيد بشكل عامي."},
+  {ex2:"His explanation was too vague to be useful.", syn:[["unclear","غير واضح"],["ambiguous","غامض"]], ant:[["clear","واضح"],["precise","دقيق"]], usage:"vague about + موضوع."}
+];
+
+// ---- Unit 7 (Book 1) ----
+SYN1[6] = [
+  {ex2:"The school doesn't allow phones in class.", syn:[["permit","يسمح رسمياً"],["let","يدع"]], ant:[["forbid","يمنع"],["ban","يحظر"]], usage:"allow someone to do something."},
+  {ex2:"The company announced a new product yesterday.", syn:[["declare","يعلن رسمياً"],["reveal","يكشف"]], ant:[["conceal","يخفي"]], usage:"announce + خبر/قرار."},
+  {ex2:"He sat beside his best friend during the flight.", syn:[["next to","بجانب"],["alongside","بمحاذاة"]], ant:[], usage:"مكاني بحت — لا يُخلط مع besides (بمعنى «بالإضافة إلى»)."},
+  {ex2:"Learning Arabic grammar was a real challenge for him.", syn:[["difficulty","صعوبة"],["obstacle","عائق"]], ant:[["ease","سهولة"]], usage:"a challenge for/to someone."},
+  {ex2:"She claims she saw the accident happen.", syn:[["assert","يؤكد"],["state","يصرّح"]], ant:[["deny","ينكر"]], usage:"claim + that + جملة."},
+  {ex2:"The used car is in excellent condition.", syn:[["state","حالة"],["shape","هيئة"]], ant:[], usage:"in good/bad condition."},
+  {ex2:"Everyone contributed money for the teacher's gift.", syn:[["donate","يتبرع"],["give","يعطي"]], ant:[["withhold","يمتنع عن الإعطاء"]], usage:"contribute to + شيء."},
+  {ex2:"There's a big difference between the two designs.", syn:[["distinction","تمييز"],["contrast","تباين"]], ant:[["similarity","تشابه"]], usage:"a difference between A and B."},
+  {ex2:"The teacher divided the class into four groups.", syn:[["split","يقسّم"],["separate","يفصل"]], ant:[["unite","يوحّد"],["combine","يدمج"]], usage:"divide into + أجزاء."},
+  {ex2:"She's an expert in marine biology.", syn:[["specialist","متخصص"],["authority","مرجعية"]], ant:[["amateur","هاوٍ"],["novice","مبتدئ"]], usage:"an expert in/on + مجال."},
+  {ex2:"He became famous after winning the competition.", syn:[["well-known","معروف"],["renowned","مشهور"]], ant:[["unknown","مجهول"]], usage:"famous for + سبب الشهرة."},
+  {ex2:"The wind blew with tremendous force.", syn:[["power","قوة"],["strength","قوة/متانة"]], ant:[["weakness","ضعف"]], usage:"use force / by force."},
+  {ex2:"Too much sun exposure can cause harm to your skin.", syn:[["damage","ضرر"],["injury","أذى"]], ant:[["benefit","فائدة"],["good","خير"]], usage:"do harm / cause harm."},
+  {ex2:"She laid the baby down gently in the crib.", syn:[["place","يضع"],["set down","يضع بحذر"]], ant:[["lift","يرفع"],["pick up","يلتقط"]], usage:"لا يُخلط مع lie (يستلقي/يكذب) — lay يحتاج مفعول به."},
+  {ex2:"The two countries finally made peace after years of war.", syn:[["harmony","وئام"],["calm","هدوء"]], ant:[["war","حرب"],["conflict","نزاع"]], usage:"make peace / live in peace."},
+  {ex2:"The prince will inherit the throne one day.", syn:[], ant:[["princess","أميرة"]], usage:"crown prince (ولي العهد)."},
+  {ex2:"Sunscreen protects your skin from the sun.", syn:[["guard","يحرس"],["shield","يحمي/يدرأ"]], ant:[["endanger","يعرّض للخطر"],["harm","يؤذي"]], usage:"protect someone/something from + خطر."},
+  {ex2:"I sensed something was wrong the moment I walked in.", syn:[["feel","يشعر"],["perceive","يدرك"]], ant:[], usage:"sense + that + جملة."},
+  {ex2:"There was a sudden knock on the door.", syn:[["unexpected","غير متوقع"],["abrupt","مفاجئ وحاد"]], ant:[["gradual","تدريجي"]], usage:"a sudden change/noise."},
+  {ex2:"He didn't study; therefore, he failed the test.", syn:[["thus","لذا"],["consequently","نتيجة لذلك"]], ant:[], usage:"يربط نتيجة بسبب، غالباً بأول جملة ثانية."}
+];
+
+// ---- Unit 8 (Book 1) ----
+SYN1[7] = [
+  {ex2:"She accepted his apology right away.", syn:[["agree to","يوافق على"],["take","يقبل"]], ant:[["refuse","يرفض"],["reject","يرفض"]], usage:"accept + عرض/اعتذار/هدية."},
+  {ex2:"We arranged to meet at six o'clock.", syn:[["organize","ينظّم"],["plan","يخطط"]], ant:[], usage:"arrange to do something / arrange a meeting."},
+  {ex2:"All employees must attend the training session.", syn:[["go to","يذهب إلى"],["be present at","يحضر"]], ant:[["miss","يفوّت"],["skip","يتغيّب عن"]], usage:"attend + مناسبة (بدون حرف جر)."},
+  {ex2:"The police chased the car through the city.", syn:[["pursue","يطارد رسمياً"],["run after","يركض خلف"]], ant:[["flee","يهرب"]], usage:"chase + مفعول به مباشر."},
+  {ex2:"There's a sharp contrast between the two brothers' personalities.", syn:[["difference","فرق"],["distinction","تمييز"]], ant:[["similarity","تشابه"]], usage:"in contrast to/with."},
+  {ex2:"Her parents always encouraged her to follow her dreams.", syn:[["motivate","يحفّز"],["support","يدعم"]], ant:[["discourage","يثبّط"]], usage:"encourage someone to do something."},
+  {ex2:"That song sounds familiar; I think I've heard it before.", syn:[["known","معروف"],["recognizable","يمكن التعرف عليه"]], ant:[["unfamiliar","غير مألوف"],["strange","غريب"]], usage:"familiar with + شيء."},
+  {ex2:"He grabbed his keys and ran out the door.", syn:[["snatch","يخطف"],["seize","يمسك بقوة"]], ant:[["release","يُفلت"],["let go","يترك"]], usage:"أسلوب أسرع وأقل رسمية من take."},
+  {ex2:"She hung her coat on the hook by the door.", syn:[["suspend","يعلّق رسمياً"]], ant:[["take down","يُنزل"]], usage:"hang + مكان (on/from)."},
+  {ex2:"They live in a huge house with ten rooms.", syn:[["enormous","ضخم جداً"],["massive","هائل"]], ant:[["tiny","صغير جداً"],["small","صغير"]], usage:"أقوى من big بكثير."},
+  {ex2:"It's necessary to bring your ID to the exam.", syn:[["essential","أساسي"],["required","مطلوب"]], ant:[["unnecessary","غير ضروري"],["optional","اختياري"]], usage:"necessary for/to + هدف."},
+  {ex2:"The wallpaper has a floral pattern.", syn:[["design","تصميم"],["motif","زخرفة متكررة"]], ant:[], usage:"a pattern of behavior (نمط سلوك) أيضاً."},
+  {ex2:"He proposed a new plan to reduce costs.", syn:[["suggest","يقترح"],["put forward","يطرح"]], ant:[["withdraw","يسحب اقتراحاً"]], usage:"propose + فكرة، أو propose to (يطلب الزواج)."},
+  {ex2:"What is the purpose of this meeting?", syn:[["aim","هدف"],["objective","غاية"]], ant:[], usage:"the purpose of + شيء / on purpose (عن قصد)."},
+  {ex2:"The company released a new phone last week.", syn:[["launch","يطلق"],["free","يحرر"]], ant:[["hold back","يحتفظ"],["withhold","يمنع"]], usage:"release + منتج/معلومة/شخص."},
+  {ex2:"This job requires strong communication skills.", syn:[["need","يحتاج"],["demand","يتطلب"]], ant:[], usage:"require + اسم أو to be + صفة."},
+  {ex2:"I'm not satisfied with the service here.", syn:[["content","راضٍ"],["pleased","مسرور"]], ant:[["dissatisfied","غير راضٍ"],["unhappy","غير سعيد"]], usage:"satisfied with + شيء."},
+  {ex2:"He didn't say a single word during the meeting.", syn:[["one","واحد"],["sole","وحيد"]], ant:[["multiple","متعدد"],["several","عدة"]], usage:"not a single + اسم (للتأكيد بالنفي)."},
+  {ex2:"Be careful not to tear the wrapping paper.", syn:[["rip","يمزّق"],["shred","يمزّق لقطع صغيرة"]], ant:[["mend","يرقّع"],["repair","يصلح"]], usage:"tear + شيء ورقي/قماشي."},
+  {ex2:"Scientists are still testing this theory.", syn:[["hypothesis","فرضية"],["idea","فكرة"]], ant:[["fact","حقيقة مثبتة"]], usage:"in theory (نظرياً) / a theory about."}
+];
+
+// ---- Unit 9 (Book 1) ----
+SYN1[8] = [
+  {ex2:"Lions are wild animals that live in groups.", syn:[["creature","كائن حي"]], ant:[["plant","نبات"]], usage:"wild/domestic animal."},
+  {ex2:"We took the bus downtown instead of driving.", syn:[["coach","حافلة كبيرة (بريطاني)"]], ant:[], usage:"take/catch the bus."},
+  {ex2:"Our cat sleeps most of the day.", syn:[["feline","من فصيلة القطط (رسمي)"]], ant:[["dog","كلب (بالسياق الشائع فقط)"]], usage:"اسم حيوان أليف شائع."},
+  {ex2:"The soldiers followed every command without question.", syn:[["order","أمر"],["instruction","تعليمة"]], ant:[], usage:"give/follow a command."},
+  {ex2:"Whether we go depends on the weather.", syn:[["rely","يعتمد"],["hinge","يتوقف على"]], ant:[], usage:"depend on + شيء/شخص."},
+  {ex2:"The dog barked at every stranger who passed by.", syn:[["canine","من فصيلة الكلاب (رسمي)"]], ant:[["cat","قطة (بالسياق الشائع)"]], usage:"اسم حيوان أليف شائع."},
+  {ex2:"Someone knocked on the door late at night.", syn:[["entrance","مدخل"]], ant:[], usage:"open/close/knock on the door."},
+  {ex2:"She's been my best friend since childhood.", syn:[["companion","رفيق"],["pal","صديق (عامية)"]], ant:[["enemy","عدو"],["stranger","غريب"]], usage:"make friends / a close friend."},
+  {ex2:"I could hear the rain hitting the window.", syn:[], ant:[], usage:"hear + صوت (بدون قصد)، بعكس listen to (بقصد)."},
+  {ex2:"Can you help me carry these bags?", syn:[["assist","يساعد رسمياً"],["aid","يعين"]], ant:[["hinder","يعيق"],["hurt","يؤذي"]], usage:"help someone (with something) / help to do."},
+  {ex2:"He learned to ride a horse when he was young.", syn:[], ant:[], usage:"ride a horse."},
+  {ex2:"She was taken to the hospital after the accident.", syn:[["clinic","عيادة (أصغر عادة)"]], ant:[], usage:"go to the hospital / in hospital."},
+  {ex2:"He broke his leg while playing football.", syn:[["limb","طرف (رسمي)"]], ant:[], usage:"جزء من الجسم، ما له مرادف حقيقي."},
+  {ex2:"She needs immediate medical attention.", syn:[["clinical","سريري"],["health-related","متعلق بالصحة"]], ant:[], usage:"medical care/attention/treatment."},
+  {ex2:"Please open the window; it's hot in here.", syn:[["unlock","يفتح قفل"],["unseal","يفتح مغلق"]], ant:[["close","يغلق"],["shut","يغلق"]], usage:"open + باب/نافذة/صندوق."},
+  {ex2:"He pulled the door open with force.", syn:[["drag","يجرّ"],["tug","يشد بقوة"]], ant:[["push","يدفع"]], usage:"pull + شيء + حرف جر اتجاه."},
+  {ex2:"The rabbit hid behind the bushes when it saw us.", syn:[["bunny","أرنب صغير (عامية)"]], ant:[], usage:"اسم حيوان محدد."},
+  {ex2:"My children walk to school every morning.", syn:[], ant:[], usage:"go to school / start school."},
+  {ex2:"I can see the mountains from my balcony.", syn:[["notice","يلاحظ"],["spot","يرصد"]], ant:[], usage:"see (بدون قصد) بعكس look at / watch (بقصد)."},
+  {ex2:"The hotel is known for its excellent service.", syn:[["assistance","مساعدة"],["support","دعم"]], ant:[], usage:"customer service / provide a service."}
+];
+
+// ---- Unit 10 (Book 1) ----
+SYN1[9] = [
+  {ex2:"One benefit of exercise is better sleep.", syn:[["advantage","ميزة"],["gain","فائدة"]], ant:[["drawback","عيب"],["disadvantage","مساوئ"]], usage:"a benefit of/from + شيء."},
+  {ex2:"Are you certain about the meeting time?", syn:[["sure","متأكد"],["confident","واثق"]], ant:[["uncertain","غير متأكد"],["doubtful","مشكوك فيه"]], usage:"certain about/of + شيء."},
+  {ex2:"This is your last chance to sign up.", syn:[["opportunity","فرصة"],["possibility","احتمال"]], ant:[], usage:"a chance to do something."},
+  {ex2:"The medicine had an immediate effect on the pain.", syn:[["result","نتيجة"],["impact","أثر"]], ant:[["cause","سبب"]], usage:"have an effect on."},
+  {ex2:"Sleep is essential for good health.", syn:[["vital","حيوي"],["crucial","حاسم"]], ant:[["unimportant","غير مهم"],["optional","اختياري"]], usage:"essential for/to + هدف."},
+  {ex2:"The store is too far to walk to.", syn:[["distant","بعيد"]], ant:[["near","قريب"],["close","قريب"]], usage:"far from + مكان."},
+  {ex2:"Try to focus on your homework without distractions.", syn:[["concentrate","يركّز"]], ant:[["ignore","يتجاهل"]], usage:"focus on + شيء."},
+  {ex2:"The main function of this app is to track expenses.", syn:[["purpose","غرض"],["role","دور"]], ant:[], usage:"the function of + شيء."},
+  {ex2:"The children played barefoot on the grass.", syn:[["lawn","عشب مزروع بحديقة"]], ant:[], usage:"cut/mow the grass."},
+  {ex2:"Two soldiers guarded the entrance all night.", syn:[["protect","يحمي"],["watch over","يراقب"]], ant:[["attack","يهاجم"],["abandon","يترك"]], usage:"guard + مكان/شخص."},
+  {ex2:"The camera captured a clear image of the eagle.", syn:[["picture","صورة"],["photo","صورة"]], ant:[], usage:"an image of + شيء."},
+  {ex2:"The doctor gave immediate attention to the injured man.", syn:[["instant","فوري"],["prompt","سريع"]], ant:[["delayed","مؤجل"],["gradual","تدريجي"]], usage:"immediate action/response."},
+  {ex2:"Her primary goal is to finish her degree.", syn:[["main","رئيسي"],["principal","أساسي"]], ant:[["secondary","ثانوي"]], usage:"primary reason/goal."},
+  {ex2:"His parents were proud of his achievement.", syn:[["pleased","مسرور"],["satisfied","راضٍ عن الإنجاز"]], ant:[["ashamed","خجلان"]], usage:"proud of + شخص/إنجاز."},
+  {ex2:"Please remain seated until the plane comes to a stop.", syn:[["stay","يبقى"],["continue to be","يستمر بالبقاء"]], ant:[["leave","يغادر"],["depart","يرحل"]], usage:"remain + صفة/حالة."},
+  {ex2:"She rested for an hour after the long hike.", syn:[["relax","يسترخي"],["take a break","يأخذ استراحة"]], ant:[["work","يعمل"],["exert","يبذل جهداً"]], usage:"rest from + نشاط متعب."},
+  {ex2:"Keep your work and personal life separate.", syn:[["distinct","منفصل بوضوح"],["apart","متباعد"]], ant:[["joined","مترابط"],["combined","مدموج"]], usage:"separate from + شيء."},
+  {ex2:"They chose a beautiful site for the new hotel.", syn:[["location","موقع"],["spot","بقعة"]], ant:[], usage:"a construction/historical site."},
+  {ex2:"The dog wagged its tail happily.", syn:[], ant:[], usage:"جزء جسم حيوان محدد، ما له مرادف."},
+  {ex2:"He got into trouble for skipping class.", syn:[["problem","مشكلة"],["difficulty","صعوبة"]], ant:[["ease","سهولة"],["peace","راحة"]], usage:"get into trouble / have trouble with."}
+];
+
+// ---- Unit 11 (Book 1) ----
+SYN1[10] = [
+  {ex2:"The store advertised its sale on social media.", syn:[["promote","يروّج"],["market","يسوّق"]], ant:[], usage:"advertise + منتج/خدمة."},
+  {ex2:"Are you aware of the new company policy?", syn:[["conscious","مدرك"],["informed","مطّلع"]], ant:[["unaware","غير مدرك"],["ignorant","جاهل بالأمر"]], usage:"aware of + شيء."},
+  {ex2:"My phone battery dies quickly these days.", syn:[], ant:[], usage:"charge the battery."},
+  {ex2:"She wore a black dress to the funeral.", syn:[], ant:[["white","أبيض"]], usage:"اسم لون أساسي، ما له مرادف مباشر."},
+  {ex2:"Dubai is a modern city with tall buildings.", syn:[["metropolis","مدينة كبرى"]], ant:[["village","قرية"],["town","بلدة صغيرة"]], usage:"a big/small city."},
+  {ex2:"I need to clean the kitchen before guests arrive.", syn:[["tidy","يرتّب"],["wash","يغسل"]], ant:[["mess up","يُفسد النظافة"]], usage:"clean + مكان/شيء."},
+  {ex2:"How many countries have you visited?", syn:[["nation","أمة/دولة"]], ant:[], usage:"a foreign country."},
+  {ex2:"The company developed a new app for students.", syn:[["create","يبتكر"],["build","يبني"]], ant:[["abandon","يتخلى عن"]], usage:"develop + منتج/مهارة."},
+  {ex2:"We bought an electric kettle for the office.", syn:[["powered","يعمل بالطاقة"]], ant:[["manual","يدوي"]], usage:"electric + جهاز/سيارة."},
+  {ex2:"Eventually, she got used to the new schedule.", syn:[["finally","أخيراً"],["in the end","في النهاية"]], ant:[["immediately","فوراً"]], usage:"تصف نتيجة بعد فترة طويلة."},
+  {ex2:"It's a fact that the earth revolves around the sun.", syn:[["truth","حقيقة"]], ant:[["fiction","خيال"],["lie","كذبة"]], usage:"in fact / the fact that."},
+  {ex2:"He drank a glass of cold water.", syn:[], ant:[], usage:"a glass of + سائل (كوب)، أو مادة الزجاج."},
+  {ex2:"She studies the history of ancient Egypt.", syn:[["past","ماضي"]], ant:[["future","مستقبل"]], usage:"the history of + موضوع."},
+  {ex2:"He enjoys hiking and spending time in nature.", syn:[["the outdoors","الطبيعة الخارجية"],["the environment","البيئة"]], ant:[], usage:"in nature / human nature (الطبع البشري)."},
+  {ex2:"I've never been to Japan before.", syn:[["not ever","لا أبداً"]], ant:[["always","دائماً"]], usage:"مع present perfect عادة: I've never..."},
+  {ex2:"Many people attended the conference.", syn:[["individuals","أفراد"],["persons","أشخاص (رسمي)"]], ant:[], usage:"جمع person الشائع."},
+  {ex2:"We should use less plastic to protect the environment.", syn:[], ant:[], usage:"plastic bag/bottle."},
+  {ex2:"We need to solve this problem quickly.", syn:[["issue","مسألة"],["difficulty","صعوبة"]], ant:[["solution","حل"]], usage:"have a problem with / solve a problem."},
+  {ex2:"The bakery is on the corner of this street.", syn:[["road","طريق"]], ant:[], usage:"cross/walk down the street."},
+  {ex2:"What do you think about the new plan?", syn:[["believe","يعتقد"],["consider","يعتبر"]], ant:[], usage:"think about/of + شيء."}
+];
+
+// ---- Unit 12 (Book 1) ----
+SYN1[11] = [
+  {ex2:"She prefers to travel alone.", syn:[["by oneself","بمفرده"],["solo","منفرداً"]], ant:[["accompanied","برفقة أحد"],["together","معاً"]], usage:"live/travel alone."},
+  {ex2:"They rented a small apartment near downtown.", syn:[["flat","شقة (بريطاني)"]], ant:[["house","منزل مستقل"]], usage:"rent/live in an apartment."},
+  {ex2:"She wrote an article about climate change.", syn:[["piece","مقالة"],["report","تقرير"]], ant:[], usage:"an article about/on + موضوع."},
+  {ex2:"The artist spent months painting the mural.", syn:[["painter","رسّام"],["creator","مبدع"]], ant:[], usage:"a talented artist."},
+  {ex2:"His positive attitude helped the team stay motivated.", syn:[["outlook","نظرة"],["mindset","عقلية"]], ant:[], usage:"attitude toward/about + شيء."},
+  {ex2:"The beauty of the mountains left us speechless.", syn:[["attractiveness","جاذبية"],["charm","سحر"]], ant:[["ugliness","قبح"]], usage:"the beauty of + شيء."},
+  {ex2:"Let's compare the prices before we buy.", syn:[["contrast","يقارن للتباين"]], ant:[], usage:"compare A to/with B."},
+  {ex2:"Don't judge people before you know their story.", syn:[["evaluate","يقيّم"],["assess","يحكم على"]], ant:[], usage:"judge someone/something by/on."},
+  {ex2:"She subscribes to a monthly fashion magazine.", syn:[["publication","مطبوعة"]], ant:[], usage:"read a magazine."},
+  {ex2:"This jacket is made of a waterproof material.", syn:[["fabric","قماش"],["substance","مادة"]], ant:[], usage:"made of/from + مادة."},
+  {ex2:"Dinner was the best meal of the trip.", syn:[], ant:[], usage:"have/skip a meal."},
+  {ex2:"This is an effective method for learning new words.", syn:[["approach","أسلوب"],["technique","تقنية"]], ant:[], usage:"a method of/for doing something."},
+  {ex2:"Our neighbor helped us move the furniture.", syn:[], ant:[["stranger","غريب"]], usage:"a friendly/noisy neighbor."},
+  {ex2:"She gave a very professional presentation.", syn:[["skilled","ماهر"],["expert","محترف"]], ant:[["amateur","هاوٍ"],["unprofessional","غير مهني"]], usage:"professional advice/attitude."},
+  {ex2:"The company made a huge profit this year.", syn:[["earnings","أرباح"],["gain","مكسب"]], ant:[["loss","خسارة"]], usage:"make/earn a profit."},
+  {ex2:"The quality of the food here is excellent.", syn:[["standard","مستوى"]], ant:[], usage:"high/low quality."},
+  {ex2:"We need more space for the new furniture.", syn:[["room","مساحة"],["area","منطقة"]], ant:[], usage:"enough space for + شيء."},
+  {ex2:"Watch your step; the stairs are slippery.", syn:[["step","درجة"]], ant:[], usage:"غالباً بصيغة الجمع stairs."},
+  {ex2:"The dove is a symbol of peace.", syn:[["sign","علامة"],["emblem","شعار رمزي"]], ant:[], usage:"a symbol of + معنى."},
+  {ex2:"The ice on the lake was too thin to walk on.", syn:[["slim","نحيف (للأشخاص)"],["narrow","ضيق"]], ant:[["thick","سميك"],["fat","سمين"]], usage:"thin book/person/ice."}
+];
+
+// ---- Unit 13 (Book 1) ----
+SYN1[12] = [
+  {ex2:"She studied accounting at university and now works for a bank.", syn:[["bookkeeping","مسك الدفاتر (أضيق)"]], ant:[], usage:"work in accounting / an accounting degree."},
+  {ex2:"The idea of working from home appeals to many people.", syn:[["attract","يجذب"],["interest","يثير اهتمام"]], ant:[["repel","ينفّر"],["bore","يُمل"]], usage:"appeal to someone."},
+  {ex2:"Don't assume he's guilty without evidence.", syn:[["presume","يفترض"],["suppose","يظن"]], ant:[["know","يعرف بيقين"],["prove","يثبت"]], usage:"assume + that + جملة."},
+  {ex2:"Can I borrow your pen for a minute?", syn:[], ant:[["lend","يُقرض"]], usage:"borrow from someone."},
+  {ex2:"The lawyer met with a new client this morning.", syn:[["customer","زبون"],["patron","عميل دائم"]], ant:[], usage:"a client's needs."},
+  {ex2:"We went shopping downtown last weekend.", syn:[["city center","وسط المدينة"]], ant:[["suburbs","الضواحي"]], usage:"go/live downtown."},
+  {ex2:"The lecture was so dull that I almost fell asleep.", syn:[["boring","ممل"],["tedious","مملّ ومرهق"]], ant:[["exciting","مثير"],["interesting","مثير للاهتمام"]], usage:"a dull day/lecture."},
+  {ex2:"He embarrassed himself by forgetting her name.", syn:[["humiliate","يُذل"],["shame","يُخجل"]], ant:[], usage:"embarrass someone / feel embarrassed."},
+  {ex2:"The taxi fare from the airport was quite high.", syn:[["ticket price","سعر التذكرة"]], ant:[], usage:"bus/taxi/train fare."},
+  {ex2:"The former president gave a speech yesterday.", syn:[["previous","سابق"],["ex-","سابق"]], ant:[["current","حالي"],["present","حالي"]], usage:"former + منصب/وظيفة."},
+  {ex2:"The two friends founded the company ten years ago.", syn:[["establish","يؤسس"],["start","يبدأ"]], ant:[["dissolve","يُحلّ/ينهي"]], usage:"found + مؤسسة/شركة."},
+  {ex2:"She invests part of her salary every month.", syn:[["put money into","يضع أمواله في"]], ant:[["withdraw","يسحب"]], usage:"invest in + شيء."},
+  {ex2:"He took out a loan to buy his first car.", syn:[["credit","ائتمان (بالسياق المالي)"]], ant:[], usage:"take out a loan / pay off a loan."},
+  {ex2:"She gave us some practical advice for the interview.", syn:[["useful","مفيد"],["realistic","واقعي"]], ant:[["impractical","غير عملي"],["theoretical","نظري"]], usage:"a practical solution/approach."},
+  {ex2:"The meeting will start in a quarter of an hour.", syn:[["fourth","ربع (رسمي)"]], ant:[], usage:"a quarter of + شيء / a quarter past/to."},
+  {ex2:"He received a salary increase after his promotion.", syn:[["wage","أجر"],["pay","راتب"]], ant:[], usage:"a monthly/annual salary."},
+  {ex2:"She earned a full scholarship to study abroad.", syn:[["grant","منحة مالية"]], ant:[], usage:"win/earn a scholarship."},
+  {ex2:"This is just a temporary solution until we find something better.", syn:[["short-term","قصير الأمد"],["provisional","مؤقت رسمي"]], ant:[["permanent","دائم"]], usage:"a temporary job/fix."},
+  {ex2:"They searched the island for buried treasure.", syn:[["riches","ثروات"],["fortune","ثروة"]], ant:[], usage:"find/bury treasure."},
+  {ex2:"Doctors urge people to drink more water.", syn:[["encourage strongly","يحث بقوة"],["press","يضغط على"]], ant:[["discourage","يثبّط"]], usage:"urge someone to do something."}
+];
+
+// ---- Unit 14 (Book 1) ----
+SYN1[13] = [
+  {ex2:"The team's coach called for a timeout.", syn:[["trainer","مدرّب لياقة"],["instructor","معلّم"]], ant:[], usage:"a football/basketball coach."},
+  {ex2:"She struggled to control her anger during the argument.", syn:[["manage","يدير"],["regulate","ينظّم"]], ant:[["lose control of","يفقد السيطرة على"]], usage:"control + مشاعر/موقف/جهاز."},
+  {ex2:"The police asked for a description of the missing car.", syn:[["account","وصف"],["depiction","تصوير"]], ant:[], usage:"a description of + شخص/شيء."},
+  {ex2:"There's a direct flight from Bahrain to London.", syn:[["straight","مباشر"],["non-stop","بدون توقف"]], ant:[["indirect","غير مباشر"]], usage:"a direct flight/route."},
+  {ex2:"She stayed up all night studying for her final exam.", syn:[["test","اختبار"]], ant:[], usage:"take/pass/fail an exam."},
+  {ex2:"Can you give me an example of what you mean?", syn:[["instance","مثال/حالة"],["sample","عيّنة"]], ant:[], usage:"for example / an example of."},
+  {ex2:"There's a speed limit of 80 on this road.", syn:[["boundary","حدّ"],["maximum","الحد الأقصى"]], ant:[], usage:"a speed/time limit."},
+  {ex2:"We prefer to shop at the local market.", syn:[["nearby","قريب"],["regional","إقليمي"]], ant:[["national","وطني"],["foreign","أجنبي"]], usage:"local news/market/school."},
+  {ex2:"The trip to Paris felt magical.", syn:[["enchanting","ساحر"],["wonderful","رائع"]], ant:[["ordinary","عادي"],["mundane","روتيني"]], usage:"a magical experience/place."},
+  {ex2:"I received an important letter in the mail today.", syn:[["post","بريد (بريطاني)"]], ant:[], usage:"check/send mail."},
+  {ex2:"She just finished writing her second novel.", syn:[["fiction book","كتاب قصصي"]], ant:[], usage:"write/read a novel."},
+  {ex2:"He wrote an outline before starting his essay.", syn:[["draft","مسودة"],["plan","خطة"]], ant:[], usage:"an outline of + خطة/مقال."},
+  {ex2:"The poet read his new work at the festival.", syn:[], ant:[], usage:"a famous poet."},
+  {ex2:"Please print two copies of this document.", syn:[["reproduce","يستنسخ"],["publish","ينشر (بالسياق)"]], ant:[], usage:"print out / print a document."},
+  {ex2:"That scene in the movie made everyone cry.", syn:[["part","جزء"],["moment","لحظة"]], ant:[], usage:"a scene from/in + فيلم/كتاب."},
+  {ex2:"Write your name on the top of the sheet.", syn:[["page","صفحة"]], ant:[], usage:"a sheet of paper."},
+  {ex2:"It was silly of me to forget my keys again.", syn:[["foolish","أحمق"],["ridiculous","سخيف"]], ant:[["sensible","عاقل"],["wise","حكيم"]], usage:"silly mistake / feel silly."},
+  {ex2:"She bought new shoes from the store.", syn:[["shop","متجر"]], ant:[], usage:"go to the store."},
+  {ex2:"Many people suffered during the long drought.", syn:[["endure","يتحمّل"],["experience pain","يعاني ألماً"]], ant:[["enjoy","يستمتع"],["thrive","يزدهر"]], usage:"suffer from + مرض/مشكلة."},
+  {ex2:"New technology has changed the way we communicate.", syn:[["tech","تقنية (اختصار عامي)"]], ant:[], usage:"modern/new technology."}
+];
+
+// ---- Unit 15 (Book 1) ----
+SYN1[14] = [
+  {ex2:"They walked across the bridge to reach the old town.", syn:[["over","عبر"]], ant:[], usage:"across + مكان (بدون for/to)."},
+  {ex2:"Take a moment to breathe before your presentation.", syn:[["inhale/exhale","يستنشق/يزفر"]], ant:[], usage:"breathe deeply / breathe in/out."},
+  {ex2:"Patience is one of his best characteristics.", syn:[["trait","سمة"],["quality","صفة"]], ant:[], usage:"a characteristic of + شخص/شيء."},
+  {ex2:"We consume too much sugar in our daily diet.", syn:[["eat/use","يأكل/يستخدم"],["ingest","يبتلع (رسمي)"]], ant:[["produce","ينتج"]], usage:"consume + طعام/طاقة/وقت."},
+  {ex2:"The news of the trip excited the whole family.", syn:[["thrill","يُبهج بشدة"],["stimulate","يحفّز"]], ant:[["bore","يُمل"],["calm","يهدّئ"]], usage:"غالباً مبني للمجهول: be excited about."},
+  {ex2:"It's extremely cold outside today.", syn:[["very","جداً"],["exceptionally","استثنائياً"]], ant:[["slightly","قليلاً"],["somewhat","نوعاً ما"]], usage:"تسبق صفة للتشديد."},
+  {ex2:"Her biggest fear is public speaking.", syn:[["dread","خوف شديد"],["anxiety","قلق"]], ant:[["courage","شجاعة"],["confidence","ثقة"]], usage:"a fear of + شيء."},
+  {ex2:"We were fortunate to find a parking spot so quickly.", syn:[["lucky","محظوظ"]], ant:[["unfortunate","غير محظوظ"],["unlucky","سيئ الحظ"]], usage:"fortunate to do something."},
+  {ex2:"What happened at the meeting yesterday?", syn:[["occur","يحدث (رسمي)"],["take place","يقع"]], ant:[], usage:"happen to someone / what happened."},
+  {ex2:"The bridge has a length of two kilometers.", syn:[["distance","مسافة (بالسياق)"]], ant:[], usage:"the length of + شيء."},
+  {ex2:"Everyone makes mistakes when they're learning something new.", syn:[["error","خطأ"],["slip","زلّة صغيرة"]], ant:[], usage:"make a mistake / by mistake."},
+  {ex2:"Scientists observed the animals for several weeks.", syn:[["watch","يراقب"],["monitor","يرصد"]], ant:[["ignore","يتجاهل"]], usage:"observe + شخص/شيء + closely."},
+  {ex2:"This job is a great opportunity for her career.", syn:[["chance","فرصة"]], ant:[], usage:"an opportunity to do something."},
+  {ex2:"She won first prize in the writing competition.", syn:[["award","جائزة"],["reward","مكافأة"]], ant:[], usage:"win/receive a prize."},
+  {ex2:"He came in second place in the running race.", syn:[["competition","منافسة (بالسياق)"]], ant:[], usage:"win/lose a race."},
+  {ex2:"I didn't realize how late it was until I checked my phone.", syn:[["recognize","يدرك"],["become aware","يصبح مدركاً"]], ant:[], usage:"realize + that + جملة."},
+  {ex2:"She responded to my email within an hour.", syn:[["reply","يردّ"],["answer","يجيب"]], ant:[["ignore","يتجاهل"]], usage:"respond to + سؤال/رسالة."},
+  {ex2:"There's always some risk involved in starting a business.", syn:[["danger","خطر"],["chance of loss","احتمال خسارة"]], ant:[["safety","أمان"],["security","أمان"]], usage:"take a risk / at risk of."},
+  {ex2:"I wonder if the store is still open.", syn:[["ask oneself","يسأل نفسه"],["be curious","يكون فضولياً"]], ant:[["know for sure","يعرف بالتأكيد"]], usage:"wonder if/whether/what."},
+  {ex2:"She hasn't finished her homework yet.", syn:[["so far","حتى الآن"],["still","لا يزال"]], ant:[["already","بالفعل"]], usage:"مع النفي عادة: haven't...yet."}
+];
+
+// ---- Unit 16 (Book 1) ----
+SYN1[15] = [
+  {ex2:"She studied art at university and now paints professionally.", syn:[], ant:[], usage:"modern/fine art."},
+  {ex2:"He borrowed a book from the library.", syn:[], ant:[], usage:"read/write a book."},
+  {ex2:"She packed warm clothes for the trip.", syn:[["clothing","ملابس (رسمي)"],["garments","ملابس (رسمي جداً)"]], ant:[], usage:"buy/wear clothes (دايم جمع)."},
+  {ex2:"The local community organized a charity event.", syn:[["neighborhood","حي"],["society","مجتمع"]], ant:[], usage:"a community of + أشخاص."},
+  {ex2:"They got married in December.", syn:[], ant:[], usage:"اسم شهر ثابت."},
+  {ex2:"We had a lovely dinner at the new restaurant.", syn:[["evening meal","وجبة المساء"]], ant:[], usage:"have/cook dinner."},
+  {ex2:"The movie ends with a surprising twist.", syn:[["finish","ينتهي"],["conclude","يختتم"]], ant:[["begin","يبدأ"],["start","يبدأ"]], usage:"end at/with + شيء."},
+  {ex2:"They exchanged phone numbers before leaving.", syn:[["swap","يبادل"],["trade","يتاجر/يبادل"]], ant:[["keep","يحتفظ بـ"]], usage:"exchange + شيء + for + شيء آخر."},
+  {ex2:"His family moved to Bahrain five years ago.", syn:[["relatives","أقارب"],["household","أسرة"]], ant:[], usage:"a big/small family."},
+  {ex2:"This gift is from all of us.", syn:[], ant:[["to","إلى"]], usage:"from + مصدر/مكان/شخص."},
+  {ex2:"The hills turned green after the rain.", syn:[], ant:[], usage:"اسم لون أساسي."},
+  {ex2:"There's no place like home.", syn:[["house","منزل"],["residence","مسكن (رسمي)"]], ant:[], usage:"at home / go home."},
+  {ex2:"The new semester starts in January.", syn:[], ant:[], usage:"اسم شهر ثابت."},
+  {ex2:"She painted the door bright red.", syn:[], ant:[], usage:"اسم لون أساسي."},
+  {ex2:"The meeting is scheduled for seven o'clock.", syn:[], ant:[], usage:"رقم ثابت."},
+  {ex2:"The concert starts at eight tonight.", syn:[["begin","يبدأ"],["commence","يشرع (رسمي)"]], ant:[["end","ينتهي"],["finish","ينتهي"]], usage:"start + فعل بصيغة ing أو to."},
+  {ex2:"They've been working together for three years.", syn:[["jointly","بشكل مشترك"]], ant:[["separately","بشكل منفصل"],["apart","متباعدين"]], usage:"work/live/study together."},
+  {ex2:"She's studying medicine at university.", syn:[["college","كلية (أمريكي أوسع)"]], ant:[], usage:"go to university / at university."},
+  {ex2:"What are you going to wear to the wedding?", syn:[["dress in","يرتدي"],["have on","يلبس"]], ant:[["take off","يخلع"],["remove","يزيل"]], usage:"wear + ملابس/اكسسوار."},
+  {ex2:"This has been a challenging year for the company.", syn:[], ant:[], usage:"this/next/last year."}
+];
+
+// ---- Unit 17 (Book 1) ----
+SYN1[16] = [
+  {ex2:"I really appreciate your help with this project.", syn:[["value","يقدّر"],["be grateful for","يكون ممتناً لـ"]], ant:[["undervalue","يقلّل من قيمة"],["ignore","يتجاهل"]], usage:"appreciate + شيء/شخص (بدون for)."},
+  {ex2:"The manager is available for a meeting this afternoon.", syn:[["free","متفرغ"],["obtainable","يمكن الحصول عليه"]], ant:[["unavailable","غير متاح"],["busy","مشغول"]], usage:"available for/to + شخص."},
+  {ex2:"Our team beat the champions in the final match.", syn:[["defeat","يهزم"],["win against","يفوز على"]], ant:[["lose to","يخسر أمام"]], usage:"beat + خصم (بمعنى الفوز)."},
+  {ex2:"She wore a bright yellow dress.", syn:[["vivid","زاهي"],["radiant","مشرق"]], ant:[["dull","باهت"],["dim","خافت"]], usage:"bright color/light/idea."},
+  {ex2:"They celebrated their anniversary at a fancy restaurant.", syn:[["mark","يحيي مناسبة"],["commemorate","يخلّد"]], ant:[["mourn","يحزن على"]], usage:"celebrate + مناسبة."},
+  {ex2:"We still haven't decided where to go on vacation.", syn:[["determine","يقرر"],["choose","يختار"]], ant:[["hesitate","يتردد"]], usage:"decide to do something / decide on."},
+  {ex2:"The magician made the rabbit disappear.", syn:[["vanish","يختفي فجأة"],["fade away","يتلاشى"]], ant:[["appear","يظهر"],["emerge","يبرز"]], usage:"disappear from/into."},
+  {ex2:"Is there anything else you need before I go?", syn:[["additional","إضافي"],["other","آخر"]], ant:[], usage:"anyone/something/anywhere else."},
+  {ex2:"The judge made a fair decision for both sides.", syn:[["just","عادل"],["impartial","محايد"]], ant:[["unfair","غير عادل"],["biased","متحيّز"]], usage:"fair to/with someone."},
+  {ex2:"The river flows through three different countries.", syn:[["stream","يجري"],["run","يجري"]], ant:[["stop","يتوقف"],["stagnate","يركد"]], usage:"flow into/through + مكان."},
+  {ex2:"Please step forward when your name is called.", syn:[["ahead","للأمام"]], ant:[["backward","للخلف"]], usage:"look forward to — تعبير شائع."},
+  {ex2:"They hiked to the top of the hill for the view.", syn:[["mound","تلّة صغيرة"]], ant:[["valley","وادٍ"]], usage:"climb/walk up a hill."},
+  {ex2:"Her English level improved a lot this year.", syn:[["standard","مستوى"],["degree","درجة"]], ant:[], usage:"at a + صفة + level."},
+  {ex2:"A lone tree stood in the middle of the field.", syn:[["solitary","منفرد"],["single","وحيد"]], ant:[["accompanied","مرافَق"]], usage:"a lone + اسم (وصف أدبي غالباً)."},
+  {ex2:"The kids loved jumping in puddles after the rain.", syn:[["pool of water","بركة ماء صغيرة"]], ant:[], usage:"jump in/step in a puddle."},
+  {ex2:"We're still waiting for a response from the company.", syn:[["reply","ردّ"],["answer","إجابة"]], ant:[], usage:"a response to + سؤال/رسالة."},
+  {ex2:"Autumn is my favorite season of the year.", syn:[["time of year","وقت من السنة"]], ant:[], usage:"the rainy/dry season."},
+  {ex2:"We finally found a solution to the parking problem.", syn:[["answer","حل"],["fix","إصلاح"]], ant:[["problem","مشكلة"]], usage:"a solution to + مشكلة."},
+  {ex2:"Don't waste your money on things you don't need.", syn:[["squander","يبذّر"],["misuse","يسيء استخدام"]], ant:[["save","يوفّر"],["conserve","يحافظ على"]], usage:"waste + وقت/مال/فرصة."},
+  {ex2:"I'm not sure whether he's coming to the party.", syn:[["if","إذا (بالسياق)"]], ant:[], usage:"whether...or (سواء...أو)."}
+];
+
+// ---- Unit 18 (Book 1) ----
+SYN1[17] = [
+  {ex2:"She always arrives early for work.", syn:[["constantly","باستمرار"],["forever","للأبد"]], ant:[["never","أبداً"]], usage:"تسبق الفعل الرئيسي."},
+  {ex2:"He asked his teacher for extra help.", syn:[["inquire","يستفسر (رسمي)"],["request","يطلب"]], ant:[["answer","يجيب"],["reply","يردّ"]], usage:"ask someone + سؤال / ask for."},
+  {ex2:"She packed a banana for her snack.", syn:[], ant:[], usage:"اسم فاكهة محدد."},
+  {ex2:"The smell of fresh bread filled the kitchen.", syn:[["loaf","رغيف (وحدة)"]], ant:[], usage:"a loaf of bread."},
+  {ex2:"They baked a chocolate cake for the birthday.", syn:[], ant:[], usage:"bake/eat a cake."},
+  {ex2:"Rabbits love eating carrots.", syn:[], ant:[], usage:"اسم خضار محدد."},
+  {ex2:"We had grilled chicken for lunch.", syn:[["poultry","دواجن (أوسع)"]], ant:[], usage:"cook/eat chicken."},
+  {ex2:"He gave her a box of chocolate for her birthday.", syn:[], ant:[], usage:"dark/milk chocolate."},
+  {ex2:"This drink contains a lot of caffeine.", syn:[["include","يتضمّن"],["hold","يحتوي"]], ant:[["exclude","يستبعد"],["lack","يفتقر إلى"]], usage:"contain + مكوّن/عنصر."},
+  {ex2:"The soup smelled delicious from the kitchen.", syn:[["tasty","لذيذ"],["scrumptious","شهي جداً"]], ant:[["disgusting","مقرف"],["bland","بلا طعم"]], usage:"taste/smell delicious."},
+  {ex2:"He follows a strict diet to stay healthy.", syn:[["eating plan","خطة غذائية"]], ant:[], usage:"a healthy/balanced diet."},
+  {ex2:"They ate dinner together every night.", syn:[["consume","يستهلك (رسمي)"],["have","يتناول"]], ant:[["fast","يصوم"]], usage:"eat + طعام."},
+  {ex2:"The restaurant serves traditional Bahraini food.", syn:[["cuisine","مأكولات"]], ant:[], usage:"healthy/fast food."},
+  {ex2:"She eats fresh fruit every morning.", syn:[], ant:[["vegetable","خضار"]], usage:"fresh/dried fruit."},
+  {ex2:"That was a great movie; we should watch it again.", syn:[["excellent","ممتاز"],["wonderful","رائع"]], ant:[["terrible","فظيع"],["awful","سيء جداً"]], usage:"صفة عامة قوية للإعجاب."},
+  {ex2:"Regular exercise is important for your health.", syn:[["wellbeing","عافية"],["fitness","لياقة"]], ant:[["illness","مرض"]], usage:"good/poor health."},
+  {ex2:"She shared her grandmother's recipe for baklava.", syn:[["instructions","تعليمات"]], ant:[], usage:"follow/try a recipe."},
+  {ex2:"They opened a new restaurant downtown.", syn:[["eatery","مكان أكل (عامي)"]], ant:[], usage:"eat at a restaurant."},
+  {ex2:"Today is a special day for our family.", syn:[["unique","فريد"],["particular","خاص/معيّن"]], ant:[["ordinary","عادي"],["common","شائع"]], usage:"something special."},
+  {ex2:"Drink plenty of water during the summer.", syn:[], ant:[], usage:"drink/boil water."}
+];
+
+// ---- Unit 19 (Book 1) ----
+SYN1[18] = [
+  {ex2:"The fish was still alive when we caught it.", syn:[["living","حي"]], ant:[["dead","ميت"]], usage:"keep/stay alive."},
+  {ex2:"The dog buried a bone in the garden.", syn:[], ant:[], usage:"break a bone."},
+  {ex2:"Don't bother waking up early; the meeting was canceled.", syn:[["trouble","يزعج"],["disturb","يعكّر صفو"]], ant:[["help","يساعد"],["assist","يعين"]], usage:"bother to do something / don't bother."},
+  {ex2:"The captain steered the ship through the storm.", syn:[["skipper","ربّان (عامي)"]], ant:[], usage:"the ship's/team's captain."},
+  {ex2:"In conclusion, the project was a great success.", syn:[["ending","خاتمة"],["result","نتيجة"]], ant:[["introduction","مقدمة"]], usage:"in conclusion / reach a conclusion."},
+  {ex2:"I have some doubt about whether this plan will work.", syn:[["uncertainty","عدم يقين"],["suspicion","شكّ"]], ant:[["certainty","يقين"],["confidence","ثقة"]], usage:"have doubt about / no doubt."},
+  {ex2:"They spent the afternoon exploring the old city.", syn:[["investigate","يستكشف/يحقق"],["discover","يكتشف"]], ant:[], usage:"explore + مكان/فكرة."},
+  {ex2:"I'm so glad you could make it to the party.", syn:[["happy","سعيد"],["pleased","مسرور"]], ant:[["sad","حزين"],["unhappy","غير سعيد"]], usage:"glad to do something / glad that."},
+  {ex2:"The plan sounded good; however, it didn't work out.", syn:[["nevertheless","مع ذلك"],["but","لكن"]], ant:[], usage:"يربط تناقضاً بين جملتين."},
+  {ex2:"The protest was against the injustice of the new law.", syn:[["unfairness","ظلم/عدم إنصاف"]], ant:[["justice","عدل"],["fairness","إنصاف"]], usage:"fight against injustice."},
+  {ex2:"She works for an international company with offices worldwide.", syn:[["global","عالمي"],["worldwide","عالمي"]], ant:[["national","وطني"],["local","محلي"]], usage:"an international company/event."},
+  {ex2:"He hired a lawyer to help with the contract.", syn:[["attorney","محامٍ (أمريكي)"]], ant:[], usage:"hire/consult a lawyer."},
+  {ex2:"She mentioned that she might be late today.", syn:[["refer to","يشير إلى"],["bring up","يطرح"]], ant:[], usage:"mention + that/موضوع."},
+  {ex2:"This is one of the oldest buildings in the city.", syn:[["aged","مسنّ"],["ancient","قديم جداً"]], ant:[["new","جديد"],["young","شاب"]], usage:"old + شخص/شيء."},
+  {ex2:"The company changed its refund policy last month.", syn:[["rule","قاعدة"],["guideline","توجيه"]], ant:[], usage:"a company/government policy."},
+  {ex2:"She has great social skills and makes friends easily.", syn:[["interpersonal","بين شخصي (رسمي)"]], ant:[["antisocial","غير اجتماعي"]], usage:"social skills/media/life."},
+  {ex2:"He gave an inspiring speech at the graduation.", syn:[["talk","حديث"],["address","خطاب رسمي"]], ant:[], usage:"give/make a speech."},
+  {ex2:"The hospital staff worked around the clock.", syn:[["employees","موظفون"],["team","فريق"]], ant:[], usage:"hospital/school staff (جمع بلا s)."},
+  {ex2:"She walked toward the exit when the alarm went off.", syn:[["in the direction of","باتجاه"]], ant:[["away from","بعيداً عن"]], usage:"toward + مكان/شخص."},
+  {ex2:"The table is made of solid wood.", syn:[["timber","خشب بناء"]], ant:[], usage:"made of wood."}
+];
+
+// ---- Unit 20 (Book 1) ----
+SYN1[19] = [
+  {ex2:"She worked hard to achieve her dream of becoming a doctor.", syn:[["accomplish","ينجز"],["attain","يحقق"]], ant:[["fail","يفشل"]], usage:"achieve a goal/success."},
+  {ex2:"The doctor advised him to rest for a week.", syn:[["recommend","يوصي"],["counsel","ينصح رسمياً"]], ant:[], usage:"advise someone to do something."},
+  {ex2:"I've already finished my homework.", syn:[["by now","بحلول الآن"]], ant:[["not yet","ليس بعد"]], usage:"مع present perfect: I've already..."},
+  {ex2:"He only knows the basic rules of chess.", syn:[["fundamental","أساسي"],["simple","بسيط"]], ant:[["advanced","متقدم"],["complex","معقّد"]], usage:"basic skills/knowledge."},
+  {ex2:"Could you help me with a bit of homework?", syn:[["little","قليل"],["small amount","كمية صغيرة"]], ant:[["a lot","الكثير"]], usage:"a bit of + شيء."},
+  {ex2:"We're considering moving to a bigger house.", syn:[["think about","يفكر في"],["contemplate","يتأمل"]], ant:[["dismiss","يرفض التفكير في"]], usage:"consider + فعل بصيغة ing."},
+  {ex2:"The fire destroyed most of the old building.", syn:[["ruin","يخرّب"],["demolish","يهدم"]], ant:[["build","يبني"],["create","يبتكر"]], usage:"destroy + شيء (فعل حاسم/كامل)."},
+  {ex2:"The clown entertained the kids at the birthday party.", syn:[["amuse","يسلّي"],["delight","يُبهج"]], ant:[["bore","يُمل"]], usage:"entertain + جمهور/ضيوف."},
+  {ex2:"Can I get some extra sauce with my meal?", syn:[["additional","إضافي"],["more","أكثر"]], ant:[], usage:"extra + اسم."},
+  {ex2:"His goal is to run a marathon next year.", syn:[["aim","هدف"],["objective","غاية"]], ant:[], usage:"set/achieve a goal."},
+  {ex2:"He lied about his age to get the job.", syn:[["deceive","يخدع"],["fib","يكذب كذبة صغيرة"]], ant:[["tell the truth","يقول الحقيقة"]], usage:"lie about/to someone."},
+  {ex2:"She doesn't eat red meat anymore.", syn:[], ant:[["vegetable","خضار"]], usage:"red/white meat."},
+  {ex2:"In my opinion, the movie was too long.", syn:[["view","رأي"],["perspective","منظور"]], ant:[["fact","حقيقة"]], usage:"in someone's opinion."},
+  {ex2:"Is that a real diamond or a fake one?", syn:[["genuine","أصيل"],["authentic","حقيقي"]], ant:[["fake","مزيّف"],["artificial","اصطناعي"]], usage:"real vs fake."},
+  {ex2:"The calm lake reflected the mountains perfectly.", syn:[["mirror","يعكس كالمرآة"]], ant:[["absorb","يمتصّ"]], usage:"reflect + ضوء/صورة، وأيضاً reflect on (يتأمل في)."},
+  {ex2:"Many people regard him as the best player in history.", syn:[["consider","يعتبر"],["view","ينظر إلى"]], ant:[], usage:"regard someone/something as."},
+  {ex2:"The restaurant serves breakfast until noon.", syn:[["provide","يقدّم"]], ant:[], usage:"serve + طعام/عميل."},
+  {ex2:"She grows vegetables in her backyard garden.", syn:[], ant:[["meat","لحم"]], usage:"fresh/organic vegetables."},
+  {ex2:"The country suffered greatly during the war.", syn:[["conflict","نزاع"],["battle","معركة"]], ant:[["peace","سلام"]], usage:"go to war / during the war."},
+  {ex2:"This old painting is worth a lot of money.", syn:[["valued at","مقدّر بـ"]], ant:[["worthless","بلا قيمة"]], usage:"worth + قيمة/مبلغ."}
+];
+
+// ---- Unit 21 (Book 1) ----
+SYN1[20] = [
+  {ex2:"She appeared calm during the interview, though she was nervous inside.", syn:[["seem","يبدو"],["look","يبدو"]], ant:[["disappear","يختفي"]], usage:"appear + صفة، أو appear to be."},
+  {ex2:"The lamp has a heavy base so it doesn't tip over.", syn:[["foundation","أساس"],["bottom","قاعدة سفلية"]], ant:[["top","قمة"]], usage:"the base of + شيء."},
+  {ex2:"Reading regularly helps keep your brain sharp.", syn:[["mind","عقل"]], ant:[], usage:"use your brain."},
+  {ex2:"She started her career as a teacher before becoming a principal.", syn:[["profession","مهنة"],["occupation","وظيفة"]], ant:[], usage:"build/start a career."},
+  {ex2:"The clerk helped me find the right size.", syn:[["assistant","مساعد"],["attendant","موظف خدمة"]], ant:[["manager","مدير"]], usage:"a store/office clerk."},
+  {ex2:"It took a lot of effort to finish the marathon.", syn:[["hard work","جهد"],["exertion","بذل جهد"]], ant:[["ease","سهولة"]], usage:"put effort into / make an effort."},
+  {ex2:"Please enter your password to continue.", syn:[["go into","يدخل إلى"],["type in","يُدخل"]], ant:[["exit","يخرج"],["leave","يغادر"]], usage:"enter + مكان/بيانات (بدون into غالباً)."},
+  {ex2:"She did an excellent job on her presentation.", syn:[["outstanding","متميز"],["superb","رائع جداً"]], ant:[["poor","ضعيف"],["terrible","سيء"]], usage:"excellent + اسم."},
+  {ex2:"The firefighter was treated as a hero after saving the family.", syn:[["champion","بطل"],["role model","قدوة"]], ant:[["villain","شرير"]], usage:"a local/national hero."},
+  {ex2:"We need to hurry, or we'll miss the flight.", syn:[["rush","يسرع"],["hasten","يعجّل"]], ant:[["delay","يؤخّر"],["take your time","يأخذ وقته"]], usage:"hurry up — تعبير أمري شائع."},
+  {ex2:"Please inform us if your address changes.", syn:[["notify","يُخطر"],["tell","يُخبر"]], ant:[], usage:"inform someone of/about."},
+  {ex2:"I'll call you back later this evening.", syn:[["afterward","بعد ذلك"]], ant:[["earlier","أبكر"],["before","قبل"]], usage:"see you later — تعبير شائع."},
+  {ex2:"The train leaves the station at nine sharp.", syn:[["depart","يغادر رسمياً"],["go","يذهب"]], ant:[["arrive","يصل"],["stay","يبقى"]], usage:"leave + مكان/شخص."},
+  {ex2:"It took the rescue team hours to locate the missing hikers.", syn:[["find","يجد"],["pinpoint","يحدد بدقة"]], ant:[["lose","يفقد"]], usage:"locate + شيء/شخص."},
+  {ex2:"The nurse checked his blood pressure before the doctor arrived.", syn:[], ant:[["patient","مريض"]], usage:"a hospital nurse."},
+  {ex2:"He had a successful operation on his shoulder last week.", syn:[["surgery","جراحة"]], ant:[], usage:"have/undergo an operation."},
+  {ex2:"She felt a sharp pain in her lower back.", syn:[["ache","ألم مستمر"],["discomfort","انزعاج"]], ant:[["relief","راحة/تخفيف"],["comfort","راحة"]], usage:"feel/experience pain."},
+  {ex2:"He refused to sign the contract without reading it first.", syn:[["decline","يرفض بلطف"],["reject","يرفض"]], ant:[["accept","يقبل"],["agree","يوافق"]], usage:"refuse to do something."},
+  {ex2:"Though it was raining, they went for a walk.", syn:[["although","رغم أن"],["even though","رغم أن"]], ant:[], usage:"يبدأ جملة تناقض، أو يُستخدم بآخر الجملة بمعنى however."},
+  {ex2:"The store sells various kinds of cheese.", syn:[["diverse","متنوّع"],["several","عدة"]], ant:[["identical","متطابق"],["uniform","موحّد"]], usage:"various kinds/types of."}
+];
+
+// ---- Unit 22 (Book 1) ----
+SYN1[21] = [
+  {ex2:"The actual cost was higher than we expected.", syn:[["real","حقيقي"],["true","صحيح"]], ant:[["estimated","تقديري"],["imagined","متخيّل"]], usage:"the actual + رقم/حقيقة."},
+  {ex2:"The magician's tricks amazed the whole audience.", syn:[["astonish","يذهل"],["astound","يبهر"]], ant:[["bore","يُمل"]], usage:"غالباً مبني للمجهول: be amazed by/at."},
+  {ex2:"There's an extra charge for delivery on weekends.", syn:[["fee","رسم"],["cost","تكلفة"]], ant:[], usage:"a charge for + خدمة."},
+  {ex2:"She comforted her friend after the sad news.", syn:[["console","يواسي"],["soothe","يهدّئ"]], ant:[["upset","يزعج"],["disturb","يقلق"]], usage:"comfort someone."},
+  {ex2:"Please contact me if you have any questions.", syn:[["reach","يتواصل مع"],["get in touch with","يتصل بـ"]], ant:[["avoid","يتجنب"]], usage:"contact + شخص (بدون حرف جر)."},
+  {ex2:"The store offers discounts to loyal customers.", syn:[["client","عميل"],["buyer","مشترٍ"]], ant:[["seller","بائع"]], usage:"a regular customer."},
+  {ex2:"The company delivers groceries within an hour.", syn:[["bring","يحضر"],["transport","ينقل"]], ant:[["collect","يجمع/يستلم"]], usage:"deliver + شيء + to + مكان."},
+  {ex2:"She earns a good salary as a software engineer.", syn:[["make money","يكسب مالاً"]], ant:[["spend","ينفق"],["lose","يخسر"]], usage:"earn + مبلغ."},
+  {ex2:"Passengers should be at the gate 30 minutes before departure.", syn:[["entrance","مدخل"]], ant:[], usage:"airport/boarding gate."},
+  {ex2:"The price includes breakfast and Wi-Fi.", syn:[["incorporate","يدمج"],["contain","يحتوي"]], ant:[["exclude","يستبعد"]], usage:"include + شيء."},
+  {ex2:"She manages a team of ten people.", syn:[["run","يدير"],["supervise","يشرف على"]], ant:[], usage:"manage to do something (ينجح بفعل شيء صعب)."},
+  {ex2:"The disappearance of the ship remains a mystery.", syn:[["puzzle","لغز"],["enigma","معضلة"]], ant:[], usage:"solve/remain a mystery."},
+  {ex2:"The accident occurred late at night on a quiet street.", syn:[["happen","يحدث"],["take place","يقع"]], ant:[], usage:"occur to someone أيضاً (يخطر ببال)."},
+  {ex2:"Her opinion is completely opposite to mine.", syn:[["contrary","مضاد"],["reverse","معاكس"]], ant:[["same","نفسه"],["similar","مشابه"]], usage:"opposite to/of + شيء."},
+  {ex2:"He put a slice of cake on his plate.", syn:[["dish","طبق"]], ant:[], usage:"a plate of food."},
+  {ex2:"She received a message from her manager this morning.", syn:[["get","يحصل على"],["obtain","يحصل على رسمياً"]], ant:[["send","يرسل"],["give","يعطي"]], usage:"receive + شيء + from + شخص."},
+  {ex2:"He got a reward for returning the lost wallet.", syn:[["prize","جائزة"],["bonus","مكافأة إضافية"]], ant:[["punishment","عقاب"]], usage:"give/receive a reward."},
+  {ex2:"She set the plates on the table before dinner.", syn:[["place","يضع"],["put","يضع"]], ant:[["remove","يزيل"]], usage:"set + شيء + مكان."},
+  {ex2:"Someone stole her bike from outside the shop.", syn:[["rob","يسلب"],["take","يأخذ بدون إذن"]], ant:[["return","يُعيد"],["give back","يُرجع"]], usage:"steal + شيء + from + شخص/مكان."},
+  {ex2:"The thief was caught by the police near the mall.", syn:[["robber","سارق"],["burglar","لصّ منازل"]], ant:[], usage:"catch a thief."}
+];
+
+// ---- Unit 23 (Book 1) ----
+SYN1[22] = [
+  {ex2:"The army advanced slowly toward the city.", syn:[["move forward","يتقدم"],["progress","يتقدم/يتطور"]], ant:[["retreat","يتراجع"]], usage:"advance toward/on + مكان."},
+  {ex2:"She trains six days a week like a professional athlete.", syn:[["sportsperson","رياضي"]], ant:[], usage:"a professional athlete."},
+  {ex2:"His grades are above average this semester.", syn:[["typical","نموذجي"],["normal","عادي"]], ant:[["exceptional","استثنائي"],["outstanding","متميز"]], usage:"above/below average."},
+  {ex2:"His behavior in class has really improved this year.", syn:[["conduct","سلوك رسمي"],["manner","طريقة تصرف"]], ant:[], usage:"good/bad behavior."},
+  {ex2:"The park is located just behind the school.", syn:[["at the back of","خلف"]], ant:[["in front of","أمام"],["ahead of","أمام"]], usage:"behind + مكان/شخص."},
+  {ex2:"She's taking a course in graphic design this semester.", syn:[["class","حصة"],["program","برنامج"]], ant:[], usage:"take/enroll in a course."},
+  {ex2:"Please lower your voice; the baby is sleeping.", syn:[["reduce","يخفّض"],["decrease","يقلّل"]], ant:[["raise","يرفع"],["increase","يزيد"]], usage:"lower + شيء."},
+  {ex2:"Her shoes match her handbag perfectly.", syn:[["go with","يتناسب مع"],["coordinate","يتناسق مع"]], ant:[["clash with","يتعارض مع"]], usage:"match + شيء."},
+  {ex2:"She's been a member of the gym for two years.", syn:[["participant","مشارك"]], ant:[["non-member","غير عضو"]], usage:"a member of + مجموعة."},
+  {ex2:"Yoga is good for both physical and mental health.", syn:[["psychological","نفسي"],["cognitive","معرفي"]], ant:[["physical","جسدي"]], usage:"mental health/effort."},
+  {ex2:"The bus had only a few passengers this morning.", syn:[["rider","راكب"],["traveler","مسافر"]], ant:[["driver","سائق"]], usage:"a bus/train/plane passenger."},
+  {ex2:"She has a warm and friendly personality.", syn:[["character","شخصية/طابع"],["nature","طبع"]], ant:[], usage:"a strong/friendly personality."},
+  {ex2:"She memorized the poem for her literature class.", syn:[["verse","قصيدة"]], ant:[], usage:"write/read a poem."},
+  {ex2:"The flag was raised on a tall pole.", syn:[["post","عمود"],["rod","قضيب"]], ant:[], usage:"a flag/fishing pole."},
+  {ex2:"Please remove your shoes before entering the house.", syn:[["take off","يخلع"],["get rid of","يتخلص من"]], ant:[["add","يضيف"],["keep","يُبقي"]], usage:"remove + شيء + from + مكان."},
+  {ex2:"Wearing a seatbelt is important for your safety.", syn:[["security","أمان"],["protection","حماية"]], ant:[["danger","خطر"],["risk","مخاطرة"]], usage:"safety rules/measures."},
+  {ex2:"He shot the ball straight into the goal.", syn:[["fire","يطلق النار"],["launch","يطلق"]], ant:[], usage:"shoot + شيء + مكان."},
+  {ex2:"That plan sounds like a great idea to me.", syn:[["seem","يبدو"]], ant:[], usage:"sound + صفة (بمعنى يبدو)."},
+  {ex2:"They swam in the ocean every day during their vacation.", syn:[], ant:[["sink","يغرق"]], usage:"swim in + ماء."},
+  {ex2:"A spider spun a large web across the window.", syn:[], ant:[], usage:"a spider's web / the World Wide Web."}
+];
+
+// ---- Unit 24 (Book 1) ----
+SYN1[23] = [
+  {ex2:"He built a tower using wooden blocks.", syn:[["chunk","كتلة كبيرة"],["piece","قطعة"]], ant:[], usage:"a block of ice/wood."},
+  {ex2:"The dog buried its bone in the backyard.", syn:[["hide underground","يخفي تحت الأرض"]], ant:[["dig up","يحفر ويستخرج"],["uncover","يكشف"]], usage:"bury + شيء + in the ground."},
+  {ex2:"The crowd cheered loudly when the team scored.", syn:[["applaud","يصفّق"],["shout support","يهتف تشجيعاً"]], ant:[["boo","يستهجن"]], usage:"cheer for + فريق."},
+  {ex2:"The instructions were too complex to follow easily.", syn:[["complicated","معقّد"],["intricate","دقيق ومعقّد"]], ant:[["simple","بسيط"],["straightforward","واضح ومباشر"]], usage:"a complex problem/system."},
+  {ex2:"The film critic gave the movie a positive review.", syn:[["reviewer","ناقد/مراجع"]], ant:[["fan","معجب"]], usage:"a film/art critic."},
+  {ex2:"Can you give me directions to the nearest pharmacy?", syn:[["way","طريق"],["route","مسار"]], ant:[], usage:"ask for/give directions."},
+  {ex2:"The wedding was a wonderful event that everyone enjoyed.", syn:[["occasion","مناسبة"],["occurrence","حدث"]], ant:[], usage:"attend/host an event."},
+  {ex2:"She exercises for thirty minutes every morning.", syn:[["work out","يمارس التمرين"],["train","يتدرب"]], ant:[["rest","يستريح"]], usage:"exercise regularly."},
+  {ex2:"Their friendship lasted more than twenty years.", syn:[["bond","رابطة"],["companionship","رفقة"]], ant:[["rivalry","تنافس/عداوة"]], usage:"a close/lasting friendship."},
+  {ex2:"Our tour guide showed us around the old city.", syn:[["leader","مرشد"],["mentor","موجّه"]], ant:[], usage:"a tour/travel guide."},
+  {ex2:"There was a lack of information about the event.", syn:[["shortage","نقص"],["absence","غياب"]], ant:[["abundance","وفرة"],["surplus","فائض"]], usage:"a lack of + شيء."},
+  {ex2:"The band will perform live at the festival tonight.", syn:[["play","يعزف"],["present","يقدّم"]], ant:[], usage:"perform + عرض/دور."},
+  {ex2:"She felt a lot of pressure before her final exams.", syn:[["stress","ضغط نفسي"],["strain","إجهاد"]], ant:[["relief","راحة"]], usage:"under pressure."},
+  {ex2:"It will probably rain later this afternoon.", syn:[["likely","على الأرجح"]], ant:[], usage:"تسبق الفعل الرئيسي."},
+  {ex2:"This is a public park open to everyone.", syn:[["open to all","مفتوح للجميع"],["communal","مشترك"]], ant:[["private","خاص"]], usage:"public park/transport."},
+  {ex2:"She's smart enough to figure out the answer herself.", syn:[["intelligent","ذكي"],["clever","بارع"]], ant:[["unwise","غير حكيم"],["foolish","أحمق"]], usage:"a smart student/decision."},
+  {ex2:"Lightning struck the old tree during the storm.", syn:[["hit","يضرب"],["collide with","يصطدم بـ"]], ant:[["miss","يخطئ الهدف"]], usage:"strike + شيء."},
+  {ex2:"My family always supports my decisions.", syn:[["back","يدعم"],["encourage","يشجّع"]], ant:[["oppose","يعارض"]], usage:"support someone/something."},
+  {ex2:"What is the medical term for a broken bone?", syn:[["word","كلمة"],["expression","تعبير"]], ant:[], usage:"a technical/medical term."},
+  {ex2:"The community united to help flood victims.", syn:[["join together","يتحدون"],["combine forces","يوحّدون الجهود"]], ant:[["divide","ينقسم"],["separate","ينفصل"]], usage:"unite to do something."}
+];
+
+// ---- Unit 25 (Book 1) ----
+SYN1[24] = [
+  {ex2:"I associate the smell of coffee with early mornings.", syn:[["connect","يربط"],["link","يربط"]], ant:[["separate","يفصل"],["disconnect","يفصل"]], usage:"associate + شيء + with + شيء آخر."},
+  {ex2:"Recycling helps protect the environment.", syn:[["surroundings","محيط"],["habitat","بيئة طبيعية"]], ant:[], usage:"protect the environment."},
+  {ex2:"He works at a car factory outside the city.", syn:[["plant","مصنع"],["workshop","ورشة"]], ant:[], usage:"work in/at a factory."},
+  {ex2:"This phone has many useful features.", syn:[["characteristic","خاصية"],["aspect","جانب"]], ant:[], usage:"a feature of + منتج/شيء."},
+  {ex2:"For instance, you could try studying in the morning instead.", syn:[["example","مثال"],["case","حالة"]], ant:[], usage:"for instance — تعبير شائع."},
+  {ex2:"The project involves a lot of research and planning.", syn:[["include","يتضمّن"],["require","يتطلب"]], ant:[["exclude","يستبعد"]], usage:"involve + شيء/نشاط."},
+  {ex2:"Take this medicine twice a day after meals.", syn:[["drug","دواء"],["remedy","علاج"]], ant:[], usage:"take medicine."},
+  {ex2:"The cake mix just needs water and eggs.", syn:[["blend","مزيج"],["combination","تركيبة"]], ant:[], usage:"a mix of + أشياء."},
+  {ex2:"She organized the entire school event by herself.", syn:[["arrange","يرتّب"],["plan","يخطط"]], ant:[["disorganize","يُشوّش"]], usage:"organize + حدث/أشياء."},
+  {ex2:"We studied for a long period before the exam.", syn:[["duration","مدة"],["time span","فترة زمنية"]], ant:[], usage:"a period of time."},
+  {ex2:"The coastal areas are densely populated.", syn:[["inhabit","يسكن"],["live in","يعيش في"]], ant:[], usage:"غالباً مبني للمجهول: be populated by."},
+  {ex2:"The farm produces fresh vegetables every season.", syn:[["make","يصنع"],["grow","يزرع"]], ant:[["consume","يستهلك"]], usage:"produce + منتج/محصول."},
+  {ex2:"The store has a wide range of shoes for all ages.", syn:[["variety","تنوع"],["selection","تشكيلة"]], ant:[], usage:"a range of + أشياء."},
+  {ex2:"I almost didn't recognize him with his new haircut.", syn:[["identify","يتعرف على"],["know","يعرف"]], ant:[], usage:"recognize + شخص/شيء."},
+  {ex2:"She has a regular exercise routine every morning.", syn:[["routine","روتيني"],["consistent","ثابت"]], ant:[["irregular","غير منتظم"],["occasional","متقطع"]], usage:"a regular schedule/habit."},
+  {ex2:"There was a warning sign near the construction site.", syn:[["signal","إشارة"],["indication","دلالة"]], ant:[], usage:"a sign of/warning sign."},
+  {ex2:"The pencil tip broke while he was writing.", syn:[["point","طرف مدبب"],["end","طرف"]], ant:[], usage:"the tip of + شيء."},
+  {ex2:"It's a family tradition to gather every Friday.", syn:[["custom","عادة"],["practice","ممارسة"]], ant:[], usage:"a family/cultural tradition."},
+  {ex2:"Please throw your trash in the bin.", syn:[["garbage","قمامة"],["rubbish","نفايات"]], ant:[], usage:"take out the trash."},
+  {ex2:"The river is very wide at this point.", syn:[["broad","عريض"]], ant:[["narrow","ضيّق"]], usage:"wide street/river."}
+];
+
+// ---- Unit 26 (Book 1) ----
+SYN1[25] = [
+  {ex2:"She gave me some helpful advice about job interviews.", syn:[["guidance","إرشاد"],["recommendation","توصية"]], ant:[], usage:"give/take advice (غير معدود، ما فيه a advice)."},
+  {ex2:"We walked along the beach until sunset.", syn:[["alongside","بمحاذاة"]], ant:[], usage:"along + مسار/طريق."},
+  {ex2:"Please pay attention during the safety briefing.", syn:[["focus","تركيز"],["concentration","انتباه"]], ant:[["distraction","تشتت"]], usage:"pay attention to."},
+  {ex2:"The new mall attracts thousands of visitors every week.", syn:[["draw","يجذب"],["appeal to","يستهوي"]], ant:[["repel","ينفّر"]], usage:"attract + شخص/جمهور."},
+  {ex2:"They climbed the mountain in just five hours.", syn:[["ascend","يصعد"]], ant:[["descend","ينزل"],["climb down","ينزل"]], usage:"climb + مرتفع."},
+  {ex2:"She dropped her phone on the tile floor.", syn:[["let fall","يُسقط"]], ant:[["catch","يمسك"],["lift","يرفع"]], usage:"drop + شيء."},
+  {ex2:"This is the final exam of the semester.", syn:[["last","أخير"],["ultimate","نهائي"]], ant:[["first","أول"],["initial","أولي"]], usage:"the final + اسم."},
+  {ex2:"We need to travel further to reach the border.", syn:[["farther","أبعد"]], ant:[["closer","أقرب"]], usage:"further + مقارنة."},
+  {ex2:"His silence implied that he disagreed.", syn:[["suggest","يلمّح"],["hint at","يشير إلى"]], ant:[["state directly","يصرّح مباشرة"]], usage:"imply + that + جملة."},
+  {ex2:"It's important to maintain a healthy diet.", syn:[["keep up","يحافظ على"],["sustain","يديم"]], ant:[["neglect","يهمل"],["abandon","يتخلى عن"]], usage:"maintain + حالة/عادة."},
+  {ex2:"Neither of us wanted to cook, so we ordered food.", syn:[["not either","لا هذا ولا ذاك"]], ant:[["both","كلاهما"]], usage:"neither...nor."},
+  {ex2:"Hurry up, otherwise we'll miss the bus.", syn:[["or else","وإلا"]], ant:[], usage:"يربط تحذيراً بنتيجة."},
+  {ex2:"Physical exercise is good for your heart.", syn:[["bodily","جسدي"]], ant:[["mental","عقلي"],["emotional","عاطفي"]], usage:"physical health/activity."},
+  {ex2:"He proved his theory was correct with new evidence.", syn:[["demonstrate","يُظهر"],["confirm","يؤكد"]], ant:[["disprove","يدحض"]], usage:"prove + that + جملة."},
+  {ex2:"She reacted quickly when she saw the smoke.", syn:[["respond","يستجيب"],["act","يتصرف"]], ant:[["ignore","يتجاهل"]], usage:"react to + موقف/خبر."},
+  {ex2:"He rides his bicycle to work every day.", syn:[["travel on","يركب/يسافر على"]], ant:[["walk","يمشي"]], usage:"ride a bike/horse/bus."},
+  {ex2:"The hotel is situated near the beach.", syn:[["located","واقع"],["positioned","موضوع"]], ant:[], usage:"situated in/near/on."},
+  {ex2:"Technology has changed modern society significantly.", syn:[["community","مجتمع"],["the public","العامة"]], ant:[], usage:"modern/ancient society."},
+  {ex2:"The school has very high academic standards.", syn:[["level","مستوى"],["benchmark","معيار"]], ant:[], usage:"meet/set a standard."},
+  {ex2:"I suggest we leave early to avoid traffic.", syn:[["propose","يقترح"],["recommend","يوصي"]], ant:[], usage:"suggest + فعل بصيغة ing أو that."}
+];
+
+// ---- Unit 27 (Book 1) ----
+SYN1[26] = [
+  {ex2:"Actually, I've never been to that restaurant before.", syn:[["in fact","في الواقع"],["really","حقاً"]], ant:[], usage:"تُستخدم لتصحيح معلومة أو للتأكيد."},
+  {ex2:"The dog gave a small bite on his hand.", syn:[["nip","عضة خفيفة"]], ant:[], usage:"take a bite of + طعام."},
+  {ex2:"We drove along the coast to enjoy the sea view.", syn:[["shore","شاطئ"],["seaside","ساحل"]], ant:[["inland","داخل البر"]], usage:"the east/west coast."},
+  {ex2:"They made a good deal on the used car.", syn:[["agreement","اتفاق"],["bargain","صفقة مربحة"]], ant:[], usage:"make/get a deal."},
+  {ex2:"Bahrain has desert areas outside the main city.", syn:[], ant:[["oasis","واحة"]], usage:"a desert climate."},
+  {ex2:"This is a very effective way to learn new vocabulary.", syn:[["successful","ناجح"],["efficient","فعّال"]], ant:[["ineffective","غير فعّال"],["useless","عديم الفائدة"]], usage:"effective at/for doing something."},
+  {ex2:"The doctor examined the patient carefully.", syn:[["inspect","يفحص"],["study","يدرس"]], ant:[], usage:"examine + شيء/شخص."},
+  {ex2:"The answer he gave turned out to be false.", syn:[["incorrect","غير صحيح"],["untrue","غير حقيقي"]], ant:[["true","صحيح"],["correct","صحيح"]], usage:"true or false."},
+  {ex2:"It took her a while to figure out the puzzle.", syn:[["work out","يحل"],["solve","يحل"]], ant:[], usage:"figure out + مشكلة/لغز."},
+  {ex2:"She gave him a gift for his graduation.", syn:[["present","هدية"]], ant:[], usage:"give/receive a gift."},
+  {ex2:"He felt hunger after skipping breakfast.", syn:[["appetite","شهية"]], ant:[["fullness","شبع"]], usage:"feel hunger."},
+  {ex2:"Imagine living on a beach for a whole year.", syn:[["picture","يتخيّل"],["envision","يتصوّر"]], ant:[], usage:"imagine + فعل بصيغة ing."},
+  {ex2:"Their journey across the desert took three days.", syn:[["trip","رحلة"],["voyage","رحلة طويلة"]], ant:[], usage:"a long/difficult journey."},
+  {ex2:"She loves solving puzzles in her free time.", syn:[["riddle","لغز كلامي"],["mystery","لغز غامض"]], ant:[], usage:"solve a puzzle."},
+  {ex2:"It was quite cold last night.", syn:[["fairly","إلى حد ما"],["rather","نوعاً ما"]], ant:[], usage:"تسبق صفة/ظرف."},
+  {ex2:"I would rather stay home than go to the party.", syn:[["preferably","يُفضّل"]], ant:[], usage:"would rather + فعل مجرد."},
+  {ex2:"Can you give me a specific example of the problem?", syn:[["particular","معين"],["precise","دقيق"]], ant:[["general","عام"],["vague","غامض"]], usage:"a specific + اسم."},
+  {ex2:"A spider spun its web in the corner of the room.", syn:[], ant:[], usage:"اسم حيوان محدد."},
+  {ex2:"We took a guided tour of the old castle.", syn:[["excursion","جولة قصيرة"],["trip","رحلة"]], ant:[], usage:"take/go on a tour."},
+  {ex2:"We had a wonderful trip to the mountains last summer.", syn:[["journey","رحلة"],["excursion","نزهة"]], ant:[], usage:"go on a trip."}
+];
+
+// ---- Unit 28 (Book 1) ----
+SYN1[27] = [
+  {ex2:"The band played until midnight at the festival.", syn:[["musical group","فرقة موسيقية"]], ant:[], usage:"a rock/jazz band."},
+  {ex2:"I could barely hear him over the noise.", syn:[["hardly","بالكاد"],["scarcely","بالكاد"]], ant:[["easily","بسهولة"]], usage:"تسبق الفعل مباشرة."},
+  {ex2:"The lecture was so boring that I almost fell asleep.", syn:[["dull","ممل"],["tedious","مملّ ومرهق"]], ant:[["exciting","مثير"],["interesting","ممتع"]], usage:"a boring + اسم."},
+  {ex2:"They canceled the trip due to bad weather.", syn:[["call off","يلغي"]], ant:[["confirm","يؤكد"],["proceed with","يستمر بـ"]], usage:"cancel + حدث/موعد."},
+  {ex2:"The car is parked in the driveway.", syn:[], ant:[], usage:"park in the driveway."},
+  {ex2:"Please take out the garbage before you leave.", syn:[["trash","قمامة"],["rubbish","نفايات"]], ant:[], usage:"take out the garbage."},
+  {ex2:"He learned to play a musical instrument as a child.", syn:[["tool","أداة"]], ant:[], usage:"play/learn an instrument."},
+  {ex2:"She made a list of things to buy before the trip.", syn:[["record","سجل"],["roster","قائمة أسماء"]], ant:[], usage:"make/write a list."},
+  {ex2:"The children loved the magic show at the party.", syn:[["sorcery","سحر"],["illusion","خداع بصري"]], ant:[["reality","واقع"]], usage:"perform/do magic."},
+  {ex2:"She left me a message about the meeting change.", syn:[["note","رسالة قصيرة"],["text","رسالة نصية"]], ant:[], usage:"leave/send a message."},
+  {ex2:"I noticed a new coffee shop on my way to work.", syn:[["observe","يلاحظ"],["spot","يرصد"]], ant:[["overlook","يغفل عن"],["ignore","يتجاهل"]], usage:"notice + شيء."},
+  {ex2:"They own a small house near the beach.", syn:[["possess","يمتلك رسمياً"]], ant:[], usage:"own + ممتلكات."},
+  {ex2:"No one could predict how the game would end.", syn:[["forecast","يتنبأ"],["foresee","يتوقّع مسبقاً"]], ant:[], usage:"predict + that + جملة."},
+  {ex2:"My professor gave us extra reading for next week.", syn:[["lecturer","محاضر"],["instructor","مدرّس جامعي"]], ant:[["student","طالب"]], usage:"a university professor."},
+  {ex2:"We rushed to catch the last train home.", syn:[["hurry","يستعجل"],["dash","يندفع بسرعة"]], ant:[["stroll","يتمشى ببطء"]], usage:"rush to do something."},
+  {ex2:"My schedule is very busy this week.", syn:[["timetable","جدول زمني"],["agenda","جدول أعمال"]], ant:[], usage:"a busy/tight schedule."},
+  {ex2:"Let's share this pizza between the three of us.", syn:[["split","يقسّم"],["divide","يوزّع"]], ant:[["keep","يحتفظ بالكل لنفسه"]], usage:"share + شيء + with + شخص."},
+  {ex2:"The singer walked onto the stage to loud applause.", syn:[["platform","منصة"]], ant:[], usage:"perform on stage."},
+  {ex2:"A storm is expected to hit the coast tonight.", syn:[["tempest","عاصفة شديدة"]], ant:[["calm weather","طقس هادئ"]], usage:"a thunder/sand storm."},
+  {ex2:"The report should be finished within two days.", syn:[["inside","داخل"]], ant:[["outside","خارج"],["beyond","بعد/فوق"]], usage:"within + فترة زمنية/مسافة."}
+];
+
+// ---- Unit 29 (Book 1) ----
+SYN1[28] = [
+  {ex2:"Taking care of the debt became a heavy burden on the family.", syn:[["weight","عبء"],["responsibility","مسؤولية ثقيلة"]], ant:[["relief","تخفيف"]], usage:"a burden on/to someone."},
+  {ex2:"They compromised and agreed to split the cost.", syn:[["meet halfway","يتوافقون في المنتصف"],["negotiate","يتفاوض"]], ant:[["refuse to budge","يرفض التنازل"]], usage:"compromise on + شيء."},
+  {ex2:"She crafted a beautiful necklace from silver.", syn:[["make skillfully","يصنع بمهارة"],["handcraft","يصنع يدوياً"]], ant:[["mass-produce","ينتج بكميات كبيرة"]], usage:"craft + شيء + from/out of."},
+  {ex2:"He dove into the pool to cool off.", syn:[["plunge","يغطس بقوة"]], ant:[["surface","يطفو على السطح"]], usage:"dive into + ماء."},
+  {ex2:"Be careful with that box; the glasses inside are fragile.", syn:[["delicate","هشّ/رقيق"],["breakable","قابل للكسر"]], ant:[["sturdy","متين"],["durable","متين"]], usage:"fragile items/glass."},
+  {ex2:"She ate half of the sandwich and saved the rest.", syn:[], ant:[["whole","كامل"]], usage:"half of + شيء."},
+  {ex2:"The child's innocence made everyone smile.", syn:[["purity","نقاء"],["naivety","سذاجة"]], ant:[["guilt","ذنب"],["corruption","فساد"]], usage:"prove innocence (بالسياق القانوني)."},
+  {ex2:"She led the team to victory in the final match.", syn:[["guide","يقود/يرشد"],["direct","يوجّه"]], ant:[["follow","يتبع"]], usage:"lead + مجموعة/فريق."},
+  {ex2:"We have a meeting scheduled for ten o'clock.", syn:[["gathering","تجمّع"],["conference","مؤتمر"]], ant:[], usage:"attend/schedule a meeting."},
+  {ex2:"The two small companies decided to merge into one.", syn:[["combine","يدمج"],["unite","يتّحد"]], ant:[["separate","ينفصل"],["split","ينقسم"]], usage:"merge with/into."},
+  {ex2:"The weather today is moderate, not too hot or cold.", syn:[["reasonable","معقول"],["average","متوسط"]], ant:[["extreme","متطرف"],["severe","شديد"]], usage:"a moderate amount/temperature."},
+  {ex2:"The amount of homework overwhelmed her at first.", syn:[["overpower","يغلب"],["swamp","يغرق بالعبء"]], ant:[], usage:"غالباً مبني للمجهول: be overwhelmed by."},
+  {ex2:"He made the final payment on his car loan.", syn:[["installment","قسط"],["fee","رسم"]], ant:[], usage:"make a payment."},
+  {ex2:"Her perception of the situation was different from mine.", syn:[["view","وجهة نظر"],["impression","انطباع"]], ant:[], usage:"someone's perception of + شيء."},
+  {ex2:"They settled the disagreement peacefully.", syn:[["resolve","يحل"],["sort out","يسوّي"]], ant:[["escalate","يصعّد النزاع"]], usage:"settle + خلاف/مشكلة."},
+  {ex2:"She shivered in the cold wind while waiting for the bus.", syn:[["tremble","يرتجف"],["shake","يهتز"]], ant:[], usage:"shiver with cold/fear."},
+  {ex2:"He's very sociable and makes friends everywhere he goes.", syn:[["friendly","ودود"],["outgoing","منفتح اجتماعياً"]], ant:[["unsociable","غير اجتماعي"],["shy","خجول"]], usage:"a sociable person."},
+  {ex2:"The car sped down the highway to catch the flight.", syn:[["race","يركض/يسرع"],["accelerate","يُسرّع"]], ant:[["slow down","يبطئ"]], usage:"speed down/along + طريق."},
+  {ex2:"My little sister is very talkative in the mornings.", syn:[["chatty","ثرثار"],["outgoing","منفتح"]], ant:[["quiet","هادئ"],["reserved","متحفّظ"]], usage:"a talkative person."},
+  {ex2:"He arrived at his usual time, right on schedule.", syn:[["normal","عادي"],["typical","معتاد"]], ant:[["unusual","غير معتاد"]], usage:"as usual — تعبير شائع."}
+];
+
+// ---- Unit 30 (Book 1) ----
+SYN1[29] = [
+  {ex2:"The plane flew above the clouds.", syn:[["over","فوق"]], ant:[["below","تحت"],["under","تحت"]], usage:"above + شيء/مستوى."},
+  {ex2:"She walked ahead of the group to check the path.", syn:[["in front","في المقدمة"]], ant:[["behind","خلف"]], usage:"ahead of + شخص/شيء."},
+  {ex2:"The amount of homework increased this week.", syn:[["quantity","كمية"],["sum","مجموع"]], ant:[], usage:"a large/small amount of."},
+  {ex2:"It is his belief that hard work always pays off.", syn:[["conviction","قناعة"],["faith","إيمان"]], ant:[["doubt","شكّ"]], usage:"a belief in/that."},
+  {ex2:"The store is in the center of the mall.", syn:[["middle","وسط"],["core","نواة"]], ant:[["edge","حافة"],["outskirts","أطراف"]], usage:"the center of + مكان."},
+  {ex2:"This is a common mistake among new drivers.", syn:[["usual","معتاد"],["widespread","منتشر"]], ant:[["rare","نادر"],["uncommon","غير شائع"]], usage:"a common + اسم."},
+  {ex2:"The ticket costs ten dinars per person.", syn:[["be priced at","يُسعّر بـ"]], ant:[], usage:"cost + مبلغ."},
+  {ex2:"The teacher demonstrated how to solve the equation.", syn:[["show","يُظهر"],["illustrate","يوضّح"]], ant:[], usage:"demonstrate + how/that."},
+  {ex2:"Our opinions on this topic are quite different.", syn:[["distinct","متمايز"],["varied","متنوع"]], ant:[["same","نفسه"],["similar","مشابه"]], usage:"different from + شيء."},
+  {ex2:"The police found new evidence at the crime scene.", syn:[["proof","دليل"],["data","بيانات"]], ant:[], usage:"evidence of/for + شيء."},
+  {ex2:"Honesty is one of the most important values in friendship.", syn:[["truthfulness","صدق"],["integrity","نزاهة"]], ant:[["dishonesty","عدم أمانة"],["deceit","خداع"]], usage:"honesty and trust."},
+  {ex2:"\"Break a leg\" is a common idiom that means good luck.", syn:[["expression","تعبير"],["phrase","عبارة"]], ant:[], usage:"an idiom meaning + معنى."},
+  {ex2:"She became financially independent after finishing university.", syn:[["self-sufficient","مكتفٍ ذاتياً"],["autonomous","مستقل"]], ant:[["dependent","معتمد على غيره"]], usage:"independent of/from."},
+  {ex2:"There is a small gift hidden inside the box.", syn:[["within","داخل"]], ant:[["outside","خارج"]], usage:"inside + مكان."},
+  {ex2:"He was sent to jail for three years for theft.", syn:[["prison","سجن"]], ant:[["freedom","حرية"]], usage:"go to/be in jail."},
+  {ex2:"He is a master of chess and rarely loses a game.", syn:[["expert","خبير"],["pro","محترف"]], ant:[["beginner","مبتدئ"],["novice","مبتدئ"]], usage:"a master of + مهارة."},
+  {ex2:"I have great memories of my childhood summers.", syn:[["recollection","تذكّر"],["remembrance","ذكرى"]], ant:[["forgetfulness","نسيان"]], usage:"a happy/childhood memory."},
+  {ex2:"He put his phone in his jacket pocket.", syn:[], ant:[], usage:"in your pocket."},
+  {ex2:"Please use the proper tools for this repair.", syn:[["correct","صحيح"],["appropriate","مناسب"]], ant:[["improper","غير لائق"],["wrong","خاطئ"]], usage:"proper + اسم."},
+  {ex2:"The store is having a big sale this weekend.", syn:[["discount","تخفيض"],["promotion","عرض ترويجي"]], ant:[], usage:"on sale / a big sale."}
+];
+
+
+const TOTAL_UNITS = 60;
+const STUDY_DAYS = [0,1,2,3,4]; // Sun-Thu
+const DEFAULT_START = '2026-08-02';
+const BOX_INTERVALS = [1,2,4,7,14,30]; // days, indexed by box 0-5
+const MASTERY_BOX = 4; // word considered "solid" once it reaches this box
+
+let state = null;
+let selectedUnit = null;
+let practiceQueue = [];
+let practiceIndex = 0;
+let practiceScore = {correct:0, wrong:0};
+let exerciseType = 'flash';
+let mcAnswered = false;
+let calibrationStats = {know:0, dontknow:0};
+let studyUnit = null;
+let studyIndex = 0;
+let studyOnboarding = false;
+
+function todayStr(){ return localDateStr(new Date()); }
+function localDateStr(d){
+  const y=d.getFullYear(), m=String(d.getMonth()+1).padStart(2,'0'), day=String(d.getDate()).padStart(2,'0');
+  return `${y}-${m}-${day}`;
+}
+function addDays(dateStr, n){
+  const d = new Date(dateStr+'T00:00:00');
+  d.setDate(d.getDate()+n);
+  return localDateStr(d);
+}
+function isStudyDay(dateStr){ return STUDY_DAYS.includes(new Date(dateStr+'T00:00:00').getDay()); }
+function nextStudyDayOnOrAfter(dateStr){ let d=dateStr; while(!isStudyDay(d)) d=addDays(d,1); return d; }
+function buildSchedule(startDate){
+  const dates=[]; let cursor=nextStudyDayOnOrAfter(startDate);
+  while(dates.length<TOTAL_UNITS){ if(isStudyDay(cursor)) dates.push(cursor); cursor=addDays(cursor,1); }
+  return dates;
+}
+function unitLabel(i){ return i<=30 ? {book:1,u:i} : {book:2,u:i-30}; }
+function getUnitData(i){ return i<=30 ? BOOK1[i-1] : BOOK2[i-31]; }
+function escapeHtml(s){
+  return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+function wordId(unit, idx){ return `${unit}_${idx}`; }
+function escapeRe(s){ return s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'); }
+
+function defaultState(){
+  return {startDate: DEFAULT_START, units:{}, words:{}, notebook:{}, challenges:{}};
+}
+
+function migrateOldState(old){
+  const s = {startDate: old.startDate || DEFAULT_START, units:{}, words:{}, notebook:{}, challenges:{}};
+  for(const key in old.units){
+    const i = parseInt(key);
+    const rec = old.units[key];
+    if(!rec || !rec.learnedDate) continue;
+    s.units[i] = {learnedDate: rec.learnedDate};
+    const unitData = getUnitData(i);
+    const wordCount = unitData ? unitData.words.length : 20;
+    const doneCount = (rec.reviews || []).filter(Boolean).length;
+    for(let w=0; w<wordCount; w++){
+      const id = wordId(i,w);
+      const box = Math.min(doneCount, 4);
+      s.words[id] = { box, nextDue: box>0 ? todayStr() : addDays(rec.learnedDate,1) };
+    }
+  }
+  return s;
+}
+
+async function loadState(){
+  try{
+    const res = await window.storage.get('vocab-progress', false);
+    if(res && res.value){
+      const parsed = JSON.parse(res.value);
+      if(parsed.words){
+        if(!parsed.notebook) parsed.notebook = {};
+        if(!parsed.challenges) parsed.challenges = {};
+        return parsed;
+      }
+      return migrateOldState(parsed);
+    }
+  }catch(e){}
+  return defaultState();
+}
+async function saveState(){
+  try{ await window.storage.set('vocab-progress', JSON.stringify(state), false); }
+  catch(e){ console.error('storage save failed', e); }
+}
+
+function nextUnlearnedUnit(afterIndex){
+  for(let i=afterIndex+1;i<=TOTAL_UNITS;i++){ if(!state.units[i]) return i; }
+  for(let i=1;i<=afterIndex;i++){ if(!state.units[i]) return i; }
+  return null;
+}
+function unlearnUnit(i){
+  delete state.units[i];
+  const unitData = getUnitData(i);
+  unitData.words.forEach((w, idx)=>{ delete state.words[wordId(i,idx)]; });
+  saveState(); renderAll();
+}
+function unitWordIds(i){
+  const unitData = getUnitData(i);
+  return unitData.words.map((w,idx)=>wordId(i,idx));
+}
+function unitStatus(i){
+  const schedule = buildSchedule(state.startDate);
+  const t = todayStr();
+  const rec = state.units[i];
+  if(!rec || !rec.learnedDate) return schedule[i-1]<=t ? 'today' : 'locked';
+  const ids = unitWordIds(i);
+  let anyDue=false, allMastered=true;
+  ids.forEach(id=>{
+    const wr = state.words[id];
+    if(!wr) return;
+    if(wr.nextDue<=t) anyDue=true;
+    if(wr.box<MASTERY_BOX) allMastered=false;
+  });
+  if(anyDue) return 'review-due';
+  if(allMastered) return 'mastered';
+  return 'learning';
+}
+function countDueByCategory(){
+  const t = todayStr();
+  let near=0, far=0;
+  for(const id in state.words){
+    const wr = state.words[id];
+    if(wr.nextDue>t) continue;
+    if(wr.box<2) near++; else far++;
+  }
+  return {near, far};
+}
+function countMasteredWords(){
+  let n=0;
+  for(const id in state.words){ if(state.words[id].box>=MASTERY_BOX) n++; }
+  return n;
+}
+
+function speak(text){
+  try{
+    if(!window.speechSynthesis) return;
+    window.speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang='en-US'; u.rate=0.9;
+    window.speechSynthesis.speak(u);
+  }catch(e){}
+}
+
+function switchTab(name){
+  document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));
+  document.getElementById('view-'+name).classList.add('active');
+  document.querySelectorAll('.tab-btn').forEach(b=>b.classList.toggle('active', b.dataset.view===name));
+}
+document.querySelectorAll('.tab-btn').forEach(b=>b.addEventListener('click', ()=>switchTab(b.dataset.view)));
+
+function renderToday(){
+  const schedule = buildSchedule(state.startDate);
+  document.getElementById('startDateInput').value = state.startDate;
+
+  let masteredUnits=0;
+  for(let i=1;i<=TOTAL_UNITS;i++) if(unitStatus(i)==='mastered') masteredUnits++;
+  const pct = Math.round((masteredUnits/TOTAL_UNITS)*100);
+  document.getElementById('masteredCount').textContent = `${masteredUnits}/${TOTAL_UNITS}`;
+  document.getElementById('wordsCount').textContent = countMasteredWords();
+  document.getElementById('pctText').textContent = pct+'%';
+  const circ=188.5;
+  document.getElementById('ringFg').setAttribute('stroke-dashoffset', circ-(circ*pct/100));
+
+  const t = todayStr();
+  let todayUnit=null;
+  for(let i=1;i<=TOTAL_UNITS;i++){ if(!state.units[i] && schedule[i-1]<=t){ todayUnit=i; break; } }
+  const todayCard = document.getElementById('todayUnitCard');
+  if(todayUnit){
+    const {book,u}=unitLabel(todayUnit);
+    todayCard.innerHTML = `<div class="unit-row">
+      <div>
+        <div class="title"><span class="num mono">#${todayUnit}</span> — كتاب ${book}، الوحدة ${u} <span class="mono" style="color:var(--text-dim);font-size:11px">(20 كلمة)</span></div>
+        <div class="meta">${schedule[todayUnit-1]<t?'متأخرة — خذها اليوم':'مجدولة لليوم'}</div>
+      </div>
+      <div style="display:flex; gap:8px;">
+        <button class="btn ghost" onclick="goToUnit(${todayUnit})">عرض</button>
+        <button class="btn" onclick="startStudyMode(${todayUnit})">⚡ ابدأ</button>
+      </div>
+    </div>
+    <div class="meta" style="margin-top:8px;">تقدر تتعلم أكثر من وحدة اليوم إذا عندك وقت وهمة — بس كمّل من تبويب «الخريطة».</div>`;
+  } else {
+    const allLearned = Object.keys(state.units).length>=TOTAL_UNITS;
+    if(allLearned){
+      todayCard.innerHTML = `<div class="empty">ما شاء الله، خلصت كل الوحدات 🎉</div>`;
+    } else {
+      todayCard.innerHTML = `<div class="empty">أنت متقدم على الخطة المقترحة 🎉<br>ما فيه وحدة "مستحقة" اليوم حسب الجدول، بس تقدر تكمل قدام أي وقت.</div>
+        <button class="btn wide ghost" style="margin-top:8px;" onclick="switchTab('map')">روح للخريطة وابدأ وحدة جديدة</button>`;
+    }
+  }
+
+  const cat = countDueByCategory();
+  document.getElementById('nearCountLabel').textContent = cat.near ? `(${cat.near} كلمة)` : '';
+  document.getElementById('farCountLabel').textContent = cat.far ? `(${cat.far} كلمة)` : '';
+
+  const nearCard = document.getElementById('nearReviewCard');
+  nearCard.innerHTML = cat.near
+    ? `<div class="unit-row"><div class="meta">عندك ${cat.near} كلمة جديدة عليك تحتاج مراجعة اليوم.</div>
+        <button class="btn" onclick="quickStartReview('near')">▶ ابدأ</button></div>`
+    : `<div class="empty">ما فيه مراجعة قريبة مستحقة اليوم</div>`;
+
+  const farCard = document.getElementById('farReviewCard');
+  farCard.innerHTML = cat.far
+    ? `<div class="unit-row"><div class="meta">عندك ${cat.far} كلمة كنت تعرفها، وقت مراجعتها.</div>
+        <button class="btn" onclick="quickStartReview('far')">▶ ابدأ</button></div>`
+    : `<div class="empty">ما فيه مراجعة بعيدة مستحقة اليوم</div>`;
+
+  const weekday = new Date(t+'T00:00:00').getDay(); // 5=Fri, 6=Sat
+  const weekendSection = document.getElementById('weekendSection');
+  if(weekday===5 || weekday===6){
+    weekendSection.style.display = 'block';
+    const weekStart = getWeekStart(t);
+    const challengeDone = state.challenges[weekStart] && state.challenges[weekStart].text.trim();
+    document.getElementById('weekendCard').innerHTML = `
+      <div class="meta" style="margin-bottom:10px;">${weekday===5 ? 'الجمعة: يوم بدون وحدات جديدة — خصصه لتصفير كل مراجعات الأسبوع.' : 'السبت: يوم راحة من الجديد، بس خذ جولة خفيفة على كل كلمات الأسبوع.'}</div>
+      <button class="btn wide" onclick="quickStartReview('week')">🔄 راجع كل كلمات أسبوعك (قريبة وبعيدة مع بعض)</button>
+      ${challengeDone ? '' : '<div class="meta" style="margin-top:8px;">ولا تنسى تحدي الأسبوع تحت 👇 لو ما كملته.</div>'}`;
+  } else {
+    weekendSection.style.display = 'none';
+  }
+}
+function getWeekStart(dateStr){
+  const d = new Date(dateStr+'T00:00:00');
+  d.setDate(d.getDate()-d.getDay()); // back up to Sunday
+  return localDateStr(d);
+}
+function pickChallengeWords(n){
+  const t = todayStr();
+  const pool = [];
+  for(const id in state.words){
+    const unit = parseInt(id.split('_')[0]);
+    const rec = state.units[unit];
+    if(rec && rec.learnedDate && addDays(rec.learnedDate,7) >= t) pool.push(id);
+  }
+  const source = pool.length>=n ? pool : Object.keys(state.words);
+  const shuffled = source.slice();
+  for(let i=shuffled.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [shuffled[i],shuffled[j]]=[shuffled[j],shuffled[i]]; }
+  return shuffled.slice(0,n);
+}
+function renderChallenge(){
+  const el = document.getElementById('challengeCard');
+  if(!el) return;
+  const learnedUnitsCount = Object.values(state.units).filter(u=>u && u.learnedDate).length;
+  if(learnedUnitsCount < 2){
+    el.innerHTML = `<div class="empty" style="padding:10px 0;">كمّل وحدتين على الأقل الأول، وبيطلع لك تحدي أسبوعي يجمع كلماتك الجديدة.</div>`;
+    return;
+  }
+  const weekStart = getWeekStart(todayStr());
+  if(!state.challenges[weekStart]){
+    const wordIds = pickChallengeWords(5);
+    if(!wordIds.length){
+      el.innerHTML = `<div class="empty" style="padding:10px 0;">ما فيه كلمات كافية بعد لتوليد تحدي.</div>`;
+      return;
+    }
+    state.challenges[weekStart] = {wordIds, text:''};
+    saveState();
+  }
+  const ch = state.challenges[weekStart];
+  const chips = ch.wordIds.map(id=>{
+    const parts = id.split('_'); const unit=parseInt(parts[0]), idx=parseInt(parts[1]);
+    const unitData = getUnitData(unit);
+    const term = unitData ? unitData.words[idx][0] : '?';
+    return `<span class="challenge-word">${term}</span>`;
+  }).join('');
+  el.innerHTML = `
+    <h3>اكتب فقرة قصيرة (4–5 جمل) تستخدم فيها هالكلمات:</h3>
+    <div class="challenge-words">${chips}</div>
+    <textarea id="challengeTextarea" placeholder="ابدأ الكتابة هنا..." onblur="saveChallengeText('${weekStart}', this.value)">${escapeHtml(ch.text)}</textarea>
+    <button class="btn ghost" style="margin-top:8px;" onclick="copyText(document.getElementById('challengeTextarea').value)">📋 انسخ الفقرة</button>
+    <div class="notebook-hint">تُحفظ تلقائياً · تحدي جديد كل أسبوع (من الأحد)</div>`;
+}
+function saveChallengeText(weekStart, value){
+  if(!state.challenges[weekStart]) return;
+  state.challenges[weekStart].text = value;
+  saveState();
+}
+function goToUnit(i){ switchTab('map'); selectUnit(i); }
+
+function renderMap(){
+  renderGrid('gridBook1', 30, 0);
+  renderGrid('gridBook2', 30, 30);
+  if(selectedUnit) renderDetail();
+}
+function renderGrid(containerId, count, offset){
+  const el = document.getElementById(containerId);
+  let html='';
+  for(let u=1; u<=count; u++){
+    const i=offset+u;
+    const status = unitStatus(i);
+    const cls = status==='locked' ? 'locked' : status;
+    html += `<div class="cell ${cls}" onclick="selectUnit(${i})">${u}</div>`;
+  }
+  el.innerHTML = html;
+}
+function selectUnit(i){
+  selectedUnit = i;
+  renderDetail();
+  document.getElementById('detailOverlay').classList.add('open');
+}
+function closeDetail(){
+  document.getElementById('detailOverlay').classList.remove('open');
+  selectedUnit = null;
+}
+function getArabic(unit, idx){
+  const arr = unit<=30 ? AR1[unit-1] : AR2[unit-31];
+  return arr ? arr[idx] : '';
+}
+function toggleAr(btnEl, revealId){
+  const el = document.getElementById(revealId);
+  if(!el) return;
+  el.classList.toggle('show');
+}
+function getSyn(unit, idx){
+  const arr = unit<=30 ? SYN1[unit-1] : SYN2[unit-31];
+  return (arr && arr[idx]) ? arr[idx] : null;
+}
+function startStudyMode(i){
+  studyUnit = i;
+  studyIndex = 0;
+  studyOnboarding = !state.units[i];
+  if(studyOnboarding){
+    calibrationStats = {know:0, dontknow:0};
+    state.units[i] = {learnedDate:null};
+    const unitData = getUnitData(i);
+    unitData.words.forEach((w, idx)=>{
+      const id = wordId(i, idx);
+      if(!state.words[id]) state.words[id] = {box:0, nextDue: todayStr()};
+    });
+  }
+  document.getElementById('studyOverlay').classList.add('open');
+  renderStudyCard();
+}
+function closeStudy(){
+  document.getElementById('studyOverlay').classList.remove('open');
+  studyUnit = null;
+  renderAll();
+}
+function studyNav(delta){
+  const unitData = getUnitData(studyUnit);
+  studyIndex = Math.max(0, Math.min(unitData.words.length-1, studyIndex+delta));
+  renderStudyCard();
+}
+function decideWord(knowsIt){
+  const i = studyUnit, idx = studyIndex;
+  const wId = wordId(i, idx);
+  const wr = state.words[wId];
+  wr.box = knowsIt ? 3 : 0;
+  wr.nextDue = addDays(todayStr(), BOX_INTERVALS[wr.box]);
+  wr.wasKnown = knowsIt; // permanent tag for "قوائمي" lists — never changed by later reviews
+  if(knowsIt) calibrationStats.know++; else calibrationStats.dontknow++;
+  saveState();
+  const unitData = getUnitData(i);
+  if(idx < unitData.words.length-1){
+    studyIndex++;
+    renderStudyCard();
+  } else {
+    finishOnboarding();
+  }
+}
+function finishOnboarding(){
+  const i = studyUnit;
+  state.units[i].learnedDate = todayStr();
+  saveState();
+  const lab = unitLabel(i);
+  const total = calibrationStats.know + calibrationStats.dontknow;
+  const nxt = nextUnlearnedUnit(i);
+  let nextBtn = '';
+  if(nxt){
+    const nl = unitLabel(nxt);
+    nextBtn = `<button class="btn wide" style="margin-top:10px;" onclick="startStudyMode(${nxt})">⚡ كمّل على وحدة #${nxt} (كتاب ${nl.book}، وحدة ${nl.u}) الآن</button>`;
+  }
+  document.getElementById('studyContent').innerHTML = `
+    <div style="text-align:center;">
+      <div style="font-size:18px; color:var(--gold); font-weight:800;">✓ خلصت وحدة #${i} — كتاب ${lab.book}، وحدة ${lab.u}</div>
+      <div style="color:var(--text-dim); font-size:13px; margin-top:8px; line-height:1.8;">
+        كنت تعرف <b style="color:var(--done)">${calibrationStats.know}</b> من ${total} كلمة مسبقاً (تراجعها بعد أسبوع تقريباً)<br>
+        <b style="color:var(--review-due)">${calibrationStats.dontknow}</b> كلمة جديدة عليك (تراجعها بكرة)
+      </div>
+    </div>
+    <button class="btn wide ghost" style="margin-top:14px;" onclick="closeStudy()">تمام</button>
+    ${nextBtn}`;
+  studyOnboarding = false;
+  renderAll();
+}
+function renderStudyCard(){
+  const i = studyUnit;
+  const unitData = getUnitData(i);
+  const idx = studyIndex;
+  const w = unitData.words[idx];
+  const wId = wordId(i, idx);
+  const arText = getArabic(i, idx);
+  const info = getSyn(i, idx);
+  const savedSentence = state.notebook[wId] || '';
+
+  let synHtml = `<div class="study-empty-note">ما تمت إضافة مرادفات لهالكلمة بعد.</div>`;
+  let antHtml = `<div class="study-empty-note">ما تمت إضافة مضادات لهالكلمة بعد.</div>`;
+  let usageHtml = '';
+  let ex2Html = '';
+  if(info){
+    if(info.ex2) ex2Html = `<div class="study-section"><h4>مثال إضافي</h4><div class="study-ex" dir="ltr" style="margin-bottom:0;">"${info.ex2}"</div></div>`;
+    synHtml = (info.syn && info.syn.length)
+      ? `<div class="study-chip-row">${info.syn.map(s=>`<span class="study-chip syn">${s[0]} <span dir="rtl">(${s[1]})</span></span>`).join('')}</div>`
+      : `<div class="study-empty-note">ما فيه مرادف مباشر مناسب لهالكلمة.</div>`;
+    antHtml = (info.ant && info.ant.length)
+      ? `<div class="study-chip-row">${info.ant.map(a=>`<span class="study-chip ant">${a[0]} <span dir="rtl">(${a[1]})</span></span>`).join('')}</div>`
+      : `<div class="study-empty-note">ما فيه مضاد مباشر مناسب لهالكلمة.</div>`;
+    if(info.usage) usageHtml = `<div class="study-section"><h4>الاستخدام</h4><div style="font-size:12.5px; line-height:1.7;">${info.usage}</div></div>`;
+  }
+
+  const navHtml = studyOnboarding
+    ? `<div class="study-nav">
+        <button class="btn secondary" onclick="decideWord(false)">🆕 كلمة جديدة علي</button>
+        <button class="btn" onclick="decideWord(true)">✓ أعرفها مسبقاً</button>
+      </div>`
+    : `<div class="study-nav">
+        <button class="btn secondary" ${idx===0?'disabled':''} onclick="studyNav(-1)">◀ السابقة</button>
+        <button class="btn" ${idx===unitData.words.length-1?'disabled':''} onclick="studyNav(1)">التالية ▶</button>
+      </div>`;
+
+  const content = document.getElementById('studyContent');
+  content.innerHTML = `
+    <div class="study-progress">وحدة #${i} · كلمة ${idx+1} / ${unitData.words.length}${studyOnboarding?' · تعلّم أول مرة':''}</div>
+    <div class="study-term">${w[0]}</div>
+    <div class="study-type">(${w[1]})</div>
+    <div class="study-def" dir="ltr">${w[2]}</div>
+    <div class="study-ex" dir="ltr">"${w[3]}"</div>
+    <button class="ar-toggle" onclick="toggleAr(this,'study_ar')">عربي</button>
+    <div class="ar-reveal" id="study_ar">${arText}</div>
+    ${usageHtml}
+    ${ex2Html}
+    <div class="study-section"><h4>مرادفات (Synonyms)</h4>${synHtml}</div>
+    <div class="study-section"><h4>مضادات (Antonyms)</h4>${antHtml}</div>
+    <div class="study-section">
+      <h4>جملتي (دفتري)</h4>
+      <textarea placeholder="اكتب جملة من عندك..." onblur="saveNotebookEntry('${wId}', this.value)" style="width:100%; min-height:50px; background:var(--bg-elev2); border:1px solid var(--line); color:var(--text); border-radius:8px; padding:8px 10px; font-family:'Tajawal',sans-serif; font-size:12.5px; direction:rtl;">${escapeHtml(savedSentence)}</textarea>
+    </div>
+    <button class="btn wide ghost" style="margin-top:12px;" onclick="copyStudyCard()">📋 انسخ البطاقة للدفتر</button>
+    ${navHtml}`;
+}
+function copyText(text){
+  const showToast = ()=>{
+    const t = document.getElementById('copyToast');
+    t.classList.add('show');
+    setTimeout(()=>t.classList.remove('show'), 1500);
+  };
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(text).then(showToast).catch(()=>fallbackCopy(text, showToast));
+  } else {
+    fallbackCopy(text, showToast);
+  }
+}
+function fallbackCopy(text, cb){
+  try{
+    const ta = document.createElement('textarea');
+    ta.value = text; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.focus(); ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+    if(cb) cb();
+  }catch(e){}
+}
+function copyStudyCard(){
+  const i = studyUnit, idx = studyIndex;
+  const unitData = getUnitData(i);
+  const w = unitData.words[idx];
+  const wId = wordId(i, idx);
+  const info = getSyn(i, idx);
+  const ar = getArabic(i, idx);
+  const sentence = state.notebook[wId] || '';
+  let text = `${w[0]} (${w[1]})\nEN: ${w[2]}\nEx: "${w[3]}"\nAR: ${ar}\n`;
+  if(info){
+    if(info.usage) text += `Usage: ${info.usage}\n`;
+    if(info.ex2) text += `Ex2: "${info.ex2}"\n`;
+    if(info.syn && info.syn.length) text += `Synonyms: ${info.syn.map(s=>`${s[0]} (${s[1]})`).join(' · ')}\n`;
+    if(info.ant && info.ant.length) text += `Antonyms: ${info.ant.map(a=>`${a[0]} (${a[1]})`).join(' · ')}\n`;
+  }
+  if(sentence) text += `My sentence: ${sentence}\n`;
+  copyText(text);
+}
+function copyAllNotebook(i){
+  const unitData = getUnitData(i);
+  const lines = [];
+  unitData.words.forEach((w, idx)=>{
+    const sentence = state.notebook[wordId(i,idx)];
+    if(sentence && sentence.trim()) lines.push(`${w[0]}: ${sentence.trim()}`);
+  });
+  if(!lines.length){ alert('ما فيه جمل مكتوبة بهالوحدة بعد.'); return; }
+  copyText(lines.join('\n'));
+}
+function toggleNotebook(nbId){
+  const el = document.getElementById(nbId);
+  if(!el) return;
+  el.classList.toggle('show');
+  if(el.classList.contains('show')){
+    const ta = el.querySelector('textarea');
+    if(ta) ta.focus();
+  }
+}
+function saveNotebookEntry(wId, value){
+  state.notebook[wId] = value;
+  saveState();
+}
+function renderDetail(){
+  if(!selectedUnit) return;
+  const i=selectedUnit;
+  const lab=unitLabel(i);
+  const rec = state.units[i];
+  const schedule = buildSchedule(state.startDate);
+  const unitData = getUnitData(i);
+  const t = todayStr();
+  const content = document.getElementById('detailContent');
+
+  let body = `<h3 style="margin-top:6px;"><span class="mono">#${i}</span> — كتاب ${lab.book}، الوحدة ${lab.u}</h3>`;
+  body += `<div class="sub">مجدولة: ${schedule[i-1]}</div>`;
+
+  if(!rec){
+    const preview = unitData.words.map(w=>`<span class="study-chip">${w[0]} <span style="color:var(--text-dim)">(${w[1]})</span></span>`).join('');
+    body += `<div class="study-chip-row" style="margin:10px 0 14px;">${preview}</div>`;
+    body += `<button class="btn wide" onclick="closeDetail(); startStudyMode(${i});">▶ ابدأ</button>`;
+    content.innerHTML = body;
+    return;
+  }
+
+  body += `<div class="sub" style="margin-bottom:10px;">تعلّمتها: ${rec.learnedDate}</div>`;
+  body += `<div class="bulk-actions" style="margin-bottom:10px;">
+    <button class="btn ghost" onclick="closeDetail(); startStudyMode(${i});">📖 راجع بصيغة البطاقات</button>
+    <button class="btn ghost" onclick="copyAllNotebook(${i})">📋 انسخ كل جملي بهالوحدة</button>
+    <button class="btn secondary" onclick="unlearnUnit(${i})">↺ تصفير هالوحدة بالكامل</button>
+  </div>`;
+
+  if(unitData){
+    body += `<div class="wordlist">`;
+    unitData.words.forEach((w, idx)=>{
+      const wr = rec ? state.words[wordId(i,idx)] : null;
+      let badge = '';
+      if(wr){
+        const due = wr.nextDue<=t;
+        badge = `<span class="word-srs-badge" style="${due?'border-color:var(--review-due);color:var(--review-due);':''}">${due?'مستحقة الآن':'صندوق '+(wr.box+1)+' · '+wr.nextDue}</span>`;
+      }
+      const revealId = `ar_${i}_${idx}`;
+      const nbId = `nb_${i}_${idx}`;
+      const wId = wordId(i,idx);
+      const savedSentence = state.notebook[wId] || '';
+      body += `<div class="word-item">
+        <div class="word-head" dir="ltr">
+          <span class="term">${w[0]}</span><span class="type">(${w[1]})</span>
+          <button class="spk" onclick="speak('${w[0].replace(/'/g,"\\'")}')">🔊</button>
+          <button class="ar-toggle" onclick="toggleAr(this,'${revealId}')" style="margin-inline-start:4px;">عربي</button>
+        </div>
+        <div class="word-def" dir="ltr">${w[2]}</div>
+        <div class="word-ex" dir="ltr">"${w[3]}"</div>
+        <div class="ar-reveal" id="${revealId}">${getArabic(i,idx)}</div>
+        <button class="ar-toggle" onclick="toggleNotebook('${nbId}')" style="margin-top:5px;">✏️ جملتي (دفتري)</button>
+        <div class="notebook-box${savedSentence?' show':''}" id="${nbId}">
+          <textarea placeholder="اكتب جملة من عندك توظّف فيها ${w[0]}..." onblur="saveNotebookEntry('${wId}', this.value)">${escapeHtml(savedSentence)}</textarea>
+          <div class="notebook-hint">تُحفظ تلقائياً لما تخرج من الحقل</div>
+        </div>
+        ${badge ? `<div style="margin-top:4px;">${badge}</div>` : ''}
+      </div>`;
+    });
+    body += `</div>`;
+    body += `<div class="story-box" dir="ltr"><span class="story-title">${unitData.story.title}</span>${unitData.story.text}</div>`;
+  }
+  content.innerHTML = body;
+}
+
+function populatePracticeUnitPicker(){
+  const sel = document.getElementById('practiceUnitPicker');
+  let learnedUnits = [];
+  for(let i=1;i<=TOTAL_UNITS;i++) if(state.units[i]) learnedUnits.push(i);
+  if(!learnedUnits.length){ sel.innerHTML = `<option value="">لا توجد وحدات متعلّمة بعد</option>`; return; }
+  sel.innerHTML = learnedUnits.map(i=>{
+    const lab=unitLabel(i);
+    return `<option value="${i}">#${i} — كتاب ${lab.book}، وحدة ${lab.u}</option>`;
+  }).join('');
+}
+document.getElementById('practiceSource').addEventListener('change', (e)=>{
+  document.getElementById('practiceUnitPicker').style.display = e.target.value==='unit' ? 'block' : 'none';
+  if(e.target.value==='unit') populatePracticeUnitPicker();
+});
+document.querySelectorAll('#exerciseTypeSeg button').forEach(b=>{
+  b.addEventListener('click', ()=>{
+    document.querySelectorAll('#exerciseTypeSeg button').forEach(x=>x.classList.remove('active'));
+    b.classList.add('active');
+    exerciseType = b.dataset.type;
+  });
+});
+document.getElementById('startPracticeBtn').addEventListener('click', startPractice);
+document.getElementById('practiceAgainBtn').addEventListener('click', ()=>{
+  document.getElementById('practiceSummary').style.display='none';
+  document.getElementById('practiceSession').style.display='none';
+});
+
+function startPractice(){
+  const source = document.getElementById('practiceSource').value;
+  practiceQueue = [];
+  practiceScore = {correct:0, wrong:0};
+  practiceIndex = 0;
+  const t = todayStr();
+
+  if(source==='due' || source==='near' || source==='far'){
+    for(const id in state.words){
+      const wr = state.words[id];
+      if(wr.nextDue>t) continue;
+      if(source==='near' && wr.box>=2) continue;
+      if(source==='far' && wr.box<2) continue;
+      const parts = id.split('_');
+      const unit = parseInt(parts[0]), idx = parseInt(parts[1]);
+      const unitData = getUnitData(unit);
+      if(!unitData) continue;
+      practiceQueue.push({word:unitData.words[idx], unit, idx, wordId:id, affectsSRS:true});
+    }
+  } else if(source==='week'){
+    for(const id in state.words){
+      const parts = id.split('_');
+      const unit = parseInt(parts[0]), idx = parseInt(parts[1]);
+      const rec = state.units[unit];
+      if(!rec || !rec.learnedDate || addDays(rec.learnedDate,7) < t) continue;
+      const unitData = getUnitData(unit);
+      if(!unitData) continue;
+      practiceQueue.push({word:unitData.words[idx], unit, idx, wordId:id, affectsSRS:true});
+    }
+  } else {
+    const unitId = parseInt(document.getElementById('practiceUnitPicker').value);
+    if(unitId && state.units[unitId]){
+      const unitData = getUnitData(unitId);
+      unitData.words.forEach((w,idx)=>{
+        practiceQueue.push({word:w, unit:unitId, idx, wordId:wordId(unitId,idx), affectsSRS:false});
+      });
+    }
+  }
+
+  if(!practiceQueue.length){ alert('ما فيه كلمات للتدريب بهذا الخيار.'); return; }
+  for(let i=practiceQueue.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [practiceQueue[i],practiceQueue[j]]=[practiceQueue[j],practiceQueue[i]]; }
+
+  document.getElementById('practiceSession').style.display='block';
+  document.getElementById('practiceSummary').style.display='none';
+  renderExercise();
+}
+function buildDueQueueByCategory(category){
+  const t = todayStr();
+  const q = [];
+  for(const id in state.words){
+    const wr = state.words[id];
+    if(wr.nextDue>t) continue;
+    const isNear = wr.box<2;
+    if(category==='near' && !isNear) continue;
+    if(category==='far' && isNear) continue;
+    const parts=id.split('_'); const unit=parseInt(parts[0]), idx=parseInt(parts[1]);
+    const unitData=getUnitData(unit);
+    if(!unitData) continue;
+    q.push({word:unitData.words[idx], unit, idx, wordId:id, affectsSRS:true});
+  }
+  return q;
+}
+function buildWeekQueue(){
+  const weekStart = getWeekStart(todayStr());
+  const q = [];
+  for(const id in state.words){
+    const parts=id.split('_'); const unit=parseInt(parts[0]), idx=parseInt(parts[1]);
+    const rec = state.units[unit];
+    if(!rec || !rec.learnedDate || rec.learnedDate<weekStart) continue;
+    const unitData=getUnitData(unit);
+    if(!unitData) continue;
+    q.push({word:unitData.words[idx], unit, idx, wordId:id, affectsSRS:true});
+  }
+  return q;
+}
+function quickStartReview(source){
+  let queue;
+  if(source==='near') queue = buildDueQueueByCategory('near');
+  else if(source==='far') queue = buildDueQueueByCategory('far');
+  else if(source==='week') queue = buildWeekQueue();
+  else queue = [];
+  if(!queue.length){ alert('ما فيه كلمات لهالقسم حالياً.'); return; }
+  for(let i=queue.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [queue[i],queue[j]]=[queue[j],queue[i]]; }
+  practiceQueue = queue;
+  practiceIndex = 0;
+  practiceScore = {correct:0, wrong:0};
+  switchTab('practice');
+  document.getElementById('practiceSetupCard').style.display='none';
+  document.getElementById('practiceSession').style.display='block';
+  document.getElementById('practiceSummary').style.display='none';
+  renderExercise();
+}
+
+function applyResult(item, correct){
+  if(!item.affectsSRS) return;
+  const wr = state.words[item.wordId];
+  if(!wr) return;
+  wr.box = correct ? Math.min(wr.box+1, BOX_INTERVALS.length-1) : 0;
+  wr.nextDue = addDays(todayStr(), BOX_INTERVALS[wr.box]);
+}
+function answerResult(correct){
+  const item = practiceQueue[practiceIndex];
+  applyResult(item, correct);
+  if(correct) practiceScore.correct++; else practiceScore.wrong++;
+  practiceIndex++;
+  saveState();
+  setTimeout(renderExercise, 450);
+}
+
+function renderExercise(){
+  document.getElementById('flashCounter').textContent = practiceIndex<practiceQueue.length ? `${practiceIndex+1} / ${practiceQueue.length}` : '';
+  if(practiceIndex >= practiceQueue.length){ finishPractice(); return; }
+  const item = practiceQueue[practiceIndex];
+  const area = document.getElementById('exerciseArea');
+  if(exerciseType==='flash') renderFlashExercise(item, area);
+  else if(exerciseType==='mc') renderMCExercise(item, area);
+  else renderTypeExercise(item, area);
+}
+
+function renderFlashExercise(item, area){
+  let flipped=false;
+  const arText = getArabic(item.unit, item.idx);
+  area.innerHTML = `<div class="flash" id="fcard" dir="ltr">
+      <div class="term">${item.word[0]}</div>
+      <div class="type">(${item.word[1]})</div>
+      <div class="hint" dir="rtl">اضغط لقلب البطاقة</div>
+    </div>
+    <div class="flash-actions" id="fActions" style="display:none;">
+      <button class="btn secondary" id="fNo">✗ أحتاج مراجعة</button>
+      <button class="btn" id="fYes">✓ أعرفها</button>
+    </div>`;
+  document.getElementById('fcard').addEventListener('click', ()=>{
+    if(flipped) return; flipped=true;
+    document.getElementById('fcard').innerHTML = `
+      <div class="term" style="font-size:20px;">${item.word[0]}</div>
+      <div class="def">${item.word[2]}</div>
+      <div class="ex">"${item.word[3]}"</div>
+      <button class="ar-toggle" dir="rtl" onclick="event.stopPropagation(); this.nextElementSibling.classList.toggle('show');">عربي</button>
+      <div class="ar-reveal" dir="rtl">${arText}</div>`;
+    document.getElementById('fActions').style.display='flex';
+  });
+  document.getElementById('fYes').addEventListener('click', ()=>answerResult(true));
+  document.getElementById('fNo').addEventListener('click', ()=>answerResult(false));
+}
+
+function pickDistractors(correctWordText, n){
+  const pool=[];
+  BOOK1.forEach(u=>u.words.forEach(w=>pool.push(w[2])));
+  BOOK2.forEach(u=>u.words.forEach(w=>pool.push(w[2])));
+  const filtered = pool.filter(d=>d!==correctWordText);
+  for(let i=filtered.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [filtered[i],filtered[j]]=[filtered[j],filtered[i]]; }
+  return filtered.slice(0,n);
+}
+function renderMCExercise(item, area){
+  const correct = item.word[2];
+  const options = pickDistractors(correct, 3).concat([correct]);
+  for(let i=options.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [options[i],options[j]]=[options[j],options[i]]; }
+  area.innerHTML = `<div class="flash" dir="ltr" style="cursor:default;">
+      <div class="term">${item.word[0]}</div>
+      <div class="type">(${item.word[1]})</div>
+    </div>
+    <div class="mc-options" id="mcOpts"></div>`;
+  const optsEl = document.getElementById('mcOpts');
+  mcAnswered = false;
+  options.forEach(opt=>{
+    const btn = document.createElement('button');
+    btn.className = 'mc-opt'; btn.dir='ltr'; btn.textContent = opt;
+    btn.addEventListener('click', ()=>{
+      if(mcAnswered) return; mcAnswered=true;
+      const isCorrect = opt===correct;
+      btn.classList.add(isCorrect?'correct':'wrong');
+      if(!isCorrect){
+        [...optsEl.children].forEach(c=>{ if(c.textContent===correct) c.classList.add('correct'); });
+      }
+      setTimeout(()=>answerResult(isCorrect), 600);
+    });
+    optsEl.appendChild(btn);
+  });
+}
+
+function renderTypeExercise(item, area){
+  const term = item.word[0];
+  const re = new RegExp(escapeRe(term), 'gi');
+  const blankedEx = item.word[3].replace(re, '_____');
+  area.innerHTML = `<div class="flash" dir="ltr" style="cursor:default;">
+      <div class="type">(${item.word[1]})</div>
+      <div class="def">${item.word[2]}</div>
+      <div class="ex">"${blankedEx}"</div>
+    </div>
+    <div class="type-input-row">
+      <input type="text" id="typeInput" placeholder="type the word..." autocomplete="off" autocapitalize="off" spellcheck="false">
+      <button class="btn" id="typeSubmit">تحقق</button>
+    </div>
+    <div class="type-feedback" id="typeFeedback"></div>`;
+  const input = document.getElementById('typeInput');
+  input.focus();
+  let submitted=false;
+  function submit(){
+    if(submitted) return; submitted=true;
+    const val = input.value.trim().toLowerCase();
+    const isCorrect = val === term.toLowerCase();
+    const fb = document.getElementById('typeFeedback');
+    fb.textContent = isCorrect ? '✓ صح!' : `✗ الصحيح: ${term}`;
+    fb.className = 'type-feedback ' + (isCorrect?'ok':'bad');
+    input.disabled = true;
+    document.getElementById('typeSubmit').disabled = true;
+    setTimeout(()=>answerResult(isCorrect), 900);
+  }
+  document.getElementById('typeSubmit').addEventListener('click', submit);
+  input.addEventListener('keydown', (e)=>{ if(e.key==='Enter') submit(); });
+}
+
+function finishPractice(){
+  document.getElementById('practiceSession').style.display='none';
+  document.getElementById('practiceSummary').style.display='block';
+  document.getElementById('practiceSetupCard').style.display='block';
+
+  const total = practiceScore.correct + practiceScore.wrong;
+  const pct = total ? Math.round((practiceScore.correct/total)*100) : 0;
+  document.getElementById('summaryCard').innerHTML = `
+    <div style="text-align:center;">
+      <div style="font-size:28px; color:var(--gold); font-weight:800; font-family:'Consolas',monospace;">${pct}%</div>
+      <div style="color:var(--text-dim); font-size:13px; margin-top:4px;">صح: ${practiceScore.correct} · غلط: ${practiceScore.wrong}</div>
+    </div>`;
+  renderAll();
+}
+
+function buildSearchIndex(){
+  const idx=[];
+  BOOK1.forEach((u,i)=>{ u.words.forEach((w,wi)=>idx.push({word:w, unit:i+1, idx:wi})); });
+  BOOK2.forEach((u,i)=>{ u.words.forEach((w,wi)=>idx.push({word:w, unit:i+31, idx:wi})); });
+  return idx;
+}
+let SEARCH_INDEX=null;
+document.getElementById('searchInput').addEventListener('input', (e)=>{
+  if(!SEARCH_INDEX) SEARCH_INDEX = buildSearchIndex();
+  const q = e.target.value.trim().toLowerCase();
+  const results = document.getElementById('searchResults');
+  if(!q){ results.innerHTML = `<div class="search-empty">اكتب كلمة عشان تبحث فيها بكل الـ1200 كلمة</div>`; return; }
+  const matches = SEARCH_INDEX.filter(x=>x.word[0].toLowerCase().includes(q)).slice(0,40);
+  if(!matches.length){ results.innerHTML = `<div class="search-empty">ما لقيت نتائج لـ "${q}"</div>`; return; }
+  results.innerHTML = matches.map((m,mi)=>{
+    const lab = unitLabel(m.unit);
+    const revealId = `sr_${mi}`;
+    return `<div class="search-result-card">
+      <div class="word-head" dir="ltr">
+        <span class="term">${m.word[0]}</span><span class="type">(${m.word[1]})</span>
+        <button class="spk" onclick="speak('${m.word[0].replace(/'/g,"\\'")}')">🔊</button>
+        <button class="ar-toggle" onclick="toggleAr(this,'${revealId}')" style="margin-inline-start:4px;">عربي</button>
+      </div>
+      <div class="word-def" dir="ltr">${m.word[2]}</div>
+      <div class="word-ex" dir="ltr">"${m.word[3]}"</div>
+      <div class="ar-reveal" id="${revealId}">${getArabic(m.unit, m.idx)}</div>
+      <div style="margin-top:4px;"><button class="btn ghost" style="padding:5px 10px;font-size:11px;" onclick="goToUnit(${m.unit})">كتاب ${lab.book} · وحدة ${lab.u}</button></div>
+    </div>`;
+  }).join('');
+});
+
+document.getElementById('startDateInput').addEventListener('change', (e)=>{
+  state.startDate = e.target.value; saveState(); renderAll();
+});
+document.getElementById('resetBtn').addEventListener('click', ()=>{
+  if(confirm('متأكد إنك تبي تصفّر كل التقدم؟')){ state = defaultState(); saveState(); renderAll(); }
+});
+
+const AR_WEEKDAYS = ['الأحد','الإثنين','الثلاثاء','الأربعاء','الخميس','الجمعة','السبت'];
+const AR_MONTHS = ['يناير','فبراير','مارس','أبريل','مايو','يونيو','يوليو','أغسطس','سبتمبر','أكتوبر','نوفمبر','ديسمبر'];
+function formatArabicDate(dateStr){
+  const d = new Date(dateStr+'T00:00:00');
+  return `${AR_WEEKDAYS[d.getDay()]}، ${d.getDate()} ${AR_MONTHS[d.getMonth()]} ${d.getFullYear()}`;
+}
+function renderTodayDateLabel(){
+  const el = document.getElementById('todayDateLabel');
+  if(el) el.textContent = `اليوم: ${formatArabicDate(todayStr())}`;
+}
+let listCategory = 'known'; // 'known' | 'new'
+function populateListScopeFilter(){
+  const sel = document.getElementById('listScopeFilter');
+  if(!sel) return;
+  const prevVal = sel.value || 'all';
+  let html = `<option value="all">كل الكلمات (1200)</option>
+    <option value="book1">كتاب 1 (كل الوحدات)</option>
+    <option value="book2">كتاب 2 (كل الوحدات)</option>`;
+  const learnedUnits = Object.keys(state.units).map(k=>parseInt(k)).filter(u=>state.units[u] && state.units[u].learnedDate).sort((a,b)=>a-b);
+  if(learnedUnits.length){
+    html += `<optgroup label="وحدات محددة">`;
+    learnedUnits.forEach(u=>{
+      const lab = unitLabel(u);
+      html += `<option value="unit_${u}">وحدة #${u} — كتاب ${lab.book}، وحدة ${lab.u}</option>`;
+    });
+    html += `</optgroup>`;
+  }
+  sel.innerHTML = html;
+  if([...sel.options].some(o=>o.value===prevVal)) sel.value = prevVal;
+}
+function matchesListFilter(unit, scope){
+  if(scope==='book1') return unit<=30;
+  if(scope==='book2') return unit>30;
+  if(scope.startsWith('unit_')) return unit===parseInt(scope.split('_')[1]);
+  return true; // 'all'
+}
+function collectListWords(){
+  const cat = listCategory;
+  const scope = document.getElementById('listScopeFilter') ? document.getElementById('listScopeFilter').value : 'all';
+  const out = [];
+  for(const id in state.words){
+    const wr = state.words[id];
+    if(wr.wasKnown === undefined || wr.wasKnown === null) continue;
+    if(cat==='known' && !wr.wasKnown) continue;
+    if(cat==='new' && wr.wasKnown) continue;
+    const parts = id.split('_'); const unit=parseInt(parts[0]), idx=parseInt(parts[1]);
+    if(!matchesListFilter(unit, scope)) continue;
+    const unitData = getUnitData(unit);
+    if(!unitData) continue;
+    out.push({word:unitData.words[idx], unit, idx});
+  }
+  return out;
+}
+function renderMyLists(){
+  if(!document.getElementById('listScopeFilter')) return;
+  populateListScopeFilter();
+  applyListFilter();
+}
+function applyListFilter(){
+  const results = collectListWords();
+  document.getElementById('listResultsHeader').textContent = `${results.length} كلمة`;
+  const el = document.getElementById('listResults');
+  if(!results.length){
+    el.innerHTML = `<div class="search-empty">ما فيه كلمات بهالتصنيف بعد — كمّل وحدات أكتر من «الخريطة».</div>`;
+    return;
+  }
+  el.innerHTML = results.map((r,ri)=>{
+    const lab = unitLabel(r.unit);
+    const revealId = `ml_${ri}`;
+    return `<div class="search-result-card">
+      <div class="word-head" dir="ltr">
+        <span class="term">${r.word[0]}</span><span class="type">(${r.word[1]})</span>
+        <button class="spk" onclick="speak('${r.word[0].replace(/'/g,"\\'")}')">🔊</button>
+        <button class="ar-toggle" onclick="toggleAr(this,'${revealId}')" style="margin-inline-start:4px;">عربي</button>
+      </div>
+      <div class="word-def" dir="ltr">${r.word[2]}</div>
+      <div class="ar-reveal" id="${revealId}">${getArabic(r.unit,r.idx)}</div>
+      <div style="margin-top:4px;"><button class="btn ghost" style="padding:5px 10px;font-size:11px;" onclick="goToUnit(${r.unit})">كتاب ${lab.book} · وحدة ${lab.u}</button></div>
+    </div>`;
+  }).join('');
+}
+function copyMyList(){
+  const results = collectListWords();
+  if(!results.length){ alert('ما فيه كلمات بهالتصنيف بعد.'); return; }
+  copyText(results.map(r=>r.word[0]).join('\n'));
+}
+document.addEventListener('click', (e)=>{
+  const segBtn = e.target.closest('#listCategorySeg button');
+  if(segBtn){
+    document.querySelectorAll('#listCategorySeg button').forEach(x=>x.classList.remove('active'));
+    segBtn.classList.add('active');
+    listCategory = segBtn.dataset.cat;
+    applyListFilter();
+  }
+});
+document.addEventListener('change', (e)=>{
+  if(e.target && e.target.id==='listScopeFilter') applyListFilter();
+});
+function renderAll(){ renderTodayDateLabel(); renderToday(); renderMap(); renderChallenge(); renderMyLists(); }
+
+(async function init(){
+  state = await loadState();
+  renderAll();
+})();
