@@ -661,7 +661,6 @@ const BOOK1 = [
 ], story:{title:"Cats and Secrets", text:`In English there is a common idiom "let the cat out of the bag." It means to tell a secret. But where did this idiom start? It came from a part of England long ago. People there went from town to town to sell things like vegetables, clothes and pigs. They had strong beliefs about honesty. They didn't like lying. One day a man went to the town's center to sell things. "I have a baby pig for sale, it won't cost much," he said. He held the animal above his head. His style was different from honest people's style. He was a master of tricking people and lying. A woman named Beth looked at his pig. He offered her the pig for one gold coin. That was a very small amount. Beth gave him the coin. He put it in his pocket. He walked ahead of Beth to get the pig. He gave her a closed bag and said, "Here's your pig." He then left very quickly. Beth looked at the bag. It was moving. She opened it to let the pig out. A cat was inside. "He tricked me! That isn't proper," she said. Later the man returned to trick more people. Beth saw him and the memory of the cat came back. She told her friends. They stopped him, but no one knew what to do next. Someone said, "We need an independent and fair person to decide that." They went to the judge. Beth told him about the cat in the bag. The judge asked, "Is there evidence? Can you demonstrate how he did it?" "Look in his bag," said Beth. She opened it and let a cat out of the bag. They learned the man's secret and he went to jail. That's how the idiom "let the cat out of the bag" came to mean to tell a secret.`} }
 ];
 
-
 const BOOK2 = [
 /*U1*/ { words:[
   ["Because","conj","Introduces a reason for something.","We need to study because we have a test tomorrow."],
@@ -1325,7 +1324,6 @@ const BOOK2 = [
 ], story:{title:"The Kitten and the Caterpillar", text:`Katie the kitten liked to play. One day Corey the caterpillar emerged from a hole in the wall while Katie was playing in the living room. "Hey," Katie said, "do you want to play with me?" Corey was reluctant. He said, "I'd rather not play with you. I have several handicaps. My body is very delicate. Your claws are as sharp as hooks; you might cut me. Plus, I have no bones, not even a spine. You could easily hurt me." "I swear that I won't hurt you," Katie said. "No, I don't want to," he said again. He hopped from the wall but Katie pursued him. Corey ran into the kitchen and into the cupboard, but Katie ran right behind. Katie knocked appliances to the floor. Plates fell into the sink and broke in the basin. Then Corey ran into a bedroom. Some laundry was on the floor. Corey hid under a shirt, but Katie saw him. She jumped on the shirt. Her paws left stains on it and her claws tore the sleeves into strips. However, Corey escaped. He used a small hole in the floor to hide, but Katie saw him. "Now you are caught," said Katie. Corey tried to avoid Katie's claws. He moved his body as far into the hole as possible. He didn't know how he'd get out of the hole. Just then, Katie's owner came home. She saw that the house was a mess. She took a broom and swung it at Katie. She chased Katie out of the house. Corey was safe and Katie was left outside because she didn't listen to the wishes of others.`} }
 ];
 
-
 const AR1 = [
 ["يوافق","كحول","يصل","أغسطس","قارب","فطور","كاميرا","عاصمة","يُمسك","بطة","يستمتع","يدعو","يحب","شهر","يسافر","معتاد/نموذجي","يزور","طقس","أسبوع","نبيذ"],
 ["مغامرة","يقترب","بحذر","مادة كيميائية","يبتكر","شرير","تجربة","يقتل","مختبر","ضحكة","صاخب","متوتر","ضوضاء","مشروع","يخيف","سر","يصرخ","يشم","فظيع","أسوأ"],
@@ -1391,7 +1389,6 @@ const AR2 = [
 ["مجرّد","سنوي","طين صلصال","قماش","ستارة","يستحقّ","ريشة","خصب","فيضان","أثاث","قبر","مثالي","ذكاء","يحصل على","ديني","رومانسي","صدفة","شاطئ/ضفّة","عجلة","خشبي"],
 ["جهاز منزلي","حوض","مكنسة","يرقانة","خزانة","هشّ/رقيق","يخرج/يظهر","إعاقة","ثقب","خطّاف","يقفز قفزة قصيرة","غسيل","يطارد/يسعى وراء","مُتردّد","كمّ ثوب","عمود فقري","بقعة","شريط/قطعة طويلة","يقسم","يؤرجح"]
 ];
-
 
 // SYN1[unitIndex][wordIndex] = {ex2:"...", syn:[[word,arabic],...], ant:[[word,arabic],...], usage:"..."} or null if not yet compiled
 const SYN1 = [];
@@ -2839,42 +2836,39 @@ SYN1[29] = [
   {ex2:"The store is having a big sale this weekend.", syn:[["discount","تخفيض"],["promotion","عرض ترويجي"]], ant:[], usage:"on sale / a big sale."}
 ];
 
-
 const TOTAL_UNITS = 60;
-const STUDY_DAYS = [0,1,2,3,4]; // Sun-Thu
-const DEFAULT_START = '2026-08-02';
-const BOX_INTERVALS = [1,2,4,7,14,30]; // days, indexed by box 0-5
-const MASTERY_BOX = 4; // word considered "solid" once it reaches this box
+const MASTERY_TARGET = 3;
+
+const ICONS = {
+  play: '<svg class="ic" viewBox="0 0 24 24"><path d="M8 5.5 18 12 8 18.5z"/></svg>',
+  bolt: '<svg class="ic" viewBox="0 0 24 24"><path d="M13 3 5 14h6l-1 7 8-11h-6z"/></svg>',
+  book: '<svg class="ic" viewBox="0 0 24 24"><path d="M4 5.5c2-1 5-1 7 .5v13c-2-1.5-5-1.5-7-.5z"/><path d="M20 5.5c-2-1-5-1-7 .5v13c2-1.5 5-1.5 7-.5z"/></svg>',
+  copy: '<svg class="ic" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2.5"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>',
+  undo: '<svg class="ic" viewBox="0 0 24 24"><path d="M4 9h9a5 5 0 1 1 0 10H9"/><path d="m4 9 4-4M4 9l4 4"/></svg>',
+  pencil: '<svg class="ic" viewBox="0 0 24 24"><path d="m4 20 1-4L16 5l3 3L8 19z"/><path d="M14 7l3 3"/></svg>',
+  speaker: '<svg class="ic" viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16 9a4 4 0 0 1 0 6"/><path d="M18.5 6.5a8 8 0 0 1 0 11"/></svg>',
+  check: '<svg class="ic" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>',
+  x: '<svg class="ic" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg>',
+  plusCircle: '<svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 8v8M8 12h8"/></svg>',
+  refresh: '<svg class="ic" viewBox="0 0 24 24"><path d="M20 11a8 8 0 0 0-14.5-4.5M4 13a8 8 0 0 0 14.5 4.5"/><path d="M5 3v4h4M19 21v-4h-4"/></svg>',
+  moon: '<svg class="ic ic-lg" viewBox="0 0 24 24"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4 6.5 6.5 0 0 0 20 14.5z"/></svg>',
+  sun: '<svg class="ic ic-lg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v2M12 19.5v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M2.5 12h2M19.5 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/></svg>',
+  sparkle: '<svg class="ic" viewBox="0 0 24 24"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M18 6l-2.5 2.5M8.5 15.5 6 18"/></svg>'
+};
 
 let state = null;
 let selectedUnit = null;
 let practiceQueue = [];
 let practiceIndex = 0;
 let practiceScore = {correct:0, wrong:0};
+let practiceSourceMode = 'all';
 let exerciseType = 'flash';
 let mcAnswered = false;
-let calibrationStats = {know:0, dontknow:0};
 let studyUnit = null;
 let studyIndex = 0;
 let studyOnboarding = false;
+let listCategory = 'known';
 
-function todayStr(){ return localDateStr(new Date()); }
-function localDateStr(d){
-  const y=d.getFullYear(), m=String(d.getMonth()+1).padStart(2,'0'), day=String(d.getDate()).padStart(2,'0');
-  return `${y}-${m}-${day}`;
-}
-function addDays(dateStr, n){
-  const d = new Date(dateStr+'T00:00:00');
-  d.setDate(d.getDate()+n);
-  return localDateStr(d);
-}
-function isStudyDay(dateStr){ return STUDY_DAYS.includes(new Date(dateStr+'T00:00:00').getDay()); }
-function nextStudyDayOnOrAfter(dateStr){ let d=dateStr; while(!isStudyDay(d)) d=addDays(d,1); return d; }
-function buildSchedule(startDate){
-  const dates=[]; let cursor=nextStudyDayOnOrAfter(startDate);
-  while(dates.length<TOTAL_UNITS){ if(isStudyDay(cursor)) dates.push(cursor); cursor=addDays(cursor,1); }
-  return dates;
-}
 function unitLabel(i){ return i<=30 ? {book:1,u:i} : {book:2,u:i-30}; }
 function getUnitData(i){ return i<=30 ? BOOK1[i-1] : BOOK2[i-31]; }
 function escapeHtml(s){
@@ -2882,25 +2876,28 @@ function escapeHtml(s){
 }
 function wordId(unit, idx){ return `${unit}_${idx}`; }
 function escapeRe(s){ return s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'); }
-
-function defaultState(){
-  return {startDate: DEFAULT_START, units:{}, words:{}, notebook:{}, challenges:{}};
+function shuffleArr(arr){
+  for(let i=arr.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [arr[i],arr[j]]=[arr[j],arr[i]]; }
+  return arr;
 }
 
-function migrateOldState(old){
-  const s = {startDate: old.startDate || DEFAULT_START, units:{}, words:{}, notebook:{}, challenges:{}};
-  for(const key in old.units){
-    const i = parseInt(key);
+function defaultState(){
+  return { units:{}, words:{}, notebook:{}, challenge:null, theme:null };
+}
+
+function migrateState(old){
+  const s = defaultState();
+  s.notebook = old.notebook || {};
+  s.theme = old.theme || null;
+  for(const key in (old.units||{})){
     const rec = old.units[key];
-    if(!rec || !rec.learnedDate) continue;
-    s.units[i] = {learnedDate: rec.learnedDate};
-    const unitData = getUnitData(i);
-    const wordCount = unitData ? unitData.words.length : 20;
-    const doneCount = (rec.reviews || []).filter(Boolean).length;
-    for(let w=0; w<wordCount; w++){
-      const id = wordId(i,w);
-      const box = Math.min(doneCount, 4);
-      s.words[id] = { box, nextDue: box>0 ? todayStr() : addDays(rec.learnedDate,1) };
+    if(rec && (rec===true || rec.learnedDate)) s.units[key] = true;
+  }
+  for(const id in (old.words||{})){
+    const wr = old.words[id];
+    if(wr && typeof wr.wasKnown === 'boolean'){
+      s.words[id] = {wasKnown: wr.wasKnown};
+      if(wr.wasKnown===false) s.words[id].mastery = typeof wr.mastery==='number' ? wr.mastery : 0;
     }
   }
   return s;
@@ -2911,12 +2908,15 @@ async function loadState(){
     const res = await window.storage.get('vocab-progress', false);
     if(res && res.value){
       const parsed = JSON.parse(res.value);
-      if(parsed.words){
-        if(!parsed.notebook) parsed.notebook = {};
-        if(!parsed.challenges) parsed.challenges = {};
-        return parsed;
-      }
-      return migrateOldState(parsed);
+      const looksLegacy = parsed.startDate || Object.values(parsed.units||{}).some(u=>u && typeof u==='object');
+      if(looksLegacy) return migrateState(parsed);
+      return {
+        units: parsed.units || {},
+        words: parsed.words || {},
+        notebook: parsed.notebook || {},
+        challenge: parsed.challenge || null,
+        theme: parsed.theme || null
+      };
     }
   }catch(e){}
   return defaultState();
@@ -2926,9 +2926,48 @@ async function saveState(){
   catch(e){ console.error('storage save failed', e); }
 }
 
+function applyTheme(theme){
+  document.documentElement.setAttribute('data-theme', theme==='dark' ? 'dark' : 'light');
+  const btn = document.getElementById('themeToggle');
+  if(btn) btn.innerHTML = theme==='dark' ? ICONS.sun : ICONS.moon;
+}
+function toggleTheme(){
+  const current = document.documentElement.getAttribute('data-theme');
+  const next = current==='dark' ? 'light' : 'dark';
+  applyTheme(next);
+  state.theme = next;
+  saveState();
+}
+function initTheme(){
+  let theme = state.theme;
+  if(!theme){
+    theme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+  }
+  applyTheme(theme);
+}
+
+/* ---------- progress helpers ---------- */
+function hasAnyProgress(i){
+  const unitData = getUnitData(i);
+  for(let idx=0; idx<unitData.words.length; idx++){ if(state.words[wordId(i,idx)]) return true; }
+  return false;
+}
+function decidedCount(i){
+  const unitData = getUnitData(i);
+  let n=0;
+  for(let idx=0; idx<unitData.words.length; idx++){ if(state.words[wordId(i,idx)]) n++; }
+  return n;
+}
 function nextUnlearnedUnit(afterIndex){
   for(let i=afterIndex+1;i<=TOTAL_UNITS;i++){ if(!state.units[i]) return i; }
   for(let i=1;i<=afterIndex;i++){ if(!state.units[i]) return i; }
+  return null;
+}
+function findResumeUnit(){
+  for(let i=1;i<=TOTAL_UNITS;i++){
+    if(state.units[i]) continue;
+    if(hasAnyProgress(i)) return i;
+  }
   return null;
 }
 function unlearnUnit(i){
@@ -2937,41 +2976,23 @@ function unlearnUnit(i){
   unitData.words.forEach((w, idx)=>{ delete state.words[wordId(i,idx)]; });
   saveState(); renderAll();
 }
-function unitWordIds(i){
-  const unitData = getUnitData(i);
-  return unitData.words.map((w,idx)=>wordId(i,idx));
-}
-function unitStatus(i){
-  const schedule = buildSchedule(state.startDate);
-  const t = todayStr();
-  const rec = state.units[i];
-  if(!rec || !rec.learnedDate) return schedule[i-1]<=t ? 'today' : 'locked';
-  const ids = unitWordIds(i);
-  let anyDue=false, allMastered=true;
-  ids.forEach(id=>{
-    const wr = state.words[id];
-    if(!wr) return;
-    if(wr.nextDue<=t) anyDue=true;
-    if(wr.box<MASTERY_BOX) allMastered=false;
-  });
-  if(anyDue) return 'review-due';
-  if(allMastered) return 'mastered';
-  return 'learning';
-}
-function countDueByCategory(){
-  const t = todayStr();
-  let near=0, far=0;
+function countWordStats(){
+  let known=0, newer=0;
   for(const id in state.words){
     const wr = state.words[id];
-    if(wr.nextDue>t) continue;
-    if(wr.box<2) near++; else far++;
+    if(wr.wasKnown===true) known++;
+    else if(wr.wasKnown===false) newer++;
   }
-  return {near, far};
+  return {known, newer};
 }
-function countMasteredWords(){
-  let n=0;
-  for(const id in state.words){ if(state.words[id].box>=MASTERY_BOX) n++; }
-  return n;
+function reviewCounts(){
+  let newActive=0, known=0;
+  for(const id in state.words){
+    const wr = state.words[id];
+    if(wr.wasKnown===false && (wr.mastery||0) < MASTERY_TARGET) newActive++;
+    else if(wr.wasKnown===true) known++;
+  }
+  return {newActive, known};
 }
 
 function speak(text){
@@ -2991,113 +3012,68 @@ function switchTab(name){
 }
 document.querySelectorAll('.tab-btn').forEach(b=>b.addEventListener('click', ()=>switchTab(b.dataset.view)));
 
-function renderToday(){
-  const schedule = buildSchedule(state.startDate);
-  document.getElementById('startDateInput').value = state.startDate;
-
-  let masteredUnits=0;
-  for(let i=1;i<=TOTAL_UNITS;i++) if(unitStatus(i)==='mastered') masteredUnits++;
-  const pct = Math.round((masteredUnits/TOTAL_UNITS)*100);
-  document.getElementById('masteredCount').textContent = `${masteredUnits}/${TOTAL_UNITS}`;
-  document.getElementById('wordsCount').textContent = countMasteredWords();
+/* ---------- home ---------- */
+function renderHome(){
+  let unitsLearned=0;
+  for(let i=1;i<=TOTAL_UNITS;i++) if(state.units[i]) unitsLearned++;
+  const pct = Math.round((unitsLearned/TOTAL_UNITS)*100);
+  document.getElementById('unitsLearnedCount').textContent = `${unitsLearned}/${TOTAL_UNITS}`;
+  const stats = countWordStats();
+  document.getElementById('knownWordsCount').textContent = stats.known;
+  document.getElementById('newWordsCount').textContent = stats.newer;
   document.getElementById('pctText').textContent = pct+'%';
-  const circ=188.5;
+  const circ = 201;
   document.getElementById('ringFg').setAttribute('stroke-dashoffset', circ-(circ*pct/100));
 
-  const t = todayStr();
-  let todayUnit=null;
-  for(let i=1;i<=TOTAL_UNITS;i++){ if(!state.units[i] && schedule[i-1]<=t){ todayUnit=i; break; } }
-  const todayCard = document.getElementById('todayUnitCard');
-  if(todayUnit){
-    const {book,u}=unitLabel(todayUnit);
-    todayCard.innerHTML = `<div class="unit-row">
+  const resumeUnit = findResumeUnit();
+  const nxt = resumeUnit || nextUnlearnedUnit(0);
+  const card = document.getElementById('continueUnitCard');
+  if(nxt){
+    const lab = unitLabel(nxt);
+    let note = 'أقرب وحدة ما بدأتها بعد';
+    if(resumeUnit === nxt){
+      const dc = decidedCount(nxt);
+      const total = getUnitData(nxt).words.length;
+      note = `أكمل من الكلمة رقم ${dc+1} من ${total}`;
+    }
+    card.innerHTML = `<div class="unit-row">
       <div>
-        <div class="title"><span class="num mono">#${todayUnit}</span> — كتاب ${book}، الوحدة ${u} <span class="mono" style="color:var(--text-dim);font-size:11px">(20 كلمة)</span></div>
-        <div class="meta">${schedule[todayUnit-1]<t?'متأخرة — خذها اليوم':'مجدولة لليوم'}</div>
+        <div class="title"><span class="num mono">#${nxt}</span> — كتاب ${lab.book}، الوحدة ${lab.u} <span class="mono" style="color:var(--text-dim);font-size:11px">(20 كلمة)</span></div>
+        <div class="meta">${note}</div>
       </div>
       <div style="display:flex; gap:8px;">
-        <button class="btn ghost" onclick="goToUnit(${todayUnit})">عرض</button>
-        <button class="btn" onclick="startStudyMode(${todayUnit})">⚡ ابدأ</button>
+        <button class="btn ghost" onclick="goToUnit(${nxt})">عرض</button>
+        <button class="btn" onclick="startStudyMode(${nxt})">${ICONS.bolt}${resumeUnit===nxt?'أكمل':'ابدأ'}</button>
       </div>
-    </div>
-    <div class="meta" style="margin-top:8px;">تقدر تتعلم أكثر من وحدة اليوم إذا عندك وقت وهمة — بس كمّل من تبويب «الخريطة».</div>`;
+    </div>`;
   } else {
-    const allLearned = Object.keys(state.units).length>=TOTAL_UNITS;
-    if(allLearned){
-      todayCard.innerHTML = `<div class="empty">ما شاء الله، خلصت كل الوحدات 🎉</div>`;
-    } else {
-      todayCard.innerHTML = `<div class="empty">أنت متقدم على الخطة المقترحة 🎉<br>ما فيه وحدة "مستحقة" اليوم حسب الجدول، بس تقدر تكمل قدام أي وقت.</div>
-        <button class="btn wide ghost" style="margin-top:8px;" onclick="switchTab('map')">روح للخريطة وابدأ وحدة جديدة</button>`;
-    }
-  }
-
-  const cat = countDueByCategory();
-  document.getElementById('nearCountLabel').textContent = cat.near ? `(${cat.near} كلمة)` : '';
-  document.getElementById('farCountLabel').textContent = cat.far ? `(${cat.far} كلمة)` : '';
-
-  const nearCard = document.getElementById('nearReviewCard');
-  nearCard.innerHTML = cat.near
-    ? `<div class="unit-row"><div class="meta">عندك ${cat.near} كلمة جديدة عليك تحتاج مراجعة اليوم.</div>
-        <button class="btn" onclick="quickStartReview('near')">▶ ابدأ</button></div>`
-    : `<div class="empty">ما فيه مراجعة قريبة مستحقة اليوم</div>`;
-
-  const farCard = document.getElementById('farReviewCard');
-  farCard.innerHTML = cat.far
-    ? `<div class="unit-row"><div class="meta">عندك ${cat.far} كلمة كنت تعرفها، وقت مراجعتها.</div>
-        <button class="btn" onclick="quickStartReview('far')">▶ ابدأ</button></div>`
-    : `<div class="empty">ما فيه مراجعة بعيدة مستحقة اليوم</div>`;
-
-  const weekday = new Date(t+'T00:00:00').getDay(); // 5=Fri, 6=Sat
-  const weekendSection = document.getElementById('weekendSection');
-  if(weekday===5 || weekday===6){
-    weekendSection.style.display = 'block';
-    const weekStart = getWeekStart(t);
-    const challengeDone = state.challenges[weekStart] && state.challenges[weekStart].text.trim();
-    document.getElementById('weekendCard').innerHTML = `
-      <div class="meta" style="margin-bottom:10px;">${weekday===5 ? 'الجمعة: يوم بدون وحدات جديدة — خصصه لتصفير كل مراجعات الأسبوع.' : 'السبت: يوم راحة من الجديد، بس خذ جولة خفيفة على كل كلمات الأسبوع.'}</div>
-      <button class="btn wide" onclick="quickStartReview('week')">🔄 راجع كل كلمات أسبوعك (قريبة وبعيدة مع بعض)</button>
-      ${challengeDone ? '' : '<div class="meta" style="margin-top:8px;">ولا تنسى تحدي الأسبوع تحت 👇 لو ما كملته.</div>'}`;
-  } else {
-    weekendSection.style.display = 'none';
+    card.innerHTML = `<div class="empty">${ICONS.sparkle}ما شاء الله، خلصت كل الوحدات الـ60<br>تقدر ترجع لأي وحدة من «الخريطة» تراجعها براحتك.</div>`;
   }
 }
-function getWeekStart(dateStr){
-  const d = new Date(dateStr+'T00:00:00');
-  d.setDate(d.getDate()-d.getDay()); // back up to Sunday
-  return localDateStr(d);
-}
+
+/* ---------- challenge ---------- */
 function pickChallengeWords(n){
-  const t = todayStr();
-  const pool = [];
-  for(const id in state.words){
-    const unit = parseInt(id.split('_')[0]);
-    const rec = state.units[unit];
-    if(rec && rec.learnedDate && addDays(rec.learnedDate,7) >= t) pool.push(id);
-  }
-  const source = pool.length>=n ? pool : Object.keys(state.words);
-  const shuffled = source.slice();
-  for(let i=shuffled.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [shuffled[i],shuffled[j]]=[shuffled[j],shuffled[i]]; }
-  return shuffled.slice(0,n);
+  const pool = Object.keys(state.words);
+  return shuffleArr(pool.slice()).slice(0,n);
 }
 function renderChallenge(){
   const el = document.getElementById('challengeCard');
   if(!el) return;
-  const learnedUnitsCount = Object.values(state.units).filter(u=>u && u.learnedDate).length;
+  const learnedUnitsCount = Object.keys(state.units).length;
   if(learnedUnitsCount < 2){
-    el.innerHTML = `<div class="empty" style="padding:10px 0;">كمّل وحدتين على الأقل الأول، وبيطلع لك تحدي أسبوعي يجمع كلماتك الجديدة.</div>`;
+    el.innerHTML = `<div class="empty" style="padding:10px 0;">كمّل وحدتين على الأقل الأول، وبعدين تقدر تسوّي تحدي كتابة يجمع كلماتك.</div>`;
     return;
   }
-  const weekStart = getWeekStart(todayStr());
-  if(!state.challenges[weekStart]){
+  if(!state.challenge || !state.challenge.wordIds || !state.challenge.wordIds.length){
     const wordIds = pickChallengeWords(5);
     if(!wordIds.length){
       el.innerHTML = `<div class="empty" style="padding:10px 0;">ما فيه كلمات كافية بعد لتوليد تحدي.</div>`;
       return;
     }
-    state.challenges[weekStart] = {wordIds, text:''};
+    state.challenge = {wordIds, text:''};
     saveState();
   }
-  const ch = state.challenges[weekStart];
+  const ch = state.challenge;
   const chips = ch.wordIds.map(id=>{
     const parts = id.split('_'); const unit=parseInt(parts[0]), idx=parseInt(parts[1]);
     const unitData = getUnitData(unit);
@@ -3107,17 +3083,29 @@ function renderChallenge(){
   el.innerHTML = `
     <h3>اكتب فقرة قصيرة (4–5 جمل) تستخدم فيها هالكلمات:</h3>
     <div class="challenge-words">${chips}</div>
-    <textarea id="challengeTextarea" placeholder="ابدأ الكتابة هنا..." onblur="saveChallengeText('${weekStart}', this.value)">${escapeHtml(ch.text)}</textarea>
-    <button class="btn ghost" style="margin-top:8px;" onclick="copyText(document.getElementById('challengeTextarea').value)">📋 انسخ الفقرة</button>
-    <div class="notebook-hint">تُحفظ تلقائياً · تحدي جديد كل أسبوع (من الأحد)</div>`;
+    <textarea id="challengeTextarea" dir="auto" placeholder="ابدأ الكتابة هنا..." onblur="saveChallengeText(this.value)">${escapeHtml(ch.text)}</textarea>
+    <div class="challenge-actions">
+      <button class="btn ghost" onclick="copyText(document.getElementById('challengeTextarea').value)">${ICONS.copy}انسخ الفقرة</button>
+      <button class="btn secondary" onclick="regenerateChallenge()">${ICONS.refresh}كلمات جديدة</button>
+    </div>
+    <div class="notebook-hint">تُحفظ تلقائياً</div>`;
 }
-function saveChallengeText(weekStart, value){
-  if(!state.challenges[weekStart]) return;
-  state.challenges[weekStart].text = value;
+function saveChallengeText(value){
+  if(!state.challenge) return;
+  state.challenge.text = value;
   saveState();
+}
+function regenerateChallenge(){
+  if(state.challenge && state.challenge.text && state.challenge.text.trim()){
+    if(!confirm('بتفقد الفقرة الحالية إذا غيّرت الكلمات — تكمل؟')) return;
+  }
+  state.challenge = {wordIds: pickChallengeWords(5), text:''};
+  saveState();
+  renderChallenge();
 }
 function goToUnit(i){ switchTab('map'); selectUnit(i); }
 
+/* ---------- map ---------- */
 function renderMap(){
   renderGrid('gridBook1', 30, 0);
   renderGrid('gridBook2', 30, 30);
@@ -3128,8 +3116,9 @@ function renderGrid(containerId, count, offset){
   let html='';
   for(let u=1; u<=count; u++){
     const i=offset+u;
-    const status = unitStatus(i);
-    const cls = status==='locked' ? 'locked' : status;
+    let cls='';
+    if(state.units[i]) cls='learned';
+    else if(hasAnyProgress(i)) cls='partial';
     html += `<div class="cell ${cls}" onclick="selectUnit(${i})">${u}</div>`;
   }
   el.innerHTML = html;
@@ -3156,26 +3145,37 @@ function getSyn(unit, idx){
   const arr = unit<=30 ? SYN1[unit-1] : SYN2[unit-31];
   return (arr && arr[idx]) ? arr[idx] : null;
 }
+
+/* ---------- study / onboarding ---------- */
 function startStudyMode(i){
   studyUnit = i;
-  studyIndex = 0;
+  const unitData = getUnitData(i);
   studyOnboarding = !state.units[i];
-  if(studyOnboarding){
-    calibrationStats = {know:0, dontknow:0};
-    state.units[i] = {learnedDate:null};
-    const unitData = getUnitData(i);
-    unitData.words.forEach((w, idx)=>{
-      const id = wordId(i, idx);
-      if(!state.words[id]) state.words[id] = {box:0, nextDue: todayStr()};
-    });
-  }
   document.getElementById('studyOverlay').classList.add('open');
+  if(studyOnboarding){
+    let startIdx = unitData.words.length;
+    for(let idx=0; idx<unitData.words.length; idx++){
+      if(!state.words[wordId(i,idx)]){ startIdx = idx; break; }
+    }
+    if(startIdx >= unitData.words.length){
+      studyIndex = unitData.words.length-1;
+      finishOnboarding();
+      return;
+    }
+    studyIndex = startIdx;
+  } else {
+    studyIndex = 0;
+  }
   renderStudyCard();
 }
 function closeStudy(){
   document.getElementById('studyOverlay').classList.remove('open');
   studyUnit = null;
   renderAll();
+}
+function scrollStudyToTop(){
+  const card = document.querySelector('.study-card');
+  if(card) card.scrollTop = 0;
 }
 function studyNav(delta){
   const unitData = getUnitData(studyUnit);
@@ -3185,11 +3185,7 @@ function studyNav(delta){
 function decideWord(knowsIt){
   const i = studyUnit, idx = studyIndex;
   const wId = wordId(i, idx);
-  const wr = state.words[wId];
-  wr.box = knowsIt ? 3 : 0;
-  wr.nextDue = addDays(todayStr(), BOX_INTERVALS[wr.box]);
-  wr.wasKnown = knowsIt; // permanent tag for "قوائمي" lists — never changed by later reviews
-  if(knowsIt) calibrationStats.know++; else calibrationStats.dontknow++;
+  state.words[wId] = knowsIt ? {wasKnown:true} : {wasKnown:false, mastery:0};
   saveState();
   const unitData = getUnitData(i);
   if(idx < unitData.words.length-1){
@@ -3201,27 +3197,36 @@ function decideWord(knowsIt){
 }
 function finishOnboarding(){
   const i = studyUnit;
-  state.units[i].learnedDate = todayStr();
+  state.units[i] = true;
   saveState();
   const lab = unitLabel(i);
-  const total = calibrationStats.know + calibrationStats.dontknow;
+  const unitData = getUnitData(i);
+  let know=0, dontknow=0;
+  unitData.words.forEach((w,idx)=>{
+    const wr = state.words[wordId(i,idx)];
+    if(wr && wr.wasKnown===true) know++;
+    else if(wr && wr.wasKnown===false) dontknow++;
+  });
+  const total = know + dontknow;
   const nxt = nextUnlearnedUnit(i);
   let nextBtn = '';
   if(nxt){
     const nl = unitLabel(nxt);
-    nextBtn = `<button class="btn wide" style="margin-top:10px;" onclick="startStudyMode(${nxt})">⚡ كمّل على وحدة #${nxt} (كتاب ${nl.book}، وحدة ${nl.u}) الآن</button>`;
+    nextBtn = `<button class="btn wide" style="margin-top:10px;" onclick="startStudyMode(${nxt})">${ICONS.bolt}كمّل على وحدة #${nxt} (كتاب ${nl.book}، وحدة ${nl.u}) الآن</button>`;
   }
   document.getElementById('studyContent').innerHTML = `
     <div style="text-align:center;">
-      <div style="font-size:18px; color:var(--gold); font-weight:800;">✓ خلصت وحدة #${i} — كتاب ${lab.book}، وحدة ${lab.u}</div>
+      <div style="font-size:18px; color:var(--text); font-weight:800; display:flex; align-items:center; justify-content:center; gap:6px;">${ICONS.check}خلصت وحدة #${i} — كتاب ${lab.book}، وحدة ${lab.u}</div>
       <div style="color:var(--text-dim); font-size:13px; margin-top:8px; line-height:1.8;">
-        كنت تعرف <b style="color:var(--done)">${calibrationStats.know}</b> من ${total} كلمة مسبقاً (تراجعها بعد أسبوع تقريباً)<br>
-        <b style="color:var(--review-due)">${calibrationStats.dontknow}</b> كلمة جديدة عليك (تراجعها بكرة)
+        كنت تعرف <b style="color:var(--mint)">${know}</b> من ${total} كلمة مسبقاً<br>
+        <b style="color:var(--warn)">${dontknow}</b> كلمة جديدة عليك<br>
+        <span style="font-size:11.5px;">تلقى الاثنين مصنّفين بتبويب «قوائمي»</span>
       </div>
     </div>
     <button class="btn wide ghost" style="margin-top:14px;" onclick="closeStudy()">تمام</button>
     ${nextBtn}`;
   studyOnboarding = false;
+  scrollStudyToTop();
   renderAll();
 }
 function renderStudyCard(){
@@ -3241,22 +3246,22 @@ function renderStudyCard(){
   if(info){
     if(info.ex2) ex2Html = `<div class="study-section"><h4>مثال إضافي</h4><div class="study-ex" dir="ltr" style="margin-bottom:0;">"${info.ex2}"</div></div>`;
     synHtml = (info.syn && info.syn.length)
-      ? `<div class="study-chip-row">${info.syn.map(s=>`<span class="study-chip syn">${s[0]} <span dir="rtl">(${s[1]})</span></span>`).join('')}</div>`
+      ? `<div class="study-chip-row">${info.syn.map(s=>`<span class="study-chip syn" dir="ltr">${s[0]} <span dir="rtl">(${s[1]})</span></span>`).join('')}</div>`
       : `<div class="study-empty-note">ما فيه مرادف مباشر مناسب لهالكلمة.</div>`;
     antHtml = (info.ant && info.ant.length)
-      ? `<div class="study-chip-row">${info.ant.map(a=>`<span class="study-chip ant">${a[0]} <span dir="rtl">(${a[1]})</span></span>`).join('')}</div>`
+      ? `<div class="study-chip-row">${info.ant.map(a=>`<span class="study-chip ant" dir="ltr">${a[0]} <span dir="rtl">(${a[1]})</span></span>`).join('')}</div>`
       : `<div class="study-empty-note">ما فيه مضاد مباشر مناسب لهالكلمة.</div>`;
-    if(info.usage) usageHtml = `<div class="study-section"><h4>الاستخدام</h4><div style="font-size:12.5px; line-height:1.7;">${info.usage}</div></div>`;
+    if(info.usage) usageHtml = `<div class="study-section"><h4>الاستخدام</h4><div style="font-size:12.5px; line-height:1.7;" dir="ltr">${info.usage}</div></div>`;
   }
 
   const navHtml = studyOnboarding
     ? `<div class="study-nav">
-        <button class="btn secondary" onclick="decideWord(false)">🆕 كلمة جديدة علي</button>
-        <button class="btn" onclick="decideWord(true)">✓ أعرفها مسبقاً</button>
+        <button class="btn secondary" onclick="decideWord(false)">${ICONS.plusCircle}كلمة جديدة علي</button>
+        <button class="btn" onclick="decideWord(true)">${ICONS.check}أعرفها مسبقاً</button>
       </div>`
     : `<div class="study-nav">
-        <button class="btn secondary" ${idx===0?'disabled':''} onclick="studyNav(-1)">◀ السابقة</button>
-        <button class="btn" ${idx===unitData.words.length-1?'disabled':''} onclick="studyNav(1)">التالية ▶</button>
+        <button class="btn secondary" ${idx===0?'disabled':''} onclick="studyNav(-1)">السابقة</button>
+        <button class="btn" ${idx===unitData.words.length-1?'disabled':''} onclick="studyNav(1)">التالية</button>
       </div>`;
 
   const content = document.getElementById('studyContent');
@@ -3266,18 +3271,19 @@ function renderStudyCard(){
     <div class="study-type">(${w[1]})</div>
     <div class="study-def" dir="ltr">${w[2]}</div>
     <div class="study-ex" dir="ltr">"${w[3]}"</div>
-    <button class="ar-toggle" onclick="toggleAr(this,'study_ar')">عربي</button>
-    <div class="ar-reveal" id="study_ar">${arText}</div>
+    <button class="ar-toggle" onclick="toggleAr(this,'study_ar')">${ICONS.book}عربي</button>
+    <div class="ar-reveal" dir="rtl" id="study_ar">${arText}</div>
     ${usageHtml}
     ${ex2Html}
     <div class="study-section"><h4>مرادفات (Synonyms)</h4>${synHtml}</div>
     <div class="study-section"><h4>مضادات (Antonyms)</h4>${antHtml}</div>
     <div class="study-section">
       <h4>جملتي (دفتري)</h4>
-      <textarea placeholder="اكتب جملة من عندك..." onblur="saveNotebookEntry('${wId}', this.value)" style="width:100%; min-height:50px; background:var(--bg-elev2); border:1px solid var(--line); color:var(--text); border-radius:8px; padding:8px 10px; font-family:'Tajawal',sans-serif; font-size:12.5px; direction:rtl;">${escapeHtml(savedSentence)}</textarea>
+      <textarea dir="ltr" placeholder="Write your own sentence..." onblur="saveNotebookEntry('${wId}', this.value)" style="width:100%; min-height:50px; background:var(--card2); border:1px solid var(--border); color:var(--text); border-radius:8px; padding:8px 10px; font-family:'Comfortaa',sans-serif; font-size:12.5px;">${escapeHtml(savedSentence)}</textarea>
     </div>
-    <button class="btn wide ghost" style="margin-top:12px;" onclick="copyStudyCard()">📋 انسخ البطاقة للدفتر</button>
+    <button class="btn wide ghost" style="margin-top:12px;" onclick="copyStudyCard()">${ICONS.copy}انسخ البطاقة للدفتر</button>
     ${navHtml}`;
+  scrollStudyToTop();
 }
 function copyText(text){
   const showToast = ()=>{
@@ -3342,70 +3348,105 @@ function saveNotebookEntry(wId, value){
   state.notebook[wId] = value;
   saveState();
 }
+
+/* ---------- unit detail ---------- */
 function renderDetail(){
   if(!selectedUnit) return;
   const i=selectedUnit;
   const lab=unitLabel(i);
-  const rec = state.units[i];
-  const schedule = buildSchedule(state.startDate);
+  const learned = !!state.units[i];
+  const progress = hasAnyProgress(i);
   const unitData = getUnitData(i);
-  const t = todayStr();
   const content = document.getElementById('detailContent');
 
   let body = `<h3 style="margin-top:6px;"><span class="mono">#${i}</span> — كتاب ${lab.book}، الوحدة ${lab.u}</h3>`;
-  body += `<div class="sub">مجدولة: ${schedule[i-1]}</div>`;
 
-  if(!rec){
-    const preview = unitData.words.map(w=>`<span class="study-chip">${w[0]} <span style="color:var(--text-dim)">(${w[1]})</span></span>`).join('');
+  if(!learned && !progress){
+    const preview = unitData.words.map(w=>`<span class="study-chip" dir="ltr">${w[0]} <span style="color:var(--text-dim)">(${w[1]})</span></span>`).join('');
     body += `<div class="study-chip-row" style="margin:10px 0 14px;">${preview}</div>`;
-    body += `<button class="btn wide" onclick="closeDetail(); startStudyMode(${i});">▶ ابدأ</button>`;
+    body += `<button class="btn wide" onclick="closeDetail(); startStudyMode(${i});">${ICONS.play}ابدأ</button>`;
     content.innerHTML = body;
     return;
   }
 
-  body += `<div class="sub" style="margin-bottom:10px;">تعلّمتها: ${rec.learnedDate}</div>`;
-  body += `<div class="bulk-actions" style="margin-bottom:10px;">
-    <button class="btn ghost" onclick="closeDetail(); startStudyMode(${i});">📖 راجع بصيغة البطاقات</button>
-    <button class="btn ghost" onclick="copyAllNotebook(${i})">📋 انسخ كل جملي بهالوحدة</button>
-    <button class="btn secondary" onclick="unlearnUnit(${i})">↺ تصفير هالوحدة بالكامل</button>
-  </div>`;
-
-  if(unitData){
-    body += `<div class="wordlist">`;
-    unitData.words.forEach((w, idx)=>{
-      const wr = rec ? state.words[wordId(i,idx)] : null;
-      let badge = '';
-      if(wr){
-        const due = wr.nextDue<=t;
-        badge = `<span class="word-srs-badge" style="${due?'border-color:var(--review-due);color:var(--review-due);':''}">${due?'مستحقة الآن':'صندوق '+(wr.box+1)+' · '+wr.nextDue}</span>`;
-      }
-      const revealId = `ar_${i}_${idx}`;
-      const nbId = `nb_${i}_${idx}`;
-      const wId = wordId(i,idx);
-      const savedSentence = state.notebook[wId] || '';
-      body += `<div class="word-item">
-        <div class="word-head" dir="ltr">
-          <span class="term">${w[0]}</span><span class="type">(${w[1]})</span>
-          <button class="spk" onclick="speak('${w[0].replace(/'/g,"\\'")}')">🔊</button>
-          <button class="ar-toggle" onclick="toggleAr(this,'${revealId}')" style="margin-inline-start:4px;">عربي</button>
-        </div>
-        <div class="word-def" dir="ltr">${w[2]}</div>
-        <div class="word-ex" dir="ltr">"${w[3]}"</div>
-        <div class="ar-reveal" id="${revealId}">${getArabic(i,idx)}</div>
-        <button class="ar-toggle" onclick="toggleNotebook('${nbId}')" style="margin-top:5px;">✏️ جملتي (دفتري)</button>
-        <div class="notebook-box${savedSentence?' show':''}" id="${nbId}">
-          <textarea placeholder="اكتب جملة من عندك توظّف فيها ${w[0]}..." onblur="saveNotebookEntry('${wId}', this.value)">${escapeHtml(savedSentence)}</textarea>
-          <div class="notebook-hint">تُحفظ تلقائياً لما تخرج من الحقل</div>
-        </div>
-        ${badge ? `<div style="margin-top:4px;">${badge}</div>` : ''}
-      </div>`;
-    });
-    body += `</div>`;
-    body += `<div class="story-box" dir="ltr"><span class="story-title">${unitData.story.title}</span>${unitData.story.text}</div>`;
+  if(!learned && progress){
+    const dc = decidedCount(i);
+    body += `<div class="card" style="margin-bottom:12px;">
+      <div class="unit-row">
+        <div class="meta">قيّمت ${dc} من ${unitData.words.length} كلمة لين الحين</div>
+        <button class="btn" onclick="closeDetail(); startStudyMode(${i});">${ICONS.bolt}أكمل من الكلمة ${dc+1}</button>
+      </div>
+    </div>`;
+  } else if(learned){
+    body += `<div class="bulk-actions" style="margin-bottom:12px;">
+      <button class="btn ghost" onclick="closeDetail(); startStudyMode(${i});">${ICONS.book}راجع بصيغة البطاقات</button>
+      <button class="btn ghost" onclick="copyAllNotebook(${i})">${ICONS.copy}انسخ كل جملي بهالوحدة</button>
+      <button class="btn secondary" onclick="unlearnUnit(${i})">${ICONS.undo}تصفير هالوحدة بالكامل</button>
+    </div>`;
   }
+
+  body += `<div class="wordlist">`;
+  unitData.words.forEach((w, idx)=>{
+    const wr = state.words[wordId(i,idx)];
+    let tag = '';
+    if(wr && wr.wasKnown===true) tag = `<span class="word-tag known">أعرفها مسبقاً</span>`;
+    else if(wr && wr.wasKnown===false) tag = `<span class="word-tag new-word">جديدة عليّ ${mastDots(wr.mastery||0)}</span>`;
+    const revealId = `ar_${i}_${idx}`;
+    const nbId = `nb_${i}_${idx}`;
+    const wId = wordId(i,idx);
+    const savedSentence = state.notebook[wId] || '';
+    body += `<div class="word-item">
+      <div class="word-head" dir="ltr">
+        <span class="term">${w[0]}</span><span class="type">(${w[1]})</span>
+        <button class="spk" onclick="speak('${w[0].replace(/'/g,"\\'")}')">${ICONS.speaker}</button>
+      </div>
+      <div class="word-def" dir="ltr">${w[2]}</div>
+      <div class="word-ex" dir="ltr">"${w[3]}"</div>
+      <button class="ar-toggle" style="margin-top:6px;" onclick="toggleAr(this,'${revealId}')">${ICONS.book}عربي</button>
+      <div class="ar-reveal" dir="rtl" id="${revealId}">${getArabic(i,idx)}</div>
+      <button class="ar-toggle" onclick="toggleNotebook('${nbId}')" style="margin-top:6px;">${ICONS.pencil}جملتي (دفتري)</button>
+      <div class="notebook-box${savedSentence?' show':''}" id="${nbId}">
+        <textarea dir="ltr" placeholder="Write your own sentence with ${w[0]}..." onblur="saveNotebookEntry('${wId}', this.value)" style="font-family:'Comfortaa',sans-serif;">${escapeHtml(savedSentence)}</textarea>
+        <div class="notebook-hint">تُحفظ تلقائياً لما تخرج من الحقل</div>
+      </div>
+      ${tag ? `<div style="margin-top:6px;">${tag}</div>` : ''}
+    </div>`;
+  });
+  body += `</div>`;
+  body += `<div class="story-box" dir="ltr"><span class="story-title">${unitData.story.title}</span>${unitData.story.text}</div>`;
   content.innerHTML = body;
 }
+function mastDots(m){
+  let html = '<span class="mastery-dots">';
+  for(let k=0;k<MASTERY_TARGET;k++) html += `<i class="${k<m?'filled':''}"></i>`;
+  html += '</span>';
+  return html;
+}
 
+/* ---------- practice / review ---------- */
+function renderReviewCards(){
+  const counts = reviewCounts();
+  const newCard = document.getElementById('reviewNewCard');
+  const knownCard = document.getElementById('reviewKnownCard');
+  if(!newCard || !knownCard) return;
+  newCard.innerHTML = `
+    <div class="review-card-head"><span class="review-dot new"></span><h3>جديدة عليّ</h3></div>
+    <div class="review-count">${counts.newActive}</div>
+    <div class="review-sub">كلمة لسا محتاجة مراجعة</div>
+    <button class="btn wide" ${counts.newActive===0?'disabled':''} onclick="quickReview('new')">${ICONS.bolt}ابدأ المراجعة</button>
+    <div class="review-note">تحتاج ${MASTERY_TARGET} إجابات صح متتالية عشان الكلمة "تتقنها" وتطلع من القائمة. أي غلطة ترجعها للصفر.</div>`;
+  knownCard.innerHTML = `
+    <div class="review-card-head"><span class="review-dot known"></span><h3>أعرفها مسبقاً</h3></div>
+    <div class="review-count">${counts.known}</div>
+    <div class="review-sub">كلمة تحت الفحص السريع</div>
+    <button class="btn wide secondary" ${counts.known===0?'disabled':''} onclick="quickReview('known')">${ICONS.check}ابدأ الفحص السريع</button>
+    <div class="review-note">إذا غلطت بكلمة، تنتقل تلقائياً لقائمة "جديدة عليّ".</div>`;
+}
+function quickReview(source){
+  document.getElementById('practiceSource').value = source;
+  document.getElementById('practiceUnitPicker').style.display = 'none';
+  startPractice();
+}
 function populatePracticeUnitPicker(){
   const sel = document.getElementById('practiceUnitPicker');
   let learnedUnits = [];
@@ -3435,110 +3476,62 @@ document.getElementById('practiceAgainBtn').addEventListener('click', ()=>{
 
 function startPractice(){
   const source = document.getElementById('practiceSource').value;
+  practiceSourceMode = source;
   practiceQueue = [];
   practiceScore = {correct:0, wrong:0};
   practiceIndex = 0;
-  const t = todayStr();
 
-  if(source==='due' || source==='near' || source==='far'){
+  if(source==='all' || source==='known' || source==='new'){
     for(const id in state.words){
       const wr = state.words[id];
-      if(wr.nextDue>t) continue;
-      if(source==='near' && wr.box>=2) continue;
-      if(source==='far' && wr.box<2) continue;
+      if(source==='known' && wr.wasKnown!==true) continue;
+      if(source==='new' && (wr.wasKnown!==false || (wr.mastery||0)>=MASTERY_TARGET)) continue;
       const parts = id.split('_');
       const unit = parseInt(parts[0]), idx = parseInt(parts[1]);
       const unitData = getUnitData(unit);
       if(!unitData) continue;
-      practiceQueue.push({word:unitData.words[idx], unit, idx, wordId:id, affectsSRS:true});
-    }
-  } else if(source==='week'){
-    for(const id in state.words){
-      const parts = id.split('_');
-      const unit = parseInt(parts[0]), idx = parseInt(parts[1]);
-      const rec = state.units[unit];
-      if(!rec || !rec.learnedDate || addDays(rec.learnedDate,7) < t) continue;
-      const unitData = getUnitData(unit);
-      if(!unitData) continue;
-      practiceQueue.push({word:unitData.words[idx], unit, idx, wordId:id, affectsSRS:true});
+      practiceQueue.push({word:unitData.words[idx], unit, idx, wordId:id, mastery:wr.mastery||0});
     }
   } else {
     const unitId = parseInt(document.getElementById('practiceUnitPicker').value);
     if(unitId && state.units[unitId]){
       const unitData = getUnitData(unitId);
       unitData.words.forEach((w,idx)=>{
-        practiceQueue.push({word:w, unit:unitId, idx, wordId:wordId(unitId,idx), affectsSRS:false});
+        practiceQueue.push({word:w, unit:unitId, idx, wordId:wordId(unitId,idx)});
       });
     }
   }
 
   if(!practiceQueue.length){ alert('ما فيه كلمات للتدريب بهذا الخيار.'); return; }
-  for(let i=practiceQueue.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [practiceQueue[i],practiceQueue[j]]=[practiceQueue[j],practiceQueue[i]]; }
+  if(source==='new') practiceQueue.sort((a,b)=>a.mastery-b.mastery);
+  else shuffleArr(practiceQueue);
 
-  document.getElementById('practiceSession').style.display='block';
-  document.getElementById('practiceSummary').style.display='none';
-  renderExercise();
-}
-function buildDueQueueByCategory(category){
-  const t = todayStr();
-  const q = [];
-  for(const id in state.words){
-    const wr = state.words[id];
-    if(wr.nextDue>t) continue;
-    const isNear = wr.box<2;
-    if(category==='near' && !isNear) continue;
-    if(category==='far' && isNear) continue;
-    const parts=id.split('_'); const unit=parseInt(parts[0]), idx=parseInt(parts[1]);
-    const unitData=getUnitData(unit);
-    if(!unitData) continue;
-    q.push({word:unitData.words[idx], unit, idx, wordId:id, affectsSRS:true});
-  }
-  return q;
-}
-function buildWeekQueue(){
-  const weekStart = getWeekStart(todayStr());
-  const q = [];
-  for(const id in state.words){
-    const parts=id.split('_'); const unit=parseInt(parts[0]), idx=parseInt(parts[1]);
-    const rec = state.units[unit];
-    if(!rec || !rec.learnedDate || rec.learnedDate<weekStart) continue;
-    const unitData=getUnitData(unit);
-    if(!unitData) continue;
-    q.push({word:unitData.words[idx], unit, idx, wordId:id, affectsSRS:true});
-  }
-  return q;
-}
-function quickStartReview(source){
-  let queue;
-  if(source==='near') queue = buildDueQueueByCategory('near');
-  else if(source==='far') queue = buildDueQueueByCategory('far');
-  else if(source==='week') queue = buildWeekQueue();
-  else queue = [];
-  if(!queue.length){ alert('ما فيه كلمات لهالقسم حالياً.'); return; }
-  for(let i=queue.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [queue[i],queue[j]]=[queue[j],queue[i]]; }
-  practiceQueue = queue;
-  practiceIndex = 0;
-  practiceScore = {correct:0, wrong:0};
   switchTab('practice');
-  document.getElementById('practiceSetupCard').style.display='none';
   document.getElementById('practiceSession').style.display='block';
   document.getElementById('practiceSummary').style.display='none';
   renderExercise();
+  document.getElementById('view-practice').scrollIntoView({behavior:'smooth', block:'start'});
 }
 
-function applyResult(item, correct){
-  if(!item.affectsSRS) return;
-  const wr = state.words[item.wordId];
-  if(!wr) return;
-  wr.box = correct ? Math.min(wr.box+1, BOX_INTERVALS.length-1) : 0;
-  wr.nextDue = addDays(todayStr(), BOX_INTERVALS[wr.box]);
-}
-function answerResult(correct){
-  const item = practiceQueue[practiceIndex];
-  applyResult(item, correct);
+function answerResult(item, correct){
   if(correct) practiceScore.correct++; else practiceScore.wrong++;
+
+  if(practiceSourceMode==='new'){
+    if(!state.words[item.wordId]) state.words[item.wordId] = {wasKnown:false, mastery:0};
+    const wr = state.words[item.wordId];
+    wr.wasKnown = false;
+    wr.mastery = correct ? Math.min(MASTERY_TARGET, (wr.mastery||0)+1) : 0;
+    saveState();
+  } else if(practiceSourceMode==='known'){
+    const wr = state.words[item.wordId];
+    if(wr && !correct){
+      wr.wasKnown = false;
+      wr.mastery = 0;
+      saveState();
+    }
+  }
+
   practiceIndex++;
-  saveState();
   setTimeout(renderExercise, 450);
 }
 
@@ -3561,8 +3554,8 @@ function renderFlashExercise(item, area){
       <div class="hint" dir="rtl">اضغط لقلب البطاقة</div>
     </div>
     <div class="flash-actions" id="fActions" style="display:none;">
-      <button class="btn secondary" id="fNo">✗ أحتاج مراجعة</button>
-      <button class="btn" id="fYes">✓ أعرفها</button>
+      <button class="btn secondary" id="fNo">${ICONS.x}أحتاج مراجعة</button>
+      <button class="btn" id="fYes">${ICONS.check}أعرفها</button>
     </div>`;
   document.getElementById('fcard').addEventListener('click', ()=>{
     if(flipped) return; flipped=true;
@@ -3570,26 +3563,24 @@ function renderFlashExercise(item, area){
       <div class="term" style="font-size:20px;">${item.word[0]}</div>
       <div class="def">${item.word[2]}</div>
       <div class="ex">"${item.word[3]}"</div>
-      <button class="ar-toggle" dir="rtl" onclick="event.stopPropagation(); this.nextElementSibling.classList.toggle('show');">عربي</button>
+      <button class="ar-toggle" dir="rtl" onclick="event.stopPropagation(); this.nextElementSibling.classList.toggle('show');">${ICONS.book}عربي</button>
       <div class="ar-reveal" dir="rtl">${arText}</div>`;
     document.getElementById('fActions').style.display='flex';
   });
-  document.getElementById('fYes').addEventListener('click', ()=>answerResult(true));
-  document.getElementById('fNo').addEventListener('click', ()=>answerResult(false));
+  document.getElementById('fYes').addEventListener('click', ()=>answerResult(item, true));
+  document.getElementById('fNo').addEventListener('click', ()=>answerResult(item, false));
 }
 
 function pickDistractors(correctWordText, n){
   const pool=[];
   BOOK1.forEach(u=>u.words.forEach(w=>pool.push(w[2])));
   BOOK2.forEach(u=>u.words.forEach(w=>pool.push(w[2])));
-  const filtered = pool.filter(d=>d!==correctWordText);
-  for(let i=filtered.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [filtered[i],filtered[j]]=[filtered[j],filtered[i]]; }
+  const filtered = shuffleArr(pool.filter(d=>d!==correctWordText));
   return filtered.slice(0,n);
 }
 function renderMCExercise(item, area){
   const correct = item.word[2];
-  const options = pickDistractors(correct, 3).concat([correct]);
-  for(let i=options.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [options[i],options[j]]=[options[j],options[i]]; }
+  const options = shuffleArr(pickDistractors(correct, 3).concat([correct]));
   area.innerHTML = `<div class="flash" dir="ltr" style="cursor:default;">
       <div class="term">${item.word[0]}</div>
       <div class="type">(${item.word[1]})</div>
@@ -3607,7 +3598,7 @@ function renderMCExercise(item, area){
       if(!isCorrect){
         [...optsEl.children].forEach(c=>{ if(c.textContent===correct) c.classList.add('correct'); });
       }
-      setTimeout(()=>answerResult(isCorrect), 600);
+      setTimeout(()=>answerResult(item, isCorrect), 600);
     });
     optsEl.appendChild(btn);
   });
@@ -3635,11 +3626,11 @@ function renderTypeExercise(item, area){
     const val = input.value.trim().toLowerCase();
     const isCorrect = val === term.toLowerCase();
     const fb = document.getElementById('typeFeedback');
-    fb.textContent = isCorrect ? '✓ صح!' : `✗ الصحيح: ${term}`;
+    fb.innerHTML = isCorrect ? `${ICONS.check}صح!` : `${ICONS.x}الصحيح: ${term}`;
     fb.className = 'type-feedback ' + (isCorrect?'ok':'bad');
     input.disabled = true;
     document.getElementById('typeSubmit').disabled = true;
-    setTimeout(()=>answerResult(isCorrect), 900);
+    setTimeout(()=>answerResult(item, isCorrect), 900);
   }
   document.getElementById('typeSubmit').addEventListener('click', submit);
   input.addEventListener('keydown', (e)=>{ if(e.key==='Enter') submit(); });
@@ -3654,12 +3645,13 @@ function finishPractice(){
   const pct = total ? Math.round((practiceScore.correct/total)*100) : 0;
   document.getElementById('summaryCard').innerHTML = `
     <div style="text-align:center;">
-      <div style="font-size:28px; color:var(--gold); font-weight:800; font-family:'Consolas',monospace;">${pct}%</div>
+      <div style="font-size:28px; color:var(--text); font-weight:800; font-family:'Comfortaa',sans-serif;">${pct}%</div>
       <div style="color:var(--text-dim); font-size:13px; margin-top:4px;">صح: ${practiceScore.correct} · غلط: ${practiceScore.wrong}</div>
     </div>`;
   renderAll();
 }
 
+/* ---------- search ---------- */
 function buildSearchIndex(){
   const idx=[];
   BOOK1.forEach((u,i)=>{ u.words.forEach((w,wi)=>idx.push({word:w, unit:i+1, idx:wi})); });
@@ -3680,63 +3672,52 @@ document.getElementById('searchInput').addEventListener('input', (e)=>{
     return `<div class="search-result-card">
       <div class="word-head" dir="ltr">
         <span class="term">${m.word[0]}</span><span class="type">(${m.word[1]})</span>
-        <button class="spk" onclick="speak('${m.word[0].replace(/'/g,"\\'")}')">🔊</button>
-        <button class="ar-toggle" onclick="toggleAr(this,'${revealId}')" style="margin-inline-start:4px;">عربي</button>
+        <button class="spk" onclick="speak('${m.word[0].replace(/'/g,"\\'")}')">${ICONS.speaker}</button>
       </div>
       <div class="word-def" dir="ltr">${m.word[2]}</div>
       <div class="word-ex" dir="ltr">"${m.word[3]}"</div>
-      <div class="ar-reveal" id="${revealId}">${getArabic(m.unit, m.idx)}</div>
-      <div style="margin-top:4px;"><button class="btn ghost" style="padding:5px 10px;font-size:11px;" onclick="goToUnit(${m.unit})">كتاب ${lab.book} · وحدة ${lab.u}</button></div>
+      <button class="ar-toggle" style="margin-top:6px;" onclick="toggleAr(this,'${revealId}')">${ICONS.book}عربي</button>
+      <div class="ar-reveal" dir="rtl" id="${revealId}">${getArabic(m.unit, m.idx)}</div>
+      <div style="margin-top:6px;"><button class="btn ghost" style="padding:5px 10px;font-size:11px;" onclick="goToUnit(${m.unit})">كتاب ${lab.book} · وحدة ${lab.u}</button></div>
     </div>`;
   }).join('');
 });
 
-document.getElementById('startDateInput').addEventListener('change', (e)=>{
-  state.startDate = e.target.value; saveState(); renderAll();
-});
 document.getElementById('resetBtn').addEventListener('click', ()=>{
-  if(confirm('متأكد إنك تبي تصفّر كل التقدم؟')){ state = defaultState(); saveState(); renderAll(); }
+  if(confirm('متأكد إنك تبي تصفّر كل التقدم؟')){
+    const keepTheme = state.theme;
+    state = defaultState();
+    state.theme = keepTheme;
+    saveState(); renderAll();
+  }
 });
 
-const AR_WEEKDAYS = ['الأحد','الإثنين','الثلاثاء','الأربعاء','الخميس','الجمعة','السبت'];
-const AR_MONTHS = ['يناير','فبراير','مارس','أبريل','مايو','يونيو','يوليو','أغسطس','سبتمبر','أكتوبر','نوفمبر','ديسمبر'];
-function formatArabicDate(dateStr){
-  const d = new Date(dateStr+'T00:00:00');
-  return `${AR_WEEKDAYS[d.getDay()]}، ${d.getDate()} ${AR_MONTHS[d.getMonth()]} ${d.getFullYear()}`;
-}
-function renderTodayDateLabel(){
-  const el = document.getElementById('todayDateLabel');
-  if(el) el.textContent = `اليوم: ${formatArabicDate(todayStr())}`;
-}
-let listCategory = 'known'; // 'known' | 'new'
-function populateListScopeFilter(){
-  const sel = document.getElementById('listScopeFilter');
-  if(!sel) return;
+/* ---------- my lists ---------- */
+function populateListUnitFilter(){
+  const book = document.getElementById('listBookFilter').value;
+  const sel = document.getElementById('listUnitFilter');
   const prevVal = sel.value || 'all';
-  let html = `<option value="all">كل الكلمات (1200)</option>
-    <option value="book1">كتاب 1 (كل الوحدات)</option>
-    <option value="book2">كتاب 2 (كل الوحدات)</option>`;
-  const learnedUnits = Object.keys(state.units).map(k=>parseInt(k)).filter(u=>state.units[u] && state.units[u].learnedDate).sort((a,b)=>a-b);
-  if(learnedUnits.length){
-    html += `<optgroup label="وحدات محددة">`;
-    learnedUnits.forEach(u=>{
-      const lab = unitLabel(u);
-      html += `<option value="unit_${u}">وحدة #${u} — كتاب ${lab.book}، وحدة ${lab.u}</option>`;
-    });
-    html += `</optgroup>`;
+  let start=1, end=TOTAL_UNITS;
+  if(book==='1'){ start=1; end=30; }
+  else if(book==='2'){ start=31; end=60; }
+  let html = `<option value="all">كل الوحدات</option>`;
+  for(let i=start;i<=end;i++){
+    const lab = unitLabel(i);
+    html += `<option value="${i}">${book==='all' ? `كتاب ${lab.book}، وحدة ${lab.u}` : `وحدة ${lab.u}`}</option>`;
   }
   sel.innerHTML = html;
   if([...sel.options].some(o=>o.value===prevVal)) sel.value = prevVal;
 }
-function matchesListFilter(unit, scope){
-  if(scope==='book1') return unit<=30;
-  if(scope==='book2') return unit>30;
-  if(scope.startsWith('unit_')) return unit===parseInt(scope.split('_')[1]);
-  return true; // 'all'
+function matchesListFilter(unit){
+  const book = document.getElementById('listBookFilter').value;
+  const unitVal = document.getElementById('listUnitFilter').value;
+  if(unitVal !== 'all') return unit === parseInt(unitVal);
+  if(book==='1') return unit<=30;
+  if(book==='2') return unit>30;
+  return true;
 }
 function collectListWords(){
   const cat = listCategory;
-  const scope = document.getElementById('listScopeFilter') ? document.getElementById('listScopeFilter').value : 'all';
   const out = [];
   for(const id in state.words){
     const wr = state.words[id];
@@ -3744,19 +3725,55 @@ function collectListWords(){
     if(cat==='known' && !wr.wasKnown) continue;
     if(cat==='new' && wr.wasKnown) continue;
     const parts = id.split('_'); const unit=parseInt(parts[0]), idx=parseInt(parts[1]);
-    if(!matchesListFilter(unit, scope)) continue;
+    if(!matchesListFilter(unit)) continue;
     const unitData = getUnitData(unit);
     if(!unitData) continue;
-    out.push({word:unitData.words[idx], unit, idx});
+    out.push({word:unitData.words[idx], unit, idx, mastery:wr.mastery||0});
+  }
+  return out;
+}
+function collectNotebookEntries(){
+  const out=[];
+  for(const wId in state.notebook){
+    const text = state.notebook[wId];
+    if(!text || !text.trim()) continue;
+    const parts = wId.split('_'); const unit=parseInt(parts[0]), idx=parseInt(parts[1]);
+    if(!matchesListFilter(unit)) continue;
+    const unitData = getUnitData(unit);
+    if(!unitData) continue;
+    out.push({word:unitData.words[idx], unit, idx, text});
   }
   return out;
 }
 function renderMyLists(){
-  if(!document.getElementById('listScopeFilter')) return;
-  populateListScopeFilter();
+  if(!document.getElementById('listUnitFilter')) return;
+  populateListUnitFilter();
   applyListFilter();
 }
 function applyListFilter(){
+  const practiceBtn = document.getElementById('listPracticeBtn');
+  if(listCategory==='notebook'){
+    practiceBtn.style.display='none';
+    const results = collectNotebookEntries();
+    document.getElementById('listResultsHeader').textContent = `${results.length} جملة`;
+    const el = document.getElementById('listResults');
+    if(!results.length){
+      el.innerHTML = `<div class="search-empty">ما فيه جمل محفوظة بهالنطاق بعد.</div>`;
+      return;
+    }
+    el.innerHTML = results.map(r=>{
+      const lab = unitLabel(r.unit);
+      return `<div class="search-result-card notebook-entry">
+        <div class="word-head" dir="ltr">
+          <span class="term">${r.word[0]}</span><span class="type">(${r.word[1]})</span>
+        </div>
+        <div class="word-def" dir="ltr">${escapeHtml(r.text)}</div>
+        <div style="margin-top:6px;"><button class="btn ghost" style="padding:5px 10px;font-size:11px;" onclick="goToUnit(${r.unit})">كتاب ${lab.book} · وحدة ${lab.u}</button></div>
+      </div>`;
+    }).join('');
+    return;
+  }
+  practiceBtn.style.display='inline-flex';
   const results = collectListWords();
   document.getElementById('listResultsHeader').textContent = `${results.length} كلمة`;
   const el = document.getElementById('listResults');
@@ -3767,22 +3784,38 @@ function applyListFilter(){
   el.innerHTML = results.map((r,ri)=>{
     const lab = unitLabel(r.unit);
     const revealId = `ml_${ri}`;
+    const dots = listCategory==='new' ? mastDots(r.mastery) : '';
     return `<div class="search-result-card">
       <div class="word-head" dir="ltr">
         <span class="term">${r.word[0]}</span><span class="type">(${r.word[1]})</span>
-        <button class="spk" onclick="speak('${r.word[0].replace(/'/g,"\\'")}')">🔊</button>
-        <button class="ar-toggle" onclick="toggleAr(this,'${revealId}')" style="margin-inline-start:4px;">عربي</button>
+        <button class="spk" onclick="speak('${r.word[0].replace(/'/g,"\\'")}')">${ICONS.speaker}</button>
       </div>
       <div class="word-def" dir="ltr">${r.word[2]}</div>
-      <div class="ar-reveal" id="${revealId}">${getArabic(r.unit,r.idx)}</div>
-      <div style="margin-top:4px;"><button class="btn ghost" style="padding:5px 10px;font-size:11px;" onclick="goToUnit(${r.unit})">كتاب ${lab.book} · وحدة ${lab.u}</button></div>
+      ${dots ? `<div style="margin-top:4px;">${dots}</div>` : ''}
+      <button class="ar-toggle" style="margin-top:6px;" onclick="toggleAr(this,'${revealId}')">${ICONS.book}عربي</button>
+      <div class="ar-reveal" dir="rtl" id="${revealId}">${getArabic(r.unit,r.idx)}</div>
+      <div style="margin-top:6px;"><button class="btn ghost" style="padding:5px 10px;font-size:11px;" onclick="goToUnit(${r.unit})">كتاب ${lab.book} · وحدة ${lab.u}</button></div>
     </div>`;
   }).join('');
 }
 function copyMyList(){
+  if(listCategory==='notebook'){
+    const results = collectNotebookEntries();
+    if(!results.length){ alert('ما فيه جمل محفوظة بهالنطاق بعد.'); return; }
+    copyText(results.map(r=>`${r.word[0]}: ${r.text}`).join('\n'));
+    return;
+  }
   const results = collectListWords();
   if(!results.length){ alert('ما فيه كلمات بهالتصنيف بعد.'); return; }
   copyText(results.map(r=>r.word[0]).join('\n'));
+}
+function practiceFromList(){
+  if(listCategory==='notebook') return;
+  const results = collectListWords();
+  if(!results.length){ alert('ما فيه كلمات بهالتصنيف بعد.'); return; }
+  document.getElementById('practiceSource').value = listCategory==='known' ? 'known' : 'new';
+  document.getElementById('practiceUnitPicker').style.display='none';
+  startPractice();
 }
 document.addEventListener('click', (e)=>{
   const segBtn = e.target.closest('#listCategorySeg button');
@@ -3793,12 +3826,13 @@ document.addEventListener('click', (e)=>{
     applyListFilter();
   }
 });
-document.addEventListener('change', (e)=>{
-  if(e.target && e.target.id==='listScopeFilter') applyListFilter();
-});
-function renderAll(){ renderTodayDateLabel(); renderToday(); renderMap(); renderChallenge(); renderMyLists(); }
+document.getElementById('listBookFilter').addEventListener('change', ()=>{ populateListUnitFilter(); applyListFilter(); });
+document.getElementById('listUnitFilter').addEventListener('change', applyListFilter);
+
+function renderAll(){ renderHome(); renderMap(); renderChallenge(); renderReviewCards(); renderMyLists(); }
 
 (async function init(){
   state = await loadState();
+  initTheme();
   renderAll();
 })();
