@@ -1,0 +1,18 @@
+{
+  "name": "My Vocabulary — 1,200 English Words",
+  "short_name": "My Vocabulary",
+  "description": "A bilingual (Arabic/English) interactive companion for learning 1,200 English words from the 4000 Essential English Words series.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#F2EBDA",
+  "theme_color": "#F2EBDA",
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Crect%20width%3D%22100%22%20height%3D%22100%22%20rx%3D%2224%22%20fill%3D%22%234F9E80%22/%3E%3Ctext%20x%3D%2250%22%20y%3D%2270%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2258%22%20font-weight%3D%22700%22%20fill%3D%22%23FAF4E6%22%20text-anchor%3D%22middle%22%3EV%3C/text%3E%3C/svg%3E",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -6,8 +6,11 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="theme-color" content="#FBF7EE">
-<title>مفرداتي — 1200 كلمة إنجليزية</title>
+<meta name="theme-color" content="#F2EBDA">
+<meta name="description" content="A bilingual (Arabic/English) interactive companion for learning 1,200 English words from the 4000 Essential English Words series.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Crect%20width%3D%22100%22%20height%3D%22100%22%20rx%3D%2224%22%20fill%3D%22%234F9E80%22/%3E%3Ctext%20x%3D%2250%22%20y%3D%2270%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2258%22%20font-weight%3D%22700%22%20fill%3D%22%23FAF4E6%22%20text-anchor%3D%22middle%22%3EV%3C/text%3E%3C/svg%3E">
+<title>My Vocabulary — 1,200 English Words</title>
+<link rel="manifest" href="manifest.json">
 <script>
 (function(){
   try{
@@ -16,16 +19,17 @@
   }catch(e){}
 })();
 </script>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 <div class="wrap">
 
   <header>
-    <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="تبديل المظهر"></button>
+    <button class="lang-toggle" id="langToggle" onclick="toggleLanguage()" data-i18n-aria="lang_toggle_aria">A<span class="sep">/</span>ع</button>
+    <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" data-i18n-aria="theme_toggle_aria"></button>
     <div class="eyebrow mono">4000 Essential English Words · Book 1 &amp; 2</div>
-    <h1>مفرداتي — 1200 كلمة</h1>
-    <p>60 وحدة · تعلّم كل كلمة على حدة</p>
+    <h1 data-i18n="header_title">مفرداتي — 1200 كلمة</h1>
+    <p data-i18n="header_subtitle">60 وحدة · تعلَّم كل كلمة على حدة</p>
   </header>
 
   <!-- ===== HOME VIEW ===== -->
@@ -33,42 +37,42 @@
     <div class="progress-card">
       <div class="ring">
         <svg width="76" height="76">
-          <circle cx="38" cy="38" r="32" stroke="#E9E0CC" stroke-width="7" fill="none"/>
-          <circle id="ringFg" cx="38" cy="38" r="32" stroke="#6FAE93" stroke-width="7" fill="none" stroke-linecap="round" stroke-dasharray="201" stroke-dashoffset="201"/>
+          <circle cx="38" cy="38" r="32" stroke="#D8C9A3" stroke-width="7" fill="none"/>
+          <circle id="ringFg" cx="38" cy="38" r="32" stroke="#4F9E80" stroke-width="7" fill="none" stroke-linecap="round" stroke-dasharray="201" stroke-dashoffset="201"/>
         </svg>
         <div class="pct" id="pctText">0%</div>
       </div>
       <div class="progress-stats">
         <div class="stat-row">
-          <div><div class="big" id="unitsLearnedCount">0/60</div><div class="lbl">وحدة مكتملة</div></div>
-          <div><div class="big" id="knownWordsCount">0</div><div class="lbl">كلمة أعرفها</div></div>
-          <div><div class="big" id="newWordsCount">0</div><div class="lbl">كلمة جديدة</div></div>
+          <div><div class="big" id="unitsLearnedCount">0/60</div><div class="lbl" data-i18n="home_units_completed">وحدة مكتملة</div></div>
+          <div><div class="big" id="knownWordsCount">0</div><div class="lbl" data-i18n="home_words_known">كلمة معروفة</div></div>
+          <div><div class="big" id="newWordsCount">0</div><div class="lbl" data-i18n="home_words_new">كلمة جديدة</div></div>
         </div>
       </div>
       <div class="settings-row">
-        <button class="btn ghost" id="resetBtn" style="padding:7px 14px; font-size:11px;">تصفير كل التقدم</button>
+        <button class="btn ghost" id="resetBtn" style="padding:7px 14px; font-size:11px;" data-i18n="home_reset_btn">إعادة ضبط كل التقدّم</button>
       </div>
     </div>
 
     <div class="section">
-      <h2>تابع من هنا</h2>
+      <h2 data-i18n="home_continue_heading">متابعة التعلّم</h2>
       <div class="card" id="continueUnitCard"></div>
     </div>
 
     <div class="section">
-      <h2>وظّف كلماتك</h2>
+      <h2 data-i18n="home_challenge_heading">وظّف مفرداتك</h2>
       <div class="challenge-card" id="challengeCard"></div>
     </div>
 
     <div class="notes-hint">
-      <b>فكرة سريعة:</b> افتح أي وحدة من «الخريطة» عشان تبدأ تعلّمها، وبعد ما تخلص كل كلمة تقرر إذا كانت معروفة عندك مسبقاً أو جديدة عليك — تلقى كل تصنيف بعدين من تبويب «قوائمي». تبويب «الطريقة» فيه شرح كامل.
+      <b data-i18n="home_tip">افتح أي وحدة من «الخريطة» لتبدأ تعلّمها، وبعد كل كلمة حدِّد إن كانت معروفة لديك مسبقاً أو جديدة عليك — ستجد كل تصنيف لاحقاً في تبويب «قوائمي». يحتوي تبويب «الطريقة» على شرح كامل.</b>
     </div>
   </div>
 
   <!-- ===== MAP VIEW ===== -->
   <div class="view" id="view-map">
     <div class="section">
-      <h2>الخريطة الكاملة</h2>
+      <h2 data-i18n="map_heading">الخريطة الكاملة</h2>
       <div class="book-block">
         <div class="book-title mono">BOOK 1 — Units 1–30</div>
         <div class="grid" id="gridBook1"></div>
@@ -78,18 +82,18 @@
         <div class="grid" id="gridBook2"></div>
       </div>
       <div class="legend">
-        <span><i style="background:var(--card); border:1px solid var(--border);"></i> لسا ما بدأتها</span>
-        <span><i style="background:var(--warn-dim); border:1px solid var(--warn);"></i> بدأتها ولسا ما خلصتها</span>
-        <span><i style="background:var(--mint-dim); border:1px solid var(--mint);"></i> مكتملة</span>
+        <span><i style="background:var(--card); border:1px solid var(--border);"></i> <span data-i18n="map_legend_not_started">لم تبدأها بعد</span></span>
+        <span><i style="background:var(--warn-dim); border:1px solid var(--warn);"></i> <span data-i18n="map_legend_partial">بدأتها ولم تكملها</span></span>
+        <span><i style="background:var(--mint-dim); border:1px solid var(--mint);"></i> <span data-i18n="map_legend_complete">مكتملة</span></span>
       </div>
-      <div class="meta" style="margin-top:8px; font-size:11px; color:var(--text-dim);">كل الوحدات مفتوحة بأي وقت — اضغط أي رقم يفتح لك تفاصيلها من الأسفل.</div>
+      <div class="meta" style="margin-top:8px; font-size:11px; color:var(--text-dim);" data-i18n="map_note">جميع الوحدات مفتوحة في أي وقت — اضغط أي رقم لعرض تفاصيله من الأسفل.</div>
     </div>
   </div>
 
   <div class="detail-overlay" id="detailOverlay" onclick="if(event.target===this) closeDetail()">
     <div class="detail-sheet" id="detailSheet" style="position:relative;">
       <div class="sheet-handle"></div>
-      <button class="sheet-close" onclick="closeDetail()"><svg class="ic ic-lg" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      <button class="sheet-close" onclick="closeDetail()" data-i18n-aria="common_close_aria"><svg class="ic ic-lg" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
       <div id="detailContent"></div>
     </div>
   </div>
@@ -97,33 +101,33 @@
   <!-- ===== PRACTICE VIEW ===== -->
   <div class="view" id="view-practice">
     <div class="section">
-      <h2>المراجعة</h2>
+      <h2 data-i18n="practice_review_heading">المراجعة</h2>
       <div class="review-cards">
         <div class="review-card new-review" id="reviewNewCard"></div>
         <div class="review-card known-review" id="reviewKnownCard"></div>
       </div>
     </div>
     <div class="section">
-      <h2>تدريب حر</h2>
+      <h2 data-i18n="practice_free_heading">تدريب حر</h2>
       <div class="card" id="practiceSetupCard">
         <div class="practice-setup">
-          <label>مصدر التدريب:</label>
+          <label data-i18n="practice_source_label">مصدر التدريب:</label>
           <select id="practiceSource">
-            <option value="all">كل الكلمات المتعلَّمة</option>
-            <option value="known">الكلمات اللي أعرفها مسبقاً</option>
-            <option value="new">الكلمات الجديدة عليّ (لسا محتاجة مراجعة)</option>
-            <option value="unit">وحدة معينة</option>
+            <option value="all" data-i18n="practice_source_all">كل الكلمات المتعلَّمة</option>
+            <option value="known" data-i18n="practice_source_known">الكلمات المعروفة مسبقاً</option>
+            <option value="new" data-i18n="practice_source_new">الكلمات الجديدة (تحتاج مراجعة)</option>
+            <option value="unit" data-i18n="practice_source_unit">وحدة معيّنة</option>
           </select>
           <select id="practiceUnitPicker" style="display:none;"></select>
 
-          <label>نوع التمرين:</label>
+          <label data-i18n="practice_exercise_label">نوع التمرين:</label>
           <div class="seg" id="exerciseTypeSeg">
-            <button class="active" data-type="flash">بطاقات</button>
-            <button data-type="mc">اختيار</button>
-            <button data-type="type">اكتب</button>
+            <button class="active" data-type="flash" data-i18n="practice_exercise_flash">بطاقات</button>
+            <button data-type="mc" data-i18n="practice_exercise_mc">اختيار من متعدد</button>
+            <button data-type="type" data-i18n="practice_exercise_type">الكتابة</button>
           </div>
 
-          <button class="btn wide" id="startPracticeBtn"><svg class="ic" viewBox="0 0 24 24"><path d="M8 5.5 18 12 8 18.5z"/></svg>ابدأ الجلسة</button>
+          <button class="btn wide" id="startPracticeBtn"><svg class="ic" viewBox="0 0 24 24"><path d="M8 5.5 18 12 8 18.5z"/></svg><span data-i18n="practice_start_session">ابدأ الجلسة</span></button>
         </div>
       </div>
     </div>
@@ -133,19 +137,47 @@
     </div>
     <div class="section" id="practiceSummary" style="display:none;">
       <div class="card" id="summaryCard"></div>
-      <button class="btn wide ghost" id="practiceAgainBtn"><svg class="ic" viewBox="0 0 24 24"><path d="M4 9h9a5 5 0 1 1 0 10H9"/><path d="m4 9 4-4M4 9l4 4"/></svg>رجوع لإعداد جلسة جديدة</button>
+      <button class="btn wide ghost" id="practiceAgainBtn"><svg class="ic" viewBox="0 0 24 24"><path d="M4 9h9a5 5 0 1 1 0 10H9"/><path d="m4 9 4-4M4 9l4 4"/></svg><span data-i18n="practice_back_setup">العودة لإعداد جلسة جديدة</span></button>
+    </div>
+  </div>
+
+  <!-- ===== MY LISTS VIEW ===== -->
+  <div class="view" id="view-lists">
+    <div class="section">
+      <h2 data-i18n="lists_heading">قوائمي</h2>
+      <div class="seg" id="listCategorySeg">
+        <button class="active" data-cat="known" data-i18n="lists_tab_known">معروفة مسبقاً</button>
+        <button data-cat="new" data-i18n="lists_tab_new">جديدة عليّ</button>
+        <button data-cat="notebook" data-i18n="lists_tab_notebook">دفتري</button>
+      </div>
+      <div class="filters-row" style="margin-top:10px;">
+        <select id="listBookFilter">
+          <option value="all" data-i18n="lists_all_books">كل الكتب</option>
+          <option value="1" data-i18n="lists_book1">كتاب 1</option>
+          <option value="2" data-i18n="lists_book2">كتاب 2</option>
+        </select>
+        <select id="listUnitFilter"><option value="all" data-i18n="lists_all_units">كل الوحدات</option></select>
+      </div>
+      <div style="display:flex; align-items:center; justify-content:space-between; margin-top:12px; flex-wrap:wrap; gap:8px;">
+        <div id="listResultsHeader" style="font-size:12px; color:var(--text-dim);"></div>
+        <div style="display:flex; gap:8px; flex-wrap:wrap;">
+          <button class="btn ghost" style="padding:7px 14px; font-size:11px;" id="listPracticeBtn" onclick="practiceFromList()"><svg class="ic" viewBox="0 0 24 24"><path d="M8 5.5 18 12 8 18.5z"/></svg><span data-i18n="lists_practice_btn">تدرّب على هذه القائمة</span></button>
+          <button class="btn ghost" style="padding:7px 14px; font-size:11px;" onclick="copyMyList()"><svg class="ic" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2.5"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg><span data-i18n="lists_copy_btn">نسخ القائمة</span></button>
+        </div>
+      </div>
+      <div class="search-results" id="listResults" style="margin-top:12px;"></div>
     </div>
   </div>
 
   <!-- ===== SEARCH VIEW ===== -->
   <div class="view" id="view-search">
     <div class="section">
-      <h2>بحث</h2>
+      <h2 data-i18n="search_heading">البحث</h2>
       <div class="search-box">
-        <input type="text" id="searchInput" placeholder="ابحث عن كلمة... (English word)">
+        <input type="text" id="searchInput" data-i18n-placeholder="search_placeholder" placeholder="ابحث عن كلمة... (بالإنجليزية)">
       </div>
       <div class="search-results" id="searchResults">
-        <div class="search-empty">اكتب كلمة عشان تبحث فيها بكل الـ1200 كلمة</div>
+        <div class="search-empty" data-i18n="search_empty_hint">اكتب كلمة للبحث بين جميع الكلمات الـ1200</div>
       </div>
     </div>
   </div>
@@ -153,91 +185,86 @@
   <!-- ===== GUIDE VIEW ===== -->
   <div class="view" id="view-guide">
     <div class="section">
-      <h2>الطريقة</h2>
+      <h2 data-i18n="guide_heading">الطريقة</h2>
 
       <div class="guide-block">
-        <span class="tag">تعلّم وحدة جديدة</span>
-        <h3>لما تفتح وحدة ما تعلمتها بعد</h3>
-        <p>افتحها من «الخريطة» — بتشوف أول شي عرض سريع للـ20 كلمة (بس الكلمة ونوعها)، ثم زر <b><svg class="ic" viewBox="0 0 24 24"><path d="M8 5.5 18 12 8 18.5z"/></svg>ابدأ</b>. بيفتح لك بطاقة كاملة لكل كلمة (تعريف، مثال، زر عربي، الاستخدام، مرادفات، مضادات، وخانة جملتي)، وفي آخر كل بطاقة تقرر:</p>
+        <span class="tag" data-i18n="guide1_tag">تعلّم وحدة جديدة</span>
+        <h3 data-i18n="guide1_title">عند فتح وحدة لم تتعلّمها بعد</h3>
+        <p data-i18n="guide1_p1">افتحها من «الخريطة» — ستظهر لك أولاً لمحة سريعة عن الكلمات العشرين (الكلمة ونوعها فقط)، ثم زر «ابدأ». يفتح لك ذلك بطاقة كاملة لكل كلمة (التعريف، مثال، ترجمة عربية، الاستخدام، مرادفات، متضادات، وخانة جملتي الخاصة)، وفي نهاية كل بطاقة تُحدِّد:</p>
         <ul>
-          <li><b>أعرفها مسبقاً</b> → تنضاف لقائمة «أعرفها مسبقاً» بتبويب قوائمي.</li>
-          <li><b>كلمة جديدة علي</b> → تنضاف لقائمة «جديدة عليّ» بتبويب قوائمي.</li>
+          <li data-i18n="guide1_li1">أعرفها مسبقاً ← تُضاف إلى قائمة «معروفة مسبقاً» في تبويب قوائمي.</li>
+          <li data-i18n="guide1_li2">كلمة جديدة عليّ ← تُضاف إلى قائمة «جديدة عليّ» في تبويب قوائمي.</li>
         </ul>
-        <p>بعد آخر كلمة بالوحدة، تتسجل الوحدة كمكتملة تلقائياً وتطلع لك خلاصة + زر تكمّل فيه على الوحدة الجاية بنفس الجلسة لو تبي. ولو طلعت من نص الوحدة قبل ما تخلصها، ما تفقد شي — تفتحها بعدين وتكمّل بالضبط من نفس الكلمة اللي وقفت عندها.</p>
+        <p data-i18n="guide1_p2">بعد آخر كلمة في الوحدة، تُسجَّل الوحدة كمكتملة تلقائياً وتظهر لك خلاصة، مع زر لمتابعة الوحدة التالية في الجلسة نفسها إن أردت. وإن خرجتَ من منتصف الوحدة قبل إكمالها، لن تفقد شيئاً — عد إليها لاحقاً وستكمل بالضبط من الكلمة التي توقّفتَ عندها، مع إمكانية الرجوع خطوة للخلف إن أردتَ تعديل قرار سابق.</p>
       </div>
 
       <div class="guide-block">
-        <span class="tag">مرجع سريع بعدين</span>
-        <h3>وحدة تعلمتها؟ راجعها بصيغة البطاقات</h3>
-        <p>من تفاصيل أي وحدة مكتملة، زر <b><svg class="ic" viewBox="0 0 24 24"><path d="M4 5.5c2-1 5-1 7 .5v13c-2-1.5-5-1.5-7-.5z"/><path d="M20 5.5c-2-1-5-1-7 .5v13c2-1.5 5-1.5 7-.5z"/></svg>راجع بصيغة البطاقات</b> يفتح لك نفس البطاقات بس للتصفح الحر (سابقة/تالية) بدون قرار — فقط للمراجعة أو نسخ المعلومات. وزر <b><svg class="ic" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2.5"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>انسخ كل جملي بهالوحدة</b> يجمع كل جمل «دفتري» المحفوظة لهالوحدة بنص واحد جاهز تلزقه أي مكان.</p>
+        <span class="tag" data-i18n="guide2_tag">مرجع سريع لاحقاً</span>
+        <h3 data-i18n="guide2_title">تعلّمتَ وحدة؟ راجعها بصيغة البطاقات</h3>
+        <p data-i18n="guide2_p1">من تفاصيل أي وحدة مكتملة، زر «مراجعة بصيغة البطاقات» يفتح لك نفس البطاقات للتصفح الحرّ (سابقة/تالية) دون اتخاذ قرار — فقط للمراجعة أو نسخ المعلومات. وزر «نسخ كل جملي في هذه الوحدة» يجمع كل الجمل المحفوظة في «دفتري» لهذه الوحدة في نصّ واحد جاهز للصق في أي مكان.</p>
       </div>
 
       <div class="guide-block">
-        <span class="tag">قوائمي</span>
-        <h3>راجع كلماتك حسب تصنيفها</h3>
-        <p>كل كلمة تقيّمها وقت التعلّم تتصنّف تلقائياً — تلقى القائمتين كاملتين بتبويب «قوائمي»، وتقدر تفلترها بالكتاب ثم الوحدة (فلترين منفصلين لتفصيل أدق)، وتسمع نطق أي كلمة، وتشوف ترجمتها العربية، وتنسخ القائمة كاملة بضغطة وحدة. جنب كل كلمة بقائمة «جديدة عليّ» تلقى نقاط صغيرة توضح تقدمها بالمراجعة (مثلاً 2 من 3). ومن نفس الصفحة تقدر تسوّي جلسة مراجعة على أي تصنيف مباشرة.</p>
+        <span class="tag" data-i18n="guide3_tag">قوائمي</span>
+        <h3 data-i18n="guide3_title">راجع كلماتك حسب تصنيفها</h3>
+        <p data-i18n="guide3_p1">كل كلمة تُقيَّم أثناء التعلّم تُصنَّف تلقائياً — ستجد القائمتين كاملتين في تبويب «قوائمي»، ويمكنك تصفيتهما بالكتاب ثم الوحدة (فلتران منفصلان لتفصيل أدق)، والاستماع إلى نطق أي كلمة، ورؤية ترجمتها العربية، ونسخ القائمة كاملة بضغطة واحدة. بجانب كل كلمة في قائمة «جديدة عليّ» ستجد نقاطاً صغيرة توضّح تقدّمها في المراجعة. ومن الصفحة نفسها يمكنك بدء جلسة مراجعة على أي تصنيف مباشرة.</p>
       </div>
 
       <div class="guide-block">
-        <span class="tag">المراجعة</span>
-        <h3>نظامين منفصلين للمراجعة</h3>
-        <p>تبويب «تدرّب» فيه بطاقتين بالأعلى:</p>
+        <span class="tag" data-i18n="guide4_tag">المراجعة</span>
+        <h3 data-i18n="guide4_title">نظامان منفصلان للمراجعة</h3>
+        <p data-i18n="guide4_p1">يحتوي تبويب «تدرّب» على بطاقتين في الأعلى:</p>
         <ul>
-          <li><b>جديدة عليّ:</b> كل كلمة تحتاج 3 إجابات صحيحة متتالية (بأي تمرين) عشان «تتقنها» وتطلع من قائمة المراجعة النشطة. إذا غلطت فيها، ترجع نقطة الإتقان للصفر من جديد.</li>
-          <li><b>أعرفها مسبقاً:</b> فحص سريع بدون تعقيد. لو غلطت بكلمة وقت هالفحص، تنتقل تلقائياً لقائمة «جديدة عليّ» عشان تاخذ حقها من المراجعة المكثّفة.</li>
+          <li data-i18n="guide4_li1">جديدة عليّ: تحتاج كل كلمة إلى 3 إجابات صحيحة متتالية (بأي نوع تمرين) لتُعدّ «متقنة» وتخرج من قائمة المراجعة النشطة. وإن أخطأتَ فيها، تعود نقطة إتقانها إلى الصفر من جديد.</li>
+          <li data-i18n="guide4_li2">معروفة مسبقاً: فحص سريع دون تعقيد. إن أخطأتَ في كلمة أثناء هذا الفحص، تنتقل تلقائياً إلى قائمة «جديدة عليّ» لتأخذ حقّها من المراجعة المكثّفة.</li>
         </ul>
-        <p>كذا قوائمك تصير أدق مع الوقت، وتركيزك يروح للكلمات اللي فعلاً تحتاجه.</p>
+        <p data-i18n="guide4_p2">بهذه الطريقة تصبح قوائمك أدقّ مع الوقت، ويتركّز جهدك على الكلمات التي تحتاجه فعلاً.</p>
       </div>
 
       <div class="guide-block">
-        <span class="tag">دفتري</span>
-        <h3>كل جملك في مكان وحد</h3>
-        <p>من تبويب «قوائمي»، اختر تصنيف «دفتري» عشان تشوف كل الجمل اللي كتبتها بكل الوحدات مجمّعة بصفحة وحدة، بدل ما تكون مبعثرة جوا كل وحدة لحالها. تقدر تفلترها بالكتاب والوحدة زي باقي القوائم.</p>
+        <span class="tag" data-i18n="guide5_tag">دفتري</span>
+        <h3 data-i18n="guide5_title">اكتب جملك الخاصة واحتفظ بها</h3>
+        <p data-i18n="guide5_p1">تحت كل كلمة، سواء في بطاقة التعلّم أو تفاصيل الوحدة، ستجد حقل «جملتي» — اضغط عليه واكتب جملة من إنشائك تستخدم فيها الكلمة، وتُحفظ تلقائياً فور خروجك من الحقل. لا حاجة إلى دفتر خارجي منفصل.</p>
+        <p data-i18n="guide5_p2">ولرؤية كل جملك مجموعة في مكان واحد، اذهب إلى «قوائمي» واختر تصنيف «دفتري» — ستجدها كلها مرتبة، مع إمكانية التصفية بالكتاب والوحدة.</p>
       </div>
 
       <div class="guide-block">
-        <span class="tag">وتيرة الدراسة</span>
-        <h3>على راحتك، وحدة أو أكثر بكل جلسة</h3>
+        <span class="tag" data-i18n="guide6_tag">وتيرة الدراسة</span>
+        <h3 data-i18n="guide6_title">على راحتك، وحدة أو أكثر في كل جلسة</h3>
         <ul>
-          <li>كل الوحدات الـ60 مفتوحة من أول يوم — ابدأ بأي وحدة تحب من «الخريطة» وكمّل بالترتيب أو بأي ترتيب يناسبك.</li>
-          <li>بطاقة «تابع من هنا» في الرئيسية توديك دايماً لأقرب وحدة ما بدأتها بعد، عشان ما تضيع وأنت تبحث وين وصلت.</li>
-          <li>بعد كل تقييم وحدة، بيطلع لك زر «كمّل على الوحدة الجاية الآن» عشان تسلسل أكثر من وحدة بنفس الجلسة بسهولة.</li>
+          <li data-i18n="guide6_li1">جميع الوحدات الستّون مفتوحة منذ اليوم الأول — ابدأ بأي وحدة تفضّلها من «الخريطة» وأكمل بالترتيب أو بأي ترتيب يناسبك.</li>
+          <li data-i18n="guide6_li2">بطاقة «متابعة التعلّم» في الرئيسية تأخذك دائماً إلى أقرب وحدة لم تبدأها بعد، أو إلى الوحدة التي توقّفتَ في منتصفها، حتى لا تضيع وأنت تبحث عن موضع تقدّمك.</li>
+          <li data-i18n="guide6_li3">بعد إكمال كل وحدة، يظهر زر «أكمل على الوحدة التالية الآن» لتسلسل أكثر من وحدة في الجلسة نفسها بسهولة.</li>
         </ul>
       </div>
 
       <div class="guide-block">
-        <span class="tag">التمارين التفاعلية</span>
-        <h3>3 أنواع تمارين في «تدرّب»</h3>
+        <span class="tag" data-i18n="guide7_tag">التمارين التفاعلية</span>
+        <h3 data-i18n="guide7_title">ثلاثة أنواع من التمارين في «تدرّب»</h3>
         <ul>
-          <li><b>بطاقات (Flashcards):</b> تشوف الكلمة، تحاول تتذكر المعنى بنفسك، تقلب البطاقة، وتقيّم نفسك بصدق.</li>
-          <li><b>اختيار من متعدد:</b> تشوف الكلمة وأربع تعريفات، تختار الصح — يقيس هل تتعرف على المعنى.</li>
-          <li><b>اكتب الكلمة:</b> تشوف التعريف والمثال (بدون الكلمة)، وتكتب الكلمة الإنجليزية بنفسك — أقوى تمرين لأنه يفعّل الاسترجاع النشط والإملاء مع بعض.</li>
+          <li data-i18n="guide7_li1">البطاقات: ترى الكلمة، تحاول تذكّر معناها بنفسك، تقلب البطاقة، ثم تقيّم نفسك بصدق.</li>
+          <li data-i18n="guide7_li2">الاختيار من متعدد: ترى الكلمة وأربعة تعريفات، وتختار الصحيح — يقيس مدى تعرّفك على المعنى.</li>
+          <li data-i18n="guide7_li3">الكتابة: ترى التعريف والمثال (دون الكلمة نفسها)، وتكتب الكلمة الإنجليزية بنفسك — أقوى تمرين لأنه يُفعِّل الاسترجاع النشط والإملاء معاً.</li>
         </ul>
-        <p>ابدأ بالبطاقات بالأسابيع الأولى، وبعدين انتقل أكثر لـ«اكتب» لأنه أصعب وأرسخ.</p>
+        <p data-i18n="guide7_p1">ابدأ بالبطاقات في الأسابيع الأولى، ثم انتقل تدريجياً إلى «الكتابة» لأنها أصعب وأكثر رسوخاً.</p>
       </div>
 
       <div class="guide-block">
-        <span class="tag">الدفتر — صار داخل الأداة</span>
-        <h3>«جملتي» تحت كل كلمة</h3>
-        <p>ما تحتاج دفتر منفصل. تحت كل كلمة بصفحة الوحدة (الخريطة ← افتح أي وحدة)، فيه زر <b><svg class="ic" viewBox="0 0 24 24"><path d="m4 20 1-4L16 5l3 3L8 19z"/><path d="M14 7l3 3"/></svg>جملتي (دفتري)</b> — اضغطه وتفتح لك خانة تكتب فيها جملة من تأليفك بنفس لحظة ما تتعلم الكلمة. تُحفظ تلقائياً وترجع لها أي وقت.</p>
+        <span class="tag" data-i18n="guide8_tag">التثبيت على جهازك</span>
+        <h3 data-i18n="guide8_title">أضِف الأداة كأيقونة على هاتفك</h3>
+        <p data-i18n="guide8_p1">هذا تطبيق ويب قائم بذاته، ولا يحتاج إلى إنترنت بعد أول فتح (باستثناء تحميل الخطوط في المرة الأولى). افتحه من متصفح هاتفك (Safari على آيفون، أو Chrome على أندرويد)، ثم من قائمة المشاركة اختر «إضافة إلى الشاشة الرئيسية». ستحصل على أيقونة تفتح الأداة مباشرة دون شريط عنوان المتصفح.</p>
       </div>
 
       <div class="guide-block">
-        <span class="tag">تثبيت الأداة على جوالك</span>
-        <h3>تبيها تنزل كأيقونة بالجوال؟</h3>
-        <p>هذا ملف HTML واحد قائم بذاته (ما يحتاج إنترنت بعد ما تفتحه أول مرة، عدا تحميل الخطوط أول مرة). افتحه بمتصفح جوالك (Safari بالآيفون، أو Chrome بالأندرويد)، ثم من قائمة المشاركة اختر <b>«إضافة إلى الشاشة الرئيسية / Add to Home Screen»</b>. بتصير عندك أيقونة تفتح الأداة مباشرة بدون شريط عنوان المتصفح.</p>
-      </div>
-
-      <div class="guide-block">
-        <span class="tag">أبعد من الحفظ</span>
-        <h3>كيف توظف الكلمات عشان ترسخ فعلاً؟</h3>
+        <span class="tag" data-i18n="guide9_tag">أبعد من الحفظ</span>
+        <h3 data-i18n="guide9_title">كيف توظّف الكلمات لترسخ فعلاً؟</h3>
         <ul>
-          <li><b>كتابة (مطبّقة بالأداة):</b> بطاقة «وظّف كلماتك» في الرئيسية تعطيك 5 كلمات عشوائية من كلماتك، تكتب فقرة قصيرة توظّفها فيها، وتُحفظ تلقائياً. اضغط زر التحديث أي وقت تبي مجموعة ثانية.</li>
-          <li><b>قراءة:</b> بعد ما تخلص وحدة، اقرأ قصتها بصوت عالي — القصص كلها مبنية على كلمات الوحدة، فهي تكرار طبيعي في سياق.</li>
-          <li><b>سماع:</b> تابع فيديوهات اليوتيوب حق كل وحدة (نفس السلسلة اللي عندك) واسمعها أكثر من مرة، مرة بدون نص ومرة وانت تقرا الكلمات وياها.</li>
-          <li><b>نطق:</b> استخدم زر السماعة بجانب كل كلمة، وكرر نطقها بصوت عالي (شادوينق) — يبني نطق صحيح ويربط الصوت بالمعنى.</li>
-          <li><b>كلام:</b> سجّل نفسك تسوي جملة بكل كلمة جديدة وتسمعها بعدين، أو احكي عن يومك مستخدماً كلمات الوحدة.</li>
-          <li><b>استخدام حقيقي:</b> حاول تلقط نفس الكلمات لما تشوفها بمقال أو فيديو ثاني — أفضل علامة على الرسوخ إنك تتعرف عليها «بالبرية» مو بس بالكتاب.</li>
+          <li data-i18n="guide9_li1">الكتابة (مُطبَّقة في الأداة): بطاقة «وظّف مفرداتك» في الرئيسية تمنحك 5 كلمات عشوائية من كلماتك، تكتب فقرة قصيرة تُوظِّفها فيها، وتُحفظ تلقائياً. اضغط زر التحديث في أي وقت للحصول على مجموعة جديدة.</li>
+          <li data-i18n="guide9_li2">القراءة: بعد إكمال أي وحدة، اقرأ قصّتها بصوت مرتفع — فكل قصة مبنية على كلمات الوحدة نفسها، فهي تكرار طبيعي في سياق.</li>
+          <li data-i18n="guide9_li3">الاستماع: تابع مقاطع الفيديو الخاصة بكل وحدة (من السلسلة نفسها) أكثر من مرة، مرة دون نص ومرة أثناء متابعة الكلمات معها.</li>
+          <li data-i18n="guide9_li4">النطق: استخدم زر السماعة بجانب كل كلمة، وكرّر نطقها بصوت مرتفع (المحاكاة الصوتية) — يبني نطقاً صحيحاً ويربط الصوت بالمعنى.</li>
+          <li data-i18n="guide9_li5">التحدّث: سجّل نفسك وأنت تكوّن جملة بكل كلمة جديدة واستمع إليها لاحقاً، أو تحدّث عن يومك مستخدماً كلمات الوحدة.</li>
+          <li data-i18n="guide9_li6">الاستخدام الحقيقي: حاول ملاحظة الكلمات نفسها حين تراها في مقال أو فيديو آخر — أفضل دليل على الرسوخ أن تتعرّف عليها «في البرّية» لا في الكتاب فقط.</li>
         </ul>
       </div>
     </div>
@@ -245,51 +272,30 @@
 
   <div class="study-overlay" id="studyOverlay" onclick="if(event.target===this) closeStudy()">
     <div class="study-card">
-      <button class="study-close" onclick="closeStudy()"><svg class="ic ic-lg" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      <button class="study-close" onclick="closeStudy()" data-i18n-aria="common_close_aria"><svg class="ic ic-lg" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
       <div id="studyContent"></div>
     </div>
   </div>
-  <div class="copy-toast" id="copyToast"><svg class="ic" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>انتسخت</div>
+  <div class="copy-toast" id="copyToast"><svg class="ic" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg><span data-i18n="common_copied_toast">تم النسخ</span></div>
+  <div class="confirm-overlay" id="confirmOverlay"></div>
 
-  <!-- ===== MY LISTS VIEW ===== -->
-  <div class="view" id="view-lists">
-    <div class="section">
-      <h2>قوائمي</h2>
-      <div class="seg" id="listCategorySeg">
-        <button class="active" data-cat="known">أعرفها مسبقاً</button>
-        <button data-cat="new">جديدة عليّ</button>
-        <button data-cat="notebook">دفتري</button>
-      </div>
-      <div class="filters-row" style="margin-top:10px;">
-        <select id="listBookFilter">
-          <option value="all">كل الكتب</option>
-          <option value="1">كتاب 1</option>
-          <option value="2">كتاب 2</option>
-        </select>
-        <select id="listUnitFilter"><option value="all">كل الوحدات</option></select>
-      </div>
-      <div style="display:flex; align-items:center; justify-content:space-between; margin-top:12px; flex-wrap:wrap; gap:8px;">
-        <div id="listResultsHeader" style="font-size:12px; color:var(--text-dim);"></div>
-        <div style="display:flex; gap:8px; flex-wrap:wrap;">
-          <button class="btn ghost" style="padding:7px 14px; font-size:11px;" id="listPracticeBtn" onclick="practiceFromList()"><svg class="ic" viewBox="0 0 24 24"><path d="M8 5.5 18 12 8 18.5z"/></svg>تدرّب على هالقائمة</button>
-          <button class="btn ghost" style="padding:7px 14px; font-size:11px;" onclick="copyMyList()"><svg class="ic" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2.5"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>انسخ القائمة</button>
-        </div>
-      </div>
-      <div class="search-results" id="listResults" style="margin-top:12px;"></div>
-    </div>
-  </div>
-
-  <footer>يُحفظ تقدمك تلقائياً على هذا الجهاز</footer>
+  <footer>
+    <div data-i18n="footer_note">يُحفظ تقدّمك تلقائياً على هذا الجهاز</div>
+    <div style="margin-top:4px; opacity:.7;" data-i18n="footer_credit">صُنع بواسطة Ali</div>
+  </footer>
 </div>
 
 <div class="tabbar">
-  <button class="tab-btn active" data-view="home"><svg viewBox="0 0 24 24"><path d="M4 11.5 12 4l8 7.5"/><path d="M6 10v9a1 1 0 0 0 1 1h4v-6h2v6h4a1 1 0 0 0 1-1v-9"/></svg>الرئيسية</button>
-  <button class="tab-btn" data-view="map"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="6.5" height="6.5" rx="2"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="2"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="2"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="2"/></svg>الخريطة</button>
-  <button class="tab-btn" data-view="practice"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="11" rx="3"/><path d="M9 19h6M12 16v3"/></svg>تدرّب</button>
-  <button class="tab-btn" data-view="search"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6"/><path d="m20 20-4.5-4.5"/></svg>بحث</button>
-  <button class="tab-btn" data-view="guide"><svg viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H19v16H6.5A2.5 2.5 0 0 0 4 21z"/><path d="M4 5.5v15"/></svg>الطريقة</button>
-  <button class="tab-btn" data-view="lists"><svg viewBox="0 0 24 24"><path d="M7 3h10v18l-5-3-5 3z"/></svg>قوائمي</button>
+  <button class="tab-btn active" data-view="home"><svg viewBox="0 0 24 24"><path d="M4 11.5 12 4l8 7.5"/><path d="M6 10v9a1 1 0 0 0 1 1h4v-6h2v6h4a1 1 0 0 0 1-1v-9"/></svg><span data-i18n="nav_home">الرئيسية</span></button>
+  <button class="tab-btn" data-view="map"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="6.5" height="6.5" rx="2"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="2"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="2"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="2"/></svg><span data-i18n="nav_map">الخريطة</span></button>
+  <button class="tab-btn" data-view="practice"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="11" rx="3"/><path d="M9 19h6M12 16v3"/></svg><span data-i18n="nav_practice">التدريب</span></button>
+  <button class="tab-btn" data-view="lists"><svg viewBox="0 0 24 24"><path d="M7 3h10v18l-5-3-5 3z"/></svg><span data-i18n="nav_lists">قوائمي</span></button>
+  <button class="tab-btn" data-view="search"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6"/><path d="m20 20-4.5-4.5"/></svg><span data-i18n="nav_search">البحث</span></button>
+  <button class="tab-btn" data-view="guide"><svg viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H19v16H6.5A2.5 2.5 0 0 0 4 21z"/><path d="M4 5.5v15"/></svg><span data-i18n="nav_guide">الطريقة</span></button>
 </div>
-<script src="script.js"></script>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/app.js"></script>
 </body>
 </html>
