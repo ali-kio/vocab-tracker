@@ -179,6 +179,20 @@ function showConfirm(message, onConfirm){
   document.getElementById('confirmCancelBtn').addEventListener('click', cleanup);
   document.getElementById('confirmOkBtn').addEventListener('click', ()=>{ cleanup(); onConfirm(); });
 }
+function showAlert(message){
+  const overlay = document.getElementById('confirmOverlay');
+  overlay.innerHTML = `
+    <div class="confirm-box">
+      <div class="confirm-message">${message}</div>
+      <div class="confirm-actions">
+        <button class="btn" id="alertOkBtn">${t('confirm_ok')}</button>
+      </div>
+    </div>`;
+  overlay.classList.add('open');
+  function cleanup(){ overlay.classList.remove('open'); overlay.innerHTML=''; }
+  overlay.onclick = (e)=>{ if(e.target===overlay) cleanup(); };
+  document.getElementById('alertOkBtn').addEventListener('click', cleanup);
+}
 
 function speak(text){
   try{
@@ -535,7 +549,7 @@ function copyAllNotebook(i){
     const sentence = state.notebook[wordId(i,idx)];
     if(sentence && sentence.trim()) lines.push(`${w[0]}: ${sentence.trim()}`);
   });
-  if(!lines.length){ alert(t('copy_all_notebook_empty')); return; }
+  if(!lines.length){ showAlert(t('copy_all_notebook_empty')); return; }
   copyText(lines.join('\n'));
 }
 function toggleNotebook(nbId){
@@ -583,6 +597,7 @@ function renderDetail(){
   } else if(learned){
     body += `<div class="bulk-actions" style="margin-bottom:12px;">
       <button class="btn ghost" onclick="closeDetail(); startStudyMode(${i});">${ICONS.book}${t('detail_review_flash')}</button>
+      <button class="btn ghost" onclick="scrollToStory()">${ICONS.sparkle}${t('detail_read_story')}</button>
       <button class="btn ghost" onclick="copyAllNotebook(${i})">${ICONS.copy}${t('detail_copy_sentences')}</button>
       <button class="btn secondary" onclick="unlearnUnit(${i})">${ICONS.undo}${t('detail_reset_unit')}</button>
     </div>`;
@@ -616,8 +631,12 @@ function renderDetail(){
     </div>`;
   });
   body += `</div>`;
-  body += `<div class="story-box" dir="ltr"><span class="story-title">${unitData.story.title}</span>${unitData.story.text}</div>`;
+  body += `<div class="story-box" id="storyBox" dir="ltr"><span class="story-title">${unitData.story.title}</span>${unitData.story.text}</div>`;
   content.innerHTML = body;
+}
+function scrollToStory(){
+  const el = document.getElementById('storyBox');
+  if(el) el.scrollIntoView({behavior:'smooth', block:'start'});
 }
 function mastDots(m){
   let html = '<span class="mastery-dots">';
@@ -675,6 +694,7 @@ document.getElementById('startPracticeBtn').addEventListener('click', startPract
 document.getElementById('practiceAgainBtn').addEventListener('click', ()=>{
   document.getElementById('practiceSummary').style.display='none';
   document.getElementById('practiceSession').style.display='none';
+  document.getElementById('practiceSetupWrap').style.display='block';
 });
 
 function startPractice(){
@@ -705,21 +725,21 @@ function startPractice(){
     }
   }
 
-  if(!practiceQueue.length){ alert(t('practice_no_words_alert')); return; }
+  if(!practiceQueue.length){ showAlert(t('practice_no_words_alert')); return; }
   if(source==='new') practiceQueue.sort((a,b)=>a.mastery-b.mastery);
   else shuffleArr(practiceQueue);
 
   switchTab('practice');
+  document.getElementById('practiceSetupWrap').style.display='none';
   document.getElementById('practiceSession').style.display='block';
   document.getElementById('practiceSummary').style.display='none';
   renderExercise();
-  document.getElementById('view-practice').scrollIntoView({behavior:'smooth', block:'start'});
 }
 
 function answerResult(item, correct){
   if(correct) practiceScore.correct++; else practiceScore.wrong++;
 
-  if(practiceSourceMode==='new'){
+  if(practiceSourceMode==='new' && exerciseType!=='flash'){
     if(!state.words[item.wordId]) state.words[item.wordId] = {wasKnown:false, mastery:0};
     const wr = state.words[item.wordId];
     wr.wasKnown = false;
@@ -855,7 +875,6 @@ function finishPractice(){
   if(mcKeyCleanup){ mcKeyCleanup(); mcKeyCleanup=null; }
   document.getElementById('practiceSession').style.display='none';
   document.getElementById('practiceSummary').style.display='block';
-  document.getElementById('practiceSetupCard').style.display='block';
 
   const total = practiceScore.correct + practiceScore.wrong;
   const pct = total ? Math.round((practiceScore.correct/total)*100) : 0;
@@ -1032,18 +1051,18 @@ function applyListFilter(){
 function copyMyList(){
   if(listCategory==='notebook'){
     const results = collectNotebookEntries();
-    if(!results.length){ alert(t('lists_alert_no_sentences')); return; }
+    if(!results.length){ showAlert(t('lists_alert_no_sentences')); return; }
     copyText(results.map(r=>`${r.word[0]}: ${r.text}`).join('\n'));
     return;
   }
   const results = collectListWords();
-  if(!results.length){ alert(t('lists_alert_no_words')); return; }
+  if(!results.length){ showAlert(t('lists_alert_no_words')); return; }
   copyText(results.map(r=>r.word[0]).join('\n'));
 }
 function practiceFromList(){
   if(listCategory==='notebook') return;
   const results = collectListWords();
-  if(!results.length){ alert(t('lists_alert_no_words')); return; }
+  if(!results.length){ showAlert(t('lists_alert_no_words')); return; }
   document.getElementById('practiceSource').value = listCategory==='known' ? 'known' : 'new';
   document.getElementById('practiceUnitPicker').style.display='none';
   startPractice();

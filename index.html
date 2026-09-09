@@ -27,7 +27,7 @@
   <header>
     <button class="lang-toggle" id="langToggle" onclick="toggleLanguage()" data-i18n-aria="lang_toggle_aria">A<span class="sep">/</span>ع</button>
     <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" data-i18n-aria="theme_toggle_aria"></button>
-    <div class="eyebrow mono">4000 Essential English Words · Book 1 &amp; 2</div>
+    <div class="eyebrow" data-i18n="header_eyebrow">طريقك لإتقان 1200 كلمة إنجليزية</div>
     <h1 data-i18n="header_title">مفرداتي — 1200 كلمة</h1>
     <p data-i18n="header_subtitle">60 وحدة · تعلَّم كل كلمة على حدة</p>
   </header>
@@ -100,34 +100,41 @@
 
   <!-- ===== PRACTICE VIEW ===== -->
   <div class="view" id="view-practice">
-    <div class="section">
-      <h2 data-i18n="practice_review_heading">المراجعة</h2>
-      <div class="review-cards">
-        <div class="review-card new-review" id="reviewNewCard"></div>
-        <div class="review-card known-review" id="reviewKnownCard"></div>
-      </div>
-    </div>
-    <div class="section">
-      <h2 data-i18n="practice_free_heading">تدريب حر</h2>
-      <div class="card" id="practiceSetupCard">
-        <div class="practice-setup">
-          <label data-i18n="practice_source_label">مصدر التدريب:</label>
-          <select id="practiceSource">
-            <option value="all" data-i18n="practice_source_all">كل الكلمات المتعلَّمة</option>
-            <option value="known" data-i18n="practice_source_known">الكلمات المعروفة مسبقاً</option>
-            <option value="new" data-i18n="practice_source_new">الكلمات الجديدة (تحتاج مراجعة)</option>
-            <option value="unit" data-i18n="practice_source_unit">وحدة معيّنة</option>
-          </select>
-          <select id="practiceUnitPicker" style="display:none;"></select>
-
-          <label data-i18n="practice_exercise_label">نوع التمرين:</label>
+    <div id="practiceSetupWrap">
+      <div class="section">
+        <h2 data-i18n="practice_exercise_label_h2">نوع التمرين</h2>
+        <div class="card">
           <div class="seg" id="exerciseTypeSeg">
             <button class="active" data-type="flash" data-i18n="practice_exercise_flash">بطاقات</button>
             <button data-type="mc" data-i18n="practice_exercise_mc">اختيار من متعدد</button>
             <button data-type="type" data-i18n="practice_exercise_type">الكتابة</button>
           </div>
+          <div class="exercise-note" data-i18n="practice_exercise_note">ملاحظة: في مراجعة «جديدة عليّ»، البطاقات تمرين شخصي فقط ولا تُحتسب — الاحتساب الفعلي لتقدّم الإتقان يكون عبر الاختيار من متعدد أو الكتابة فقط.</div>
+        </div>
+      </div>
 
-          <button class="btn wide" id="startPracticeBtn"><svg class="ic" viewBox="0 0 24 24"><path d="M8 5.5 18 12 8 18.5z"/></svg><span data-i18n="practice_start_session">ابدأ الجلسة</span></button>
+      <div class="section">
+        <h2 data-i18n="practice_review_heading">المراجعة</h2>
+        <div class="review-cards">
+          <div class="review-card new-review" id="reviewNewCard"></div>
+          <div class="review-card known-review" id="reviewKnownCard"></div>
+        </div>
+      </div>
+      <div class="section">
+        <h2 data-i18n="practice_free_heading">تدريب حر</h2>
+        <div class="card" id="practiceSetupCard">
+          <div class="practice-setup">
+            <label data-i18n="practice_source_label">مصدر التدريب:</label>
+            <select id="practiceSource">
+              <option value="all" data-i18n="practice_source_all">كل الكلمات المتعلَّمة</option>
+              <option value="known" data-i18n="practice_source_known">الكلمات المعروفة مسبقاً</option>
+              <option value="new" data-i18n="practice_source_new">الكلمات الجديدة (تحتاج مراجعة)</option>
+              <option value="unit" data-i18n="practice_source_unit">وحدة معيّنة</option>
+            </select>
+            <select id="practiceUnitPicker" style="display:none;"></select>
+
+            <button class="btn wide" id="startPracticeBtn"><svg class="ic" viewBox="0 0 24 24"><path d="M8 5.5 18 12 8 18.5z"/></svg><span data-i18n="practice_start_session">ابدأ الجلسة</span></button>
+          </div>
         </div>
       </div>
     </div>
