@@ -723,6 +723,30 @@ function refreshPracticeSetupUI(){
   if(!singleUnit) singleUnit = nextUnlearnedUnit(0) || 1;
   const suLab = unitLabel(singleUnit);
   document.getElementById('singleUnitBtn').textContent = t('lists_unit_option',{book:suLab.book,u:suLab.u});
+
+  const isReviewSource = practiceSource==='new' || practiceSource==='known';
+  const seg = document.getElementById('exerciseTypeSeg');
+  if(isReviewSource){
+    if(exerciseType!=='flash' && exerciseType!=='mixed') exerciseType = 'mixed';
+    seg.innerHTML = `
+      <button class="${exerciseType==='flash'?'active':''}" data-type="flash">${t('practice_exercise_flash')}</button>
+      <button class="${exerciseType==='mixed'?'active':''}" data-type="mixed">${t('practice_exercise_mixed')}</button>`;
+  } else {
+    if(exerciseType==='mixed') exerciseType = 'flash';
+    seg.innerHTML = `
+      <button class="${exerciseType==='flash'?'active':''}" data-type="flash">${t('practice_exercise_flash')}</button>
+      <button class="${exerciseType==='mc'?'active':''}" data-type="mc">${t('practice_exercise_mc')}</button>
+      <button class="${exerciseType==='type'?'active':''}" data-type="type">${t('practice_exercise_type')}</button>`;
+  }
+  updateExerciseNote();
+}
+function updateExerciseNote(){
+  const note = document.getElementById('exerciseNote');
+  if(!note) return;
+  const isReviewSource = practiceSource==='new' || practiceSource==='known';
+  if(!isReviewSource){ note.style.display='none'; return; }
+  note.style.display='block';
+  note.textContent = exerciseType==='flash' ? t('practice_exercise_note_personal') : t('practice_exercise_note_counted');
 }
 function openSourcePicker(){
   showPicker(t('picker_title_source'), [
@@ -770,12 +794,13 @@ function quickReview(source){
   refreshPracticeSetupUI();
   document.getElementById('practiceSetupCard').scrollIntoView({behavior:'smooth', block:'center'});
 }
-document.querySelectorAll('#exerciseTypeSeg button').forEach(b=>{
-  b.addEventListener('click', ()=>{
-    document.querySelectorAll('#exerciseTypeSeg button').forEach(x=>x.classList.remove('active'));
-    b.classList.add('active');
-    exerciseType = b.dataset.type;
-  });
+document.getElementById('exerciseTypeSeg').addEventListener('click', (e)=>{
+  const b = e.target.closest('button');
+  if(!b) return;
+  document.querySelectorAll('#exerciseTypeSeg button').forEach(x=>x.classList.remove('active'));
+  b.classList.add('active');
+  exerciseType = b.dataset.type;
+  updateExerciseNote();
 });
 document.getElementById('startPracticeBtn').addEventListener('click', startPractice);
 document.getElementById('practiceAgainBtn').addEventListener('click', ()=>{
@@ -842,7 +867,7 @@ function answerResult(item, correct){
     wr.wasKnown = false;
     wr.mastery = correct ? Math.min(MASTERY_TARGET, (wr.mastery||0)+1) : 0;
     saveState();
-  } else if(practiceSourceMode==='known' && exerciseType==='mc'){
+  } else if(practiceSourceMode==='known' && exerciseType==='mixed'){
     const wr = state.words[item.wordId];
     if(wr){
       if(correct){
@@ -872,8 +897,10 @@ function renderExercise(){
   if(practiceIndex >= practiceQueue.length){ finishPractice(); return; }
   const item = practiceQueue[practiceIndex];
   const area = document.getElementById('exerciseArea');
-  if(exerciseType==='flash') renderFlashExercise(item, area);
-  else if(exerciseType==='mc') renderMCExercise(item, area);
+  let effectiveType = exerciseType;
+  if(exerciseType==='mixed') effectiveType = Math.random()<0.5 ? 'mc' : 'type';
+  if(effectiveType==='flash') renderFlashExercise(item, area);
+  else if(effectiveType==='mc') renderMCExercise(item, area);
   else renderTypeExercise(item, area);
 }
 
@@ -1190,40 +1217,67 @@ document.addEventListener('click', (e)=>{
 document.getElementById('listBookFilter').addEventListener('change', ()=>{ populateListUnitFilter(); applyListFilter(); });
 document.getElementById('listUnitFilter').addEventListener('change', applyListFilter);
 
-function renderAll(){ renderHome(); renderMap(); renderChallenge(); renderReviewCards(); refreshPracticeSetupUI(); renderMyLists(); }
+function renderSettings(){
+  const input = document.getElementById('userNameInput');
+  if(input && document.activeElement!==input) input.value = state.userName || '';
+}
+function renderAll(){ renderHome(); renderMap(); renderChallenge(); renderReviewCards(); refreshPracticeSetupUI(); renderMyLists(); renderSettings(); }
 
-/* ---- PWA install banner ---- */
+/* ---- PWA install (via Settings page) ---- */
 let deferredInstallPrompt = null;
 function isStandaloneApp(){
   return (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) || window.navigator.standalone===true;
 }
-function showInstallBanner(){
-  if(isStandaloneApp()) return;
-  document.getElementById('installBanner').classList.add('show');
-}
-function hideInstallBanner(){
-  document.getElementById('installBanner').classList.remove('show');
-}
-function dismissInstallBanner(){
-  hideInstallBanner();
-}
 function triggerInstall(){
   if(!deferredInstallPrompt) return;
   deferredInstallPrompt.prompt();
-  deferredInstallPrompt.userChoice.finally(()=>{ deferredInstallPrompt=null; hideInstallBanner(); });
+  deferredInstallPrompt.userChoice.finally(()=>{ deferredInstallPrompt=null; });
 }
 window.addEventListener('beforeinstallprompt', (e)=>{
   e.preventDefault();
   deferredInstallPrompt = e;
-  showInstallBanner();
 });
 window.addEventListener('appinstalled', ()=>{
   deferredInstallPrompt = null;
-  hideInstallBanner();
 });
+
+/* ---- user name (Settings + first-run prompt) ---- */
+function saveUserNameFromSettings(){
+  const val = document.getElementById('userNameInput').value.trim();
+  state.userName = val;
+  saveState();
+  showAlert(t('settings_name_saved'));
+}
+function promptNameIfNeeded(){
+  if(state.userName) return;
+  showPrompt(t('welcome_name_title'), t('welcome_name_placeholder'), (val)=>{
+    state.userName = (val||'').trim();
+    saveState();
+  });
+}
+function showPrompt(title, placeholder, onSave){
+  const overlay = document.getElementById('confirmOverlay');
+  overlay.innerHTML = `
+    <div class="confirm-box">
+      <div class="confirm-message">${title}</div>
+      <input type="text" id="promptInput" class="text-input" style="width:100%; margin-bottom:14px;" placeholder="${placeholder}">
+      <div class="confirm-actions">
+        <button class="btn ghost" id="promptSkipBtn">${t('confirm_cancel')}</button>
+        <button class="btn" id="promptSaveBtn">${t('confirm_ok')}</button>
+      </div>
+    </div>`;
+  overlay.classList.add('open');
+  const input = document.getElementById('promptInput');
+  input.focus();
+  function cleanup(){ overlay.classList.remove('open'); overlay.innerHTML=''; }
+  document.getElementById('promptSkipBtn').addEventListener('click', cleanup);
+  document.getElementById('promptSaveBtn').addEventListener('click', ()=>{ const v=input.value; cleanup(); onSave(v); });
+  input.addEventListener('keydown', (e)=>{ if(e.key==='Enter'){ const v=input.value; cleanup(); onSave(v); } });
+}
 
 (async function init(){
   state = await loadState();
   initTheme();
   applyLanguage(state.lang || 'ar');
+  promptNameIfNeeded();
 })();

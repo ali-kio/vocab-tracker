@@ -317,20 +317,13 @@ footer{ text-align:center; margin-top:22px; font-size:10.5px; color:var(--text-d
 .flash-counter-row{ display:flex; align-items:center; justify-content:space-between; margin:8px 0; }
 .flash-counter-row .flash-counter{ margin:0; flex:1; text-align:center; }
 
-.install-banner{
-  position:fixed; top:0; left:0; right:0; z-index:200;
-  background:var(--mint); color:#fff; padding:10px 16px;
-  display:none; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap;
-  transform:translateY(-100%); transition:transform .3s ease; box-shadow:0 4px 14px rgba(0,0,0,.15);
-}
-.install-banner.show{ display:flex; transform:translateY(0); }
-.install-text{ font-size:12.5px; flex:1; min-width:160px; }
-.install-actions{ display:flex; gap:8px; }
-.install-actions .btn{ color:#fff; }
-.install-actions .btn.ghost{ border-color:rgba(255,255,255,.5); }
-.install-actions .btn:not(.ghost){ background:rgba(255,255,255,.22); box-shadow:none; }
-
 .downgrade-note{ font-size:10.5px; color:var(--warn); margin-top:3px; line-height:1.6; }
+
+.settings-label{ display:block; font-size:12.5px; font-weight:700; color:var(--text); margin-bottom:10px; }
+.settings-row{ display:flex; align-items:center; justify-content:space-between; padding:8px 0; font-size:12.5px; color:var(--text); border-top:1px solid var(--border); }
+.settings-row:first-of-type{ border-top:none; }
+.settings-note{ font-size:11px; color:var(--text-dim); line-height:1.7; }
+.text-input{ flex:1; background:var(--card2); border:1.5px solid var(--border); color:var(--text); border-radius:var(--radius-sm); padding:11px 14px; font-size:13px; }
 
 /* ---- guide ---- */
 .guide-block{ background:var(--card); border:1.5px solid var(--border); border-radius:var(--radius-md); padding:18px 20px; margin-bottom:12px; }
