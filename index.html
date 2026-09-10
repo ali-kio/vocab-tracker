@@ -22,6 +22,13 @@
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+<div class="install-banner" id="installBanner">
+  <div class="install-text" data-i18n="install_banner_text">ثبّت الأداة على جهازك للوصول السريع</div>
+  <div class="install-actions">
+    <button class="btn ghost" style="padding:6px 12px; font-size:11px;" onclick="dismissInstallBanner()" data-i18n="install_dismiss">لاحقاً</button>
+    <button class="btn" style="padding:6px 14px; font-size:11px;" onclick="triggerInstall()" data-i18n="install_now">تثبيت</button>
+  </div>
+</div>
 <div class="wrap">
 
   <header>
@@ -125,13 +132,32 @@
         <div class="card" id="practiceSetupCard">
           <div class="practice-setup">
             <label data-i18n="practice_source_label">مصدر التدريب:</label>
-            <select id="practiceSource">
-              <option value="all" data-i18n="practice_source_all">كل الكلمات المتعلَّمة</option>
-              <option value="known" data-i18n="practice_source_known">الكلمات المعروفة مسبقاً</option>
-              <option value="new" data-i18n="practice_source_new">الكلمات الجديدة (تحتاج مراجعة)</option>
-              <option value="unit" data-i18n="practice_source_unit">وحدة معيّنة</option>
-            </select>
-            <select id="practiceUnitPicker" style="display:none;"></select>
+            <button class="picker-btn" id="sourcePickerBtn" onclick="openSourcePicker()"></button>
+
+            <div id="scopeBlock">
+              <label data-i18n="scope_label">النطاق:</label>
+              <button class="picker-btn" id="scopePickerBtn" onclick="openScopePicker()"></button>
+
+              <div id="scopeRangeRow" class="range-row" style="display:none;">
+                <div class="range-col">
+                  <label data-i18n="scope_from">من وحدة</label>
+                  <button class="picker-btn" id="fromUnitBtn" onclick="openFromUnitPicker()"></button>
+                </div>
+                <div class="range-col">
+                  <label data-i18n="scope_to">إلى وحدة</label>
+                  <button class="picker-btn" id="toUnitBtn" onclick="openToUnitPicker()"></button>
+                </div>
+              </div>
+              <div id="scopeRandomRow" style="display:none;">
+                <label data-i18n="scope_random_count_label">عدد الكلمات:</label>
+                <button class="picker-btn" id="randomCountBtn" onclick="openRandomCountPicker()"></button>
+              </div>
+            </div>
+
+            <div id="unitPickBlock" style="display:none;">
+              <label data-i18n="pick_unit_label">اختر الوحدة</label>
+              <button class="picker-btn" id="singleUnitBtn" onclick="openSingleUnitPicker()"></button>
+            </div>
 
             <button class="btn wide" id="startPracticeBtn"><svg class="ic" viewBox="0 0 24 24"><path d="M8 5.5 18 12 8 18.5z"/></svg><span data-i18n="practice_start_session">ابدأ الجلسة</span></button>
           </div>
@@ -139,7 +165,10 @@
       </div>
     </div>
     <div class="section" id="practiceSession" style="display:none;">
-      <div class="flash-counter" id="flashCounter"></div>
+      <div class="flash-counter-row">
+        <button class="btn ghost small" onclick="cancelPractice()"><svg class="ic" viewBox="0 0 24 24" style="margin-inline-end:4px;"><path d="M6 6l12 12M18 6 6 18"/></svg><span data-i18n="cancel_practice">إلغاء</span></button>
+        <div class="flash-counter" id="flashCounter"></div>
+      </div>
       <div id="exerciseArea"></div>
     </div>
     <div class="section" id="practiceSummary" style="display:none;">

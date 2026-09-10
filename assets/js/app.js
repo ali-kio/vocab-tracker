@@ -608,7 +608,10 @@ function renderDetail(){
     const wr = state.words[wordId(i,idx)];
     let tag = '';
     if(wr && wr.wasKnown===true) tag = `<span class="word-tag known">${t('tag_known')}</span>`;
-    else if(wr && wr.wasKnown===false) tag = `<span class="word-tag new-word">${t('tag_new')} ${mastDots(wr.mastery||0)}</span>`;
+    else if(wr && wr.wasKnown===false){
+      tag = `<span class="word-tag new-word">${t('tag_new')} ${mastDots(wr.mastery||0)}</span>`;
+      if(wr.downgradeReason==='missed_known_review') tag += `<div class="downgrade-note">${t('tag_downgrade_reason')}</div>`;
+    }
     const revealId = `ar_${i}_${idx}`;
     const nbId = `nb_${i}_${idx}`;
     const wId = wordId(i,idx);
@@ -664,25 +667,109 @@ function renderReviewCards(){
     <button class="btn wide secondary" ${counts.known===0?'disabled':''} onclick="quickReview('known')">${ICONS.check}${t('practice_known_review_btn')}</button>
     <div class="review-note">${t('practice_known_review_note')}</div>`;
 }
-function quickReview(source){
-  document.getElementById('practiceSource').value = source;
-  document.getElementById('practiceUnitPicker').style.display = 'none';
-  startPractice();
+
+/* ---- custom picker system (replaces native <select>) ---- */
+function showPicker(title, options, currentValue, onSelect){
+  const overlay = document.getElementById('confirmOverlay');
+  overlay.innerHTML = `
+    <div class="confirm-box picker-box">
+      <div class="picker-title">${title}</div>
+      <div class="picker-list">
+        ${options.map(o=>`<button class="picker-opt${String(o.value)===String(currentValue)?' active':''}" data-value="${o.value}">${o.label}</button>`).join('')}
+      </div>
+      <button class="btn ghost wide" id="pickerCancelBtn">${t('confirm_cancel')}</button>
+    </div>`;
+  overlay.classList.add('open');
+  function cleanup(){ overlay.classList.remove('open'); overlay.innerHTML=''; }
+  overlay.onclick = (e)=>{ if(e.target===overlay) cleanup(); };
+  overlay.querySelectorAll('.picker-opt').forEach(btn=>{
+    btn.addEventListener('click', ()=>{ const v=btn.dataset.value; cleanup(); onSelect(v); });
+  });
+  document.getElementById('pickerCancelBtn').addEventListener('click', cleanup);
 }
-function populatePracticeUnitPicker(){
-  const sel = document.getElementById('practiceUnitPicker');
-  let learnedUnits = [];
-  for(let i=1;i<=TOTAL_UNITS;i++) if(state.units[i]) learnedUnits.push(i);
-  if(!learnedUnits.length){ sel.innerHTML = `<option value="">${t('practice_no_units_option')}</option>`; return; }
-  sel.innerHTML = learnedUnits.map(i=>{
+function unitOptionsList(){
+  const opts=[];
+  for(let i=1;i<=TOTAL_UNITS;i++){
     const lab=unitLabel(i);
-    return `<option value="${i}">#${i} — ${t('detail_unit_label',{book:lab.book,u:lab.u})}</option>`;
-  }).join('');
+    opts.push({value:i, label:t('lists_unit_option',{book:lab.book,u:lab.u})});
+  }
+  return opts;
 }
-document.getElementById('practiceSource').addEventListener('change', (e)=>{
-  document.getElementById('practiceUnitPicker').style.display = e.target.value==='unit' ? 'block' : 'none';
-  if(e.target.value==='unit') populatePracticeUnitPicker();
-});
+
+let practiceSource = 'all';
+let scopeMode = 'all';
+let scopeFrom = 1;
+let scopeTo = TOTAL_UNITS;
+let scopeRandomCount = 40;
+let singleUnit = null;
+
+function refreshPracticeSetupUI(){
+  const sourceLabels = {all:t('practice_source_all'), known:t('practice_source_known'), new:t('practice_source_new'), unit:t('practice_source_unit_full')};
+  document.getElementById('sourcePickerBtn').textContent = sourceLabels[practiceSource];
+  const isUnit = practiceSource==='unit';
+  document.getElementById('scopeBlock').style.display = isUnit ? 'none' : 'flex';
+  document.getElementById('unitPickBlock').style.display = isUnit ? 'flex' : 'none';
+
+  const scopeLabels = {all:t('scope_all'), range:t('scope_range'), random:t('scope_random')};
+  document.getElementById('scopePickerBtn').textContent = scopeLabels[scopeMode];
+  document.getElementById('scopeRangeRow').style.display = scopeMode==='range' ? 'flex' : 'none';
+  document.getElementById('scopeRandomRow').style.display = scopeMode==='random' ? 'block' : 'none';
+
+  const fromLab = unitLabel(scopeFrom), toLab = unitLabel(scopeTo);
+  document.getElementById('fromUnitBtn').textContent = t('lists_unit_option',{book:fromLab.book,u:fromLab.u});
+  document.getElementById('toUnitBtn').textContent = t('lists_unit_option',{book:toLab.book,u:toLab.u});
+  document.getElementById('randomCountBtn').textContent = t('scope_random_count_value',{n:scopeRandomCount});
+
+  if(!singleUnit) singleUnit = nextUnlearnedUnit(0) || 1;
+  const suLab = unitLabel(singleUnit);
+  document.getElementById('singleUnitBtn').textContent = t('lists_unit_option',{book:suLab.book,u:suLab.u});
+}
+function openSourcePicker(){
+  showPicker(t('picker_title_source'), [
+    {value:'all', label:t('practice_source_all')},
+    {value:'known', label:t('practice_source_known')},
+    {value:'new', label:t('practice_source_new')},
+    {value:'unit', label:t('practice_source_unit_full')}
+  ], practiceSource, (v)=>{ practiceSource=v; refreshPracticeSetupUI(); });
+}
+function openScopePicker(){
+  showPicker(t('picker_title_scope'), [
+    {value:'all', label:t('scope_all')},
+    {value:'range', label:t('scope_range')},
+    {value:'random', label:t('scope_random')}
+  ], scopeMode, (v)=>{ scopeMode=v; refreshPracticeSetupUI(); });
+}
+function openFromUnitPicker(){
+  showPicker(t('scope_from'), unitOptionsList(), scopeFrom, (v)=>{
+    scopeFrom = parseInt(v);
+    if(scopeFrom>scopeTo) scopeTo = scopeFrom;
+    refreshPracticeSetupUI();
+  });
+}
+function openToUnitPicker(){
+  showPicker(t('scope_to'), unitOptionsList(), scopeTo, (v)=>{
+    scopeTo = parseInt(v);
+    if(scopeTo<scopeFrom) scopeFrom = scopeTo;
+    refreshPracticeSetupUI();
+  });
+}
+function openRandomCountPicker(){
+  const counts = [10,20,30,40,50,75,100];
+  showPicker(t('scope_random_count_label'), counts.map(n=>({value:n, label:t('scope_random_count_value',{n})})), scopeRandomCount, (v)=>{
+    scopeRandomCount = parseInt(v); refreshPracticeSetupUI();
+  });
+}
+function openSingleUnitPicker(){
+  showPicker(t('pick_unit_label'), unitOptionsList(), singleUnit, (v)=>{
+    singleUnit = parseInt(v); refreshPracticeSetupUI();
+  });
+}
+function quickReview(source){
+  practiceSource = source;
+  scopeMode = 'all';
+  refreshPracticeSetupUI();
+  document.getElementById('practiceSetupCard').scrollIntoView({behavior:'smooth', block:'center'});
+}
 document.querySelectorAll('#exerciseTypeSeg button').forEach(b=>{
   b.addEventListener('click', ()=>{
     document.querySelectorAll('#exerciseTypeSeg button').forEach(x=>x.classList.remove('active'));
@@ -698,42 +785,52 @@ document.getElementById('practiceAgainBtn').addEventListener('click', ()=>{
 });
 
 function startPractice(){
-  const source = document.getElementById('practiceSource').value;
-  practiceSourceMode = source;
+  practiceSourceMode = practiceSource;
   practiceQueue = [];
   practiceScore = {correct:0, wrong:0};
   practiceIndex = 0;
 
-  if(source==='all' || source==='known' || source==='new'){
+  if(practiceSource==='unit'){
+    const unitData = getUnitData(singleUnit);
+    unitData.words.forEach((w,idx)=>{
+      practiceQueue.push({word:w, unit:singleUnit, idx, wordId:wordId(singleUnit,idx)});
+    });
+    shuffleArr(practiceQueue);
+  } else {
     for(const id in state.words){
       const wr = state.words[id];
-      if(source==='known' && wr.wasKnown!==true) continue;
-      if(source==='new' && (wr.wasKnown!==false || (wr.mastery||0)>=MASTERY_TARGET)) continue;
+      if(practiceSource==='known' && wr.wasKnown!==true) continue;
+      if(practiceSource==='new' && (wr.wasKnown!==false || (wr.mastery||0)>=MASTERY_TARGET)) continue;
       const parts = id.split('_');
       const unit = parseInt(parts[0]), idx = parseInt(parts[1]);
+      if(scopeMode==='range' && (unit<scopeFrom || unit>scopeTo)) continue;
       const unitData = getUnitData(unit);
       if(!unitData) continue;
       practiceQueue.push({word:unitData.words[idx], unit, idx, wordId:id, mastery:wr.mastery||0});
     }
-  } else {
-    const unitId = parseInt(document.getElementById('practiceUnitPicker').value);
-    if(unitId && state.units[unitId]){
-      const unitData = getUnitData(unitId);
-      unitData.words.forEach((w,idx)=>{
-        practiceQueue.push({word:w, unit:unitId, idx, wordId:wordId(unitId,idx)});
-      });
+    if(scopeMode==='random'){
+      shuffleArr(practiceQueue);
+      practiceQueue = practiceQueue.slice(0, scopeRandomCount);
+    } else if(practiceSource==='new'){
+      practiceQueue.sort((a,b)=>a.mastery-b.mastery);
+    } else {
+      shuffleArr(practiceQueue);
     }
   }
 
   if(!practiceQueue.length){ showAlert(t('practice_no_words_alert')); return; }
-  if(source==='new') practiceQueue.sort((a,b)=>a.mastery-b.mastery);
-  else shuffleArr(practiceQueue);
 
   switchTab('practice');
   document.getElementById('practiceSetupWrap').style.display='none';
   document.getElementById('practiceSession').style.display='block';
   document.getElementById('practiceSummary').style.display='none';
   renderExercise();
+}
+function cancelPractice(){
+  if(mcKeyCleanup){ mcKeyCleanup(); mcKeyCleanup=null; }
+  practiceQueue = []; practiceIndex = 0;
+  document.getElementById('practiceSession').style.display='none';
+  document.getElementById('practiceSetupWrap').style.display='block';
 }
 
 function answerResult(item, correct){
@@ -745,11 +842,20 @@ function answerResult(item, correct){
     wr.wasKnown = false;
     wr.mastery = correct ? Math.min(MASTERY_TARGET, (wr.mastery||0)+1) : 0;
     saveState();
-  } else if(practiceSourceMode==='known'){
+  } else if(practiceSourceMode==='known' && exerciseType==='mc'){
     const wr = state.words[item.wordId];
-    if(wr && !correct){
-      wr.wasKnown = false;
-      wr.mastery = 0;
+    if(wr){
+      if(correct){
+        wr.missStreak = 0;
+      } else {
+        wr.missStreak = (wr.missStreak||0) + 1;
+        if(wr.missStreak >= 2){
+          wr.wasKnown = false;
+          wr.mastery = 0;
+          wr.missStreak = 0;
+          wr.downgradeReason = 'missed_known_review';
+        }
+      }
       saveState();
     }
   }
@@ -963,7 +1069,7 @@ function collectListWords(){
     if(!matchesListFilter(unit)) continue;
     const unitData = getUnitData(unit);
     if(!unitData) continue;
-    out.push({id, word:unitData.words[idx], unit, idx, mastery:wr.mastery||0});
+    out.push({id, word:unitData.words[idx], unit, idx, mastery:wr.mastery||0, downgradeReason:wr.downgradeReason||null});
   }
   return out;
 }
@@ -974,7 +1080,9 @@ function confirmMoveWord(id){
   const msg = movingToKnown ? t('lists_move_confirm_to_known') : t('lists_move_confirm_to_new');
   showConfirm(msg, ()=>{
     wr.wasKnown = movingToKnown;
-    if(!movingToKnown) wr.mastery = 0;
+    wr.mastery = 0;
+    wr.missStreak = 0;
+    delete wr.downgradeReason;
     saveState();
     renderAll();
   });
@@ -1039,6 +1147,7 @@ function applyListFilter(){
       </div>
       <div class="word-def" dir="ltr">${r.word[2]}</div>
       ${dots ? `<div style="margin-top:4px;">${dots}</div>` : ''}
+      ${r.downgradeReason==='missed_known_review' ? `<div class="downgrade-note">${t('tag_downgrade_reason')}</div>` : ''}
       <button class="ar-toggle" style="margin-top:6px;" onclick="toggleAr(this,'${revealId}')">${ICONS.book}${t('detail_arabic_toggle')}</button>
       <div class="ar-reveal" dir="rtl" id="${revealId}">${getArabic(r.unit,r.idx)}</div>
       <div style="margin-top:6px; display:flex; gap:6px; flex-wrap:wrap;">
@@ -1063,8 +1172,10 @@ function practiceFromList(){
   if(listCategory==='notebook') return;
   const results = collectListWords();
   if(!results.length){ showAlert(t('lists_alert_no_words')); return; }
-  document.getElementById('practiceSource').value = listCategory==='known' ? 'known' : 'new';
-  document.getElementById('practiceUnitPicker').style.display='none';
+  practiceSource = listCategory==='known' ? 'known' : 'new';
+  scopeMode = 'all';
+  switchTab('practice');
+  refreshPracticeSetupUI();
   startPractice();
 }
 document.addEventListener('click', (e)=>{
@@ -1079,7 +1190,37 @@ document.addEventListener('click', (e)=>{
 document.getElementById('listBookFilter').addEventListener('change', ()=>{ populateListUnitFilter(); applyListFilter(); });
 document.getElementById('listUnitFilter').addEventListener('change', applyListFilter);
 
-function renderAll(){ renderHome(); renderMap(); renderChallenge(); renderReviewCards(); renderMyLists(); }
+function renderAll(){ renderHome(); renderMap(); renderChallenge(); renderReviewCards(); refreshPracticeSetupUI(); renderMyLists(); }
+
+/* ---- PWA install banner ---- */
+let deferredInstallPrompt = null;
+function isStandaloneApp(){
+  return (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) || window.navigator.standalone===true;
+}
+function showInstallBanner(){
+  if(isStandaloneApp()) return;
+  document.getElementById('installBanner').classList.add('show');
+}
+function hideInstallBanner(){
+  document.getElementById('installBanner').classList.remove('show');
+}
+function dismissInstallBanner(){
+  hideInstallBanner();
+}
+function triggerInstall(){
+  if(!deferredInstallPrompt) return;
+  deferredInstallPrompt.prompt();
+  deferredInstallPrompt.userChoice.finally(()=>{ deferredInstallPrompt=null; hideInstallBanner(); });
+}
+window.addEventListener('beforeinstallprompt', (e)=>{
+  e.preventDefault();
+  deferredInstallPrompt = e;
+  showInstallBanner();
+});
+window.addEventListener('appinstalled', ()=>{
+  deferredInstallPrompt = null;
+  hideInstallBanner();
+});
 
 (async function init(){
   state = await loadState();
