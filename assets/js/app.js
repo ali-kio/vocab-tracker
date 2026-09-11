@@ -26,7 +26,6 @@ let practiceQueue = [];
 let practiceIndex = 0;
 let practiceScore = {correct:0, wrong:0};
 let practiceSourceMode = 'all';
-let exerciseType = 'flash';
 let mcAnswered = false;
 let studyUnit = null;
 let studyIndex = 0;
@@ -94,7 +93,7 @@ function saveState(){
 
 function applyTheme(theme){
   document.documentElement.setAttribute('data-theme', theme==='dark' ? 'dark' : 'light');
-  const btn = document.getElementById('themeToggle');
+  const btn = document.getElementById('settingsThemeBtn');
   if(btn) btn.innerHTML = theme==='dark' ? ICONS.sun : ICONS.moon;
 }
 function toggleTheme(){
@@ -649,6 +648,42 @@ function mastDots(m){
 }
 
 /* ---------- practice / review ---------- */
+let practiceSource = 'all';
+let scopeMode = 'all';
+let scopeFrom = 1;
+let scopeTo = TOTAL_UNITS;
+let scopeRandomCount = 40;
+let singleUnit = null;
+let sessionKind = 'free';
+let freeExerciseTypes = new Set(['flash']);
+
+function refreshPracticeSetupUI(){
+  const sourceLabels = {all:t('practice_source_all'), known:t('practice_source_known'), new:t('practice_source_new'), unit:t('practice_source_unit_full')};
+  document.getElementById('sourcePickerBtn').textContent = sourceLabels[practiceSource];
+  const isUnit = practiceSource==='unit';
+  document.getElementById('scopeBlock').style.display = isUnit ? 'none' : 'flex';
+  document.getElementById('unitPickBlock').style.display = isUnit ? 'flex' : 'none';
+
+  const scopeLabels = {all:t('scope_all'), range:t('scope_range'), random:t('scope_random')};
+  document.getElementById('scopePickerBtn').textContent = scopeLabels[scopeMode];
+  document.getElementById('scopeRangeRow').style.display = scopeMode==='range' ? 'flex' : 'none';
+  document.getElementById('scopeRandomRow').style.display = scopeMode==='random' ? 'block' : 'none';
+
+  const fromLab = unitLabel(scopeFrom), toLab = unitLabel(scopeTo);
+  document.getElementById('fromUnitBtn').textContent = t('lists_unit_option',{book:fromLab.book,u:fromLab.u});
+  document.getElementById('toUnitBtn').textContent = t('lists_unit_option',{book:toLab.book,u:toLab.u});
+  document.getElementById('randomCountBtn').textContent = t('scope_random_count_value',{n:scopeRandomCount});
+
+  const learned = learnedUnitsList();
+  if(!singleUnit || !state.units[singleUnit]) singleUnit = learned.length ? learned[0].value : null;
+  const suBtn = document.getElementById('singleUnitBtn');
+  if(singleUnit){
+    const suLab = unitLabel(singleUnit);
+    suBtn.textContent = t('lists_unit_option',{book:suLab.book,u:suLab.u});
+  } else {
+    suBtn.textContent = t('practice_no_units_option');
+  }
+}
 function renderReviewCards(){
   const counts = reviewCounts();
   const newCard = document.getElementById('reviewNewCard');
@@ -665,7 +700,7 @@ function renderReviewCards(){
     <div class="review-count">${counts.known}</div>
     <div class="review-sub">${t('practice_known_review_sub')}</div>
     <button class="btn wide secondary" ${counts.known===0?'disabled':''} onclick="quickReview('known')">${ICONS.check}${t('practice_known_review_btn')}</button>
-    <div class="review-note">${t('practice_known_review_note')}</div>`;
+    <div class="review-note">${t('practice_known_review_note',{n:MASTERY_TARGET})}</div>`;
 }
 
 /* ---- custom picker system (replaces native <select>) ---- */
@@ -695,58 +730,15 @@ function unitOptionsList(){
   }
   return opts;
 }
-
-let practiceSource = 'all';
-let scopeMode = 'all';
-let scopeFrom = 1;
-let scopeTo = TOTAL_UNITS;
-let scopeRandomCount = 40;
-let singleUnit = null;
-
-function refreshPracticeSetupUI(){
-  const sourceLabels = {all:t('practice_source_all'), known:t('practice_source_known'), new:t('practice_source_new'), unit:t('practice_source_unit_full')};
-  document.getElementById('sourcePickerBtn').textContent = sourceLabels[practiceSource];
-  const isUnit = practiceSource==='unit';
-  document.getElementById('scopeBlock').style.display = isUnit ? 'none' : 'flex';
-  document.getElementById('unitPickBlock').style.display = isUnit ? 'flex' : 'none';
-
-  const scopeLabels = {all:t('scope_all'), range:t('scope_range'), random:t('scope_random')};
-  document.getElementById('scopePickerBtn').textContent = scopeLabels[scopeMode];
-  document.getElementById('scopeRangeRow').style.display = scopeMode==='range' ? 'flex' : 'none';
-  document.getElementById('scopeRandomRow').style.display = scopeMode==='random' ? 'block' : 'none';
-
-  const fromLab = unitLabel(scopeFrom), toLab = unitLabel(scopeTo);
-  document.getElementById('fromUnitBtn').textContent = t('lists_unit_option',{book:fromLab.book,u:fromLab.u});
-  document.getElementById('toUnitBtn').textContent = t('lists_unit_option',{book:toLab.book,u:toLab.u});
-  document.getElementById('randomCountBtn').textContent = t('scope_random_count_value',{n:scopeRandomCount});
-
-  if(!singleUnit) singleUnit = nextUnlearnedUnit(0) || 1;
-  const suLab = unitLabel(singleUnit);
-  document.getElementById('singleUnitBtn').textContent = t('lists_unit_option',{book:suLab.book,u:suLab.u});
-
-  const isReviewSource = practiceSource==='new' || practiceSource==='known';
-  const seg = document.getElementById('exerciseTypeSeg');
-  if(isReviewSource){
-    if(exerciseType!=='flash' && exerciseType!=='mixed') exerciseType = 'mixed';
-    seg.innerHTML = `
-      <button class="${exerciseType==='flash'?'active':''}" data-type="flash">${t('practice_exercise_flash')}</button>
-      <button class="${exerciseType==='mixed'?'active':''}" data-type="mixed">${t('practice_exercise_mixed')}</button>`;
-  } else {
-    if(exerciseType==='mixed') exerciseType = 'flash';
-    seg.innerHTML = `
-      <button class="${exerciseType==='flash'?'active':''}" data-type="flash">${t('practice_exercise_flash')}</button>
-      <button class="${exerciseType==='mc'?'active':''}" data-type="mc">${t('practice_exercise_mc')}</button>
-      <button class="${exerciseType==='type'?'active':''}" data-type="type">${t('practice_exercise_type')}</button>`;
+function learnedUnitsList(){
+  const opts=[];
+  for(let i=1;i<=TOTAL_UNITS;i++){
+    if(state.units[i]){
+      const lab=unitLabel(i);
+      opts.push({value:i, label:t('lists_unit_option',{book:lab.book,u:lab.u})});
+    }
   }
-  updateExerciseNote();
-}
-function updateExerciseNote(){
-  const note = document.getElementById('exerciseNote');
-  if(!note) return;
-  const isReviewSource = practiceSource==='new' || practiceSource==='known';
-  if(!isReviewSource){ note.style.display='none'; return; }
-  note.style.display='block';
-  note.textContent = exerciseType==='flash' ? t('practice_exercise_note_personal') : t('practice_exercise_note_counted');
+  return opts;
 }
 function openSourcePicker(){
   showPicker(t('picker_title_source'), [
@@ -779,28 +771,40 @@ function openToUnitPicker(){
 }
 function openRandomCountPicker(){
   const counts = [10,20,30,40,50,75,100];
-  showPicker(t('scope_random_count_label'), counts.map(n=>({value:n, label:t('scope_random_count_value',{n})})), scopeRandomCount, (v)=>{
-    scopeRandomCount = parseInt(v); refreshPracticeSetupUI();
+  const options = counts.map(n=>({value:String(n), label:t('scope_random_count_value',{n})}));
+  options.push({value:'custom', label:t('scope_random_custom')});
+  showPicker(t('scope_random_count_label'), options, scopeRandomCount, (v)=>{
+    if(v==='custom'){
+      showPrompt(t('scope_random_custom_prompt'), t('scope_random_custom_placeholder'), (val)=>{
+        const n = parseInt(val);
+        if(n && n>0) scopeRandomCount = n;
+        refreshPracticeSetupUI();
+      });
+    } else {
+      scopeRandomCount = parseInt(v);
+      refreshPracticeSetupUI();
+    }
   });
 }
 function openSingleUnitPicker(){
-  showPicker(t('pick_unit_label'), unitOptionsList(), singleUnit, (v)=>{
+  const opts = learnedUnitsList();
+  if(!opts.length){ showAlert(t('practice_no_units_option')); return; }
+  showPicker(t('pick_unit_label'), opts, singleUnit, (v)=>{
     singleUnit = parseInt(v); refreshPracticeSetupUI();
   });
 }
 function quickReview(source){
-  practiceSource = source;
-  scopeMode = 'all';
-  refreshPracticeSetupUI();
-  document.getElementById('practiceSetupCard').scrollIntoView({behavior:'smooth', block:'center'});
+  startAssessment(source);
 }
-document.getElementById('exerciseTypeSeg').addEventListener('click', (e)=>{
+document.getElementById('freeExerciseTypes').addEventListener('click', (e)=>{
   const b = e.target.closest('button');
   if(!b) return;
-  document.querySelectorAll('#exerciseTypeSeg button').forEach(x=>x.classList.remove('active'));
-  b.classList.add('active');
-  exerciseType = b.dataset.type;
-  updateExerciseNote();
+  const type = b.dataset.type;
+  if(freeExerciseTypes.has(type)){
+    if(freeExerciseTypes.size>1){ freeExerciseTypes.delete(type); b.classList.remove('active'); }
+  } else {
+    freeExerciseTypes.add(type); b.classList.add('active');
+  }
 });
 document.getElementById('startPracticeBtn').addEventListener('click', startPractice);
 document.getElementById('practiceAgainBtn').addEventListener('click', ()=>{
@@ -809,13 +813,41 @@ document.getElementById('practiceAgainBtn').addEventListener('click', ()=>{
   document.getElementById('practiceSetupWrap').style.display='block';
 });
 
+function startAssessment(source){
+  sessionKind = 'assessment';
+  practiceSourceMode = source;
+  practiceQueue = [];
+  practiceScore = {correct:0, wrong:0};
+  practiceIndex = 0;
+  for(const id in state.words){
+    const wr = state.words[id];
+    if(source==='known' && wr.wasKnown!==true) continue;
+    if(source==='new' && (wr.wasKnown!==false || (wr.mastery||0)>=MASTERY_TARGET)) continue;
+    const parts = id.split('_');
+    const unit = parseInt(parts[0]), idx = parseInt(parts[1]);
+    const unitData = getUnitData(unit);
+    if(!unitData) continue;
+    practiceQueue.push({word:unitData.words[idx], unit, idx, wordId:id, mastery:wr.mastery||0});
+  }
+  if(!practiceQueue.length){ showAlert(t('practice_no_words_alert')); return; }
+  if(source==='new') practiceQueue.sort((a,b)=>a.mastery-b.mastery);
+  else shuffleArr(practiceQueue);
+
+  switchTab('practice');
+  document.getElementById('practiceSetupWrap').style.display='none';
+  document.getElementById('practiceSession').style.display='block';
+  document.getElementById('practiceSummary').style.display='none';
+  renderExercise();
+}
 function startPractice(){
+  sessionKind = 'free';
   practiceSourceMode = practiceSource;
   practiceQueue = [];
   practiceScore = {correct:0, wrong:0};
   practiceIndex = 0;
 
   if(practiceSource==='unit'){
+    if(!singleUnit){ showAlert(t('practice_no_units_option')); return; }
     const unitData = getUnitData(singleUnit);
     unitData.words.forEach((w,idx)=>{
       practiceQueue.push({word:w, unit:singleUnit, idx, wordId:wordId(singleUnit,idx)});
@@ -858,23 +890,23 @@ function cancelPractice(){
   document.getElementById('practiceSetupWrap').style.display='block';
 }
 
-function answerResult(item, correct){
+function answerResult(item, correct, effectiveType){
   if(correct) practiceScore.correct++; else practiceScore.wrong++;
 
-  if(practiceSourceMode==='new' && exerciseType!=='flash'){
+  if(practiceSourceMode==='new' && effectiveType!=='flash'){
     if(!state.words[item.wordId]) state.words[item.wordId] = {wasKnown:false, mastery:0};
     const wr = state.words[item.wordId];
     wr.wasKnown = false;
     wr.mastery = correct ? Math.min(MASTERY_TARGET, (wr.mastery||0)+1) : 0;
     saveState();
-  } else if(practiceSourceMode==='known' && exerciseType==='mixed'){
+  } else if(practiceSourceMode==='known' && effectiveType!=='flash'){
     const wr = state.words[item.wordId];
     if(wr){
       if(correct){
         wr.missStreak = 0;
       } else {
         wr.missStreak = (wr.missStreak||0) + 1;
-        if(wr.missStreak >= 2){
+        if(wr.missStreak >= MASTERY_TARGET){
           wr.wasKnown = false;
           wr.mastery = 0;
           wr.missStreak = 0;
@@ -890,6 +922,13 @@ function answerResult(item, correct){
 }
 
 let mcKeyCleanup = null;
+function pickAssessmentType(){
+  return Math.random() < 0.75 ? 'mc' : 'type';
+}
+function pickFreeType(){
+  const arr = Array.from(freeExerciseTypes);
+  return arr[Math.floor(Math.random()*arr.length)];
+}
 
 function renderExercise(){
   if(mcKeyCleanup){ mcKeyCleanup(); mcKeyCleanup=null; }
@@ -897,14 +936,13 @@ function renderExercise(){
   if(practiceIndex >= practiceQueue.length){ finishPractice(); return; }
   const item = practiceQueue[practiceIndex];
   const area = document.getElementById('exerciseArea');
-  let effectiveType = exerciseType;
-  if(exerciseType==='mixed') effectiveType = Math.random()<0.5 ? 'mc' : 'type';
-  if(effectiveType==='flash') renderFlashExercise(item, area);
-  else if(effectiveType==='mc') renderMCExercise(item, area);
-  else renderTypeExercise(item, area);
+  const effectiveType = sessionKind==='assessment' ? pickAssessmentType() : pickFreeType();
+  if(effectiveType==='flash') renderFlashExercise(item, area, effectiveType);
+  else if(effectiveType==='mc') renderMCExercise(item, area, effectiveType);
+  else renderTypeExercise(item, area, effectiveType);
 }
 
-function renderFlashExercise(item, area){
+function renderFlashExercise(item, area, effectiveType){
   let flipped=false;
   const arText = getArabic(item.unit, item.idx);
   area.innerHTML = `<div class="flash" id="fcard" dir="ltr">
@@ -926,8 +964,8 @@ function renderFlashExercise(item, area){
       <div class="ar-reveal" dir="rtl">${arText}</div>`;
     document.getElementById('fActions').style.display='flex';
   });
-  document.getElementById('fYes').addEventListener('click', ()=>answerResult(item, true));
-  document.getElementById('fNo').addEventListener('click', ()=>answerResult(item, false));
+  document.getElementById('fYes').addEventListener('click', ()=>answerResult(item, true, effectiveType));
+  document.getElementById('fNo').addEventListener('click', ()=>answerResult(item, false, effectiveType));
 }
 
 function pickDistractors(correctWordText, n){
@@ -937,7 +975,7 @@ function pickDistractors(correctWordText, n){
   const filtered = shuffleArr(pool.filter(d=>d!==correctWordText));
   return filtered.slice(0,n);
 }
-function renderMCExercise(item, area){
+function renderMCExercise(item, area, effectiveType){
   const correct = item.word[2];
   const options = shuffleArr(pickDistractors(correct, 3).concat([correct]));
   area.innerHTML = `<div class="flash" dir="ltr" style="cursor:default;">
@@ -959,7 +997,7 @@ function renderMCExercise(item, area){
       if(!isCorrect){
         [...optsEl.children].forEach(c=>{ if(c.dataset.opt===correct) c.classList.add('correct'); });
       }
-      setTimeout(()=>answerResult(item, isCorrect), 600);
+      setTimeout(()=>answerResult(item, isCorrect, effectiveType), 600);
     });
     optsEl.appendChild(btn);
     buttons.push(btn);
@@ -972,7 +1010,7 @@ function renderMCExercise(item, area){
   mcKeyCleanup = ()=>document.removeEventListener('keydown', keyHandler);
 }
 
-function renderTypeExercise(item, area){
+function renderTypeExercise(item, area, effectiveType){
   const term = item.word[0];
   const re = new RegExp(escapeRe(term), 'gi');
   const blankedEx = item.word[3].replace(re, '_____');
@@ -998,7 +1036,7 @@ function renderTypeExercise(item, area){
     fb.className = 'type-feedback ' + (isCorrect?'ok':'bad');
     input.disabled = true;
     document.getElementById('typeSubmit').disabled = true;
-    setTimeout(()=>answerResult(item, isCorrect), 900);
+    setTimeout(()=>answerResult(item, isCorrect, effectiveType), 900);
   }
   document.getElementById('typeSubmit').addEventListener('click', submit);
   input.addEventListener('keydown', (e)=>{ if(e.key==='Enter') submit(); });
@@ -1217,9 +1255,31 @@ document.addEventListener('click', (e)=>{
 document.getElementById('listBookFilter').addEventListener('change', ()=>{ populateListUnitFilter(); applyListFilter(); });
 document.getElementById('listUnitFilter').addEventListener('change', applyListFilter);
 
+function updateDirectionalIcons(){
+  const isRtl = currentLang==='ar';
+  const arrowSpan = document.getElementById('settingsArrowIcon');
+  if(arrowSpan) arrowSpan.innerHTML = isRtl
+    ? '<svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>'
+    : '<svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>';
+  const backSvg = document.getElementById('guideBackIcon');
+  if(backSvg) backSvg.innerHTML = isRtl ? '<path d="M9 5l7 7-7 7"/>' : '<path d="M15 5l-7 7 7 7"/>';
+}
+function openGuidePage(){
+  document.getElementById('view-settings').classList.remove('active');
+  document.getElementById('view-guide').classList.add('active');
+  window.scrollTo(0,0);
+}
+function closeGuidePage(){
+  document.getElementById('view-guide').classList.remove('active');
+  document.getElementById('view-settings').classList.add('active');
+  window.scrollTo(0,0);
+}
 function renderSettings(){
   const input = document.getElementById('userNameInput');
   if(input && document.activeElement!==input) input.value = state.userName || '';
+  const greeting = document.getElementById('settingsGreeting');
+  if(greeting) greeting.textContent = state.userName ? t('settings_greeting_named',{name:state.userName}) : t('settings_greeting_generic');
+  updateDirectionalIcons();
 }
 function renderAll(){ renderHome(); renderMap(); renderChallenge(); renderReviewCards(); refreshPracticeSetupUI(); renderMyLists(); renderSettings(); }
 

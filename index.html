@@ -25,8 +25,6 @@
 <div class="wrap">
 
   <header>
-    <button class="lang-toggle" id="langToggle" onclick="toggleLanguage()" data-i18n-aria="lang_toggle_aria">A<span class="sep">/</span>ع</button>
-    <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" data-i18n-aria="theme_toggle_aria"></button>
     <div class="eyebrow" data-i18n="header_eyebrow">طريقك لإتقان 1200 كلمة إنجليزية</div>
     <h1 data-i18n="header_title">مفرداتي — 1200 كلمة</h1>
     <p data-i18n="header_subtitle">60 وحدة · تعلَّم كل كلمة على حدة</p>
@@ -102,15 +100,7 @@
   <div class="view" id="view-practice">
     <div id="practiceSetupWrap">
       <div class="section">
-        <h2 data-i18n="practice_exercise_label_h2">نوع التمرين</h2>
-        <div class="card">
-          <div class="seg" id="exerciseTypeSeg"></div>
-          <div class="exercise-note" id="exerciseNote"></div>
-        </div>
-      </div>
-
-      <div class="section">
-        <h2 data-i18n="practice_review_heading">المراجعة</h2>
+        <h2 data-i18n="practice_review_heading">التقييم</h2>
         <div class="review-cards">
           <div class="review-card new-review" id="reviewNewCard"></div>
           <div class="review-card known-review" id="reviewKnownCard"></div>
@@ -120,6 +110,13 @@
         <h2 data-i18n="practice_free_heading">تدريب حر</h2>
         <div class="card" id="practiceSetupCard">
           <div class="practice-setup">
+            <label data-i18n="practice_exercise_label_h2">نوع التمرين</label>
+            <div class="multi-seg" id="freeExerciseTypes">
+              <button class="active" data-type="flash" data-i18n="practice_exercise_flash">بطاقات</button>
+              <button data-type="mc" data-i18n="practice_exercise_mc">اختيار من متعدد</button>
+              <button data-type="type" data-i18n="practice_exercise_type">الكتابة</button>
+            </div>
+
             <label data-i18n="practice_source_label">مصدر التدريب:</label>
             <button class="picker-btn" id="sourcePickerBtn" onclick="openSourcePicker()"></button>
 
@@ -213,7 +210,7 @@
       <h2 data-i18n="settings_heading">الإعدادات</h2>
 
       <div class="card">
-        <label class="settings-label" data-i18n="settings_name_label">اسمك</label>
+        <div class="settings-greeting" id="settingsGreeting"></div>
         <div class="filters-row">
           <input type="text" id="userNameInput" class="text-input" data-i18n-placeholder="settings_name_placeholder" placeholder="اكتب اسمك...">
           <button class="btn" style="flex:0 0 auto;" onclick="saveUserNameFromSettings()" data-i18n="settings_save_btn">حفظ</button>
@@ -224,11 +221,15 @@
         <label class="settings-label" data-i18n="settings_appearance_label">المظهر واللغة</label>
         <div class="settings-row">
           <span data-i18n="settings_theme_label">المظهر (فاتح/داكن)</span>
-          <button class="btn ghost" style="padding:7px 14px; font-size:11px;" onclick="toggleTheme()" data-i18n="settings_toggle_btn">تبديل</button>
+          <button class="icon-btn" id="settingsThemeBtn" onclick="toggleTheme()" data-i18n-aria="theme_toggle_aria"></button>
         </div>
         <div class="settings-row">
           <span data-i18n="settings_lang_label">اللغة (عربي/إنجليزي)</span>
-          <button class="btn ghost" style="padding:7px 14px; font-size:11px;" onclick="toggleLanguage()" data-i18n="settings_toggle_btn">تبديل</button>
+          <button class="icon-btn lang-icon-btn" onclick="toggleLanguage()" data-i18n-aria="lang_toggle_aria">A<span class="sep">/</span>ع</button>
+        </div>
+        <div class="settings-row settings-nav-row" onclick="openGuidePage()">
+          <span data-i18n="guide_heading">الطريقة</span>
+          <span class="settings-arrow" id="settingsArrowIcon"></span>
         </div>
       </div>
 
@@ -239,9 +240,15 @@
         <div class="settings-note" style="margin-top:8px;" data-i18n="settings_install_ios_note">على آيفون: من قائمة المشاركة بسفاري، اختر «إضافة إلى الشاشة الرئيسية».</div>
       </div>
     </div>
+  </div>
 
+  <!-- ===== GUIDE SUB-PAGE (nested under settings) ===== -->
+  <div class="view" id="view-guide">
     <div class="section">
-      <h2 data-i18n="guide_heading">الطريقة</h2>
+      <div class="subpage-header">
+        <button class="subpage-back" onclick="closeGuidePage()" data-i18n-aria="common_back_aria"><svg class="ic ic-lg" id="guideBackIcon" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
+        <h2 data-i18n="guide_heading" style="margin:0;">الطريقة</h2>
+      </div>
 
       <div class="guide-block">
         <span class="tag" data-i18n="guide1_tag">تعلّم وحدة جديدة</span>
@@ -267,12 +274,12 @@
       </div>
 
       <div class="guide-block">
-        <span class="tag" data-i18n="guide4_tag">المراجعة</span>
-        <h3 data-i18n="guide4_title">نظامان منفصلان للمراجعة</h3>
-        <p data-i18n="guide4_p1">يحتوي تبويب «تدرّب» على بطاقتين في الأعلى، ولكل منهما وضعان: «بطاقات» (تمرين شخصي لا يُحتسب) أو «الاختبار» (مزيج من الاختيار المتعدد والكتابة، وهو المُحتسب فعلياً):</p>
+        <span class="tag" data-i18n="guide4_tag">التقييم</span>
+        <h3 data-i18n="guide4_title">قسم التقييم — جديدة عليّ ومعروفة مسبقاً</h3>
+        <p data-i18n="guide4_p1">أعلى تبويب «التدريب» فيه قسم «التقييم» — أسئلة مُختلطة (الغالب اختيار من متعدد، وأحياناً كتابة)، بدون خيار بطاقات هنا لأن هذا القسم هو المقياس الفعلي لتصنيف كلماتك:</p>
         <ul>
-          <li data-i18n="guide4_li1">جديدة عليّ: تحتاج كل كلمة إلى 3 إجابات صحيحة متتالية بوضع «الاختبار» فقط لتُعدّ «متقنة» وتخرج من قائمة المراجعة النشطة. وإن أخطأتَ فيها، تعود نقطة إتقانها إلى الصفر من جديد.</li>
-          <li data-i18n="guide4_li2">معروفة مسبقاً: فحص بوضع «الاختبار» أيضاً. إن أخطأتَ في كلمة مرتين متتاليتين، تنتقل تلقائياً إلى قائمة «جديدة عليّ» ويُذكر لك السبب لاحقاً.</li>
+          <li data-i18n="guide4_li1">جديدة عليّ: تحتاج كل كلمة إلى 3 إجابات صحيحة متتالية لتُعدّ «متقنة» وتنتقل إلى قائمة «معروفة مسبقاً». أي خطأ يُعيد نقطة إتقانها إلى الصفر.</li>
+          <li data-i18n="guide4_li2">معروفة مسبقاً: إذا أخطأتَ في كلمة 3 مرات متتالية، تنتقل تلقائياً إلى قائمة «جديدة عليّ» ويُذكر لك السبب لاحقاً أينما ظهرت.</li>
         </ul>
         <p data-i18n="guide4_p2">بهذه الطريقة تصبح قوائمك أدقّ مع الوقت، ويتركّز جهدك على الكلمات التي تحتاجه فعلاً.</p>
       </div>
@@ -295,14 +302,14 @@
       </div>
 
       <div class="guide-block">
-        <span class="tag" data-i18n="guide7_tag">التمارين التفاعلية</span>
-        <h3 data-i18n="guide7_title">أنواع التمارين في «تدرّب»</h3>
+        <span class="tag" data-i18n="guide7_tag">التدريب الحر</span>
+        <h3 data-i18n="guide7_title">اختر تمرينك بنفسك</h3>
         <ul>
-          <li data-i18n="guide7_li1">البطاقات: ترى الكلمة، تحاول تذكّر معناها بنفسك، تقلب البطاقة، ثم تقيّم نفسك بصدق. متاحة دايماً كتمرين شخصي.</li>
+          <li data-i18n="guide7_li1">البطاقات: ترى الكلمة، تحاول تذكّر معناها بنفسك، تقلب البطاقة، ثم تقيّم نفسك بصدق.</li>
           <li data-i18n="guide7_li2">الاختيار من متعدد: ترى الكلمة وأربعة تعريفات، وتختار الصحيح.</li>
           <li data-i18n="guide7_li3">الكتابة: ترى التعريف والمثال (دون الكلمة نفسها)، وتكتب الكلمة الإنجليزية بنفسك.</li>
         </ul>
-        <p data-i18n="guide7_p1">في مراجعة «جديدة عليّ» و«معروفة مسبقاً»، وضع «الاختبار» يمزج بين الاختيار المتعدد والكتابة بشكل عشوائي — وهو الوحيد المُحتسب لتقدّم الإتقان.</p>
+        <p data-i18n="guide7_p1">تقدر تختار أكثر من نوع تمرين مع بعض — الأسئلة تتنوّع عشوائياً بين الأنواع اللي حدّدتها. هذا القسم للتدريب الحر فقط ولا يؤثر على تصنيف كلماتك.</p>
       </div>
 
       <div class="guide-block">

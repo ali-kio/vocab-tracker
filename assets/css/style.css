@@ -47,7 +47,7 @@ html[lang="en"] body{ font-family:'Comfortaa','Segoe UI',sans-serif; }
 .mono, [dir="ltr"]{ font-family:'Comfortaa','Segoe UI',sans-serif; direction:ltr; unicode-bidi:isolate; text-align:left; }
 .wrap{ max-width:720px; margin:0 auto; }
 
-header{ text-align:center; margin-bottom:18px; position:relative; padding-inline:52px; }
+header{ text-align:center; margin-bottom:18px; position:relative; }
 .theme-toggle, .lang-toggle{
   position:absolute; top:0; width:42px; height:42px; border-radius:50%;
   background:var(--card); border:1.5px solid var(--border); box-shadow:var(--shadow-out);
@@ -255,6 +255,9 @@ footer{ text-align:center; margin-top:22px; font-size:10.5px; color:var(--text-d
 .seg button{ flex:1; background:none; border:none; color:var(--text-dim); padding:9px 4px; border-radius:var(--radius-pill); font-size:12px; cursor:pointer; }
 .seg button.active{ background:var(--mint); color:#fff; font-weight:700; }
 .exercise-note{ font-size:11px; color:var(--text-dim); line-height:1.7; margin-top:10px; }
+.multi-seg{ display:flex; flex-wrap:wrap; gap:8px; }
+.multi-seg button{ flex:1; min-width:90px; background:var(--card2); border:1.5px solid var(--border); color:var(--text-dim); padding:10px 6px; border-radius:var(--radius-sm); font-size:12px; cursor:pointer; }
+.multi-seg button.active{ background:var(--mint-glow); border-color:var(--mint); color:var(--mint); font-weight:700; }
 .flash{
   background:var(--card); border:1.5px solid var(--border); border-radius:var(--radius-lg); box-shadow:var(--shadow-out);
   padding:28px 22px; min-height:220px; display:flex; flex-direction:column;
@@ -324,6 +327,15 @@ footer{ text-align:center; margin-top:22px; font-size:10.5px; color:var(--text-d
 .settings-row:first-of-type{ border-top:none; }
 .settings-note{ font-size:11px; color:var(--text-dim); line-height:1.7; }
 .text-input{ flex:1; background:var(--card2); border:1.5px solid var(--border); color:var(--text); border-radius:var(--radius-sm); padding:11px 14px; font-size:13px; }
+.settings-greeting{ font-size:15px; font-weight:700; color:var(--text); margin-bottom:12px; }
+.icon-btn{ background:var(--card2); border:1.5px solid var(--border); border-radius:50%; width:36px; height:36px; display:flex; align-items:center; justify-content:center; cursor:pointer; color:var(--text); }
+.lang-icon-btn{ border-radius:var(--radius-pill); width:auto; padding:0 12px; font-family:'Comfortaa','Tajawal',sans-serif; font-size:12px; font-weight:800; color:var(--mint); }
+.lang-icon-btn .sep{ opacity:.45; margin:0 1px; font-size:10px; }
+.settings-nav-row{ cursor:pointer; }
+.settings-arrow{ display:inline-flex; color:var(--text-dim); }
+.settings-arrow svg{ width:16px; height:16px; stroke:currentColor; fill:none; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
+.subpage-header{ display:flex; align-items:center; gap:10px; margin-bottom:14px; }
+.subpage-back{ background:var(--card); border:1.5px solid var(--border); border-radius:50%; width:36px; height:36px; display:flex; align-items:center; justify-content:center; cursor:pointer; color:var(--text); flex:0 0 auto; }
 
 /* ---- guide ---- */
 .guide-block{ background:var(--card); border:1.5px solid var(--border); border-radius:var(--radius-md); padding:18px 20px; margin-bottom:12px; }
