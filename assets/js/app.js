@@ -214,6 +214,8 @@ document.querySelectorAll('.tab-btn').forEach(b=>b.addEventListener('click', ()=
 
 /* ---------- home ---------- */
 function renderHome(){
+  const greeting = document.getElementById('homeGreeting');
+  if(greeting) greeting.textContent = state.userName ? t('settings_greeting_named',{name:state.userName}) : t('settings_greeting_generic');
   let unitsLearned=0;
   for(let i=1;i<=TOTAL_UNITS;i++) if(state.units[i]) unitsLearned++;
   const pct = Math.round((unitsLearned/TOTAL_UNITS)*100);
@@ -345,6 +347,10 @@ function toggleAr(btnEl, revealId){
   if(!el) return;
   el.classList.toggle('show');
 }
+function toggleExtras(id){
+  const el = document.getElementById(id);
+  if(el) el.classList.toggle('show');
+}
 function getSyn(unit, idx){
   const arr = unit<=30 ? SYN1[unit-1] : SYN2[unit-31];
   return (arr && arr[idx]) ? arr[idx] : null;
@@ -445,20 +451,20 @@ function renderStudyCard(){
   const info = getSyn(i, idx);
   const savedSentence = state.notebook[wId] || '';
 
-  let synHtml = `<div class="study-empty-note">${t('study_no_synonyms')}</div>`;
-  let antHtml = `<div class="study-empty-note">${t('study_no_antonyms')}</div>`;
-  let usageHtml = '';
   let ex2Html = '';
+  let extrasHtml = '';
   if(info){
-    if(info.ex2) ex2Html = `<div class="study-section"><h4>${t('study_extra_example')}</h4><div class="study-ex" dir="ltr" style="margin-bottom:0;">"${info.ex2}"</div></div>`;
-    synHtml = (info.syn && info.syn.length)
-      ? `<div class="study-chip-row">${info.syn.map(s=>`<span class="study-chip syn" dir="ltr">${s[0]} <span dir="rtl">(${s[1]})</span></span>`).join('')}</div>`
-      : synHtml;
-    antHtml = (info.ant && info.ant.length)
-      ? `<div class="study-chip-row">${info.ant.map(a=>`<span class="study-chip ant" dir="ltr">${a[0]} <span dir="rtl">(${a[1]})</span></span>`).join('')}</div>`
-      : antHtml;
-    if(info.usage) usageHtml = `<div class="study-section"><h4>${t('study_usage_label')}</h4><div style="font-size:12.5px; line-height:1.7;" dir="ltr">${info.usage}</div></div>`;
+    if(info.ex2) ex2Html = `<div class="study-ex" dir="ltr">"${info.ex2}"</div>`;
+    if(info.usage) extrasHtml += `<div class="study-section"><h4>${t('study_usage_label')}</h4><div style="font-size:12.5px; line-height:1.7;" dir="ltr">${info.usage}</div></div>`;
   }
+  const synHtml = (info && info.syn && info.syn.length)
+    ? `<div class="study-chip-row">${info.syn.map(s=>`<span class="study-chip syn" dir="ltr">${s[0]} <span dir="rtl">(${s[1]})</span></span>`).join('')}</div>`
+    : `<div class="study-empty-note">${t('study_no_synonyms')}</div>`;
+  const antHtml = (info && info.ant && info.ant.length)
+    ? `<div class="study-chip-row">${info.ant.map(a=>`<span class="study-chip ant" dir="ltr">${a[0]} <span dir="rtl">(${a[1]})</span></span>`).join('')}</div>`
+    : `<div class="study-empty-note">${t('study_no_antonyms')}</div>`;
+  extrasHtml += `<div class="study-section"><h4>${t('study_synonyms')}</h4>${synHtml}</div>`;
+  extrasHtml += `<div class="study-section"><h4>${t('study_antonyms')}</h4>${antHtml}</div>`;
 
   const wordDecision = state.words[wId];
   const hasDecision = !!(wordDecision && wordDecision.wasKnown !== undefined);
@@ -487,15 +493,14 @@ function renderStudyCard(){
     <div class="study-type">(${w[1]})</div>
     <div class="study-def" dir="ltr">${w[2]}</div>
     <div class="study-ex" dir="ltr">"${w[3]}"</div>
+    ${ex2Html}
     <button class="ar-toggle" onclick="toggleAr(this,'study_ar')">${ICONS.book}${t('detail_arabic_toggle')}</button>
     <div class="ar-reveal" dir="rtl" id="study_ar">${arText}</div>
-    ${usageHtml}
-    ${ex2Html}
-    <div class="study-section"><h4>${t('study_synonyms')}</h4>${synHtml}</div>
-    <div class="study-section"><h4>${t('study_antonyms')}</h4>${antHtml}</div>
+    <button class="ar-toggle" style="margin-top:8px;" onclick="toggleExtras('study_extras')">${ICONS.plusCircle}${t('study_extra_details')}</button>
+    <div class="extras-box" id="study_extras">${extrasHtml}</div>
     <div class="study-section">
       <h4>${t('study_my_sentence')}</h4>
-      <textarea dir="ltr" placeholder="${t('study_sentence_placeholder')}" onblur="saveNotebookEntry('${wId}', this.value)" style="width:100%; min-height:50px; background:var(--card2); border:1.5px solid var(--border); color:var(--text); border-radius:8px; padding:8px 10px; font-family:'Comfortaa',sans-serif; font-size:12.5px;">${escapeHtml(savedSentence)}</textarea>
+      <textarea dir="auto" placeholder="${t('study_sentence_placeholder')}" onblur="saveNotebookEntry('${wId}', this.value)" style="width:100%; min-height:50px; background:var(--card2); border:1.5px solid var(--border); color:var(--text); border-radius:8px; padding:8px 10px; font-size:12.5px;">${escapeHtml(savedSentence)}</textarea>
     </div>
     <button class="btn wide ghost" style="margin-top:12px;" onclick="copyStudyCard()">${ICONS.copy}${t('study_copy_card')}</button>
     ${navHtml}`;
@@ -626,7 +631,7 @@ function renderDetail(){
       <div class="ar-reveal" dir="rtl" id="${revealId}">${getArabic(i,idx)}</div>
       <button class="ar-toggle" onclick="toggleNotebook('${nbId}')" style="margin-top:6px;">${ICONS.pencil}${t('detail_my_sentence')}</button>
       <div class="notebook-box${savedSentence?' show':''}" id="${nbId}">
-        <textarea dir="ltr" placeholder="${t('detail_sentence_placeholder',{word:w[0]})}" onblur="saveNotebookEntry('${wId}', this.value)" style="font-family:'Comfortaa',sans-serif;">${escapeHtml(savedSentence)}</textarea>
+        <textarea dir="auto" placeholder="${t('detail_sentence_placeholder',{word:w[0]})}" onblur="saveNotebookEntry('${wId}', this.value)">${escapeHtml(savedSentence)}</textarea>
         <div class="notebook-hint">${t('detail_autosave_hint')}</div>
       </div>
       ${tag ? `<div style="margin-top:6px;">${tag}</div>` : ''}
@@ -1277,8 +1282,6 @@ function closeGuidePage(){
 function renderSettings(){
   const input = document.getElementById('userNameInput');
   if(input && document.activeElement!==input) input.value = state.userName || '';
-  const greeting = document.getElementById('settingsGreeting');
-  if(greeting) greeting.textContent = state.userName ? t('settings_greeting_named',{name:state.userName}) : t('settings_greeting_generic');
   updateDirectionalIcons();
 }
 function renderAll(){ renderHome(); renderMap(); renderChallenge(); renderReviewCards(); refreshPracticeSetupUI(); renderMyLists(); renderSettings(); }

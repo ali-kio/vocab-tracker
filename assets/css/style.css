@@ -164,7 +164,7 @@ header p{ color:var(--text-dim); font-size:12.5px; margin:0; }
 .notebook-box textarea{
   width:100%; min-height:56px; background:var(--card2); border:1.5px solid var(--border);
   color:var(--text); border-radius:var(--radius-sm); padding:9px 12px; 
-  font-size:12.5px; resize:vertical; direction:rtl;
+  font-size:12.5px; resize:vertical;
 }
 .notebook-hint{ font-size:10px; color:var(--text-dim); margin-top:4px; }
 .challenge-card{ background:var(--card); border:1.5px solid var(--border); box-shadow:var(--shadow-out); border-radius:var(--radius-md); padding:16px 18px; }
@@ -204,6 +204,8 @@ header p{ color:var(--text-dim); font-size:12.5px; margin:0; }
 .ar-toggle:active{ transform:scale(.96); }
 .ar-reveal{ margin-top:8px; font-size:14px; color:var(--text); background:var(--mint-glow); border:1px solid var(--mint); border-radius:var(--radius-sm); padding:9px 13px; display:none; font-weight:500; }
 .ar-reveal.show{ display:block; }
+.extras-box{ display:none; }
+.extras-box.show{ display:block; }
 .bulk-actions{ display:flex; flex-direction:column; gap:8px; }
 .word-tag{ font-size:10.5px; padding:3px 10px; border-radius:var(--radius-pill); border:1.5px solid var(--border); color:var(--text-dim); display:inline-block; }
 .word-tag.known{ border-color:var(--mint); color:var(--mint); background:var(--mint-glow); }
@@ -327,7 +329,7 @@ footer{ text-align:center; margin-top:22px; font-size:10.5px; color:var(--text-d
 .settings-row:first-of-type{ border-top:none; }
 .settings-note{ font-size:11px; color:var(--text-dim); line-height:1.7; }
 .text-input{ flex:1; background:var(--card2); border:1.5px solid var(--border); color:var(--text); border-radius:var(--radius-sm); padding:11px 14px; font-size:13px; }
-.settings-greeting{ font-size:15px; font-weight:700; color:var(--text); margin-bottom:12px; }
+.home-greeting{ font-size:15px; font-weight:700; color:var(--text); margin-bottom:10px; text-align:start; }
 .icon-btn{ background:var(--card2); border:1.5px solid var(--border); border-radius:50%; width:36px; height:36px; display:flex; align-items:center; justify-content:center; cursor:pointer; color:var(--text); }
 .lang-icon-btn{ border-radius:var(--radius-pill); width:auto; padding:0 12px; font-family:'Comfortaa','Tajawal',sans-serif; font-size:12px; font-weight:800; color:var(--mint); }
 .lang-icon-btn .sep{ opacity:.45; margin:0 1px; font-size:10px; }
